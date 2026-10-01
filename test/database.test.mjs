@@ -42,6 +42,9 @@ test('recipe cuisines retain supplied levels, aliases and unknown new formulas',
   assert.ok(real.recipes.every(r=>r.confirmations.some(c=>c.method==='player'&&c.fields.includes('cuisine'))));
 });
 test('drawer links resolve valid records across table categories without accepting unknown routes',()=>{
+  assert.deepEqual(detailTargetFromHash(real,'#/artifact-sets'),{key:'artifact-sets',kind:'list',params:''});
+  assert.deepEqual(detailTargetFromHash(real,'#/artifact-sets?effect=%E6%B8%9B%E5%82%B7'),{key:'artifact-sets',kind:'list',params:'effect=%E6%B8%9B%E5%82%B7'});
+  assert.deepEqual(detailTargetFromHash(demo,'#/artifact-sets'),{key:'artifact-sets',kind:'list',params:''});
   for(const key of ['heroes','buildings','recipes','artifacts','skills']){const id=real[key][0].id;assert.deepEqual(detailTargetFromHash(real,`#/${key}/${encodeURIComponent(id)}`),{key,id});}
   const furnitureId=demo.furniture[0].id;assert.deepEqual(detailTargetFromHash(demo,`#/furniture/${furnitureId}`),{key:'furniture',id:furnitureId});
   assert.deepEqual(detailTargetFromHash(real,`#/guides/${real.stages[0].id}`),{key:'stages',id:real.stages[0].id});

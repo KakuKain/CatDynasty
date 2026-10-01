@@ -12,6 +12,7 @@ export function detailTargetFromHash(db,hash) {
   try {
     const url=new URL(hash.slice(1),'https://wiki.local');
     const parts=url.pathname.split('/').filter(Boolean);
+    if(parts.length===1&&parts[0]==='artifact-sets')return {key:'artifact-sets',kind:'list',params:url.searchParams.toString()};
     if(parts.length!==2)return null;
     const key=aliases[parts[0]]||parts[0],id=decodeURIComponent(parts[1]);
     if(!allowed.includes(key)||!findById(db,key,id))return null;
