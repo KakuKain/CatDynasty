@@ -7,3 +7,5 @@ dist/
 .qa/
 *.log
 .npm-cache/
+public/images/optimized/
+src/generated/
