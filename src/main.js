@@ -88,11 +88,11 @@ function recordControls(key,params,records){
 }
 function restoreFilterFocus(root){
   if(!filterFocus)return;
-  const {name,value,section,scrollLeft=0}=filterFocus;
+  const {name,value,section,scrollLeft=0,scrollTop=0}=filterFocus;
   const form=[...root.querySelectorAll('.multi-filter-form')].find(form=>form.dataset.section===section);
   const controls=form?[...form.querySelectorAll(value===null?'[data-filter-all]':'input[type=checkbox]')]:[];
   const target=controls.find(control=>value===null?control.dataset.filterAll===name:control.name===name&&control.value===value);
-  if(target){target.closest('.filter-options').scrollLeft=scrollLeft;target.focus({preventScroll:true});}
+  if(target){const options=target.closest('.filter-options');options.scrollLeft=scrollLeft;options.scrollTop=scrollTop;target.focus({preventScroll:true});}
   filterFocus=null;
 }
 function localKeywordSearch(id,placeholder){return `<form class="global-search keyword-search local-keyword-search" role="search" aria-label="${e(placeholder)}"><label class="sr-only" for="${e(id)}">${e(placeholder)}</label><input id="${e(id)}" type="search" placeholder="${e(placeholder)}"/><button class="search-submit" type="submit" aria-label="搜尋" title="搜尋">${icon('search')}</button></form>`;}
@@ -161,7 +161,7 @@ $(document).on('click','table a[href^="#/"], #record-drawer a[href^="#/"], a[hre
 $(document).on('click','[data-drawer-close]',closeDrawer);
 $(document).on('click','[data-drawer-back]',()=>{if(drawerHistory.length>1){drawerHistory.pop();renderDrawer();document.querySelector('[data-drawer-close]').focus({preventScroll:true});}});
 $(document).on('submit','#global-search',event=>{event.preventDefault();location.hash=`#/search?q=${encodeURIComponent($('#global-query').val())}`;});
-$(document).on('change','.multi-filter-form input[type=checkbox]',event=>{filterFocus={section:event.target.form.dataset.section,name:event.target.name,value:event.target.value,scrollLeft:event.target.closest('.filter-options').scrollLeft};event.target.form.requestSubmit();});
+$(document).on('change','.multi-filter-form input[type=checkbox]',event=>{const options=event.target.closest('.filter-options');filterFocus={section:event.target.form.dataset.section,name:event.target.name,value:event.target.value,scrollLeft:options.scrollLeft,scrollTop:options.scrollTop};event.target.form.requestSubmit();});
 $(document).on('click','.multi-filter-form [data-filter-all]',event=>{const group=event.currentTarget.closest('.multi-filter');const checked=group.querySelectorAll('input:checked');if(!checked.length)return;checked.forEach(input=>input.checked=false);filterFocus={section:event.currentTarget.closest('form').dataset.section,name:event.currentTarget.dataset.filterAll,value:null};event.currentTarget.closest('form').requestSubmit();});
 $(document).on('change','#data-mode',event=>setMode(event.target.value));
 $(document).on('click','[data-demo]',()=>setMode('demo')).on('click','[data-real]',()=>setMode('real'));
