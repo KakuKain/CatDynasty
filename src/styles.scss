@@ -233,3 +233,31 @@ html.drawer-open { overflow: hidden; }
   th:first-child { position: static; min-width: 95px; }
   th, td { white-space: normal; }
 }
+.cuisine-tabs {
+  display: flex;
+  gap: 8px;
+  max-width: 600px;
+  margin: 0 0 18px;
+  padding: 5px;
+  border: 1px solid #d1c4a6;
+  border-radius: 12px;
+  background: #eee6d280;
+  a {
+    flex: 1;
+    min-width: 0;
+    padding: 9px 14px;
+    border-radius: 8px;
+    background: #fffaf0;
+    color: #485341;
+    font-size: .9rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  a:hover { background: #e1e8d9; }
+  a.selected { background: #425b47; color: #fffaf0; box-shadow: 0 2px 5px #203b3026; }
+  a:focus-visible { outline: 2px solid #8b6d3b; outline-offset: 2px; }
+}
+@media (max-width: 640px) {
+  .cuisine-tabs { gap: 5px; }
+  .cuisine-tabs a { padding: 9px 6px; font-size: .85rem; }
+}
