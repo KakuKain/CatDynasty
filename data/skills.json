@@ -1,0 +1,723 @@
+[
+  {
+    "id": "skill_yang_1",
+    "name": "荔枝醉",
+    "type": "普通攻擊",
+    "target": "隨機三名敵人",
+    "description": "攻擊隨機三名敵人，並恢復我方全體生命。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "heal",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_yang_2",
+    "name": "太真姝",
+    "type": "被動",
+    "target": "我方全體",
+    "description": "回合結束時，有機率驅散我方全體的負面控制狀態，並提高暴擊率，持續兩回合。",
+    "effects": [
+      {
+        "type": "dispel",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "crit_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_yang_3",
+    "name": "霓裳羽衣舞",
+    "type": "主動",
+    "target": "敵方前排／我方全體",
+    "description": "攻擊敵方前排，有機率施加繁花兩回合；同時提高我方全體攻擊與速度。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "flourish",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "attack_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "speed_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_wangzhaojun_1",
+    "name": "木落雁南渡",
+    "type": "普通攻擊",
+    "target": "隨機兩名敵人",
+    "description": "隨機攻擊兩名敵人，有機率施加灼燒或眩暈，持續兩回合。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "burn",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "stun",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/836201191720357282",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_wangzhaojun_2",
+    "name": "漢家秦地月",
+    "type": "被動",
+    "target": "隨機兩名隊友",
+    "description": "受到傷害時，有機率施加出塞曲兩回合，提供減傷與負面免疫。",
+    "effects": [
+      {
+        "type": "damage_reduction",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "immunity",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/836201191720357282",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_wangzhaojun_3",
+    "name": "明妃出塞曲",
+    "type": "主動",
+    "target": "生命最低的隊友",
+    "description": "大量治療生命最低的隊友，並施加出塞曲兩回合；技能三級另提高自身速度。",
+    "effects": [
+      {
+        "type": "heal",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "immunity",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "speed_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/836201191720357282",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_lichunfeng_1",
+    "name": "周算",
+    "type": "被動",
+    "target": "隨機隊友",
+    "description": "回合結束時，有機率驅散一個負面狀態，並恢復生命。",
+    "effects": [
+      {
+        "type": "dispel",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "heal",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_lichunfeng_2",
+    "name": "言兆",
+    "type": "普通攻擊",
+    "target": "敵方前排",
+    "description": "攻擊敵方前排，並以20%機率降低目標速度，持續兩回合。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "speed_down",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_lichunfeng_3",
+    "name": "乙巳占",
+    "type": "主動",
+    "target": "敵方全體／我方全體",
+    "description": "攻擊敵方全體並減速兩回合；技能三級另提高我方全體速度兩回合。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "speed_down",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "speed_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_xuanzang_1",
+    "name": "貝戒",
+    "type": "普通攻擊",
+    "target": "隨機兩名敵人",
+    "description": "攻擊隨機兩名敵人，有機率施加貝戒兩回合；目標在回合開始時可能被禁錮或暈眩。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "beijie",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "stun",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_xuanzang_2",
+    "name": "涅槃",
+    "type": "被動",
+    "target": "隨機隊友",
+    "description": "死亡時，復活自身以外的隨機隊友，並恢復生命與怒氣。",
+    "effects": [
+      {
+        "type": "revive",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "heal",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "energy",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_xuanzang_3",
+    "name": "三藏",
+    "type": "主動",
+    "target": "我方全體",
+    "description": "提高全體隊友攻擊、速度、暴擊率與暴擊傷害；技能三級另提供減傷兩回合。",
+    "effects": [
+      {
+        "type": "attack_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "speed_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "crit_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "crit_damage_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_xuxiake_1",
+    "name": "喜蒼梧",
+    "type": "被動",
+    "target": "自身",
+    "description": "生命高於50%時，提高主動技能傷害；生命低於50%時，降低受到的傷害。",
+    "effects": [
+      {
+        "type": "damage_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_xuxiake_2",
+    "name": "朝碧海",
+    "type": "普通攻擊",
+    "target": "生命最低的敵人",
+    "description": "攻擊生命最低的敵人；擊殺時恢復生命，並增加自身怒氣。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "heal",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "energy",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_xuxiake_3",
+    "name": "登天山",
+    "type": "主動",
+    "target": "隨機四名敵人",
+    "description": "攻擊隨機四名敵人，並提高自身速度兩回合；技能三級對灼燒、中毒、流血目標有50%機率額外造成一次傷害。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "speed_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_jingke_1",
+    "name": "悲歌擊筑",
+    "type": "普通攻擊",
+    "target": "生命最低的敵人",
+    "description": "攻擊生命最低的敵人並恢復自身生命；擊殺時攻擊目標數提升至兩名。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "heal",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/838733480924810718",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_jingke_2",
+    "name": "風蕭蕭兮",
+    "type": "被動",
+    "target": "自身",
+    "description": "入場時隱身，並提高自身攻擊力，持續一回合。",
+    "effects": [
+      {
+        "type": "stealth",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "attack_up",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/838733480924810718",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_jingke_3",
+    "name": "圖窮匕見",
+    "type": "主動",
+    "target": "生命最低的敵人",
+    "description": "造成無視防禦的真實傷害，並隱身兩回合；技能三級擊殺時有機率增加目標數與恢復生命。",
+    "effects": [
+      {
+        "type": "true_damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "stealth",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "heal",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/838733480924810718",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_fuhao_1",
+    "name": "騰梟執斧",
+    "type": "主動",
+    "target": "敵方全體／隊友",
+    "description": "攻擊敵方全體，有機率沉默兩回合；為自身以外的全體隊友施加守衛兩回合，分擔傷害。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "silence",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "guard",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/851415878065979840",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_fuhao_2",
+    "name": "呼伐羌",
+    "type": "普通攻擊",
+    "target": "隨機三名敵人",
+    "description": "隨機攻擊三名敵人，降低目標攻擊力兩回合。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      },
+      {
+        "type": "attack_down",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/851415878065979840",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_fuhao_3",
+    "name": "登旅萬",
+    "type": "被動",
+    "target": "攻擊者",
+    "description": "受到傷害时，有機率反擊；施放主動技能後兩回合內，反擊機率提升。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null,
+        "chance": null,
+        "duration": null,
+        "target": null
+      }
+    ],
+    "cooldown": null,
+    "source": "https://www.taptap.cn/moment/851415878065979840",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  }
+]

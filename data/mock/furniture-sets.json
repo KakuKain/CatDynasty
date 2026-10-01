@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo_set",
+    "name": "示範・竹影套裝",
+    "furnitureIds": [
+      "demo_chair",
+      "demo_table"
+    ],
+    "bonuses": [
+      {
+        "pieces": 2,
+        "effectTags": [
+          "生命"
+        ],
+        "description": "兩件套效果示範；不是實際遊戲加成。",
+        "effects": [
+          {
+            "type": "health",
+            "value": null,
+            "unit": null
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "demo_recipe",
+    "name": "示範・蔬菜貓飯",
+    "description": "此配方是網站示範，無法作為遊戲配方使用。",
+    "buildingId": "demo_kitchen",
+    "ingredients": [
+      {
+        "ingredientId": "demo_rice",
+        "amount": 2
+      },
+      {
+        "ingredientId": "demo_vegetable",
+        "amount": 1
+      }
+    ],
+    "outputAmount": 1,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

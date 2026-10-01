@@ -1,0 +1,62 @@
+[
+  {
+    "id": "demo_chair",
+    "name": "示範・竹編椅",
+    "type": "座椅",
+    "rarity": "示範",
+    "description": "展示家具擺放位置與套裝關聯。",
+    "effectTags": [
+      "生命"
+    ],
+    "effects": [
+      {
+        "type": "health",
+        "value": null,
+        "unit": null
+      }
+    ],
+    "placement": [
+      "示範・府邸"
+    ],
+    "setId": "demo_set",
+    "acquisition": [
+      "示範取得方式"
+    ],
+    "buildingIds": [
+      "demo_kitchen"
+    ],
+    "spaceTags": [
+      "府邸"
+    ],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  },
+  {
+    "id": "demo_table",
+    "name": "示範・竹木桌",
+    "type": "桌子",
+    "rarity": "示範",
+    "description": "與示範竹編椅屬於同一套裝。",
+    "effectTags": [],
+    "effects": [],
+    "placement": [
+      "示範・府邸"
+    ],
+    "setId": "demo_set",
+    "acquisition": [],
+    "buildingIds": [],
+    "spaceTags": [
+      "府邸"
+    ],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

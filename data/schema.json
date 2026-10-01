@@ -1,0 +1,1468 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://catdynasty.local/data.schema.json",
+  "title": "CatDynasty expandable data schema",
+  "$defs": {
+    "heroes": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rarity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "attribute": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sixArts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "image": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "buildingBonuses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "buildingId": {
+                "type": "string"
+              },
+              "effectType": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "buildingId",
+              "effectType",
+              "value",
+              "description"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "teamTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "aliases",
+        "rarity",
+        "type",
+        "role",
+        "attribute",
+        "sixArts",
+        "image",
+        "skills",
+        "buildingBonuses",
+        "teamTags",
+        "description"
+      ],
+      "additionalProperties": true
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "target": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "target": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "chance": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "duration": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "cooldown": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "type",
+        "target",
+        "description",
+        "effects",
+        "cooldown"
+      ],
+      "additionalProperties": true
+    },
+    "skill-effects": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "category",
+        "description"
+      ],
+      "additionalProperties": true
+    },
+    "buildings": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "unlock": {
+          "type": "object",
+          "properties": {
+            "cityLevel": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "condition": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "cityLevel",
+            "condition"
+          ],
+          "additionalProperties": true
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "production": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "acceleratingHeroes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "type",
+        "description",
+        "unlock",
+        "levels",
+        "production",
+        "acceleratingHeroes"
+      ],
+      "additionalProperties": true
+    },
+    "building-levels": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "buildingId": {
+          "type": "string"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "requirements": {
+          "type": "object",
+          "properties": {
+            "cityLevel": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "previousLevel": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "resources": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "amount": {
+                    "type": "number",
+                    "minimum": 0
+                  }
+                },
+                "required": [
+                  "id",
+                  "amount"
+                ],
+                "additionalProperties": true
+              }
+            }
+          },
+          "required": [
+            "cityLevel",
+            "previousLevel",
+            "resources"
+          ],
+          "additionalProperties": true
+        },
+        "buildTime": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "buildingId",
+        "level",
+        "requirements",
+        "buildTime"
+      ],
+      "additionalProperties": true
+    },
+    "recipes": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "buildingId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ingredients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ingredientId": {
+                "type": "string"
+              },
+              "amount": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              }
+            },
+            "required": [
+              "ingredientId",
+              "amount"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "outputAmount": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "craftTime": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "unlock": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "description",
+        "buildingId",
+        "ingredients",
+        "outputAmount",
+        "craftTime",
+        "unlock"
+      ],
+      "additionalProperties": true
+    },
+    "ingredients": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "obtainedFrom": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "type",
+        "description",
+        "obtainedFrom"
+      ],
+      "additionalProperties": true
+    },
+    "redeem-codes": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        },
+        "rewards": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "startDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "endDate": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "active",
+            "expired",
+            "unverified",
+            "upcoming"
+          ]
+        },
+        "lastTestedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "code",
+        "rewards",
+        "startDate",
+        "endDate",
+        "status",
+        "lastTestedAt"
+      ],
+      "additionalProperties": true
+    },
+    "artifacts": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "effectTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "value"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "acquisition": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "heroIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "teamIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "rarity",
+        "description",
+        "effectTags",
+        "effects",
+        "acquisition",
+        "heroIds",
+        "teamIds",
+        "levels"
+      ],
+      "additionalProperties": true
+    },
+    "artifact-levels": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "artifactId": {
+          "type": "string"
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "value"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "id",
+              "amount"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "artifactId",
+        "level",
+        "effects",
+        "requirements"
+      ],
+      "additionalProperties": true
+    },
+    "furniture": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rarity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "effectTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "value"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "placement": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "setId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "acquisition": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "buildingIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "spaceTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "type",
+        "rarity",
+        "description",
+        "effectTags",
+        "effects",
+        "placement",
+        "setId",
+        "acquisition",
+        "buildingIds",
+        "spaceTags"
+      ],
+      "additionalProperties": true
+    },
+    "furniture-sets": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "furnitureIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "bonuses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pieces": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "effectTags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "description": {
+                "type": "string"
+              },
+              "effects": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "unit": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "value"
+                  ],
+                  "additionalProperties": true
+                }
+              }
+            },
+            "required": [
+              "pieces",
+              "effectTags",
+              "description",
+              "effects"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "furnitureIds",
+        "bonuses"
+      ],
+      "additionalProperties": true
+    },
+    "stages": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "heroIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "teamIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "type",
+        "description",
+        "heroIds",
+        "teamIds"
+      ],
+      "additionalProperties": true
+    },
+    "teams": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "heroIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "description",
+        "heroIds"
+      ],
+      "additionalProperties": true
+    }
+  }
+}

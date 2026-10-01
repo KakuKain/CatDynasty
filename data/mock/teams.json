@@ -1,0 +1,16 @@
+[
+  {
+    "id": "demo_team",
+    "name": "示範・守城隊",
+    "heroIds": [
+      "demo_hero"
+    ],
+    "description": "只用於示範隊伍效果彙總。",
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

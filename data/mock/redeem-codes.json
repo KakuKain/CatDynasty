@@ -1,0 +1,34 @@
+[
+  {
+    "id": "demo_code",
+    "code": "DEMO-ONLY",
+    "rewards": [
+      "網站功能示範"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "status": "active",
+    "lastTestedAt": "2026-10-01",
+    "source": "",
+    "sourceType": "unknown",
+    "verified": true,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  },
+  {
+    "id": "demo_expired",
+    "code": "DEMO-EXPIRED",
+    "rewards": [],
+    "startDate": null,
+    "endDate": "2020-01-01",
+    "status": "expired",
+    "lastTestedAt": null,
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

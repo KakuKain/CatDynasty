@@ -1,0 +1,128 @@
+[
+  {
+    "id": "team_yang",
+    "name": "玉環輔助隊",
+    "heroIds": [
+      "hero_su",
+      "hero_wangzhaojun",
+      "hero_yang",
+      "hero_zhuge",
+      "hero_di"
+    ],
+    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "team_wangzhaojun",
+    "name": "昭君輔助隊",
+    "heroIds": [
+      "hero_su",
+      "hero_wangzhaojun",
+      "hero_yang",
+      "hero_zhuge",
+      "hero_di"
+    ],
+    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
+    "source": "https://www.taptap.cn/moment/836201191720357282",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "team_lichunfeng",
+    "name": "淳風提速隊",
+    "heroIds": [
+      "hero_shen",
+      "hero_qingzhao",
+      "hero_lichunfeng",
+      "hero_qu",
+      "hero_zhuge"
+    ],
+    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "team_xuanzang",
+    "name": "玄奘復活隊",
+    "heroIds": [
+      "hero_qi",
+      "hero_fuhao",
+      "hero_qin",
+      "hero_xuanzang",
+      "hero_huo"
+    ],
+    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "team_xuxiake",
+    "name": "霞客輸出隊",
+    "heroIds": [
+      "hero_pu",
+      "hero_qingzhao",
+      "hero_shuai",
+      "hero_jingke",
+      "hero_xuxiake"
+    ],
+    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "team_jingke",
+    "name": "荊軻收割隊",
+    "heroIds": [
+      "hero_shen",
+      "hero_ayi",
+      "hero_xuanzang",
+      "hero_xuxiake",
+      "hero_jingke"
+    ],
+    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
+    "source": "https://www.taptap.cn/moment/838733480924810718",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "team_fuhao",
+    "name": "婦好守衛隊",
+    "heroIds": [
+      "hero_qi",
+      "hero_fuhao",
+      "hero_h",
+      "hero_xuanzang",
+      "hero_huo"
+    ],
+    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
+    "source": "https://www.taptap.cn/moment/851415878065979840",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  }
+]

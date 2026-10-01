@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo_skill_guard",
+    "name": "示範・守城",
+    "type": "主動",
+    "target": "我方全體",
+    "description": "示範隊伍效果彙總：守衛與治療。",
+    "effects": [
+      {
+        "type": "guard",
+        "target": "all_ally",
+        "value": null,
+        "chance": null,
+        "duration": 2
+      },
+      {
+        "type": "heal",
+        "target": "all_ally",
+        "value": null,
+        "chance": null,
+        "duration": null
+      }
+    ],
+    "cooldown": null,
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

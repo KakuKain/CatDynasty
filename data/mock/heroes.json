@@ -1,0 +1,39 @@
+[
+  {
+    "id": "demo_hero",
+    "name": "示範・守城喵",
+    "aliases": [],
+    "rarity": "示範",
+    "type": "武將",
+    "role": [
+      "坦克",
+      "治療"
+    ],
+    "attribute": "守衛",
+    "sixArts": [
+      "防禦"
+    ],
+    "image": null,
+    "skills": [
+      "demo_skill_guard"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "demo_kitchen",
+        "effectType": "speed",
+        "value": 10,
+        "description": "示範加成：生產速度 +10%。"
+      }
+    ],
+    "teamTags": [
+      "示範"
+    ],
+    "description": "用來測試喵將、技能與建築之間的雙向查詢。",
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

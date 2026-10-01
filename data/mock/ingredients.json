@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo_rice",
+    "name": "示範・稻米",
+    "type": "食材",
+    "description": "用來測試食材反查。",
+    "obtainedFrom": [
+      "demo_farm"
+    ],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  },
+  {
+    "id": "demo_vegetable",
+    "name": "示範・蔬菜",
+    "type": "食材",
+    "description": "用來測試食材反查。",
+    "obtainedFrom": [
+      "demo_farm"
+    ],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

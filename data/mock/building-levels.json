@@ -1,0 +1,41 @@
+[
+  {
+    "id": "demo_level_1",
+    "buildingId": "demo_kitchen",
+    "level": 1,
+    "requirements": {
+      "cityLevel": 1,
+      "previousLevel": 0,
+      "resources": []
+    },
+    "buildTime": null,
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  },
+  {
+    "id": "demo_level_2",
+    "buildingId": "demo_kitchen",
+    "level": 2,
+    "requirements": {
+      "cityLevel": 2,
+      "previousLevel": 1,
+      "resources": [
+        {
+          "id": "demo_rice",
+          "amount": 20
+        }
+      ]
+    },
+    "buildTime": 60,
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

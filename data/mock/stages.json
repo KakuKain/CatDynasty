@@ -1,0 +1,20 @@
+[
+  {
+    "id": "demo_stage",
+    "name": "示範・城門試煉",
+    "type": "關卡",
+    "description": "展示攻略與隊伍之間的關聯。",
+    "teamIds": [
+      "demo_team"
+    ],
+    "heroIds": [
+      "demo_hero"
+    ],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

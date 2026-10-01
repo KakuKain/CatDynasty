@@ -1,0 +1,564 @@
+[
+  {
+    "id": "hero_yang",
+    "name": "楊玉環",
+    "aliases": [],
+    "rarity": "天級",
+    "type": "文臣",
+    "role": [
+      "輔助",
+      "治療",
+      "增益"
+    ],
+    "attribute": "驅散",
+    "sixArts": [
+      "速度",
+      "精準"
+    ],
+    "image": "images/yang.jpg",
+    "skills": [
+      "skill_yang_1",
+      "skill_yang_2",
+      "skill_yang_3"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_silver",
+        "effectType": "production_efficiency",
+        "value": null,
+        "description": "提升生產效率；實際百分比尚未公開。"
+      }
+    ],
+    "teamTags": [],
+    "description": "群體治療與驅散，為隊伍提供攻擊、速度與暴擊增益。",
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_wangzhaojun",
+    "name": "王昭君",
+    "aliases": [],
+    "rarity": "天級",
+    "type": "文臣",
+    "role": [
+      "輔助",
+      "治療"
+    ],
+    "attribute": "驅散",
+    "sixArts": [
+      "免控"
+    ],
+    "image": "images/wangzhaojun.jpg",
+    "skills": [
+      "skill_wangzhaojun_1",
+      "skill_wangzhaojun_2",
+      "skill_wangzhaojun_3"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_hospital",
+        "effectType": "production_efficiency",
+        "value": null,
+        "description": "提升生產效率；實際百分比尚未公開。"
+      }
+    ],
+    "teamTags": [],
+    "description": "為低血量隊友提供治療與負面免疫，兼具控制能力。",
+    "source": "https://www.taptap.cn/moment/836201191720357282",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_lichunfeng",
+    "name": "李淳風",
+    "aliases": [],
+    "rarity": "天級",
+    "type": "文臣",
+    "role": [
+      "輔助",
+      "治療",
+      "減益"
+    ],
+    "attribute": "提速",
+    "sixArts": [
+      "免控"
+    ],
+    "image": "images/lichunfeng.jpg",
+    "skills": [
+      "skill_lichunfeng_1",
+      "skill_lichunfeng_2",
+      "skill_lichunfeng_3"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_candied",
+        "effectType": "production_efficiency",
+        "value": null,
+        "description": "提升生產效率；實際百分比尚未公開。"
+      }
+    ],
+    "teamTags": [],
+    "description": "降低敵方速度，並透過治療、驅散與提速支持隊友。",
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_xuanzang",
+    "name": "玄奘",
+    "aliases": [],
+    "rarity": "天級",
+    "type": "俠士",
+    "role": [
+      "輔助",
+      "治療",
+      "增益"
+    ],
+    "attribute": "復活",
+    "sixArts": [
+      "速度",
+      "精準"
+    ],
+    "image": "images/xuanzang.jpg",
+    "skills": [
+      "skill_xuanzang_1",
+      "skill_xuanzang_2",
+      "skill_xuanzang_3"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_silver",
+        "effectType": "production_efficiency",
+        "value": null,
+        "description": "提升生產效率；實際百分比尚未公開。"
+      }
+    ],
+    "teamTags": [],
+    "description": "陣亡時復活隊友，提供怒氣與多項全隊增益。",
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_xuxiake",
+    "name": "徐霞客",
+    "aliases": [],
+    "rarity": "天級",
+    "type": "俠士",
+    "role": [
+      "輸出"
+    ],
+    "attribute": "提速",
+    "sixArts": [
+      "暴擊",
+      "暴傷"
+    ],
+    "image": "images/xuxiake.jpg",
+    "skills": [
+      "skill_xuxiake_1",
+      "skill_xuxiake_2",
+      "skill_xuxiake_3"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_pastry",
+        "effectType": "production_efficiency",
+        "value": null,
+        "description": "提升生產效率；實際百分比尚未公開。"
+      }
+    ],
+    "teamTags": [],
+    "description": "鎖定低血量敵人；對灼燒、中毒或流血目標可追加傷害。",
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_jingke",
+    "name": "荊軻",
+    "aliases": [],
+    "rarity": "天級",
+    "type": "俠士",
+    "role": [
+      "輸出"
+    ],
+    "attribute": "真傷",
+    "sixArts": [
+      "攻擊加成",
+      "速度"
+    ],
+    "image": "images/jingke.jpg",
+    "skills": [
+      "skill_jingke_1",
+      "skill_jingke_2",
+      "skill_jingke_3"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_silver",
+        "effectType": "production_efficiency",
+        "value": null,
+        "description": "提升生產效率；實際百分比尚未公開。"
+      }
+    ],
+    "teamTags": [],
+    "description": "以真實傷害收割低血量敵人，透過隱身提高生存能力。",
+    "source": "https://www.taptap.cn/moment/838733480924810718",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_fuhao",
+    "name": "婦好",
+    "aliases": [],
+    "rarity": "聖級",
+    "type": "武將",
+    "role": [
+      "坦克",
+      "減益"
+    ],
+    "attribute": "護法・護甲・聖甲",
+    "sixArts": [
+      "防禦"
+    ],
+    "image": "images/fuhao.jpg",
+    "skills": [
+      "skill_fuhao_1",
+      "skill_fuhao_2",
+      "skill_fuhao_3"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_candied",
+        "effectType": "production_efficiency",
+        "value": null,
+        "description": "提升生產效率；實際百分比尚未公開。"
+      }
+    ],
+    "teamTags": [],
+    "description": "保護隊友、沉默敵人，並降低敵方攻擊。",
+    "source": "https://www.taptap.cn/moment/851415878065979840",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_huangama",
+    "name": "黃阿瑪",
+    "aliases": [
+      "內務大臣・黃阿瑪"
+    ],
+    "rarity": "天級",
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [
+      "聯動"
+    ],
+    "description": "《黃阿瑪的後宮生活》台版聯動喵將；技能與建築加成等待台版圖鑑核對。",
+    "source": "https://play.google.com/store/apps/details?id=com.poseidongame.mgxtw",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認角色與天級品質；其餘欄位尚待核對。"
+  },
+  {
+    "id": "hero_su",
+    "name": "蘇照水",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_zhuge",
+    "name": "諸葛亮",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_di",
+    "name": "狄仁傑",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_shen",
+    "name": "沈萬三",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_ayi",
+    "name": "阿依古麗",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/838733480924810718",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_pu",
+    "name": "蒲松齡",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_qingzhao",
+    "name": "李清照",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_shuai",
+    "name": "帥波",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_qi",
+    "name": "戚繼光",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_qin",
+    "name": "秦始皇",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_huo",
+    "name": "霍去病",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/843545659427523895",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_qu",
+    "name": "屈原",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "hero_h",
+    "name": "霍嬗",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "出現在陸版官方圖鑑的推薦隊伍中，詳細屬性尚待補齊。",
+    "source": "https://www.taptap.cn/moment/851415878065979840",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  }
+]

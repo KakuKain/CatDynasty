@@ -1,0 +1,21 @@
+[
+  {
+    "id": "demo_artifact_level",
+    "artifactId": "demo_artifact",
+    "level": 1,
+    "effects": [
+      {
+        "type": "crit_up",
+        "value": 5,
+        "unit": "percent"
+      }
+    ],
+    "requirements": [],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "demo_kitchen",
+    "name": "示範・御膳房",
+    "type": "加工",
+    "description": "展示食譜、加速喵將與升級資料的關聯。",
+    "unlock": {
+      "cityLevel": 1,
+      "condition": null
+    },
+    "levels": [
+      "demo_level_1",
+      "demo_level_2"
+    ],
+    "production": [],
+    "acceleratingHeroes": [
+      "demo_hero"
+    ],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  },
+  {
+    "id": "demo_farm",
+    "name": "示範・農田",
+    "type": "生產",
+    "description": "展示生產食材與食譜的反向查詢。",
+    "unlock": {
+      "cityLevel": 1,
+      "condition": null
+    },
+    "levels": [],
+    "production": [
+      "demo_rice",
+      "demo_vegetable"
+    ],
+    "acceleratingHeroes": [],
+    "source": "",
+    "sourceType": "unknown",
+    "verified": false,
+    "gameVersion": "mock",
+    "checkedAt": null,
+    "notes": "僅供網站功能示範，非遊戲資料。"
+  }
+]

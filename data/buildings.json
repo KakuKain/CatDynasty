@@ -1,0 +1,89 @@
+[
+  {
+    "id": "building_silver",
+    "name": "銀作局",
+    "type": null,
+    "description": "負責銀作局工作的喵將可提升生產效率。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_yang",
+      "hero_xuanzang",
+      "hero_jingke"
+    ],
+    "source": "https://www.taptap.cn/moment/833658249378006944",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "building_hospital",
+    "name": "太醫院",
+    "type": null,
+    "description": "王昭君的經營技能可提升太醫院生產效率。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_wangzhaojun"
+    ],
+    "source": "https://www.taptap.cn/moment/836201191720357282",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "building_candied",
+    "name": "蜜餞房",
+    "type": null,
+    "description": "李淳風與婦好可提升蜜餞房工作效率。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_lichunfeng",
+      "hero_fuhao"
+    ],
+    "source": "https://www.taptap.cn/moment/831196379673005085",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "building_pastry",
+    "name": "糕點局",
+    "type": null,
+    "description": "徐霞客的經營技能可提升糕點局生產效率。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_xuxiake"
+    ],
+    "source": "https://www.taptap.cn/moment/841275939361916869",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "cn",
+    "checkedAt": "2026-10-01",
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  }
+]
