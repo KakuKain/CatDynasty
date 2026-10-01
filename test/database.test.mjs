@@ -1,9 +1,24 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
-import {filterHeroes,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
+import {filterHeroes,filterRecords,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
 
 const real=readDatabase();const demo=readDatabase('data/mock');
+
+test('catalogue multi-select combines choices while preserving ingredient search',()=>{
+  const params=new URLSearchParams([['cuisine','川'],['cuisine','粵'],['query','牛肉']]);
+  assert.deepEqual(filterRecords(real,'recipes',params).map(r=>r.name),['麻辣牛肉絲','乾炒牛河']);
+  params.delete('query');assert.equal(filterRecords(real,'recipes',params).length,24);
+  params.delete('cuisine');assert.equal(filterRecords(real,'recipes',params).length,60);
+  assert.equal(filterRecords(real,'recipes',new URLSearchParams('cuisine=川&cuisine=粵&type=不存在')).length,0);
+});
+test('artifact multi-select intersects set membership with inherited effects',()=>{
+  const sets=real['artifact-sets'].slice(0,2),effect=sets[0].effectTags[0];
+  const params=new URLSearchParams(sets.map(s=>['set',s.id]));params.append('effect',effect);
+  const expected=real.artifacts.filter(r=>r.setIds.some(id=>sets.some(s=>s.id===id))&&r.setIds.some(id=>real['artifact-sets'].find(s=>s.id===id).effectTags.includes(effect)));
+  assert.ok(expected.length>0);assert.deepEqual(filterRecords(real,'artifacts',params).map(r=>r.id),expected.map(r=>r.id));
+  params.append('effect','不會出現的效果');assert.deepEqual(filterRecords(real,'artifacts',params).map(r=>r.id),expected.map(r=>r.id));
+});
 test('screenshot artifact sets retain three distinct tiers and reciprocal members',()=>{
   assert.equal(real['artifact-sets'].length,28);assert.equal(real.artifacts.length,92);
   for(const set of real['artifact-sets']){assert.deepEqual(set.bonuses.map(b=>b.stars),[null,9,18]);assert.ok(set.screenshotFiles.length);assert.ok(set.artifactIds.every(id=>real.artifacts.find(a=>a.id===id)?.setIds.includes(set.id)));}
