@@ -21,10 +21,20 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "粵",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_02_tw",
@@ -48,10 +58,20 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "湘",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_03_tw",
@@ -75,14 +95,24 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_04_tw",
-    "name": "番茄牛肉湯",
+    "name": "番茄牛湯",
     "catalogueNumber": 4,
     "originalFormula": "牛肉+番茄+鹽",
     "description": "玩家提供的食譜材料組合。",
@@ -112,10 +142,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "浙",
+    "recipeLevel": null,
+    "aliases": [
+      "番茄牛肉湯"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「番茄牛肉湯」更名為「番茄牛湯」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_05_tw",
@@ -144,14 +189,24 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_06_tw",
-    "name": "麻辣豆腐",
+    "name": "麻婆豆腐",
     "catalogueNumber": 6,
     "originalFormula": "豆腐+乾辣椒",
     "description": "玩家提供的食譜材料組合。",
@@ -176,10 +231,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": null,
+    "aliases": [
+      "麻辣豆腐"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「麻辣豆腐」更名為「麻婆豆腐」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_07_tw",
@@ -213,14 +283,24 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "粵",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_08_tw",
-    "name": "紅燜小馬鈴薯",
+    "name": "紅燜馬鈴薯",
     "catalogueNumber": 8,
     "originalFormula": "馬鈴薯+豬肉",
     "description": "玩家提供的食譜材料組合。",
@@ -245,14 +325,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "湘",
+    "recipeLevel": null,
+    "aliases": [
+      "紅燜小馬鈴薯"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「紅燜小馬鈴薯」更名為「紅燜馬鈴薯」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_09_tw",
-    "name": "油爆蝦",
+    "name": "蔥爆蝦",
     "catalogueNumber": 9,
     "originalFormula": "蝦+乾辣椒+鹽",
     "description": "玩家提供的食譜材料組合。",
@@ -282,10 +377,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "浙",
+    "recipeLevel": null,
+    "aliases": [
+      "油爆蝦"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「油爆蝦」更名為「蔥爆蝦」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_10_tw",
@@ -319,10 +429,20 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_11_tw",
@@ -356,10 +476,20 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_12_tw",
@@ -393,14 +523,24 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "粵",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_13_tw",
-    "name": "春日宴",
+    "name": "春日野餐組",
     "catalogueNumber": 13,
     "originalFormula": "鮪魚（金槍魚）+青瓜",
     "description": "玩家提供的食譜材料組合。",
@@ -425,14 +565,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": null,
+    "aliases": [
+      "春日宴"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「春日宴」更名為「春日野餐組」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_14_tw",
-    "name": "牛肉粉",
+    "name": "牛肉麵",
     "catalogueNumber": 14,
     "originalFormula": "牛肉+青菜+青瓜",
     "description": "玩家提供的食譜材料組合。",
@@ -462,10 +617,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "湘",
+    "recipeLevel": null,
+    "aliases": [
+      "牛肉粉"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「牛肉粉」更名為「牛肉麵」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_15_tw",
@@ -499,14 +669,24 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "浙",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_16_tw",
-    "name": "清湯越雞",
+    "name": "元盅雞湯",
     "catalogueNumber": 16,
     "originalFormula": "雞肉+青菜+醬油",
     "description": "玩家提供的食譜材料組合。",
@@ -536,10 +716,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "浙",
+    "recipeLevel": null,
+    "aliases": [
+      "清湯越雞"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「清湯越雞」更名為「元盅雞湯」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_17_tw",
@@ -573,14 +768,24 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "浙",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_18_tw",
-    "name": "海鮮寶石碗",
+    "name": "綜合海鮮丼",
     "catalogueNumber": 18,
     "originalFormula": "鮭魚+蝦",
     "description": "玩家提供的食譜材料組合。",
@@ -605,10 +810,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": null,
+    "aliases": [
+      "海鮮寶石碗"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「海鮮寶石碗」更名為「綜合海鮮丼」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_19_tw",
@@ -642,10 +862,20 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_20_tw",
@@ -679,14 +909,24 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": null,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_21_tw",
-    "name": "水晶漢堡",
+    "name": "水晶餃",
     "catalogueNumber": 21,
     "originalFormula": "鮭魚+青菜",
     "description": "玩家提供的食譜材料組合。",
@@ -711,10 +951,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": null,
+    "aliases": [
+      "水晶漢堡"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「水晶漢堡」更名為「水晶餃」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_22_tw",
@@ -748,10 +1003,21 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": 8,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_23_tw",
@@ -785,10 +1051,21 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": 8,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_24_tw",
@@ -822,7 +1099,7 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
     "originalProvidedName": "鮮肉塔塔（涼拌生牛肉）",
     "confirmations": [
@@ -833,10 +1110,19 @@
         "method": "player",
         "checkedAt": "2026-10-01",
         "description": "使用者確認第 24 道食譜的名稱為「涼拌生牛肉」。"
+      },
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
       }
     ],
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": 8
   },
   {
     "id": "recipe_25_tw",
@@ -870,14 +1156,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": 9,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_26_tw",
-    "name": "龍井蝦仁",
+    "name": "清炒蝦仁",
     "catalogueNumber": 26,
     "originalFormula": "蝦+蛋",
     "description": "玩家提供的食譜材料組合。",
@@ -902,10 +1199,26 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "浙",
+    "recipeLevel": 9,
+    "aliases": [
+      "龍井蝦仁"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「龍井蝦仁」更名為「清炒蝦仁」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_27_tw",
@@ -939,14 +1252,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": 9,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_28_tw",
-    "name": "白灼蝦",
+    "name": "川燙白蝦",
     "catalogueNumber": 28,
     "originalFormula": "蝦+薑+醬油",
     "description": "玩家提供的食譜材料組合。",
@@ -976,14 +1300,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "粵",
+    "recipeLevel": 10,
+    "aliases": [
+      "白灼蝦"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「白灼蝦」更名為「川燙白蝦」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_29_tw",
-    "name": "羊腩煲",
+    "name": "羊肉爐",
     "catalogueNumber": 29,
     "originalFormula": "羊肉+胡蘿蔔+醬油",
     "description": "玩家提供的食譜材料組合。",
@@ -1013,14 +1353,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "粵",
+    "recipeLevel": 10,
+    "aliases": [
+      "羊腩煲"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「羊腩煲」更名為「羊肉爐」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_30_tw",
-    "name": "子薑炒鴨",
+    "name": "嫩薑炒鴨",
     "catalogueNumber": 30,
     "originalFormula": "鴨肉+薑+醬油",
     "description": "玩家提供的食譜材料組合。",
@@ -1050,10 +1406,26 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "湘",
+    "recipeLevel": 10,
+    "aliases": [
+      "子薑炒鴨"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「子薑炒鴨」更名為「嫩薑炒鴨」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_31_tw",
@@ -1087,14 +1459,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "川",
+    "recipeLevel": 11,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_32_tw",
-    "name": "叫化童雞",
+    "name": "甕仔雞",
     "catalogueNumber": 32,
     "originalFormula": "雞肉+薑+八角",
     "description": "玩家提供的食譜材料組合。",
@@ -1124,14 +1507,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "浙",
+    "recipeLevel": 11,
+    "aliases": [
+      "叫化童雞"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「叫化童雞」更名為「甕仔雞」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_33_tw",
-    "name": "炙烤鮭魚",
+    "name": "炙燒鮭魚",
     "catalogueNumber": 33,
     "originalFormula": "鮭魚+蛋",
     "description": "玩家提供的食譜材料組合。",
@@ -1156,14 +1555,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": 11,
+    "aliases": [
+      "炙烤鮭魚"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「炙烤鮭魚」更名為「炙燒鮭魚」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_34_tw",
-    "name": "白切雞",
+    "name": "白斬雞",
     "catalogueNumber": 34,
     "originalFormula": "雞肉+蒜+薑",
     "description": "玩家提供的食譜材料組合。",
@@ -1193,10 +1608,26 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "粵",
+    "recipeLevel": 12,
+    "aliases": [
+      "白切雞"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「白切雞」更名為「白斬雞」，沿用原配方。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_35_tw",
@@ -1225,14 +1656,25 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "湘",
+    "recipeLevel": 12,
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   },
   {
     "id": "recipe_36_tw",
-    "name": "蛋黃奶糕",
+    "name": "蜂蜜蛋糕",
     "catalogueNumber": 36,
     "originalFormula": "雞蛋+鮭魚+南瓜",
     "description": "玩家提供的食譜材料組合。",
@@ -1262,9 +1704,793 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "sourceDescription": "使用者於 2026-10-01 提供食譜配方及菜系／菜譜等級清單；不同名稱的配方對照由使用者確認。",
     "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
-    "cuisine": null,
-    "recipeLevel": null
+    "cuisine": "特",
+    "recipeLevel": 12,
+    "aliases": [
+      "蛋黃奶糕"
+    ],
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel",
+          "name",
+          "ingredients"
+        ],
+        "description": "使用者確認「蛋黃奶糕」更名為「蜂蜜蛋糕」，沿用原配方。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_05_tw",
+    "name": "啤酒燉鴨",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "川",
+    "recipeLevel": 16,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_07_tw",
+    "name": "辣子雞",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "川",
+    "recipeLevel": 16,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_10_tw",
+    "name": "開水白菜",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "川",
+    "recipeLevel": 19,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_13_tw",
+    "name": "生魚片",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "粵",
+    "recipeLevel": 15,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_14_tw",
+    "name": "南瓜排骨煲",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "粵",
+    "recipeLevel": 17,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_17_tw",
+    "name": "紅燒排骨",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "粵",
+    "recipeLevel": 15,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_19_tw",
+    "name": "排骨酥",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "粵",
+    "recipeLevel": 18,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_23_tw",
+    "name": "蝦餃",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "粵",
+    "recipeLevel": 13,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_24_tw",
+    "name": "港式煲飯",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "粵",
+    "recipeLevel": 17,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_26_tw",
+    "name": "剁椒魚頭",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "湘",
+    "recipeLevel": 15,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_27_tw",
+    "name": "鮮魚米線",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "湘",
+    "recipeLevel": 14,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_32_tw",
+    "name": "辣椒炒肉",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "湘",
+    "recipeLevel": 13,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_33_tw",
+    "name": "醋溜雞肉",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "湘",
+    "recipeLevel": 17,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_34_tw",
+    "name": "擂椒皮蛋",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "湘",
+    "recipeLevel": 18,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_35_tw",
+    "name": "香酥鴨",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "湘",
+    "recipeLevel": 19,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_36_tw",
+    "name": "臘味拼盤",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "湘",
+    "recipeLevel": 14,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_39_tw",
+    "name": "酸菜魚",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "浙",
+    "recipeLevel": 13,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_42_tw",
+    "name": "馬鈴薯燉肉",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "浙",
+    "recipeLevel": 16,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_45_tw",
+    "name": "糖醋魚",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "浙",
+    "recipeLevel": 14,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_47_tw",
+    "name": "梅干扣肉",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "浙",
+    "recipeLevel": 19,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_48_tw",
+    "name": "炸蓮餅",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "浙",
+    "recipeLevel": 18,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_56_tw",
+    "name": "杯子蛋糕",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "特",
+    "recipeLevel": 20,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_57_tw",
+    "name": "熔岩蛋糕",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "特",
+    "recipeLevel": 20,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
+  },
+  {
+    "id": "recipe_cuisine_60_tw",
+    "name": "牛肉火山",
+    "catalogueNumber": null,
+    "originalFormula": null,
+    "description": "玩家提供的菜系與菜譜等級資料；配方尚未提供。",
+    "buildingId": null,
+    "ingredients": [],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "配方材料、用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": "特",
+    "recipeLevel": 20,
+    "sourceDescription": "使用者於 2026-10-01 提供的菜系／菜譜等級清單。",
+    "confirmations": [
+      {
+        "checkedAt": "2026-10-01",
+        "fields": [
+          "cuisine",
+          "recipeLevel"
+        ],
+        "description": "菜系與有標示的菜譜等級依使用者提供清單收錄。",
+        "method": "player"
+      }
+    ]
   }
 ]

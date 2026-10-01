@@ -20,15 +20,26 @@ test('artifact set validation rejects broken reverse relations and preserves con
   const bodhi=real['artifact-sets'].find(s=>s.name==='一葉菩提');assert.ok(bodhi.bonuses.every(b=>b.target==='魚肆局'&&b.effects[0].buildingId==='building_fishery_tw'));assert.equal(real.buildings.find(b=>b.id==='building_fishery_tw').name,'魚肆局');
 });
 test('player recipe list preserves all 36 formulas, corrected name and unknown quantities',()=>{
-  assert.equal(real.recipes.length,36);
-  assert.deepEqual(real.recipes.map(r=>r.catalogueNumber),Array.from({length:36},(_,i)=>i+1));
-  assert.ok(real.recipes.every(r=>r.gameVersion==='tw'&&r.sourceType==='player'&&!r.verified&&r.ingredients.every(i=>i.amount===null)&&r.cuisine===null&&r.recipeLevel===null&&r.buildingId===null&&r.outputAmount===null&&r.craftTime===null));
-  for(const recipe of real.recipes)assert.deepEqual(recipe.ingredients.map(i=>i.providedName),recipe.originalFormula.split('+'));
+  const withFormula=real.recipes.filter(r=>r.originalFormula!==null);assert.equal(withFormula.length,36);
+  assert.deepEqual(withFormula.map(r=>r.catalogueNumber),Array.from({length:36},(_,i)=>i+1));
+  assert.ok(real.recipes.every(r=>r.gameVersion==='tw'&&r.sourceType==='player'&&!r.verified&&r.ingredients.every(i=>i.amount===null)&&r.buildingId===null&&r.outputAmount===null&&r.craftTime===null));
+  for(const recipe of withFormula)assert.deepEqual(recipe.ingredients.map(i=>i.providedName),recipe.originalFormula.split('+'));
   const tartare=real.recipes.find(r=>r.catalogueNumber===24);assert.equal(tartare.name,'涼拌生牛肉');assert.equal(tartare.originalFormula,'鮪魚（金槍魚）+鮭魚+南瓜');
   const eggRecipes=recipesForIngredient(real,'ingredient_egg_tw');assert.deepEqual(eggRecipes.map(r=>r.catalogueNumber),[26,33,36]);
   assert.ok(searchDatabase(real,'金槍魚').some(r=>r.key==='recipes'&&r.record.catalogueNumber===5));
   assert.ok(searchDatabase(real,'胡蘿蔔').some(r=>r.key==='recipes'&&r.record.catalogueNumber===27));
   const broken=structuredClone(real);broken.recipes[0].ingredients[0].ingredientId='missing';assert.ok(validateDatabase(broken).some(e=>e.includes('missing ingredients')));
+});
+test('recipe cuisines retain supplied levels, aliases and unknown new formulas',()=>{
+  assert.equal(real.recipes.length,60);assert.equal(new Set(real.recipes.map(r=>r.name)).size,60);
+  for(const cuisine of ['川','粵','湘','浙','特'])assert.equal(real.recipes.filter(r=>r.cuisine===cuisine).length,12);
+  assert.equal(real.recipes.filter(r=>r.recipeLevel!==null).length,39);assert.equal(real.recipes.filter(r=>r.recipeLevel===null).length,21);
+  const newRecipes=real.recipes.filter(r=>r.catalogueNumber===null);assert.equal(newRecipes.length,24);assert.ok(newRecipes.every(r=>r.ingredients.length===0&&r.originalFormula===null));
+  assert.equal(real.recipes.find(r=>r.name==='乾炒牛河').id,'recipe_12_tw');assert.ok(!real.recipes.some(r=>r.name==='乾炒牛和'));
+  const tofu=real.recipes.find(r=>r.name==='麻婆豆腐');assert.equal(tofu.id,'recipe_06_tw');assert.equal(tofu.originalFormula,'豆腐+乾辣椒');assert.ok(tofu.aliases.includes('麻辣豆腐'));
+  assert.ok(searchDatabase(real,'水晶漢堡').some(r=>r.key==='recipes'&&r.record.name==='水晶餃'));
+  assert.equal(real.recipes.find(r=>r.name==='白斬雞').recipeLevel,12);assert.equal(real.recipes.find(r=>r.name==='涼拌生牛肉').recipeLevel,8);assert.equal(real.recipes.find(r=>r.name==='牛肉火山').recipeLevel,20);
+  assert.ok(real.recipes.every(r=>r.confirmations.some(c=>c.method==='player'&&c.fields.includes('cuisine'))));
 });
 test('drawer links resolve valid records across table categories without accepting unknown routes',()=>{
   for(const key of ['heroes','buildings','recipes','artifacts','skills']){const id=real[key][0].id;assert.deepEqual(detailTargetFromHash(real,`#/${key}/${encodeURIComponent(id)}`),{key,id});}

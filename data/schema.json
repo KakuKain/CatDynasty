@@ -832,11 +832,17 @@
           }
         },
         "catalogueNumber": {
-          "type": "integer",
+          "type": [
+            "integer",
+            "null"
+          ],
           "minimum": 1
         },
         "originalFormula": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "sourceDescription": {
           "type": "string"
