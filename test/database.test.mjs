@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
-import {filterHeroes,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
+import {filterHeroes,heroFiltersFromParams,compareSelection,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
 
 const real=readDatabase();const demo=readDatabase('data/mock');
 test('real and demo data validate, with provenance and referential integrity',()=>{
@@ -46,12 +46,34 @@ test('community codes remain unverified and expiry gates copying at the date bou
 });
 
 test('TW records keep CN attributes separate and preserve field-specific player confirmations',()=>{
-  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,11);assert.ok(tw.every(h=>h.skills.length===0&&h.attribute===null));
+  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,11);assert.ok(tw.every(h=>h.skills.length===0));assert.ok(tw.filter(h=>h.id!=='hero_huangama').every(h=>h.attribute===null));
   const yang=tw.find(h=>h.name==='楊玉環');assert.equal(yang.rarity,null);assert.equal(yang.buildingBonuses.length,0);
   const huang=tw.find(h=>h.name==='黃阿瑪');assert.ok(huang.confirmations.some(c=>c.fields.includes('acquisition')));
   const taiji=real.buildings.find(b=>b.id==='building_taiji_tw');assert.equal(taiji.rewardConditions[0].level,5);assert.equal(taiji.rewardConditions[0].heroId,huang.id);
   const fish=real.artifacts.find(a=>a.name==='魚燈');assert.equal(fish.rarity,'御品');assert.ok(fish.confirmations.some(c=>c.fields.includes('rarity')));
   const broken=structuredClone(real);broken.stages[0].buildingIds.push('missing');assert.ok(validateDatabase(broken).some(e=>e.includes('missing buildings')));
+});
+
+test('profession and faction multi-select filters preserve repeated URL values and intersect groups',()=>{
+  const params=new URLSearchParams('profession=輔助&profession=輸出&faction=文臣&faction=俠士&version=cn');
+  const filters=heroFiltersFromParams(params);assert.deepEqual(filters.professions,['輔助','輸出']);assert.deepEqual(filters.factions,['文臣','俠士']);
+  const results=filterHeroes(real,filters);assert.equal(results.length,6);assert.ok(results.every(h=>['輔助','輸出'].includes(h.profession)&&['文臣','俠士'].includes(h.faction)));
+  assert.equal(filterHeroes(real,{professions:['輔助'],factions:['武將']}).length,0);
+  assert.ok(filterHeroes(real,{factions:['unknown']}).every(h=>h.faction===null));
+  assert.equal(filterHeroes(real,{professions:[],factions:[]}).length,real.heroes.length);
+});
+
+test('comparison accepts three distinct heroes and rejects a fourth or missing records',()=>{
+  const ids=real.heroes.slice(0,4).map(h=>h.id);
+  assert.deepEqual(compareSelection(real,ids.slice(0,3)),ids.slice(0,3));
+  assert.deepEqual(compareSelection(real,[ids[0],ids[0],'missing',ids[1]]),ids.slice(0,2));
+  assert.throws(()=>compareSelection(real,ids),/最多選擇3位/);
+});
+
+test('profession is a single value and player-confirmed research is distinct from production bonuses',()=>{
+  const huang=real.heroes.find(h=>h.id==='hero_huangama');assert.equal(huang.profession,'輔助');assert.equal(huang.faction,'文臣');assert.equal(huang.attribute,'增益');assert.equal(huang.sixArtsRecommendations[0].name,'鎏金');assert.equal(huang.researchTalents[0].buildingId,'building_hanlin_tw');assert.equal(huang.buildingBonuses.length,0);
+  const broken=structuredClone(real);broken.heroes[0].profession=['輔助','輸出'];assert.ok(validateDatabase(broken).some(e=>e.includes('profession')));
+  const missing=structuredClone(real);missing.heroes[0].researchTalents[0].buildingId='missing';assert.ok(validateDatabase(missing).some(e=>e.includes('missing buildings')));
 });
 test('upgrade calculator reports missing levels instead of returning a false zero',()=>{
   const known=upgradeRequirements(demo,'demo_kitchen',0,2);assert.equal(known.complete,true);assert.equal(known.resources[0].amount,20);

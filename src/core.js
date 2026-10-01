@@ -30,9 +30,19 @@ export function searchDatabase(db, query) {
     return {key,record,related:!own.includes(q),score};
   }).filter(Boolean)).sort((a,b)=>b.score-a.score);
 }
-export function filterHeroes(db,{query='',rarity='',role='',effect='',version=''}={}) {
+export const heroProfessions=['輸出','坦克','輔助'];
+export const heroFactions=['武將','文臣','俠士','墨客'];
+export function heroFiltersFromParams(params) {
+  return {...Object.fromEntries(params),professions:params.getAll('profession'),factions:params.getAll('faction')};
+}
+export function filterHeroes(db,{query='',rarity='',role='',effect='',version='',attribute='',professions=[],factions=[]}={}) {
   const queryIds=query?new Set(searchDatabase(db,query).filter(r=>r.key==='heroes').map(r=>r.record.id)):null;
-  return (db.heroes||[]).filter(hero=>(!queryIds||queryIds.has(hero.id))&&(!rarity||hero.rarity===rarity)&&(!role||hero.role.includes(role))&&(!effect||effectIdsForHero(db,hero).includes(effect))&&(!version||hero.gameVersion===version));
+  return (db.heroes||[]).filter(hero=>(!queryIds||queryIds.has(hero.id))&&(!rarity||hero.rarity===rarity)&&(!role||hero.role.includes(role))&&(!effect||effectIdsForHero(db,hero).includes(effect))&&(!version||hero.gameVersion===version)&&(!attribute||hero.attribute===attribute)&&(!professions.length||professions.some(p=>p==='unknown'?!hero.profession:hero.profession===p))&&(!factions.length||factions.some(f=>f==='unknown'?!hero.faction:hero.faction===f)));
+}
+export function compareSelection(db,values,limit=3) {
+  const ids=[...new Set(values)].filter(id=>findById(db,'heroes',id));
+  if(ids.length>limit)throw new Error(`最多選擇${limit}位喵將。`);
+  return ids;
 }
 export function codeStatus(code,today=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Taipei'})) {
   if(code.status==='expired'||(code.endDate&&code.endDate<today))return 'expired';

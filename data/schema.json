@@ -149,6 +149,76 @@
           "items": {
             "type": "string"
           }
+        },
+        "profession": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "faction": {
+          "enum": [
+            "武將",
+            "文臣",
+            "俠士",
+            "墨客",
+            null
+          ]
+        },
+        "rarityType": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sixArtsRecommendations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "description",
+              "value",
+              "unit"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "researchTalents": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "buildingId": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "buildingId",
+              "description"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [
@@ -168,7 +238,11 @@
         "skills",
         "buildingBonuses",
         "teamTags",
-        "description"
+        "description",
+        "profession",
+        "faction",
+        "sixArtsRecommendations",
+        "researchTalents"
       ],
       "additionalProperties": true
     },

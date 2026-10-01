@@ -34,6 +34,10 @@
     "verified": false,
     "gameVersion": "mock",
     "checkedAt": null,
-    "notes": "僅供網站功能示範，非遊戲資料。"
+    "notes": "僅供網站功能示範，非遊戲資料。",
+    "profession": "坦克",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   }
 ]

@@ -43,6 +43,35 @@
     ]
   },
   {
+    "id": "building_hanlin_tw",
+    "name": "翰林院",
+    "type": null,
+    "description": "黃阿瑪研究天賦對應建築；功能與數值待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "玩家核對名稱及黃阿瑪的研究天賦關聯；未取得升級材料或效果數值。",
+    "confirmations": [
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "黃阿瑪的研究天賦對應翰林院。"
+      }
+    ]
+  },
+  {
     "id": "building_kitchen_tw",
     "name": "御膳房",
     "type": "生產",

@@ -10,7 +10,7 @@
     "role": [
       "輔助"
     ],
-    "attribute": null,
+    "attribute": "增益",
     "sixArts": [],
     "image": null,
     "skills": [],
@@ -24,7 +24,7 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "官方確認角色與天級品質；其餘欄位尚待核對。 領取條件已由玩家核對；台版技能、職業與六藝仍待補。 輔助定位由 Lota 記載，尚未於遊戲內核對。",
+    "notes": "官方確認角色與天級品質；其餘欄位尚待核對。 領取條件已由玩家核對；台版技能數值仍待補。 輔助定位已由玩家核對。 職業、陣營、屬性、六藝推薦與研究天賦已由玩家核對。",
     "acquisition": [
       "太極殿達 Lv.5 後領取（玩家已核對）。"
     ],
@@ -36,6 +36,19 @@
         "method": "player",
         "checkedAt": "2026-10-01",
         "description": "黃阿瑪需太極殿達 Lv.5 才能領取。"
+      },
+      {
+        "fields": [
+          "profession",
+          "faction",
+          "attribute",
+          "rarityType",
+          "sixArtsRecommendations",
+          "researchTalents"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "職業輔助、陣營文臣、屬性增益；天（稀有）；六藝推薦鎏金（增加攻擊力百分比）；研究天賦翰林院。"
       }
     ],
     "sources": [
@@ -49,7 +62,24 @@
         "label": "Lota 攻略",
         "scope": "輔助定位參考；太極殿 Lv.5 領取條件已由玩家核對"
       }
-    ]
+    ],
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
+    "researchTalents": [
+      {
+        "buildingId": "building_hanlin_tw",
+        "description": "翰林院研究天賦；加成數值待補。"
+      }
+    ],
+    "rarityType": "稀有"
   },
   {
     "id": "hero_libai_tw",
@@ -70,7 +100,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_yang_tw",
@@ -91,7 +125,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_jingke_tw",
@@ -112,7 +150,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_xuxiake_tw",
@@ -133,7 +175,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_xuanzang_tw",
@@ -154,7 +200,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_shen_tw",
@@ -185,7 +235,11 @@
         "label": "Lota 攻略",
         "scope": "天級品質與簽到獎勵參考"
       }
-    ]
+    ],
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_zhuge_tw",
@@ -206,7 +260,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_wangzhaojun_tw",
@@ -227,7 +285,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_qin_tw",
@@ -248,7 +310,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_wuzetian_tw",
@@ -269,7 +335,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_yang",
@@ -308,7 +378,11 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_wangzhaojun",
@@ -345,7 +419,11 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_lichunfeng",
@@ -383,7 +461,11 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_xuanzang",
@@ -422,7 +504,11 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": "輔助",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_xuxiake",
@@ -459,7 +545,11 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": "輸出",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_jingke",
@@ -496,7 +586,11 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": "輸出",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_fuhao",
@@ -533,7 +627,11 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": "坦克",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_su",
@@ -554,7 +652,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_zhuge",
@@ -575,7 +677,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_di",
@@ -596,7 +702,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_shen",
@@ -617,7 +727,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_ayi",
@@ -638,7 +752,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_pu",
@@ -659,7 +777,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_qingzhao",
@@ -680,7 +802,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_shuai",
@@ -701,7 +827,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_qi",
@@ -722,7 +852,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_qin",
@@ -743,7 +877,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_huo",
@@ -764,7 +902,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_qu",
@@ -785,7 +927,11 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   },
   {
     "id": "hero_h",
@@ -806,6 +952,10 @@
     "verified": false,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": []
   }
 ]
