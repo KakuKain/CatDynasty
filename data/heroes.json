@@ -957,5 +957,81 @@
     "faction": null,
     "sixArtsRecommendations": [],
     "researchTalents": []
+  },
+  {
+    "id": "hero_qingwan_tw",
+    "name": "清婉",
+    "aliases": [],
+    "rarity": null,
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "暴擊",
+    "sixArts": [],
+    "image": null,
+    "skills": [
+      "skill_qingwan_1_tw",
+      "skill_qingwan_2_tw",
+      "skill_qingwan_3_tw"
+    ],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版官方「貓物誌」介紹的暴擊型輸出喵將。",
+    "source": "https://www.facebook.com/photo/?fbid=122126734574985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "profession": "輸出",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "verifiedFields": [
+      "name",
+      "profession",
+      "faction",
+      "attribute",
+      "skills"
+    ],
+    "notes": "官方圖鑑「定位／職業」對應網站的「職業／陣營」。品質、六藝推薦、研究天賦及未標示的技能數值待補。"
+  },
+  {
+    "id": "hero_huangyueying_tw",
+    "name": "黃月英",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [],
+    "attribute": null,
+    "sixArts": [],
+    "image": null,
+    "skills": [
+      "skill_yueying_1_tw",
+      "skill_yueying_2_tw"
+    ],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版官方公告確認的稀有天級喵將，技能可引燃或延長灼燒。",
+    "source": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "profession": null,
+    "faction": null,
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "skills"
+    ],
+    "acquisition": [
+      "官方曾於 9/27–9/29 開放第三方通路累積儲值活動取得（已結束；常駐取得方式待補）。"
+    ],
+    "notes": "僅收錄公告確認的品質與技能，未推定職業、陣營、屬性、六藝或研究天賦。活動資訊保留於攻略回顧。"
   }
 ]

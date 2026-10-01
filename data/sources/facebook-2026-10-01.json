@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-01",
+  "coverage": "已讀取的官方公開公告、圖鑑及討論群貼文。Facebook 動態載入不能視為完整歷史清單；不推定未讀取貼文內容。",
+  "records": [
+    {
+      "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid0Y6o7EB7r47NcC9xbKPfk5DM2Q2zWiLCZDA8AAVEN15Yzd2ubrLwPDAcP5sawDudcl",
+      "title": "府邸新章與更新公告",
+      "status": "official-confirmed",
+      "facts": [
+        "府邸多房間",
+        "大理寺故事顯示與快速跳轉",
+        "10/1 台灣祭大賞預告"
+      ],
+      "missing": [
+        "酒新配方",
+        "補償清單與數量",
+        "招募機率數值",
+        "活動期限及兌換門檻"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid0ur4dEnZ1o48YZJA4xNt3bYpUVFcZBQertRH9LNPPBnCjZC6YhrfG9MEbmaDXL3Mzl",
+      "title": "維護完成",
+      "status": "official-confirmed",
+      "facts": [
+        "維護完成"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid0v7gQymUnZ2xem3bDyPrNGxHcaLrqDutHoogWcFUP38cQ56vDb5GbTZurzpFywmbtl",
+      "title": "阿瑪喵居圖鑑",
+      "status": "official-confirmed",
+      "facts": [
+        "御駕迎福",
+        "御貓百戲架",
+        "阿瑪湯泉"
+      ],
+      "missing": [
+        "品質",
+        "效果",
+        "取得條件",
+        "套裝"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/photo/?fbid=122126734574985922&set=pb.61579577675547.-2207520000",
+      "title": "清婉圖鑑",
+      "status": "official-confirmed",
+      "facts": [
+        "輸出／墨客／暴擊",
+        "摘葉飛花／蓮心／蘭若"
+      ],
+      "missing": [
+        "品質",
+        "六藝",
+        "研究天賦",
+        "部分技能數值與類型"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
+      "title": "黃月英活動與技能",
+      "status": "official-confirmed",
+      "facts": [
+        "稀有天級",
+        "流火金縷／燎原餘燼",
+        "限時活動已結束"
+      ],
+      "missing": [
+        "常駐取得方式",
+        "職業",
+        "陣營",
+        "六藝",
+        "研究天賦"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid021hpFi3tn7Uz4UrioecmPaNqt2QF7ZmAQvmHt4wcLVH4hMkWiQ1NzbLC2CFemrqQYl",
+      "title": "帳號綁定",
+      "status": "official-confirmed",
+      "facts": [
+        "個人頭像→設定→會員中心→馬上綁定"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/photo/?fbid=122126604440985922&set=pb.61579577675547.-2207520000",
+      "title": "橙色風箏",
+      "status": "official-confirmed",
+      "facts": [
+        "名稱與外觀"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid02VzNRdmAKvTfqVLzmVv1hyKVsVDYdBt5wTcQ3SgwPkY8uCuXXLWsqnmdZBi5YUkRrl",
+      "title": "台灣祭剪影預告",
+      "status": "official-confirmed",
+      "facts": [
+        "新古寶／家具／造型／御靈"
+      ],
+      "missing": [
+        "剪影道具名稱"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/groups/910354332113299/posts/959437480538317/",
+      "title": "你畫我猜題解圖片",
+      "status": "community-reference-only",
+      "reason": "圖片顯示輸入答案，未顯示判定正確結果；未寫入答案資料。"
+    },
+    {
+      "url": "https://www.facebook.com/groups/910354332113299/posts/956418474173551/",
+      "title": "鹽華霜印取得提問",
+      "status": "unverified",
+      "reason": "留言提示未經遊戲內驗證，未修改取得方式。"
+    }
+  ]
+}

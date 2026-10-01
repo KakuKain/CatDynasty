@@ -3819,7 +3819,14 @@
       "placedCount": 1,
       "placementLimit": 1
     },
-    "image": "images/artifacts/artifact_kites_2_tw.webp"
+    "image": "images/artifacts/artifact_kites_2_tw.webp",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/photo/?fbid=122126604440985922&set=pb.61579577675547.-2207520000",
+        "label": "官方古寶奇譚：橙色風箏",
+        "scope": "確認古寶名稱與外觀；效果仍依玩家遊戲截圖"
+      }
+    ]
   },
   {
     "id": "artifact_kites_3_tw",

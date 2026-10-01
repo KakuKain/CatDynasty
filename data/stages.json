@@ -1,5 +1,48 @@
 [
   {
+    "id": "guide_taiwan_festival_tw",
+    "name": "台灣祭大賞",
+    "type": "活動",
+    "description": "官方公告預告 10/1 開放；活動結束時間與詳細門檻以遊戲內活動頁為準。",
+    "sections": [
+      {
+        "heading": "參與與獎勵",
+        "items": [
+          "每日任務及活動任務可取得尪仔標。",
+          "使用尪仔標參與好運柑仔店，累積積分兌換活動獎勵。",
+          "預告獎勵包括限定阿瑪家具、復古系列御品古寶與家具、沈萬三限定造型。"
+        ]
+      },
+      {
+        "heading": "尚待公告",
+        "items": [
+          "個別獎勵名稱、兌換積分、開放門檻與活動結束時間未公布。",
+          "粉專留言抽獎的 9/30 截止時間不等於遊戲活動截止時間。"
+        ]
+      }
+    ],
+    "heroIds": [
+      "hero_shen_tw",
+      "hero_huangama"
+    ],
+    "teamIds": [],
+    "buildingIds": [],
+    "artifactIds": [],
+    "source": "https://www.facebook.com/catdynasty.tw/posts/pfbid0Y6o7EB7r47NcC9xbKPfk5DM2Q2zWiLCZDA8AAVEN15Yzd2ubrLwPDAcP5sawDudcl",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "依 9/28 發布之更新預告整理；未將預告視為已核對所有遊戲內活動細節。",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid02VzNRdmAKvTfqVLzmVv1hyKVsVDYdBt5wTcQ3SgwPkY8uCuXXLWsqnmdZBi5YUkRrl",
+        "label": "官方台灣祭預告",
+        "scope": "新古寶、家具、造型與御靈預告；剪影未公布名稱"
+      }
+    ]
+  },
+  {
     "id": "guide_start_tw",
     "name": "新手發展順序",
     "type": "系統",
@@ -67,6 +110,13 @@
           "古寶可用於收藏與城市布置；家具用於府邸。",
           "攻略提及黃阿瑪聯動家具祈願，但未列個別家具屬性或套裝。"
         ]
+      },
+      {
+        "heading": "官方補充",
+        "items": [
+          "9/29 更新公告新增府邸多房間功能。",
+          "官方喵居圖鑑已公布御駕迎福、御貓百戲架、阿瑪湯泉；品質與加成未公布。"
+        ]
       }
     ],
     "heroIds": [],
@@ -80,7 +130,19 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+    "notes": "台版媒體／社群參考；未公開數值保留未知。",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid0Y6o7EB7r47NcC9xbKPfk5DM2Q2zWiLCZDA8AAVEN15Yzd2ubrLwPDAcP5sawDudcl",
+        "label": "官方 9/29 更新公告",
+        "scope": "府邸多房間；部分舊家具回收補償，未公布清單"
+      },
+      {
+        "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid0v7gQymUnZ2xem3bDyPrNGxHcaLrqDutHoogWcFUP38cQ56vDb5GbTZurzpFywmbtl",
+        "label": "官方阿瑪喵居圖鑑",
+        "scope": "三件聯動家具名稱與主題"
+      }
+    ]
   },
   {
     "id": "guide_launch_tw",
@@ -179,5 +241,127 @@
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
     "notes": "遊戲內成功／失敗結果才能更新實測紀錄。"
+  },
+  {
+    "id": "guide_update_20260929_tw",
+    "name": "9/29 府邸與系統更新",
+    "type": "系統",
+    "description": "2026/9/28 官方公告之 9/29 更新內容摘要。",
+    "sections": [
+      {
+        "heading": "經營與府邸",
+        "items": [
+          "府邸開放多房間；部分舊家具回收並補償，個別清單與補償數量未公布。",
+          "羅盤新增自動執行，萬事坊加入一鍵領取與一鍵派遣。",
+          "新增離線生產及閒置喵將派遣提醒；加速券顯示縮減時間。",
+          "調整酒的生產配方，但公告未提供新材料，食譜資料保留待補。"
+        ]
+      },
+      {
+        "heading": "養成與介面",
+        "items": [
+          "招募可查看各喵將機率；公告未列確切機率。",
+          "統一六藝名稱與顏色、修正古寶成就計算，調整好感獎勵頁。",
+          "大理寺奇寶可顯示故事並快速跳轉；未解鎖技能顯示解鎖條件。",
+          "調整同盟砍價、御貓爭鼎與皇陵探祕的獎勵及操作，未公布完整數值。",
+          "皇陵探祕加入自動執行、隊伍頻道與隊友血量顯示；NPC 難度調低。"
+        ]
+      }
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "buildingIds": [
+      "building_dali_tw"
+    ],
+    "artifactIds": [],
+    "source": "https://www.facebook.com/catdynasty.tw/posts/pfbid0Y6o7EB7r47NcC9xbKPfk5DM2Q2zWiLCZDA8AAVEN15Yzd2ubrLwPDAcP5sawDudcl",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "維護時段原預告 9/29 14:00–18:00；後續公告確認維護完成。僅整理公告明確列出的變更。",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/catdynasty.tw/posts/pfbid0ur4dEnZ1o48YZJA4xNt3bYpUVFcZBQertRH9LNPPBnCjZC6YhrfG9MEbmaDXL3Mzl",
+        "label": "官方維護完成公告",
+        "scope": "確認維護完成，未附新增兌換碼或數值表"
+      }
+    ]
+  },
+  {
+    "id": "guide_account_binding_tw",
+    "name": "帳號綁定與官方管道",
+    "type": "系統",
+    "description": "官方公布的帳號綁定入口及台版聯絡管道。",
+    "sections": [
+      {
+        "heading": "綁定步驟",
+        "items": [
+          "點左上個人頭像。",
+          "點右下設定。",
+          "點右上會員中心。",
+          "選擇常用平台後按馬上綁定。"
+        ]
+      },
+      {
+        "heading": "官方管道",
+        "items": [
+          "官方粉專：小貓咪大史記（catdynasty.tw）。",
+          "官方討論群：《小貓咪大史記》官方討論群。",
+          "客服信箱：cs@poseidongame.com。"
+        ]
+      }
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "buildingIds": [],
+    "artifactIds": [],
+    "source": "https://www.facebook.com/catdynasty.tw/posts/pfbid021hpFi3tn7Uz4UrioecmPaNqt2QF7ZmAQvmHt4wcLVH4hMkWiQ1NzbLC2CFemrqQYl",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "操作入口依官方教學核對；可綁定平台種類未列出。",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/catdynasty.tw/",
+        "label": "官方粉專",
+        "scope": "官方簡介、客服信箱與討論群連結"
+      },
+      {
+        "url": "https://www.facebook.com/groups/910354332113299/",
+        "label": "官方討論群",
+        "scope": "社群攻略與遊戲截圖；玩家說法需逐筆核對"
+      }
+    ]
+  },
+  {
+    "id": "guide_yueying_202609_tw",
+    "name": "黃月英限時活動回顧",
+    "type": "活動",
+    "description": "官方曾於 9/27–9/29 推出黃月英活動，目前已結束。",
+    "sections": [
+      {
+        "heading": "登入與儲值獎勵",
+        "items": [
+          "9/27 登入送初級自選物資 ×2、祈願燈 ×1；9/28 為物資 ×2、祈天燈 ×1；9/29 為物資 ×2、古寶燈 ×1。",
+          "指定第三方通路（GASH、MyCard、IGameBuy）累積儲值門檻為 NT$800／1,500／3,000，對應黃月英 ×1／2／4 及金色粉塵 ×100／200／400。",
+          "門檻獎勵可累計；公告範例 NT$3,000 合計黃月英 ×7、金色粉塵 ×700。",
+          "重複取得黃月英轉為 10 個碎片；公告獎勵預定 9/30–10/2 寄至角色信箱。"
+        ]
+      }
+    ],
+    "heroIds": [
+      "hero_huangyueying_tw"
+    ],
+    "teamIds": [],
+    "buildingIds": [],
+    "artifactIds": [],
+    "source": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "此為已結束活動的公告回顧，不代表目前仍能儲值領取。常駐取得方式未確認。"
   }
 ]

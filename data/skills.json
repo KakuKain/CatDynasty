@@ -719,5 +719,125 @@
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
     "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "skill_qingwan_1_tw",
+    "name": "摘葉飛花",
+    "type": "未標示",
+    "target": "敵方後排全體",
+    "description": "對後排全體造成傷害，並有機率施加遲緩；遲緩降低速度 15%。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "speed_down",
+        "value": 15,
+        "unit": "percent",
+        "chance": null,
+        "duration": null
+      }
+    ],
+    "source": "https://www.facebook.com/photo/?fbid=122126734574985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "cooldown": null,
+    "notes": "台版官方公告／圖鑑確認所列效果；未公布的倍率、機率、持續時間與技能類型保留待補。"
+  },
+  {
+    "id": "skill_qingwan_2_tw",
+    "name": "蓮心",
+    "type": "未標示",
+    "target": "自身",
+    "description": "主動技能擊殺敵方單位時，提高自身暴擊率。",
+    "effects": [
+      {
+        "type": "crit_up",
+        "value": null
+      }
+    ],
+    "source": "https://www.facebook.com/photo/?fbid=122126734574985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "cooldown": null,
+    "notes": "台版官方公告／圖鑑確認所列效果；未公布的倍率、機率、持續時間與技能類型保留待補。"
+  },
+  {
+    "id": "skill_qingwan_3_tw",
+    "name": "蘭若",
+    "type": "普通攻擊",
+    "target": "生命值低於 50% 的敵人",
+    "description": "普通攻擊命中生命值低於 50% 的敵人時，提高造成的傷害。",
+    "effects": [
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "source": "https://www.facebook.com/photo/?fbid=122126734574985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "cooldown": null,
+    "notes": "台版官方公告／圖鑑確認所列效果；未公布的倍率、機率、持續時間與技能類型保留待補。"
+  },
+  {
+    "id": "skill_yueying_1_tw",
+    "name": "流火金縷",
+    "type": "必殺技",
+    "target": "隨機兩名敵人",
+    "description": "隨機攻擊兩個敵方單位，造成攻擊力 50% 的傷害；目標若有灼燒，立即引燃剩餘回合的灼燒傷害。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": 50,
+        "unit": "percent",
+        "target": "隨機兩名敵人"
+      },
+      {
+        "type": "burn",
+        "value": null
+      }
+    ],
+    "source": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "cooldown": null,
+    "notes": "台版官方公告／圖鑑確認所列效果；未公布的倍率、機率、持續時間與技能類型保留待補。"
+  },
+  {
+    "id": "skill_yueying_2_tw",
+    "name": "燎原餘燼",
+    "type": "未標示",
+    "target": "隨機三名敵人",
+    "description": "攻擊改為隨機三名敵人；目標有灼燒時，有 30% 機率使灼燒持續回合增加 1。",
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "burn",
+        "value": null,
+        "chance": 30,
+        "duration": null,
+        "durationChange": 1
+      }
+    ],
+    "source": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "cooldown": null,
+    "notes": "台版官方公告／圖鑑確認所列效果；未公布的倍率、機率、持續時間與技能類型保留待補。"
   }
 ]

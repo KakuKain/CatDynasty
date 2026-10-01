@@ -532,5 +532,28 @@
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
     "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+  },
+  {
+    "id": "building_dali_tw",
+    "name": "大理寺",
+    "type": null,
+    "description": "可查看奇寶相關故事；9/29 更新公告新增故事顯示與快速跳轉。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://www.facebook.com/catdynasty.tw/posts/pfbid0Y6o7EB7r47NcC9xbKPfk5DM2Q2zWiLCZDA8AAVEN15Yzd2ubrLwPDAcP5sawDudcl",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "verifiedFields": [
+      "name",
+      "description"
+    ],
+    "notes": "依官方更新公告核對名稱與功能；解鎖、研究、升級與生產資料待補。"
   }
 ]

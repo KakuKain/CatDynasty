@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "furniture_ama_throne_tw",
+    "name": "御駕迎福",
+    "type": "聯動家具",
+    "rarity": null,
+    "description": "阿瑪聯動寶座家具。",
+    "effectTags": [],
+    "effects": [],
+    "placement": [],
+    "setId": null,
+    "acquisition": [],
+    "buildingIds": [],
+    "spaceTags": [],
+    "source": "https://www.facebook.com/catdynasty.tw/posts/pfbid0v7gQymUnZ2xem3bDyPrNGxHcaLrqDutHoogWcFUP38cQ56vDb5GbTZurzpFywmbtl",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "verifiedFields": [
+      "name",
+      "description"
+    ],
+    "notes": "官方「喵居圖鑑」確認名稱與聯動主題；品質、效果、擺放限制、取得條件及套裝加成未公布。"
+  },
+  {
+    "id": "furniture_ama_playframe_tw",
+    "name": "御貓百戲架",
+    "type": "聯動家具",
+    "rarity": null,
+    "description": "阿瑪聯動貓爬架家具。",
+    "effectTags": [],
+    "effects": [],
+    "placement": [],
+    "setId": null,
+    "acquisition": [],
+    "buildingIds": [],
+    "spaceTags": [],
+    "source": "https://www.facebook.com/catdynasty.tw/posts/pfbid0v7gQymUnZ2xem3bDyPrNGxHcaLrqDutHoogWcFUP38cQ56vDb5GbTZurzpFywmbtl",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "verifiedFields": [
+      "name",
+      "description"
+    ],
+    "notes": "官方「喵居圖鑑」確認名稱與聯動主題；品質、效果、擺放限制、取得條件及套裝加成未公布。"
+  },
+  {
+    "id": "furniture_ama_hotspring_tw",
+    "name": "阿瑪湯泉",
+    "type": "聯動家具",
+    "rarity": null,
+    "description": "阿瑪聯動溫泉家具。",
+    "effectTags": [],
+    "effects": [],
+    "placement": [],
+    "setId": null,
+    "acquisition": [],
+    "buildingIds": [],
+    "spaceTags": [],
+    "source": "https://www.facebook.com/catdynasty.tw/posts/pfbid0v7gQymUnZ2xem3bDyPrNGxHcaLrqDutHoogWcFUP38cQ56vDb5GbTZurzpFywmbtl",
+    "sourceType": "official",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "verifiedFields": [
+      "name",
+      "description"
+    ],
+    "notes": "官方「喵居圖鑑」確認名稱與聯動主題；品質、效果、擺放限制、取得條件及套裝加成未公布。"
+  }
+]

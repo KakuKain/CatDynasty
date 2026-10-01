@@ -64,8 +64,9 @@ h1 {font-size:2.25rem;font-weight:600;letter-spacing:.12em;line-height:1.4;}
 h2 {font-size:1.3rem;letter-spacing:.05em;}
 button,input,select,.button {border-radius:3px;}
 .sidebar {background:#e9e2cf;color:#324a40;border-right:1px solid #c6b899;background-image:linear-gradient(100deg,#f6f0e1dd,#e2dac5aa);}
-.brand {margin-bottom:30px;}
-.brand strong {color:#293c36;font-size:1.28rem;}
+.brand {margin-bottom:30px;gap:10px;align-items:center;}
+.brand-logo {display:block;width:48px;height:48px;flex:0 0 48px;object-fit:contain;border-radius:9px;border:1px solid #c6b899;}
+.brand strong {color:#293c36;font-size:1.12rem;letter-spacing:.025em;line-height:1.35;white-space:nowrap;}
 .brand div>span {color:#706c59;letter-spacing:.08em;}
 .brand:hover,.nav-link:hover {color:#72342b;}
 .seal {background:#993e32;color:#fbf2dc;border:3px double #f2dbb2;border-radius:2px;transform:rotate(-4deg);box-shadow:0 0 0 1px #993e32;font-family:$font;}

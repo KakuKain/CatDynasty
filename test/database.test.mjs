@@ -111,7 +111,9 @@ test('community codes remain unverified and expiry gates copying at the date bou
 });
 
 test('TW records keep CN attributes separate and preserve field-specific player confirmations',()=>{
-  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,11);assert.ok(tw.every(h=>h.skills.length===0));assert.ok(tw.filter(h=>h.id!=='hero_huangama').every(h=>h.attribute===null));
+  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,13);assert.ok(tw.every(h=>h.skills.every(id=>real.skills.find(s=>s.id===id)?.gameVersion==='tw')));assert.ok(tw.filter(h=>!['hero_huangama','hero_qingwan_tw'].includes(h.id)).every(h=>h.attribute===null));
+  const qingwan=tw.find(h=>h.id==='hero_qingwan_tw');assert.equal(qingwan.faction,'墨客');assert.equal(qingwan.attribute,'暴擊');assert.equal(qingwan.rarity,null);assert.equal(qingwan.skills.length,3);
+  const yueying=tw.find(h=>h.id==='hero_huangyueying_tw');assert.equal(yueying.rarityType,'稀有');assert.equal(yueying.profession,null);assert.equal(yueying.skills.length,2);
   const yang=tw.find(h=>h.name==='楊玉環');assert.equal(yang.rarity,null);assert.equal(yang.buildingBonuses.length,0);
   const huang=tw.find(h=>h.name==='黃阿瑪');assert.ok(huang.confirmations.some(c=>c.fields.includes('acquisition')));
   const taiji=real.buildings.find(b=>b.id==='building_taiji_tw');assert.equal(taiji.rewardConditions[0].level,5);assert.equal(taiji.rewardConditions[0].heroId,huang.id);
