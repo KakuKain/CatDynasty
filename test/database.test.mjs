@@ -119,6 +119,16 @@ test('comparison accepts three distinct heroes and rejects a fourth or missing r
   assert.deepEqual(compareSelection(real,[ids[0],ids[0],'missing',ids[1]]),ids.slice(0,2));
   assert.throws(()=>compareSelection(real,ids),/最多選擇3位/);
 });
+test('rarity and attribute multi-select keep OR within groups and AND across groups',()=>{
+  const params=new URLSearchParams('rarity=天級&rarity=聖級&attribute=驅散&attribute=護法・護甲・聖甲');
+  const filters=heroFiltersFromParams(params);assert.deepEqual(filters.rarities,['天級','聖級']);assert.deepEqual(filters.attributes,['驅散','護法・護甲・聖甲']);
+  assert.deepEqual(filterHeroes(real,filters).map(h=>h.id),['hero_yang','hero_wangzhaojun','hero_fuhao']);
+  assert.deepEqual(filterHeroes(real,{...filters,professions:['坦克']}).map(h=>h.id),['hero_fuhao']);
+  assert.equal(filterHeroes(real,{rarities:['unknown'],attributes:['增益']}).length,0);
+  const unknown=filterHeroes(real,{rarities:['unknown'],attributes:['unknown']});assert.ok(unknown.length>0);assert.ok(unknown.every(h=>h.rarity===null&&h.attribute===null));
+  assert.equal(filterHeroes(real,{rarities:[],attributes:[],professions:[],factions:[]}).length,real.heroes.length);
+  assert.deepEqual(filterHeroes(real,{rarity:'聖級',attribute:'護法・護甲・聖甲'}).map(h=>h.id),['hero_fuhao']);
+});
 
 test('profession is a single value and player-confirmed research is distinct from production bonuses',()=>{
   const huang=real.heroes.find(h=>h.id==='hero_huangama');assert.equal(huang.profession,'輔助');assert.equal(huang.faction,'文臣');assert.equal(huang.attribute,'增益');assert.equal(huang.sixArtsRecommendations[0].name,'鎏金');assert.equal(huang.researchTalents[0].buildingId,'building_hanlin_tw');assert.equal(huang.buildingBonuses.length,0);

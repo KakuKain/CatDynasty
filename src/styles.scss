@@ -257,6 +257,36 @@ html.drawer-open { overflow: hidden; }
   a.selected { background: #425b47; color: #fffaf0; box-shadow: 0 2px 5px #203b3026; }
   a:focus-visible { outline: 2px solid #8b6d3b; outline-offset: 2px; }
 }
+.hero-filters .filter-options {
+  width: fit-content;
+  max-width: 100%;
+  gap: 6px;
+  padding: 5px;
+  border: 1px solid #d1c4a6;
+  border-radius: 12px;
+  background: #eee6d280;
+}
+.filter-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 8px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: #fffaf0;
+  color: #485341;
+  font-size: .88rem;
+  cursor: pointer;
+  &:hover { background: #e1e8d9; }
+  &:has(input:checked), &.selected { background: #425b47; color: #fffaf0; box-shadow: 0 2px 5px #203b3026; }
+  &:focus-visible, &:has(input:focus-visible) { outline: 2px solid #8b6d3b; outline-offset: 2px; }
+}
+@media (max-width: 640px) {
+  .hero-filters .filter-options { gap: 5px; }
+  .filter-pill { padding: 8px 13px; font-size: .83rem; }
+}
 @media (max-width: 640px) {
   .cuisine-tabs { gap: 5px; }
   .cuisine-tabs a { padding: 9px 6px; font-size: .85rem; }
