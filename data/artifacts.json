@@ -4,7 +4,9 @@
     "name": "魚燈",
     "rarity": "御品",
     "description": "七日簽到提及的古寶。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [
       "七日簽到（媒體／社群參考）。"
@@ -13,11 +15,11 @@
     "teamIds": [],
     "levels": [],
     "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "品質已由玩家核對為御品；SouNova 的橙色稱呼保留為來源描述，不推導品質對照。效果與強化數值待補。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "confirmations": [
       {
         "fields": [
@@ -40,12 +42,23 @@
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_14.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_3.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 14、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_3.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "大",
+    "passiveEffect": "太極殿每升級1次，烹魚局生產效率提升3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "烹魚局生產效率提升15%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "image": "images/artifacts/artifact_fish_lantern_tw.webp"
   },
   {
     "id": "artifact_ama_parade_tw",
@@ -53,7 +66,9 @@
     "rarity": "御品",
     "description": "黃阿瑪聯動古寶，可用於主城裝飾。",
     "effectTags": [
-      "主城裝飾"
+      "主城裝飾",
+      "生命",
+      "生產效率"
     ],
     "effects": [],
     "acquisition": [
@@ -63,19 +78,30 @@
     "teamIds": [],
     "levels": [],
     "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "聯動主題不代表黃阿瑪的戰鬥推薦裝備；屬性效果尚未確認。 第 19 張圖鑑確認品質為御品；未顯示套裝關聯。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "screenshotFiles": [
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_9.jpg"
     ],
-    "sourceDescription": "玩家提供的第 19 張遊戲圖鑑截圖，位於御品分類。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_9.jpg",
     "setIds": [],
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "大",
+    "passiveEffect": "每在木作司生產20次，全喵將生命加成提升1.3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將生命加成提升6.5%",
+      "placedCount": 0,
+      "placementLimit": 1
+    },
+    "image": "images/artifacts/artifact_ama_parade_tw.webp"
   },
   {
     "id": "artifact_bells_tw",
@@ -152,7 +178,10 @@
     "name": "蓮花燈",
     "rarity": "珍品",
     "description": "「妙法蓮華」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "防禦",
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -163,26 +192,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_lotus_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_1.jpg",
-      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026101_261001_22.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 1、4 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_22.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "大",
+    "passiveEffect": "每在營造局生產12次，全喵將防禦加成提升0.8%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將防禦加成提升4%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "image": "images/artifacts/artifact_lotus_2_tw.webp"
   },
   {
     "id": "artifact_lotus_3_tw",
     "name": "紅花壇",
     "rarity": "良品",
     "description": "「妙法蓮華」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "攻擊"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -193,27 +235,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_lotus_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_1.jpg",
-      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026101_261001_35.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 1、4 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_35.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每完成3次探索副本·萬事坊事件，墨客攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客攻擊加成提升4.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_lotus_3_tw.webp"
   },
   {
     "id": "artifact_lotus_4_tw",
     "name": "紫花壇",
     "rarity": "良品",
     "description": "「妙法蓮華」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "攻擊"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -224,20 +279,31 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_lotus_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_1.jpg",
-      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026101_261001_31.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 1、4 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_31.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每抽取古寶卡池10次，俠士攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "俠士攻擊加成提升4.25%",
+      "placedCount": 6,
+      "placementLimit": 6
+    },
+    "image": "images/artifacts/artifact_lotus_4_tw.webp"
   },
   {
     "id": "artifact_curios_1_tw",
@@ -361,7 +427,9 @@
     "name": "草叢",
     "rarity": "良品",
     "description": "「停僮蔥翠」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -372,20 +440,31 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_greenery_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_1.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_30.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 1、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_30.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每升星5次喵將，俠士生命加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "俠士生命加成提升4.25%",
+      "placedCount": 2,
+      "placementLimit": 6
+    },
+    "image": "images/artifacts/artifact_greenery_2_tw.webp"
   },
   {
     "id": "artifact_greenery_3_tw",
@@ -423,7 +502,9 @@
     "name": "狗尾草叢",
     "rarity": "良品",
     "description": "「停僮蔥翠」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -434,27 +515,41 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_greenery_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_1.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_34.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 1、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_34.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "通天閣累計挑戰5次，武將生命加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將生命加成提升4.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_greenery_4_tw.webp"
   },
   {
     "id": "artifact_ice_1_tw",
     "name": "冷光燭",
     "rarity": "珍品",
     "description": "「冷光冰韻」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "增傷",
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -465,19 +560,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。 建築名稱依玩家已核對的台版名稱統一為「魚肆局」。",
     "setIds": [
       "artifact_set_ice_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_2.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_18.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_18.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在魚肆局生產12次，全喵將增傷率提升0.25%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將增傷率提升1.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_ice_1_tw.webp"
   },
   {
     "id": "artifact_ice_2_tw",
@@ -514,7 +620,9 @@
     "name": "雪貓",
     "rarity": "良品",
     "description": "「冷光冰韻」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -525,27 +633,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。 建築名稱依玩家已核對的台版名稱統一為「魚肆局」。",
     "setIds": [
       "artifact_set_ice_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_2.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_41.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_41.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每獲得1個玄品質的喵將，魚肆局生產效率提升3.85%",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "魚肆局生產效率提升3.85%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_ice_3_tw.webp"
   },
   {
     "id": "artifact_stone_1_tw",
     "name": "石墩",
     "rarity": "良品",
     "description": "「院石藏居」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "攻擊"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -556,27 +677,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_stone_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_2.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_33.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_33.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在通天閣挑戰勝利5次，文臣攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "文臣攻擊加成提升4.25%",
+      "placedCount": 5,
+      "placementLimit": 6
+    },
+    "image": "images/artifacts/artifact_stone_1_tw.webp"
   },
   {
     "id": "artifact_stone_2_tw",
     "name": "石臺",
     "rarity": "良品",
     "description": "「院石藏居」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "攻擊"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -587,27 +721,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_stone_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_2.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_39.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_39.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在四季幻域中挑戰勝利2次，武將攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將攻擊加成提升4.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_stone_2_tw.webp"
   },
   {
     "id": "artifact_stone_3_tw",
     "name": "石燈",
     "rarity": "良品",
     "description": "「院石藏居」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -618,27 +765,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_stone_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_2.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_38.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_38.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每1個喵將覺醒輪迴達到二輪迴，營造局生產效率提升1.1%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "營造局生產效率提升5.5%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_stone_3_tw.webp"
   },
   {
     "id": "artifact_stone_4_tw",
     "name": "水缸",
     "rarity": "良品",
     "description": "「院石藏居」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -649,27 +809,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_stone_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_2.jpg",
-      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+      "LINE_ALBUM_2026.10.1_261001_3.jpg",
+      "LINE_ALBUM_2026101_261001_40.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_40.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每獲取2000點繁榮度，墨客生命加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客生命加成提升4.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_stone_4_tw.webp"
   },
   {
     "id": "artifact_trees_1_tw",
     "name": "燈籠樹",
     "rarity": "良品",
     "description": "「碧樹逢生」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -680,26 +853,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_trees_tw"
     ],
     "screenshotFiles": [
-      "LINE_ALBUM_2026.10.1_261001_2.jpg"
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026101_261001_37.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_37.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每提升喵將的共用等級20級，木作司生產效率提升1.1%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "木作司生產效率提升5.5%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_trees_1_tw.webp"
   },
   {
     "id": "artifact_trees_2_tw",
     "name": "柳樹",
     "rarity": "良品",
     "description": "「碧樹逢生」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "速度"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -710,26 +896,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_trees_tw"
     ],
     "screenshotFiles": [
-      "LINE_ALBUM_2026.10.1_261001_2.jpg"
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026101_261001_32.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_32.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在司苑局農田累計種植30次，全喵將速度提升2",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將速度提升10",
+      "placedCount": 5,
+      "placementLimit": 6
+    },
+    "image": "images/artifacts/artifact_trees_2_tw.webp"
   },
   {
     "id": "artifact_trees_3_tw",
     "name": "松樹",
     "rarity": "良品",
     "description": "「碧樹逢生」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "經營值"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -740,26 +939,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_trees_tw"
     ],
     "screenshotFiles": [
-      "LINE_ALBUM_2026.10.1_261001_2.jpg"
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026101_261001_36.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 2 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_36.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "四季幻域每掃蕩3次，全喵將經營值提升6",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 3,
+      "totalEffect": "全喵將經營值提升18",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_trees_3_tw.webp"
   },
   {
     "id": "artifact_dance_1_tw",
     "name": "陶舞貓俑",
     "rarity": "珍品",
     "description": "「樂舞閒蹤」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "速度"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -770,19 +982,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_dance_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_4.jpg",
-      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+      "LINE_ALBUM_2026.10.1_261001_7.jpg",
+      "LINE_ALBUM_2026101_261001_28.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 4、7 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_28.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每獲取2000點宜居值，文臣速度提升5",
+    "effectiveLimit": 10,
+    "screenshotProgress": {
+      "effectiveCount": 10,
+      "totalEffect": "文臣速度提升50",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_dance_1_tw.webp"
   },
   {
     "id": "artifact_dance_2_tw",
@@ -819,7 +1042,9 @@
     "name": "陶對貓俑",
     "rarity": "珍品",
     "description": "「樂舞閒蹤」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "經營值"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -830,19 +1055,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_dance_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_4.jpg",
-      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+      "LINE_ALBUM_2026.10.1_261001_7.jpg",
+      "LINE_ALBUM_2026101_261001_29.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 4、7 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_29.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每成功完成4次六藝·碧實副本，武將經營值提升25",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "武將經營值提升25",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_dance_3_tw.webp"
   },
   {
     "id": "artifact_dance_4_tw",
@@ -879,7 +1115,9 @@
     "name": "魚形壺",
     "rarity": "珍品",
     "description": "「雅置藏珍」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "速度"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -890,19 +1128,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_vases_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_4.jpg",
-      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+      "LINE_ALBUM_2026.10.1_261001_18.jpg",
+      "LINE_ALBUM_2026101_261001_20.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 4、18 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_20.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每消耗10000個府邸物資，武將速度提升4",
+    "effectiveLimit": 10,
+    "screenshotProgress": {
+      "effectiveCount": 10,
+      "totalEffect": "武將速度提升40",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_vases_1_tw.webp"
   },
   {
     "id": "artifact_vases_2_tw",
@@ -939,7 +1188,9 @@
     "name": "方奩",
     "rarity": "珍品",
     "description": "「雅置藏珍」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "經營值"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -950,19 +1201,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_vases_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_4.jpg",
-      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+      "LINE_ALBUM_2026.10.1_261001_18.jpg",
+      "LINE_ALBUM_2026101_261001_16.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 4、18 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_16.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在同盟中幫助盟友加速1次，俠士經營值提升85",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "俠士經營值提升85",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_vases_3_tw.webp"
   },
   {
     "id": "artifact_water_1_tw",
@@ -1170,7 +1432,9 @@
     "name": "金嵌寶石盒",
     "rarity": "御品",
     "description": "「仙遊行樂」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1181,18 +1445,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_immortal_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_5.jpg",
-      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+      "LINE_ALBUM_2026.10.1_261001_8.jpg",
+      "LINE_ALBUM_2026101_261001_14.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 5、8 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_14.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "大",
+    "passiveEffect": "每獲得3個3花瓣的天（金）品質喵將，染香局生產效率提升10.7%",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "染香局生產效率提升10.7%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "image": "images/artifacts/artifact_immortal_2_tw.webp"
   },
   {
     "id": "artifact_immortal_3_tw",
@@ -1228,7 +1503,10 @@
     "name": "星星燈",
     "rarity": "珍品",
     "description": "「星月交輝」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "攻擊",
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1239,19 +1517,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_stars_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_6.jpg",
-      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+      "LINE_ALBUM_2026.10.1_261001_8.jpg",
+      "LINE_ALBUM_2026101_261001_26.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 6、8 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_26.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在御用局生產12次，文臣攻擊加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "文臣攻擊加成提升7.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_stars_1_tw.webp"
   },
   {
     "id": "artifact_stars_2_tw",
@@ -1288,7 +1577,9 @@
     "name": "圓月燈",
     "rarity": "珍品",
     "description": "「星月交輝」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1299,26 +1590,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_stars_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_6.jpg",
-      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+      "LINE_ALBUM_2026.10.1_261001_8.jpg",
+      "LINE_ALBUM_2026101_261001_24.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 6、8 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_24.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在鴻臚寺完成交易3次，墨客生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客生命加成提升7.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_stars_3_tw.webp"
   },
   {
     "id": "artifact_moon_1_tw",
     "name": "朧月",
     "rarity": "珍品",
     "description": "「月朧清輝」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1329,18 +1633,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_moon_tw"
     ],
     "screenshotFiles": [
-      "LINE_ALBUM_2026.10.1_261001_6.jpg"
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026101_261001_19.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 6 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_19.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每成功完成4次六藝·絲羽祕聞，俠士生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 4,
+      "totalEffect": "俠士生命加成提升5.8%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_moon_1_tw.webp"
   },
   {
     "id": "artifact_moon_2_tw",
@@ -1465,7 +1780,9 @@
     "name": "燈盞",
     "rarity": "良品",
     "description": "「朔寒冬暖」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "防禦"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1476,27 +1793,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_winter_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_6.jpg",
-      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+      "LINE_ALBUM_2026.10.1_261001_7.jpg",
+      "LINE_ALBUM_2026101_261001_42.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 6、7 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_42.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_15.jpg",
       "LINE_ALBUM_2026.10.1_261001_17.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每獲得6個良品（藍）以上的六藝，全喵將防禦加成提升0.5%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將防禦加成提升2.5%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_winter_3_tw.webp"
   },
   {
     "id": "artifact_bronze_toys_1_tw",
     "name": "鴞尊",
     "rarity": "珍品",
     "description": "「陶銅趣物」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "經營值"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1507,26 +1837,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_bronze_toys_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_7.jpg",
-      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026101_261001_17.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 7、16 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_17.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每消耗80個琉璃幣，文臣經營值提升25",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 2,
+      "totalEffect": "文臣經營值提升50",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_bronze_toys_1_tw.webp"
   },
   {
     "id": "artifact_bronze_toys_2_tw",
     "name": "塔盒",
     "rarity": "珍品",
     "description": "「陶銅趣物」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1537,19 +1880,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_bronze_toys_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_7.jpg",
-      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026101_261001_27.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 7、16 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_27.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在同盟中開始商貿2次，武將生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將生命加成提升7.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_bronze_toys_2_tw.webp"
   },
   {
     "id": "artifact_bronze_toys_3_tw",
@@ -1672,7 +2026,9 @@
     "name": "青銅神樹",
     "rarity": "御品",
     "description": "「古蜀銅儀」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1683,18 +2039,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_shu_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_9.jpg",
-      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+      "LINE_ALBUM_2026.10.1_261001_10.jpg",
+      "LINE_ALBUM_2026101_261001_5.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 9、10 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_5.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在皇陵探祕中打開銀寶箱2次，糕點局生產效率提升5%",
+    "effectiveLimit": 3,
+    "screenshotProgress": {
+      "effectiveCount": 0,
+      "totalEffect": "糕點局生產效率提升0%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_shu_1_tw.webp"
   },
   {
     "id": "artifact_shu_2_tw",
@@ -1874,7 +2241,10 @@
     "name": "雙兔耳簋",
     "rarity": "御品",
     "description": "「雪暖閒趣」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "速度",
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1885,26 +2255,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_snow_fun_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_10.jpg",
       "LINE_ALBUM_2026.10.1_261001_11.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_12.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 10、11、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_12.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每在針工局生產20次，帝王速度提升10",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "帝王速度提升50",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_snow_fun_2_tw.webp"
   },
   {
     "id": "artifact_snow_fun_3_tw",
     "name": "雪隅閒趣",
     "rarity": "御品",
     "description": "「雪暖閒趣」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -1915,19 +2298,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_snow_fun_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_10.jpg",
       "LINE_ALBUM_2026.10.1_261001_11.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_10.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 10、11、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_10.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "府邸貓飯中菜譜圖鑑每提高2級，酒醋麵局生產效率提升10.7%",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "酒醋麵局生產效率提升10.7%",
+      "placedCount": 1,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_snow_fun_3_tw.webp"
   },
   {
     "id": "artifact_generals_1_tw",
@@ -2078,7 +2472,9 @@
     "name": "小土豆堆",
     "rarity": "珍品",
     "description": "「瑞雪瓊年」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2089,19 +2485,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_snow_year_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_11.jpg",
-      "LINE_ALBUM_2026.10.1_261001_12.jpg"
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026101_261001_21.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 11、12 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_21.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "每獲得1個珍品品質的古寶，武將生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將生命加成提升7.25%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_snow_year_4_tw.webp"
   },
   {
     "id": "artifact_bronze_cats_1_tw",
@@ -2137,7 +2544,9 @@
     "name": "古銅對弈",
     "rarity": "御品",
     "description": "「銅喵雅趣」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "防禦"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2148,25 +2557,38 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_bronze_cats_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_11.jpg",
-      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026101_261001_6.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 11、16 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_6.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "每給好友送禮7次，帝王防禦加成提升2.4%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "帝王防禦加成提升12%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_bronze_cats_2_tw.webp"
   },
   {
     "id": "artifact_bronze_cats_3_tw",
     "name": "打邊爐",
     "rarity": "御品",
     "description": "「銅喵雅趣」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2177,18 +2599,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_bronze_cats_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_11.jpg",
-      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026101_261001_13.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 11、16 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_13.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "每在皇陵探祕中打開金寶箱3次，御膳房生產效率提升5%",
+    "effectiveLimit": 3,
+    "screenshotProgress": {
+      "effectiveCount": 0,
+      "totalEffect": "御膳房生產效率提升0%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_bronze_cats_3_tw.webp"
   },
   {
     "id": "artifact_flowers_1_tw",
@@ -2224,7 +2657,9 @@
     "name": "粉花叢",
     "rarity": "珍品",
     "description": "「花朝妍景」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2235,19 +2670,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_flowers_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_12.jpg",
-      "LINE_ALBUM_2026.10.1_261001_13.jpg"
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026101_261001_23.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 12、13 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_23.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "日常活躍中，每獲取50點活躍值，俠士生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "俠士生命加成提升7.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_flowers_2_tw.webp"
   },
   {
     "id": "artifact_flowers_3_tw",
@@ -2284,7 +2730,9 @@
     "name": "淡輝月影",
     "rarity": "御品",
     "description": "「嬋娟素影」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "防禦"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2295,18 +2743,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_moonlight_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_12.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_2.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 12、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_2.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "每1個喵將覺醒輪迴達到三輪迴，全喵將防禦加成提升1.3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "全喵將防禦加成提升1.3%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_moonlight_1_tw.webp"
   },
   {
     "id": "artifact_moonlight_2_tw",
@@ -2342,7 +2801,9 @@
     "name": "玉兔",
     "rarity": "御品",
     "description": "「嬋娟素影」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "減傷"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2353,18 +2814,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_moonlight_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_12.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_8.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 12、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_8.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "每提升喵將的共用等級40級，全喵將減傷率提升0.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將減傷率提升2.25%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_moonlight_3_tw.webp"
   },
   {
     "id": "artifact_moonlight_4_tw",
@@ -2488,7 +2960,10 @@
     "name": "黃金樹",
     "rarity": "御品",
     "description": "「一葉菩提」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生產效率",
+      "額外收益"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2499,19 +2974,30 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_bodhi_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_13.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_11.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 13、18、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_11.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "大",
+    "passiveEffect": "每在內務府完成40次訂單，木作司生產效率提升3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "木作司生產效率提升15%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "image": "images/artifacts/artifact_bodhi_1_tw.webp"
   },
   {
     "id": "artifact_bodhi_2_tw",
@@ -2549,7 +3035,9 @@
     "name": "銀杏樹",
     "rarity": "珍品",
     "description": "「一葉菩提」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "生命"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2560,27 +3048,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_bodhi_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_13.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_25.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 13、18、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_25.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "喵將卡池每抽20次，墨客生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客生命加成提升7.25%",
+      "placedCount": 3,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_bodhi_3_tw.webp"
   },
   {
     "id": "artifact_kites_1_tw",
     "name": "風箏園",
     "rarity": "御品",
     "description": "「風華盛極」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "增傷"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2591,26 +3092,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_kites_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_14.jpg",
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_1.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 14、16、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_1.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "每升級古寶35次，全喵將增傷率提升0.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將增傷率提升2.25%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_kites_1_tw.webp"
   },
   {
     "id": "artifact_kites_2_tw",
     "name": "橙色風箏",
     "rarity": "御品",
     "description": "「風華盛極」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "額外收益"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2621,26 +3135,39 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_kites_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_14.jpg",
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_7.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 14、16、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_7.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "大",
+    "passiveEffect": "每觀看5次廣告，內務府訂單收益提升5%",
+    "effectiveLimit": 3,
+    "screenshotProgress": {
+      "effectiveCount": 3,
+      "totalEffect": "內務府訂單收益提升15%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "image": "images/artifacts/artifact_kites_2_tw.webp"
   },
   {
     "id": "artifact_kites_3_tw",
     "name": "華蓋",
     "rarity": "珍品",
     "description": "「風華盛極」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "攻擊"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2651,27 +3178,40 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_kites_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_14.jpg",
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_15.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 14、16、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_15.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_16.jpg",
       "LINE_ALBUM_2026.10.1_261001_18.jpg"
-    ]
+    ],
+    "size": "小",
+    "passiveEffect": "每挑戰貓靈宮2次，文臣攻擊加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "文臣攻擊加成提升7.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "image": "images/artifacts/artifact_kites_3_tw.webp"
   },
   {
     "id": "artifact_lights_1_tw",
     "name": "貓燈",
     "rarity": "御品",
     "description": "「萬家輝夜」套裝成員。",
-    "effectTags": [],
+    "effectTags": [
+      "建造效率"
+    ],
     "effects": [],
     "acquisition": [],
     "heroIds": [],
@@ -2682,18 +3222,29 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "notes": "大小、被動效果與生效上限依古寶詳情截圖記錄；截圖進度為當時帳號狀態。",
     "setIds": [
       "artifact_set_lights_tw"
     ],
     "screenshotFiles": [
       "LINE_ALBUM_2026.10.1_261001_14.jpg",
-      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+      "LINE_ALBUM_2026.10.1_261001_19.jpg",
+      "LINE_ALBUM_2026101_261001_4.jpg"
     ],
-    "sourceDescription": "玩家提供的遊戲截圖（第 14、19 張），確認名稱與套裝關聯。",
+    "sourceDescription": "玩家提供的古寶詳情截圖：LINE_ALBUM_2026101_261001_4.jpg",
     "qualityEvidenceFiles": [
       "LINE_ALBUM_2026.10.1_261001_19.jpg"
-    ]
+    ],
+    "size": "中",
+    "passiveEffect": "每在貓靈宮中挑戰6次，全宮殿建造效率提升2%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全宮殿建造效率提升10%",
+      "placedCount": 1,
+      "placementLimit": 2
+    },
+    "image": "images/artifacts/artifact_lights_1_tw.webp"
   },
   {
     "id": "artifact_lights_3_tw",

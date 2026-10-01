@@ -158,3 +158,12 @@ test('upgrade calculator reports missing levels instead of returning a false zer
 test('external content is escaped and unsafe source URLs are rejected',()=>{
   assert.equal(escapeHTML('<img onerror="x">'),'&lt;img onerror=&quot;x&quot;&gt;');assert.equal(safeURL('javascript:alert(1)'),null);assert.equal(safeURL('https://example.com'),'https://example.com/');
 });
+
+test('artifact screenshot details separate fixed limits from account progress',()=>{
+ const details=real.artifacts.filter(a=>a.screenshotProgress);assert.equal(details.length,42);assert.ok(details.every(a=>a.size&&a.passiveEffect&&a.effectiveLimit>0&&a.image));
+ const bronze=details.find(a=>a.name==='青銅神樹');assert.equal(bronze.effectiveLimit,3);assert.equal(bronze.screenshotProgress.effectiveCount,0);assert.equal(bronze.rarity,'御品');
+ const vase=details.find(a=>a.name==='魚形壺');assert.equal(vase.effectiveLimit,10);assert.ok(searchDatabase(real,'府邸物資').some(r=>r.record.id===vase.id));
+ const broken=structuredClone(real);broken.artifacts.find(a=>a.name==='青銅神樹').screenshotProgress.effectiveCount=4;assert.ok(validateDatabase(broken).some(e=>e.includes('effective count exceeds limit')));
+ const size=structuredClone(real);size.artifacts.find(a=>a.name==='魚燈').size='巨大';assert.ok(validateDatabase(size).some(e=>e.includes('size')));
+ assert.ok(real.artifacts.filter(a=>!a.screenshotProgress).every(a=>!a.passiveEffect&&!a.effectiveLimit));
+});

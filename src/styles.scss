@@ -364,3 +364,20 @@ html.drawer-open { overflow: hidden; }
   .cuisine-tabs { gap: 5px; }
   .cuisine-tabs a { padding: 9px 6px; font-size: .85rem; }
 }
+
+
+// Ancient treasure cutouts and screenshot observations.
+.data-table .artifact-name-link {display:flex;align-items:center;gap:10px;min-width:170px;}
+.artifact-thumbnail {width:48px;height:48px;flex:0 0 48px;object-fit:contain;}
+.artifact-image-pending {display:grid;place-items:center;color:#aaa58f;background:#efeadc;border-radius:8px;}
+.artifact-overview {display:grid;grid-template-columns:minmax(180px,280px) 1fr;align-items:center;gap:24px;}
+.artifact-illustration {display:grid;place-items:center;background:radial-gradient(ellipse,#e6ead650,transparent 70%);min-height:200px;}
+.artifact-illustration img {display:block;width:100%;height:auto;max-height:320px;object-fit:contain;}
+.artifact-overview-body {min-width:0;}
+.artifact-overview-body h2 {margin:20px 0 8px;}
+.artifact-facts {display:flex;flex-wrap:wrap;gap:20px;margin:0 0 16px;}
+.artifact-facts div {min-width:60px;}
+.artifact-facts dt {font-size:.8rem;color:#78775f;}
+.artifact-facts dd {margin:3px 0 0;color:#35513d;font-size:1.08rem;}
+.artifact-progress>p {margin-bottom:14px;}
+@media(max-width:640px){.artifact-overview {grid-template-columns:1fr;gap:12px;}.artifact-illustration {min-height:160px;}.artifact-illustration img {max-width:240px;}.artifact-facts {gap:24px;}}

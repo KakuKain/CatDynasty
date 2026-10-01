@@ -1,0 +1,636 @@
+[
+  {
+    "number": 1,
+    "name": "風箏園",
+    "rarity": "御品",
+    "size": "中",
+    "passiveEffect": "每升級古寶35次，全喵將增傷率提升0.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將增傷率提升2.25%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_1.jpg"
+  },
+  {
+    "number": 2,
+    "name": "淡輝月影",
+    "rarity": "御品",
+    "size": "中",
+    "passiveEffect": "每1個喵將覺醒輪迴達到三輪迴，全喵將防禦加成提升1.3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "全喵將防禦加成提升1.3%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_2.jpg"
+  },
+  {
+    "number": 3,
+    "name": "魚燈",
+    "rarity": "御品",
+    "size": "大",
+    "passiveEffect": "太極殿每升級1次，烹魚局生產效率提升3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "烹魚局生產效率提升15%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "file": "LINE_ALBUM_2026101_261001_3.jpg"
+  },
+  {
+    "number": 4,
+    "name": "貓燈",
+    "rarity": "御品",
+    "size": "中",
+    "passiveEffect": "每在貓靈宮中挑戰6次，全宮殿建造效率提升2%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全宮殿建造效率提升10%",
+      "placedCount": 1,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_4.jpg"
+  },
+  {
+    "number": 5,
+    "name": "青銅神樹",
+    "rarity": "御品",
+    "size": "小",
+    "passiveEffect": "每在皇陵探祕中打開銀寶箱2次，糕點局生產效率提升5%",
+    "effectiveLimit": 3,
+    "screenshotProgress": {
+      "effectiveCount": 0,
+      "totalEffect": "糕點局生產效率提升0%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_5.jpg"
+  },
+  {
+    "number": 6,
+    "name": "古銅對弈",
+    "rarity": "御品",
+    "size": "中",
+    "passiveEffect": "每給好友送禮7次，帝王防禦加成提升2.4%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "帝王防禦加成提升12%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_6.jpg"
+  },
+  {
+    "number": 7,
+    "name": "橙色風箏",
+    "rarity": "御品",
+    "size": "大",
+    "passiveEffect": "每觀看5次廣告，內務府訂單收益提升5%",
+    "effectiveLimit": 3,
+    "screenshotProgress": {
+      "effectiveCount": 3,
+      "totalEffect": "內務府訂單收益提升15%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "file": "LINE_ALBUM_2026101_261001_7.jpg"
+  },
+  {
+    "number": 8,
+    "name": "玉兔",
+    "rarity": "御品",
+    "size": "中",
+    "passiveEffect": "每提升喵將的共用等級40級，全喵將減傷率提升0.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將減傷率提升2.25%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_8.jpg"
+  },
+  {
+    "number": 9,
+    "name": "阿瑪出巡記",
+    "rarity": "御品",
+    "size": "大",
+    "passiveEffect": "每在木作司生產20次，全喵將生命加成提升1.3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將生命加成提升6.5%",
+      "placedCount": 0,
+      "placementLimit": 1
+    },
+    "file": "LINE_ALBUM_2026101_261001_9.jpg"
+  },
+  {
+    "number": 10,
+    "name": "雪隅閒趣",
+    "rarity": "御品",
+    "size": "中",
+    "passiveEffect": "府邸貓飯中菜譜圖鑑每提高2級，酒醋麵局生產效率提升10.7%",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "酒醋麵局生產效率提升10.7%",
+      "placedCount": 1,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_10.jpg"
+  },
+  {
+    "number": 11,
+    "name": "黃金樹",
+    "rarity": "御品",
+    "size": "大",
+    "passiveEffect": "每在內務府完成40次訂單，木作司生產效率提升3%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "木作司生產效率提升15%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "file": "LINE_ALBUM_2026101_261001_11.jpg"
+  },
+  {
+    "number": 12,
+    "name": "雙兔耳簋",
+    "rarity": "御品",
+    "size": "小",
+    "passiveEffect": "每在針工局生產20次，帝王速度提升10",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "帝王速度提升50",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_12.jpg"
+  },
+  {
+    "number": 13,
+    "name": "打邊爐",
+    "rarity": "御品",
+    "size": "中",
+    "passiveEffect": "每在皇陵探祕中打開金寶箱3次，御膳房生產效率提升5%",
+    "effectiveLimit": 3,
+    "screenshotProgress": {
+      "effectiveCount": 0,
+      "totalEffect": "御膳房生產效率提升0%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_13.jpg"
+  },
+  {
+    "number": 14,
+    "name": "金嵌寶石盒",
+    "rarity": "御品",
+    "size": "大",
+    "passiveEffect": "每獲得3個3花瓣的天（金）品質喵將，染香局生產效率提升10.7%",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "染香局生產效率提升10.7%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "file": "LINE_ALBUM_2026101_261001_14.jpg"
+  },
+  {
+    "number": 15,
+    "name": "華蓋",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每挑戰貓靈宮2次，文臣攻擊加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "文臣攻擊加成提升7.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_15.jpg"
+  },
+  {
+    "number": 16,
+    "name": "方奩",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每在同盟中幫助盟友加速1次，俠士經營值提升85",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "俠士經營值提升85",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_16.jpg"
+  },
+  {
+    "number": 17,
+    "name": "鴞尊",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每消耗80個琉璃幣，文臣經營值提升25",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 2,
+      "totalEffect": "文臣經營值提升50",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_17.jpg"
+  },
+  {
+    "number": 18,
+    "name": "冷光燭",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每在魚肆局生產12次，全喵將增傷率提升0.25%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將增傷率提升1.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_18.jpg",
+    "originalPassiveEffect": "每在漁肆局生產12次，全喵將增傷率提升0.25%",
+    "normalization": "建築名稱依玩家核對統一為魚肆局"
+  },
+  {
+    "number": 19,
+    "name": "朧月",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每成功完成4次六藝·絲羽祕聞，俠士生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 4,
+      "totalEffect": "俠士生命加成提升5.8%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_19.jpg"
+  },
+  {
+    "number": 20,
+    "name": "魚形壺",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每消耗10000個府邸物資，武將速度提升4",
+    "effectiveLimit": 10,
+    "screenshotProgress": {
+      "effectiveCount": 10,
+      "totalEffect": "武將速度提升40",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_20.jpg"
+  },
+  {
+    "number": 21,
+    "name": "小土豆堆",
+    "rarity": "珍品",
+    "size": "中",
+    "passiveEffect": "每獲得1個珍品品質的古寶，武將生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將生命加成提升7.25%",
+      "placedCount": 2,
+      "placementLimit": 2
+    },
+    "file": "LINE_ALBUM_2026101_261001_21.jpg"
+  },
+  {
+    "number": 22,
+    "name": "蓮花燈",
+    "rarity": "珍品",
+    "size": "大",
+    "passiveEffect": "每在營造局生產12次，全喵將防禦加成提升0.8%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將防禦加成提升4%",
+      "placedCount": 1,
+      "placementLimit": 1
+    },
+    "file": "LINE_ALBUM_2026101_261001_22.jpg"
+  },
+  {
+    "number": 23,
+    "name": "粉花叢",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "日常活躍中，每獲取50點活躍值，俠士生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "俠士生命加成提升7.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_23.jpg"
+  },
+  {
+    "number": 24,
+    "name": "圓月燈",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每在鴻臚寺完成交易3次，墨客生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客生命加成提升7.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_24.jpg"
+  },
+  {
+    "number": 25,
+    "name": "銀杏樹",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "喵將卡池每抽20次，墨客生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客生命加成提升7.25%",
+      "placedCount": 3,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_25.jpg"
+  },
+  {
+    "number": 26,
+    "name": "星星燈",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每在御用局生產12次，文臣攻擊加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "文臣攻擊加成提升7.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_26.jpg"
+  },
+  {
+    "number": 27,
+    "name": "塔盒",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每在同盟中開始商貿2次，武將生命加成提升1.45%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將生命加成提升7.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_27.jpg"
+  },
+  {
+    "number": 28,
+    "name": "陶舞貓俑",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每獲取2000點宜居值，文臣速度提升5",
+    "effectiveLimit": 10,
+    "screenshotProgress": {
+      "effectiveCount": 10,
+      "totalEffect": "文臣速度提升50",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_28.jpg"
+  },
+  {
+    "number": 29,
+    "name": "陶對貓俑",
+    "rarity": "珍品",
+    "size": "小",
+    "passiveEffect": "每成功完成4次六藝·碧實副本，武將經營值提升25",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "武將經營值提升25",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_29.jpg"
+  },
+  {
+    "number": 30,
+    "name": "草叢",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每升星5次喵將，俠士生命加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "俠士生命加成提升4.25%",
+      "placedCount": 2,
+      "placementLimit": 6
+    },
+    "file": "LINE_ALBUM_2026101_261001_30.jpg"
+  },
+  {
+    "number": 31,
+    "name": "紫花壇",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每抽取古寶卡池10次，俠士攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "俠士攻擊加成提升4.25%",
+      "placedCount": 6,
+      "placementLimit": 6
+    },
+    "file": "LINE_ALBUM_2026101_261001_31.jpg"
+  },
+  {
+    "number": 32,
+    "name": "柳樹",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每在司苑局農田累計種植30次，全喵將速度提升2",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將速度提升10",
+      "placedCount": 5,
+      "placementLimit": 6
+    },
+    "file": "LINE_ALBUM_2026101_261001_32.jpg"
+  },
+  {
+    "number": 33,
+    "name": "石墩",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每在通天閣挑戰勝利5次，文臣攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "文臣攻擊加成提升4.25%",
+      "placedCount": 5,
+      "placementLimit": 6
+    },
+    "file": "LINE_ALBUM_2026101_261001_33.jpg"
+  },
+  {
+    "number": 34,
+    "name": "狗尾草叢",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "通天閣累計挑戰5次，武將生命加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將生命加成提升4.25%",
+      "placedCount": 0,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_34.jpg"
+  },
+  {
+    "number": 35,
+    "name": "紅花壇",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每完成3次探索副本·萬事坊事件，墨客攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客攻擊加成提升4.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_35.jpg"
+  },
+  {
+    "number": 36,
+    "name": "松樹",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "四季幻域每掃蕩3次，全喵將經營值提升6",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 3,
+      "totalEffect": "全喵將經營值提升18",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_36.jpg"
+  },
+  {
+    "number": 37,
+    "name": "燈籠樹",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每提升喵將的共用等級20級，木作司生產效率提升1.1%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "木作司生產效率提升5.5%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_37.jpg"
+  },
+  {
+    "number": 38,
+    "name": "石燈",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每1個喵將覺醒輪迴達到二輪迴，營造局生產效率提升1.1%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "營造局生產效率提升5.5%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_38.jpg"
+  },
+  {
+    "number": 39,
+    "name": "石臺",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每在四季幻域中挑戰勝利2次，武將攻擊加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "武將攻擊加成提升4.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_39.jpg"
+  },
+  {
+    "number": 40,
+    "name": "水缸",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每獲取2000點繁榮度，墨客生命加成提升0.85%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "墨客生命加成提升4.25%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_40.jpg"
+  },
+  {
+    "number": 41,
+    "name": "雪貓",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每獲得1個玄品質的喵將，魚肆局生產效率提升3.85%",
+    "effectiveLimit": 1,
+    "screenshotProgress": {
+      "effectiveCount": 1,
+      "totalEffect": "魚肆局生產效率提升3.85%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_41.jpg",
+    "originalPassiveEffect": "每獲得1個玄品質的喵將，漁肆局生產效率提升3.85%",
+    "normalization": "建築名稱依玩家核對統一為魚肆局"
+  },
+  {
+    "number": 42,
+    "name": "燈盞",
+    "rarity": "良品",
+    "size": "小",
+    "passiveEffect": "每獲得6個良品（藍）以上的六藝，全喵將防禦加成提升0.5%",
+    "effectiveLimit": 5,
+    "screenshotProgress": {
+      "effectiveCount": 5,
+      "totalEffect": "全喵將防禦加成提升2.5%",
+      "placedCount": 4,
+      "placementLimit": 4
+    },
+    "file": "LINE_ALBUM_2026101_261001_42.jpg"
+  }
+]

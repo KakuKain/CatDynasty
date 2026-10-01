@@ -1202,6 +1202,55 @@
             "type": "string"
           },
           "uniqueItems": true
+        },
+        "size": {
+          "enum": [
+            "小",
+            "中",
+            "大",
+            null
+          ]
+        },
+        "passiveEffect": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "effectiveLimit": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "screenshotProgress": {
+          "type": "object",
+          "properties": {
+            "effectiveCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "totalEffect": {
+              "type": "string",
+              "minLength": 1
+            },
+            "placedCount": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "placementLimit": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "required": [
+            "effectiveCount",
+            "totalEffect",
+            "placedCount",
+            "placementLimit"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
