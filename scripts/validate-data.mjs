@@ -43,6 +43,8 @@ export function validateDatabase(db,{demo=false}={}) {
   for(const b of db.buildings)for(const reward of b.rewardConditions||[])ref('heroes',reward.heroId,b.id);
   for(const s of db.stages){s.heroIds.forEach(id=>ref('heroes',id,s.id));s.teamIds.forEach(id=>ref('teams',id,s.id));(s.buildingIds||[]).forEach(id=>ref('buildings',id,s.id));(s.artifactIds||[]).forEach(id=>ref('artifacts',id,s.id));}
   for(const a of db.artifacts){a.heroIds.forEach(id=>ref('heroes',id,a.id));a.teamIds.forEach(id=>ref('teams',id,a.id));a.levels.forEach(id=>ref('artifact-levels',id,a.id));for(const effect of a.effects)ref('buildings',effect.buildingId,a.id);}
+  for(const artifact of db.artifacts)for(const setId of artifact.setIds){ref('artifact-sets',setId,artifact.id);const set=db['artifact-sets'].find(s=>s.id===setId);if(set&&!set.artifactIds.includes(artifact.id))errors.push(`${artifact.id}: reverse artifact set relation missing`);}
+  for(const set of db['artifact-sets']){for(const artifactId of set.artifactIds){ref('artifacts',artifactId,set.id);const artifact=db.artifacts.find(a=>a.id===artifactId);if(artifact&&!artifact.setIds.includes(set.id))errors.push(`${set.id}: reverse artifact relation missing`);}for(const bonus of set.bonuses)for(const effect of bonus.effects)ref('buildings',effect.buildingId,set.id);}
   for(const l of db['artifact-levels'])ref('artifacts',l.artifactId,l.id);
   for(const f of db.furniture){ref('furniture-sets',f.setId,f.id);f.buildingIds.forEach(id=>ref('buildings',id,f.id));if(f.setId&&!db['furniture-sets'].find(s=>s.id===f.setId)?.furnitureIds.includes(f.id))errors.push(`${f.id}: reverse furniture set relation missing`);}
   for(const s of db['furniture-sets'])s.furnitureIds.forEach(id=>ref('furniture',id,s.id));
@@ -51,5 +53,5 @@ export function validateDatabase(db,{demo=false}={}) {
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url)){
   let count=0;const errors=[];
   for(const folder of ['data','data/mock']){const db=readDatabase(folder);count+=collectionKeys.reduce((sum,key)=>sum+db[key].length,0);errors.push(...validateDatabase(db,{demo:folder.endsWith('mock')}).map(error=>`${folder}: ${error}`));}
-  if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`Validated ${count} records across 14 real and 14 demo collections; schemas and references passed.`);
+  if(errors.length){console.error(errors.join('\n'));process.exitCode=1;}else console.log(`Validated ${count} records across ${collectionKeys.length} real and ${collectionKeys.length} demo collections; schemas and references passed.`);
 }

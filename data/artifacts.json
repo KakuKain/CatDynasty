@@ -17,7 +17,7 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "品質已由玩家核對為御品；SouNova 的橙色稱呼保留為來源描述，不推導品質對照。效果與強化數值待補。",
+    "notes": "品質已由玩家核對為御品；SouNova 的橙色稱呼保留為來源描述，不推導品質對照。效果與強化數值待補。 品質依圖鑑分類與名稱色系對照記錄。",
     "confirmations": [
       {
         "fields": [
@@ -34,12 +34,23 @@
         "label": "Lota 攻略",
         "scope": "御品魚燈與七日簽到介紹"
       }
+    ],
+    "setIds": [
+      "artifact_set_lights_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 14、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
     ]
   },
   {
     "id": "artifact_ama_parade_tw",
     "name": "阿瑪出巡記",
-    "rarity": null,
+    "rarity": "御品",
     "description": "黃阿瑪聯動古寶，可用於主城裝飾。",
     "effectTags": [
       "主城裝飾"
@@ -56,12 +67,20 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "聯動主題不代表黃阿瑪的戰鬥推薦裝備；屬性效果尚未確認。"
+    "notes": "聯動主題不代表黃阿瑪的戰鬥推薦裝備；屬性效果尚未確認。 第 19 張圖鑑確認品質為御品；未顯示套裝關聯。 品質依圖鑑分類與名稱色系對照記錄。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的第 19 張遊戲圖鑑截圖，位於御品分類。",
+    "setIds": [],
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
   },
   {
     "id": "artifact_bells_tw",
     "name": "編鐘樂隊",
-    "rarity": null,
+    "rarity": "御品",
     "description": "Lota 記載此古寶與喵將外觀收藏、鐘鼓司效率相關。",
     "effectTags": [
       "生產效率",
@@ -86,6 +105,2654 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "效果條件為社群參考，增幅、疊加上限與取得方式待遊戲內核對。"
+    "notes": "效果條件為社群參考，增幅、疊加上限與取得方式待遊戲內核對。 遊戲截圖另確認「威儀禮樂」套裝；套裝生命加成與先前社群描述的鐘鼓司效果分開記錄。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_ceremony_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 9 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_lotus_1_tw",
+    "name": "蓮花壇",
+    "rarity": "珍品",
+    "description": "「妙法蓮華」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_lotus_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、4 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_lotus_2_tw",
+    "name": "蓮花燈",
+    "rarity": "珍品",
+    "description": "「妙法蓮華」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_lotus_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、4 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_lotus_3_tw",
+    "name": "紅花壇",
+    "rarity": "良品",
+    "description": "「妙法蓮華」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_lotus_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、4 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_lotus_4_tw",
+    "name": "紫花壇",
+    "rarity": "良品",
+    "description": "「妙法蓮華」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_lotus_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、4 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_curios_1_tw",
+    "name": "金花瓶",
+    "rarity": "珍品",
+    "description": "「珍萃奇巧」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_curios_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_curios_2_tw",
+    "name": "青花瓷",
+    "rarity": "珍品",
+    "description": "「珍萃奇巧」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_curios_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_curios_3_tw",
+    "name": "金鼎",
+    "rarity": "珍品",
+    "description": "「珍萃奇巧」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_curios_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_greenery_1_tw",
+    "name": "貓樹",
+    "rarity": "珍品",
+    "description": "「停僮蔥翠」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_greenery_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_greenery_2_tw",
+    "name": "草叢",
+    "rarity": "良品",
+    "description": "「停僮蔥翠」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_greenery_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_greenery_3_tw",
+    "name": "草坪",
+    "rarity": "良品",
+    "description": "「停僮蔥翠」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_greenery_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_greenery_4_tw",
+    "name": "狗尾草叢",
+    "rarity": "良品",
+    "description": "「停僮蔥翠」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_greenery_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 1、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_ice_1_tw",
+    "name": "冷光燭",
+    "rarity": "珍品",
+    "description": "「冷光冰韻」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_ice_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_ice_2_tw",
+    "name": "冰泉",
+    "rarity": "珍品",
+    "description": "「冷光冰韻」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_ice_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_ice_3_tw",
+    "name": "雪貓",
+    "rarity": "良品",
+    "description": "「冷光冰韻」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_ice_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_stone_1_tw",
+    "name": "石墩",
+    "rarity": "良品",
+    "description": "「院石藏居」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_stone_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_stone_2_tw",
+    "name": "石臺",
+    "rarity": "良品",
+    "description": "「院石藏居」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_stone_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_stone_3_tw",
+    "name": "石燈",
+    "rarity": "良品",
+    "description": "「院石藏居」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_stone_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_stone_4_tw",
+    "name": "水缸",
+    "rarity": "良品",
+    "description": "「院石藏居」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_stone_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2、3 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_trees_1_tw",
+    "name": "燈籠樹",
+    "rarity": "良品",
+    "description": "「碧樹逢生」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_trees_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_trees_2_tw",
+    "name": "柳樹",
+    "rarity": "良品",
+    "description": "「碧樹逢生」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_trees_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_trees_3_tw",
+    "name": "松樹",
+    "rarity": "良品",
+    "description": "「碧樹逢生」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_trees_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 2 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_dance_1_tw",
+    "name": "陶舞貓俑",
+    "rarity": "珍品",
+    "description": "「樂舞閒蹤」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_dance_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 4、7 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_dance_2_tw",
+    "name": "悠閒小貓",
+    "rarity": "珍品",
+    "description": "「樂舞閒蹤」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_dance_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 4、7 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_dance_3_tw",
+    "name": "陶對貓俑",
+    "rarity": "珍品",
+    "description": "「樂舞閒蹤」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_dance_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 4、7 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_dance_4_tw",
+    "name": "陶羊圈",
+    "rarity": "珍品",
+    "description": "「樂舞閒蹤」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_dance_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 4、7 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_vases_1_tw",
+    "name": "魚形壺",
+    "rarity": "珍品",
+    "description": "「雅置藏珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_vases_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 4、18 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_vases_2_tw",
+    "name": "插花",
+    "rarity": "珍品",
+    "description": "「雅置藏珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_vases_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 4、18 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_vases_3_tw",
+    "name": "方奩",
+    "rarity": "珍品",
+    "description": "「雅置藏珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_vases_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 4、18 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_water_1_tw",
+    "name": "獸形匜",
+    "rarity": "御品",
+    "description": "「水韻古珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_water_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5、9 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_water_2_tw",
+    "name": "小貓乘槎杯",
+    "rarity": "御品",
+    "description": "「水韻古珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_water_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5、9 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_water_3_tw",
+    "name": "小鴨池",
+    "rarity": "御品",
+    "description": "「水韻古珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_water_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5、9 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_water_4_tw",
+    "name": "蓮鶴方壺",
+    "rarity": "御品",
+    "description": "「水韻古珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_water_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5、9 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_inlaid_1_tw",
+    "name": "錯金博山爐",
+    "rarity": "御品",
+    "description": "「錯金雙珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_inlaid_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_inlaid_2_tw",
+    "name": "錯金銀貓",
+    "rarity": "御品",
+    "description": "「錯金雙珍」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_inlaid_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_immortal_1_tw",
+    "name": "遊行花車",
+    "rarity": "御品",
+    "description": "「仙遊行樂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_immortal_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5、8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_immortal_2_tw",
+    "name": "金嵌寶石盒",
+    "rarity": "御品",
+    "description": "「仙遊行樂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_immortal_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5、8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_immortal_3_tw",
+    "name": "旋轉小茶杯",
+    "rarity": "御品",
+    "description": "「仙遊行樂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_immortal_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 5、8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_stars_1_tw",
+    "name": "星星燈",
+    "rarity": "珍品",
+    "description": "「星月交輝」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_stars_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6、8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_stars_2_tw",
+    "name": "半月燈",
+    "rarity": "珍品",
+    "description": "「星月交輝」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_stars_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6、8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_stars_3_tw",
+    "name": "圓月燈",
+    "rarity": "珍品",
+    "description": "「星月交輝」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_stars_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6、8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_moon_1_tw",
+    "name": "朧月",
+    "rarity": "珍品",
+    "description": "「月朧清輝」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_moon_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_moon_2_tw",
+    "name": "弦月",
+    "rarity": "珍品",
+    "description": "「月朧清輝」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_moon_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_moon_3_tw",
+    "name": "素月",
+    "rarity": "珍品",
+    "description": "「月朧清輝」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_moon_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_winter_1_tw",
+    "name": "冬暖",
+    "rarity": "珍品",
+    "description": "「朔寒冬暖」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_winter_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6、7 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_winter_2_tw",
+    "name": "冬日銅鍋",
+    "rarity": "珍品",
+    "description": "「朔寒冬暖」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_winter_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6、7 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_winter_3_tw",
+    "name": "燈盞",
+    "rarity": "良品",
+    "description": "「朔寒冬暖」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_winter_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 6、7 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_15.jpg",
+      "LINE_ALBUM_2026.10.1_261001_17.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bronze_toys_1_tw",
+    "name": "鴞尊",
+    "rarity": "珍品",
+    "description": "「陶銅趣物」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bronze_toys_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_7.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 7、16 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bronze_toys_2_tw",
+    "name": "塔盒",
+    "rarity": "珍品",
+    "description": "「陶銅趣物」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bronze_toys_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_7.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 7、16 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bronze_toys_3_tw",
+    "name": "銅鳥",
+    "rarity": "珍品",
+    "description": "「陶銅趣物」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bronze_toys_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_7.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 7、16 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_temple_1_tw",
+    "name": "神廟樹",
+    "rarity": "御品",
+    "description": "「靈廟藏寂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_temple_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_temple_2_tw",
+    "name": "鼓",
+    "rarity": "珍品",
+    "description": "「靈廟藏寂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_temple_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_temple_3_tw",
+    "name": "通天柱",
+    "rarity": "珍品",
+    "description": "「靈廟藏寂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_temple_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 8 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_shu_1_tw",
+    "name": "青銅神樹",
+    "rarity": "御品",
+    "description": "「古蜀銅儀」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_shu_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg",
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 9、10 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_shu_2_tw",
+    "name": "青銅鳥足",
+    "rarity": "御品",
+    "description": "「古蜀銅儀」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_shu_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg",
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 9、10 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_shu_3_tw",
+    "name": "青銅神壇",
+    "rarity": "御品",
+    "description": "「古蜀銅儀」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_shu_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg",
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 9、10 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_shu_4_tw",
+    "name": "銅龍虎尊",
+    "rarity": "御品",
+    "description": "「古蜀銅儀」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_shu_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg",
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 9、10 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_ceremony_2_tw",
+    "name": "太平象",
+    "rarity": "御品",
+    "description": "「威儀禮樂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_ceremony_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 9 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_ceremony_3_tw",
+    "name": "獄淵劍威",
+    "rarity": "御品",
+    "description": "「威儀禮樂」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_ceremony_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 9 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_snow_fun_1_tw",
+    "name": "貓貓溫奶茶",
+    "rarity": "御品",
+    "description": "「雪暖閒趣」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_snow_fun_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_10.jpg",
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 10、11、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_snow_fun_2_tw",
+    "name": "雙兔耳簋",
+    "rarity": "御品",
+    "description": "「雪暖閒趣」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_snow_fun_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_10.jpg",
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 10、11、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_snow_fun_3_tw",
+    "name": "雪隅閒趣",
+    "rarity": "御品",
+    "description": "「雪暖閒趣」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_snow_fun_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_10.jpg",
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 10、11、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_generals_1_tw",
+    "name": "婦好將軍",
+    "rarity": "御品",
+    "description": "「名將銅塑」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_generals_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 10 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_generals_2_tw",
+    "name": "霍去病將軍",
+    "rarity": "御品",
+    "description": "「名將銅塑」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_generals_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 10 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_snow_year_1_tw",
+    "name": "瑞雪豐年",
+    "rarity": "御品",
+    "description": "「瑞雪瓊年」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_snow_year_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_12.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 11、12 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_snow_year_2_tw",
+    "name": "雪梅",
+    "rarity": "御品",
+    "description": "「瑞雪瓊年」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_snow_year_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_12.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 11、12 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_snow_year_3_tw",
+    "name": "雪獅子",
+    "rarity": "珍品",
+    "description": "「瑞雪瓊年」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_snow_year_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_12.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 11、12 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_snow_year_4_tw",
+    "name": "小土豆堆",
+    "rarity": "珍品",
+    "description": "「瑞雪瓊年」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_snow_year_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_12.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 11、12 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bronze_cats_1_tw",
+    "name": "銅喵食魚",
+    "rarity": "御品",
+    "description": "「銅喵雅趣」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bronze_cats_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 11、16 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bronze_cats_2_tw",
+    "name": "古銅對弈",
+    "rarity": "御品",
+    "description": "「銅喵雅趣」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bronze_cats_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 11、16 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bronze_cats_3_tw",
+    "name": "打邊爐",
+    "rarity": "御品",
+    "description": "「銅喵雅趣」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bronze_cats_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 11、16 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_flowers_1_tw",
+    "name": "紫藤花園",
+    "rarity": "御品",
+    "description": "「花朝妍景」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_flowers_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_13.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 12、13 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_flowers_2_tw",
+    "name": "粉花叢",
+    "rarity": "珍品",
+    "description": "「花朝妍景」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_flowers_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_13.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 12、13 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_flowers_3_tw",
+    "name": "黃花叢",
+    "rarity": "珍品",
+    "description": "「花朝妍景」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_flowers_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_13.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 12、13 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_moonlight_1_tw",
+    "name": "淡輝月影",
+    "rarity": "御品",
+    "description": "「嬋娟素影」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_moonlight_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 12、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_moonlight_2_tw",
+    "name": "月畔雙影",
+    "rarity": "御品",
+    "description": "「嬋娟素影」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_moonlight_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 12、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_moonlight_3_tw",
+    "name": "玉兔",
+    "rarity": "御品",
+    "description": "「嬋娟素影」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_moonlight_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 12、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_moonlight_4_tw",
+    "name": "月亭瑞景",
+    "rarity": "御品",
+    "description": "「嬋娟素影」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_moonlight_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 12、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_spring_1_tw",
+    "name": "白玉象池",
+    "rarity": "御品",
+    "description": "「飲泉清節」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_spring_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_14.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 13、14 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_spring_2_tw",
+    "name": "噴泉",
+    "rarity": "御品",
+    "description": "「飲泉清節」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_spring_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_14.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 13、14 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_spring_3_tw",
+    "name": "白玉獅子",
+    "rarity": "珍品",
+    "description": "「飲泉清節」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_spring_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_14.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 13、14 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bodhi_1_tw",
+    "name": "黃金樹",
+    "rarity": "御品",
+    "description": "「一葉菩提」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bodhi_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 13、18、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bodhi_2_tw",
+    "name": "桃花樹",
+    "rarity": "珍品",
+    "description": "「一葉菩提」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bodhi_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 13、18、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_bodhi_3_tw",
+    "name": "銀杏樹",
+    "rarity": "珍品",
+    "description": "「一葉菩提」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_bodhi_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 13、18、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_kites_1_tw",
+    "name": "風箏園",
+    "rarity": "御品",
+    "description": "「風華盛極」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_kites_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 14、16、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_kites_2_tw",
+    "name": "橙色風箏",
+    "rarity": "御品",
+    "description": "「風華盛極」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_kites_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 14、16、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_kites_3_tw",
+    "name": "華蓋",
+    "rarity": "珍品",
+    "description": "「風華盛極」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_kites_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 14、16、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_lights_1_tw",
+    "name": "貓燈",
+    "rarity": "御品",
+    "description": "「萬家輝夜」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_lights_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 14、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ]
+  },
+  {
+    "id": "artifact_lights_3_tw",
+    "name": "長信宮燈",
+    "rarity": "珍品",
+    "description": "「萬家輝夜」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_lights_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 14、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
+  },
+  {
+    "id": "artifact_lights_4_tw",
+    "name": "宮廷石燈",
+    "rarity": "珍品",
+    "description": "「萬家輝夜」套裝成員。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "截圖確認名稱、品質色系與套裝關聯；個別基礎效果、取得方式與強化材料未顯示。 品質依圖鑑分類與名稱色系對照記錄。",
+    "setIds": [
+      "artifact_set_lights_tw"
+    ],
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "sourceDescription": "玩家提供的遊戲截圖（第 14、19 張），確認名稱與套裝關聯。",
+    "qualityEvidenceFiles": [
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ]
   }
 ]

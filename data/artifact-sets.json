@@ -1,0 +1,2246 @@
+[
+  {
+    "id": "artifact_set_lotus_tw",
+    "name": "妙法蓮華",
+    "artifactIds": [
+      "artifact_lotus_1_tw",
+      "artifact_lotus_2_tw",
+      "artifact_lotus_3_tw",
+      "artifact_lotus_4_tw"
+    ],
+    "effectTags": [
+      "防禦"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升1.2%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 1.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升3.6%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 3.6,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升7.2%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 7.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 1、4 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_4.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_curios_tw",
+    "name": "珍萃奇巧",
+    "artifactIds": [
+      "artifact_curios_1_tw",
+      "artifact_curios_2_tw",
+      "artifact_curios_3_tw"
+    ],
+    "effectTags": [
+      "生命"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將生命加成提升1.5%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 1.5,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將生命加成提升4.5%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 4.5,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將生命加成提升9%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 9,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "生命加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 1 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_greenery_tw",
+    "name": "停僮蔥翠",
+    "artifactIds": [
+      "artifact_greenery_1_tw",
+      "artifact_greenery_2_tw",
+      "artifact_greenery_3_tw",
+      "artifact_greenery_4_tw"
+    ],
+    "effectTags": [
+      "防禦"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升1.2%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 1.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升3.6%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 3.6,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升7.2%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 7.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 1、3 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_1.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。",
+    "confirmations": [
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "使用者核對套裝名稱為「停僮蔥翠」。"
+      }
+    ]
+  },
+  {
+    "id": "artifact_set_ice_tw",
+    "name": "冷光冰韻",
+    "artifactIds": [
+      "artifact_ice_1_tw",
+      "artifact_ice_2_tw",
+      "artifact_ice_3_tw"
+    ],
+    "effectTags": [
+      "攻擊"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升1.2%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 1.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升3.6%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 3.6,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升7.2%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 7.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 2、3 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_stone_tw",
+    "name": "院石藏居",
+    "artifactIds": [
+      "artifact_stone_1_tw",
+      "artifact_stone_2_tw",
+      "artifact_stone_3_tw",
+      "artifact_stone_4_tw"
+    ],
+    "effectTags": [
+      "防禦"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升1%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 1,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升3%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 3,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升6%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 6,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 2、3 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg",
+      "LINE_ALBUM_2026.10.1_261001_3.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_trees_tw",
+    "name": "碧樹逢生",
+    "artifactIds": [
+      "artifact_trees_1_tw",
+      "artifact_trees_2_tw",
+      "artifact_trees_3_tw"
+    ],
+    "effectTags": [
+      "經營值"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將經營值提升15",
+        "effectTags": [
+          "經營值"
+        ],
+        "effects": [
+          {
+            "type": "management",
+            "value": 15,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "經營值"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將經營值提升45",
+        "effectTags": [
+          "經營值"
+        ],
+        "effects": [
+          {
+            "type": "management",
+            "value": 45,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "經營值"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將經營值提升90",
+        "effectTags": [
+          "經營值"
+        ],
+        "effects": [
+          {
+            "type": "management",
+            "value": 90,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "經營值"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 2 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_2.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_dance_tw",
+    "name": "樂舞閒蹤",
+    "artifactIds": [
+      "artifact_dance_1_tw",
+      "artifact_dance_2_tw",
+      "artifact_dance_3_tw",
+      "artifact_dance_4_tw"
+    ],
+    "effectTags": [
+      "生命"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "輔助",
+        "description": "輔助生命加成提升2%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 2,
+            "unit": "percent",
+            "target": "輔助",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "輔助",
+        "description": "輔助生命加成提升6%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 6,
+            "unit": "percent",
+            "target": "輔助",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "輔助",
+        "description": "輔助生命加成提升12%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 12,
+            "unit": "percent",
+            "target": "輔助",
+            "stat": "生命加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 4、7 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_vases_tw",
+    "name": "雅置藏珍",
+    "artifactIds": [
+      "artifact_vases_1_tw",
+      "artifact_vases_2_tw",
+      "artifact_vases_3_tw"
+    ],
+    "effectTags": [
+      "防禦"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "肉盾",
+        "description": "肉盾防禦加成提升2%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 2,
+            "unit": "percent",
+            "target": "肉盾",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "肉盾",
+        "description": "肉盾防禦加成提升6%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 6,
+            "unit": "percent",
+            "target": "肉盾",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "肉盾",
+        "description": "肉盾防禦加成提升12%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 12,
+            "unit": "percent",
+            "target": "肉盾",
+            "stat": "防禦加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 4、18 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_4.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_water_tw",
+    "name": "水韻古珍",
+    "artifactIds": [
+      "artifact_water_1_tw",
+      "artifact_water_2_tw",
+      "artifact_water_3_tw",
+      "artifact_water_4_tw"
+    ],
+    "effectTags": [
+      "減傷"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將減傷率提升2.2%",
+        "effectTags": [
+          "減傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_reduction",
+            "value": 2.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "減傷率"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將減傷率提升6.6%",
+        "effectTags": [
+          "減傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_reduction",
+            "value": 6.6,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "減傷率"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將減傷率提升13.2%",
+        "effectTags": [
+          "減傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_reduction",
+            "value": 13.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "減傷率"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 5、9 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_inlaid_tw",
+    "name": "錯金雙珍",
+    "artifactIds": [
+      "artifact_inlaid_1_tw",
+      "artifact_inlaid_2_tw"
+    ],
+    "effectTags": [
+      "生命"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "武將",
+        "description": "武將生命加成提升5%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 5,
+            "unit": "percent",
+            "target": "武將",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "武將",
+        "description": "武將生命加成提升15%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 15,
+            "unit": "percent",
+            "target": "武將",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "武將",
+        "description": "武將生命加成提升30%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 30,
+            "unit": "percent",
+            "target": "武將",
+            "stat": "生命加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 5 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_immortal_tw",
+    "name": "仙遊行樂",
+    "artifactIds": [
+      "artifact_immortal_1_tw",
+      "artifact_immortal_2_tw",
+      "artifact_immortal_3_tw"
+    ],
+    "effectTags": [
+      "攻擊"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升3%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 3,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升9%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 9,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升18%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 18,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 5、8 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_5.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_stars_tw",
+    "name": "星月交輝",
+    "artifactIds": [
+      "artifact_stars_1_tw",
+      "artifact_stars_2_tw",
+      "artifact_stars_3_tw"
+    ],
+    "effectTags": [
+      "經營值"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將經營值提升25",
+        "effectTags": [
+          "經營值"
+        ],
+        "effects": [
+          {
+            "type": "management",
+            "value": 25,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "經營值"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將經營值提升75",
+        "effectTags": [
+          "經營值"
+        ],
+        "effects": [
+          {
+            "type": "management",
+            "value": 75,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "經營值"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將經營值提升150",
+        "effectTags": [
+          "經營值"
+        ],
+        "effects": [
+          {
+            "type": "management",
+            "value": 150,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "經營值"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 6、8 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_moon_tw",
+    "name": "月朧清輝",
+    "artifactIds": [
+      "artifact_moon_1_tw",
+      "artifact_moon_2_tw",
+      "artifact_moon_3_tw"
+    ],
+    "effectTags": [
+      "攻擊"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "輸出",
+        "description": "輸出攻擊加成提升2%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 2,
+            "unit": "percent",
+            "target": "輸出",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "輸出",
+        "description": "輸出攻擊加成提升6%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 6,
+            "unit": "percent",
+            "target": "輸出",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "輸出",
+        "description": "輸出攻擊加成提升12%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 12,
+            "unit": "percent",
+            "target": "輸出",
+            "stat": "攻擊加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 6 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_winter_tw",
+    "name": "朔寒冬暖",
+    "artifactIds": [
+      "artifact_winter_1_tw",
+      "artifact_winter_2_tw",
+      "artifact_winter_3_tw"
+    ],
+    "effectTags": [
+      "防禦"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升1.2%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 1.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升3.6%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 3.6,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將防禦加成提升7.2%",
+        "effectTags": [
+          "防禦"
+        ],
+        "effects": [
+          {
+            "type": "defense_bonus",
+            "value": 7.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "防禦加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 6、7 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_6.jpg",
+      "LINE_ALBUM_2026.10.1_261001_7.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_bronze_toys_tw",
+    "name": "陶銅趣物",
+    "artifactIds": [
+      "artifact_bronze_toys_1_tw",
+      "artifact_bronze_toys_2_tw",
+      "artifact_bronze_toys_3_tw"
+    ],
+    "effectTags": [
+      "攻擊"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "帝王",
+        "description": "帝王攻擊加成提升2.5%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 2.5,
+            "unit": "percent",
+            "target": "帝王",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "帝王",
+        "description": "帝王攻擊加成提升7.5%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 7.5,
+            "unit": "percent",
+            "target": "帝王",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "帝王",
+        "description": "帝王攻擊加成提升15%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 15,
+            "unit": "percent",
+            "target": "帝王",
+            "stat": "攻擊加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 7、16 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_7.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_temple_tw",
+    "name": "靈廟藏寂",
+    "artifactIds": [
+      "artifact_temple_1_tw",
+      "artifact_temple_2_tw",
+      "artifact_temple_3_tw"
+    ],
+    "effectTags": [
+      "速度"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將速度提升15",
+        "effectTags": [
+          "速度"
+        ],
+        "effects": [
+          {
+            "type": "speed",
+            "value": 15,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "速度"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將速度提升45",
+        "effectTags": [
+          "速度"
+        ],
+        "effects": [
+          {
+            "type": "speed",
+            "value": 45,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "速度"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將速度提升90",
+        "effectTags": [
+          "速度"
+        ],
+        "effects": [
+          {
+            "type": "speed",
+            "value": 90,
+            "unit": "flat",
+            "target": "全喵將",
+            "stat": "速度"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 8 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_8.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_shu_tw",
+    "name": "古蜀銅儀",
+    "artifactIds": [
+      "artifact_shu_1_tw",
+      "artifact_shu_2_tw",
+      "artifact_shu_3_tw",
+      "artifact_shu_4_tw"
+    ],
+    "effectTags": [
+      "增傷"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將增傷率提升2.2%",
+        "effectTags": [
+          "增傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_bonus",
+            "value": 2.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "增傷率"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將增傷率提升6.6%",
+        "effectTags": [
+          "增傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_bonus",
+            "value": 6.6,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "增傷率"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將增傷率提升13.2%",
+        "effectTags": [
+          "增傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_bonus",
+            "value": 13.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "增傷率"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 9、10 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg",
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_ceremony_tw",
+    "name": "威儀禮樂",
+    "artifactIds": [
+      "artifact_bells_tw",
+      "artifact_ceremony_2_tw",
+      "artifact_ceremony_3_tw"
+    ],
+    "effectTags": [
+      "生命"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "帝王",
+        "description": "帝王生命加成提升5%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 5,
+            "unit": "percent",
+            "target": "帝王",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "帝王",
+        "description": "帝王生命加成提升15%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 15,
+            "unit": "percent",
+            "target": "帝王",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "帝王",
+        "description": "帝王生命加成提升30%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 30,
+            "unit": "percent",
+            "target": "帝王",
+            "stat": "生命加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 9 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_9.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_snow_fun_tw",
+    "name": "雪暖閒趣",
+    "artifactIds": [
+      "artifact_snow_fun_1_tw",
+      "artifact_snow_fun_2_tw",
+      "artifact_snow_fun_3_tw"
+    ],
+    "effectTags": [
+      "生命"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "墨客",
+        "description": "墨客生命加成提升5%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 5,
+            "unit": "percent",
+            "target": "墨客",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "墨客",
+        "description": "墨客生命加成提升15%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 15,
+            "unit": "percent",
+            "target": "墨客",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "墨客",
+        "description": "墨客生命加成提升30%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 30,
+            "unit": "percent",
+            "target": "墨客",
+            "stat": "生命加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 10、11、19 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_10.jpg",
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_generals_tw",
+    "name": "名將銅塑",
+    "artifactIds": [
+      "artifact_generals_1_tw",
+      "artifact_generals_2_tw"
+    ],
+    "effectTags": [
+      "生命"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "文臣",
+        "description": "文臣生命加成提升5%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 5,
+            "unit": "percent",
+            "target": "文臣",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "文臣",
+        "description": "文臣生命加成提升15%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 15,
+            "unit": "percent",
+            "target": "文臣",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "文臣",
+        "description": "文臣生命加成提升30%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 30,
+            "unit": "percent",
+            "target": "文臣",
+            "stat": "生命加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 10 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_10.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_snow_year_tw",
+    "name": "瑞雪瓊年",
+    "artifactIds": [
+      "artifact_snow_year_1_tw",
+      "artifact_snow_year_2_tw",
+      "artifact_snow_year_3_tw",
+      "artifact_snow_year_4_tw"
+    ],
+    "effectTags": [
+      "攻擊"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升2.4%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 2.4,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升7.2%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 7.2,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將攻擊加成提升14.4%",
+        "effectTags": [
+          "攻擊"
+        ],
+        "effects": [
+          {
+            "type": "attack_bonus",
+            "value": 14.4,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "攻擊加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 11、12 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_12.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_bronze_cats_tw",
+    "name": "銅喵雅趣",
+    "artifactIds": [
+      "artifact_bronze_cats_1_tw",
+      "artifact_bronze_cats_2_tw",
+      "artifact_bronze_cats_3_tw"
+    ],
+    "effectTags": [
+      "生命"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "俠士",
+        "description": "俠士生命加成提升5%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 5,
+            "unit": "percent",
+            "target": "俠士",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "俠士",
+        "description": "俠士生命加成提升15%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 15,
+            "unit": "percent",
+            "target": "俠士",
+            "stat": "生命加成"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "俠士",
+        "description": "俠士生命加成提升30%",
+        "effectTags": [
+          "生命"
+        ],
+        "effects": [
+          {
+            "type": "health_bonus",
+            "value": 30,
+            "unit": "percent",
+            "target": "俠士",
+            "stat": "生命加成"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 11、16 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_11.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_flowers_tw",
+    "name": "花朝妍景",
+    "artifactIds": [
+      "artifact_flowers_1_tw",
+      "artifact_flowers_2_tw",
+      "artifact_flowers_3_tw"
+    ],
+    "effectTags": [
+      "額外收益"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "木作司",
+        "description": "木作司額外收益提升3%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 3,
+            "unit": "percent",
+            "target": "木作司",
+            "stat": "額外收益",
+            "buildingId": "building_wood_tw"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "木作司",
+        "description": "木作司額外收益提升10%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 10,
+            "unit": "percent",
+            "target": "木作司",
+            "stat": "額外收益",
+            "buildingId": "building_wood_tw"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "木作司",
+        "description": "木作司額外收益提升20%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 20,
+            "unit": "percent",
+            "target": "木作司",
+            "stat": "額外收益",
+            "buildingId": "building_wood_tw"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 12、13 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_13.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_moonlight_tw",
+    "name": "嬋娟素影",
+    "artifactIds": [
+      "artifact_moonlight_1_tw",
+      "artifact_moonlight_2_tw",
+      "artifact_moonlight_3_tw",
+      "artifact_moonlight_4_tw"
+    ],
+    "effectTags": [
+      "治療"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將治療提升1.5%",
+        "effectTags": [
+          "治療"
+        ],
+        "effects": [
+          {
+            "type": "healing",
+            "value": 1.5,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "治療"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將治療提升4.5%",
+        "effectTags": [
+          "治療"
+        ],
+        "effects": [
+          {
+            "type": "healing",
+            "value": 4.5,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "治療"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將治療提升9%",
+        "effectTags": [
+          "治療"
+        ],
+        "effects": [
+          {
+            "type": "healing",
+            "value": 9,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "治療"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 12、19 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_12.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_spring_tw",
+    "name": "飲泉清節",
+    "artifactIds": [
+      "artifact_spring_1_tw",
+      "artifact_spring_2_tw",
+      "artifact_spring_3_tw"
+    ],
+    "effectTags": [
+      "減傷"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將減傷率提升1.8%",
+        "effectTags": [
+          "減傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_reduction",
+            "value": 1.8,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "減傷率"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將減傷率提升5.4%",
+        "effectTags": [
+          "減傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_reduction",
+            "value": 5.4,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "減傷率"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將減傷率提升10.8%",
+        "effectTags": [
+          "減傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_reduction",
+            "value": 10.8,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "減傷率"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 13、14 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_14.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_bodhi_tw",
+    "name": "一葉菩提",
+    "artifactIds": [
+      "artifact_bodhi_1_tw",
+      "artifact_bodhi_2_tw",
+      "artifact_bodhi_3_tw"
+    ],
+    "effectTags": [
+      "額外收益"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "魚肆局",
+        "description": "魚肆局額外收益提升3%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 3,
+            "unit": "percent",
+            "target": "魚肆局",
+            "stat": "額外收益",
+            "buildingId": "building_fishery_tw"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "魚肆局",
+        "description": "魚肆局額外收益提升10%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 10,
+            "unit": "percent",
+            "target": "魚肆局",
+            "stat": "額外收益",
+            "buildingId": "building_fishery_tw"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "魚肆局",
+        "description": "魚肆局額外收益提升20%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 20,
+            "unit": "percent",
+            "target": "魚肆局",
+            "stat": "額外收益",
+            "buildingId": "building_fishery_tw"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 13、18、19 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_13.jpg",
+      "LINE_ALBUM_2026.10.1_261001_18.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。",
+    "confirmations": [
+      {
+        "fields": [
+          "bonuses.target"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "使用者核對「一葉菩提」加成的建築為魚肆局。"
+      }
+    ]
+  },
+  {
+    "id": "artifact_set_kites_tw",
+    "name": "風華盛極",
+    "artifactIds": [
+      "artifact_kites_1_tw",
+      "artifact_kites_2_tw",
+      "artifact_kites_3_tw"
+    ],
+    "effectTags": [
+      "增傷"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "全喵將",
+        "description": "全喵將增傷率提升1.8%",
+        "effectTags": [
+          "增傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_bonus",
+            "value": 1.8,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "增傷率"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "全喵將",
+        "description": "全喵將增傷率提升5.4%",
+        "effectTags": [
+          "增傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_bonus",
+            "value": 5.4,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "增傷率"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "全喵將",
+        "description": "全喵將增傷率提升10.8%",
+        "effectTags": [
+          "增傷"
+        ],
+        "effects": [
+          {
+            "type": "damage_bonus",
+            "value": 10.8,
+            "unit": "percent",
+            "target": "全喵將",
+            "stat": "增傷率"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 14、16、19 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_16.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  },
+  {
+    "id": "artifact_set_lights_tw",
+    "name": "萬家輝夜",
+    "artifactIds": [
+      "artifact_lights_1_tw",
+      "artifact_fish_lantern_tw",
+      "artifact_lights_3_tw",
+      "artifact_lights_4_tw"
+    ],
+    "effectTags": [
+      "額外收益"
+    ],
+    "bonuses": [
+      {
+        "label": "套裝",
+        "stars": null,
+        "target": "營造局",
+        "description": "營造局額外收益提升3%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 3,
+            "unit": "percent",
+            "target": "營造局",
+            "stat": "額外收益",
+            "buildingId": "building_construction_tw"
+          }
+        ]
+      },
+      {
+        "label": "9 星套裝",
+        "stars": 9,
+        "target": "營造局",
+        "description": "營造局額外收益提升10%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 10,
+            "unit": "percent",
+            "target": "營造局",
+            "stat": "額外收益",
+            "buildingId": "building_construction_tw"
+          }
+        ]
+      },
+      {
+        "label": "18 星套裝",
+        "stars": 18,
+        "target": "營造局",
+        "description": "營造局額外收益提升20%",
+        "effectTags": [
+          "額外收益"
+        ],
+        "effects": [
+          {
+            "type": "extra_income",
+            "value": 20,
+            "unit": "percent",
+            "target": "營造局",
+            "stat": "額外收益",
+            "buildingId": "building_construction_tw"
+          }
+        ]
+      }
+    ],
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "玩家提供的遊戲套裝截圖（第 14、19 張）。",
+    "screenshotFiles": [
+      "LINE_ALBUM_2026.10.1_261001_14.jpg",
+      "LINE_ALBUM_2026.10.1_261001_19.jpg"
+    ],
+    "notes": "按畫面記錄「套裝／9 星套裝／18 星套裝」三階效果；未推定星數分配方式或將三階數值累加。"
+  }
+]

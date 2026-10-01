@@ -228,3 +228,8 @@ html.drawer-open { overflow: hidden; }
   .drawer-content .two-columns, .drawer-content .hero-detail-layout { grid-template-columns: 1fr; }
   .drawer-content .portrait-panel { max-width: 300px; width: 100%; margin: 0 auto; }
 }
+.data-table.compact-table {
+  min-width: 0;
+  th:first-child { position: static; min-width: 95px; }
+  th, td { white-space: normal; }
+}

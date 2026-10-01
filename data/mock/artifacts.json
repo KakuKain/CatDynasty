@@ -32,6 +32,7 @@
     "verified": false,
     "gameVersion": "mock",
     "checkedAt": null,
-    "notes": "僅供網站功能示範，非遊戲資料。"
+    "notes": "僅供網站功能示範，非遊戲資料。",
+    "setIds": []
   }
 ]

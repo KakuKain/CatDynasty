@@ -4,6 +4,21 @@ import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
 import {filterHeroes,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
 
 const real=readDatabase();const demo=readDatabase('data/mock');
+test('screenshot artifact sets retain three distinct tiers and reciprocal members',()=>{
+  assert.equal(real['artifact-sets'].length,28);assert.equal(real.artifacts.length,92);
+  for(const set of real['artifact-sets']){assert.deepEqual(set.bonuses.map(b=>b.stars),[null,9,18]);assert.ok(set.screenshotFiles.length);assert.ok(set.artifactIds.every(id=>real.artifacts.find(a=>a.id===id)?.setIds.includes(set.id)));}
+  const water=real['artifact-sets'].find(s=>s.name==='水韻古珍');assert.deepEqual(water.bonuses.map(b=>b.effects[0].value),[2.2,6.6,13.2]);assert.ok(water.bonuses.every(b=>b.effects[0].unit==='percent'));
+  const trees=real['artifact-sets'].find(s=>s.name==='碧樹逢生');assert.deepEqual(trees.bonuses.map(b=>b.effects[0].value),[15,45,90]);assert.ok(trees.bonuses.every(b=>b.effects[0].unit==='flat'));
+  assert.equal(real.artifacts.find(a=>a.name==='魚燈').setIds[0],'artifact_set_lights_tw');assert.equal(real.artifacts.find(a=>a.name==='阿瑪出巡記').rarity,'御品');
+  assert.ok(real.artifacts.filter(a=>a.sourceType==='observation').every(a=>a.effects.length===0));
+  assert.ok(searchDatabase(real,'減傷').some(r=>r.key==='artifacts'&&r.record.name==='獸形匜'));
+  const setId=water.id;assert.deepEqual(detailTargetFromHash(real,`#/artifact-sets/${setId}`),{key:'artifact-sets',id:setId});
+});
+test('artifact set validation rejects broken reverse relations and preserves confirmed fishery target',()=>{
+  const broken=structuredClone(real);broken.artifacts.find(a=>a.name==='魚燈').setIds=[];assert.ok(validateDatabase(broken).some(e=>e.includes('reverse artifact relation missing')));
+  const missing=structuredClone(real);missing['artifact-sets'][0].artifactIds.push('missing');assert.ok(validateDatabase(missing).some(e=>e.includes('missing artifacts')));
+  const bodhi=real['artifact-sets'].find(s=>s.name==='一葉菩提');assert.ok(bodhi.bonuses.every(b=>b.target==='魚肆局'&&b.effects[0].buildingId==='building_fishery_tw'));assert.equal(real.buildings.find(b=>b.id==='building_fishery_tw').name,'魚肆局');
+});
 test('player recipe list preserves all 36 formulas, corrected name and unknown quantities',()=>{
   assert.equal(real.recipes.length,36);
   assert.deepEqual(real.recipes.map(r=>r.catalogueNumber),Array.from({length:36},(_,i)=>i+1));

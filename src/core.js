@@ -1,4 +1,4 @@
-export const collectionKeys = ['heroes','skills','skill-effects','buildings','building-levels','recipes','ingredients','artifacts','artifact-levels','furniture','furniture-sets','redeem-codes','stages','teams'];
+export const collectionKeys = ['heroes','skills','skill-effects','buildings','building-levels','recipes','ingredients','artifacts','artifact-levels','artifact-sets','furniture','furniture-sets','redeem-codes','stages','teams'];
 export const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 export const safeURL = value => {
   try { const url = new URL(value); return ['http:','https:'].includes(url.protocol) ? url.href : null; } catch { return null; }
@@ -8,7 +8,7 @@ export const findById = (db,key,id) => (db[key] || []).find(item => item.id === 
 export function detailTargetFromHash(db,hash) {
   if(typeof hash!=='string'||!hash.startsWith('#/'))return null;
   const aliases={guides:'stages',codes:'redeem-codes'};
-  const allowed=['heroes','skills','skill-effects','buildings','recipes','ingredients','artifacts','furniture','furniture-sets','teams','stages','redeem-codes'];
+  const allowed=['heroes','skills','skill-effects','buildings','recipes','ingredients','artifacts','artifact-sets','furniture','furniture-sets','teams','stages','redeem-codes'];
   try {
     const url=new URL(hash.slice(1),'https://wiki.local');
     const parts=url.pathname.split('/').filter(Boolean);
@@ -24,7 +24,7 @@ export const effectIdsForHero = (db,hero) => [...new Set(hero.skills.flatMap(id 
 export const effectsForTeam = (db,heroIds) => [...new Set(heroIds.flatMap(id => {const hero=findById(db,'heroes',id);return hero ? effectIdsForHero(db,hero):[];}))];
 export function searchDatabase(db, query) {
   const q=normalize(query); if(!q)return [];
-  const searchable=['heroes','skills','skill-effects','buildings','recipes','ingredients','artifacts','furniture','furniture-sets','redeem-codes','stages','teams'];
+  const searchable=['heroes','skills','skill-effects','buildings','recipes','ingredients','artifacts','artifact-sets','furniture','furniture-sets','redeem-codes','stages','teams'];
   return searchable.flatMap(key=>(db[key]||[]).map(record=>{
     const related=[];
     if(key==='heroes'){
@@ -33,7 +33,8 @@ export function searchDatabase(db, query) {
     if(key==='buildings')related.push(...heroesForBuilding(db,record.id),...record.production.map(id=>findById(db,'ingredients',id)));
     if(key==='recipes')related.push(findById(db,'buildings',record.buildingId),...record.ingredients.map(i=>findById(db,'ingredients',i.ingredientId)),...record.ingredients.flatMap(i=>findById(db,'ingredients',i.ingredientId)?.obtainedFrom.map(id=>findById(db,'buildings',id))||[]));
     if(key==='ingredients')related.push(...recipesForIngredient(db,record.id),...record.obtainedFrom.map(id=>findById(db,'buildings',id)));
-    if(key==='artifacts')related.push(...(record.heroIds||[]).map(id=>findById(db,'heroes',id)),...(record.teamIds||[]).map(id=>findById(db,'teams',id)),...(record.effectTags||[]));
+    if(key==='artifacts')related.push(...(record.heroIds||[]).map(id=>findById(db,'heroes',id)),...(record.teamIds||[]).map(id=>findById(db,'teams',id)),...(record.setIds||[]).map(id=>findById(db,'artifact-sets',id)),...(record.effectTags||[]));
+    if(key==='artifact-sets')related.push(...record.artifactIds.map(id=>findById(db,'artifacts',id)));
     if(key==='furniture')related.push(findById(db,'furniture-sets',record.setId),...(record.buildingIds||[]).map(id=>findById(db,'buildings',id)));
     if(key==='teams')related.push(...record.heroIds.map(id=>findById(db,'heroes',id)));
     if(key==='stages')related.push(...(record.heroIds||[]).map(id=>findById(db,'heroes',id)));

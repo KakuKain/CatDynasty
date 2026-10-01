@@ -270,7 +270,7 @@
   },
   {
     "id": "building_fishery_tw",
-    "name": "漁建局",
+    "name": "魚肆局",
     "type": null,
     "description": "台版官網「喵宮百景」收錄建築。",
     "unlock": {
@@ -285,9 +285,19 @@
     "verified": true,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。 玩家核對名稱為魚肆局。",
     "verifiedFields": [
       "name"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "使用者核對建築名稱為「魚肆局」，更正原先誤讀的「漁建局」。"
+      }
     ]
   },
   {

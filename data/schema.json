@@ -1189,6 +1189,13 @@
           "items": {
             "$ref": "#/$defs/playerConfirmation"
           }
+        },
+        "setIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
         }
       },
       "required": [
@@ -1205,7 +1212,8 @@
         "acquisition",
         "heroIds",
         "teamIds",
-        "levels"
+        "levels",
+        "setIds"
       ],
       "additionalProperties": true
     },
@@ -1857,6 +1865,154 @@
         "description"
       ],
       "additionalProperties": false
+    },
+    "artifact-sets": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string"
+        },
+        "sourceType": {
+          "enum": [
+            "official",
+            "player",
+            "community",
+            "observation",
+            "unknown"
+          ]
+        },
+        "verified": {
+          "type": "boolean"
+        },
+        "gameVersion": {
+          "enum": [
+            "tw",
+            "cn",
+            "unknown",
+            "mock"
+          ]
+        },
+        "checkedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "bonuses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "stars": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "target": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "effectTags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "effects": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "unit": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "value"
+                  ],
+                  "additionalProperties": true
+                }
+              }
+            },
+            "required": [
+              "label",
+              "stars",
+              "target",
+              "description",
+              "effectTags",
+              "effects"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
+        },
+        "artifactIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "effectTags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "sourceType",
+        "verified",
+        "gameVersion",
+        "name",
+        "artifactIds",
+        "bonuses"
+      ],
+      "additionalProperties": true
     }
   }
 }
