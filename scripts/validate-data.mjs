@@ -25,7 +25,7 @@ export function validateDatabase(db,{demo=false}={}) {
       if(!demo&&r.gameVersion==='mock')errors.push(`${key}/${r.id}: demo record in real data`);
       if(r.verified&&r.gameVersion!=='mock'&&(!r.source||r.sourceType==='unknown'))errors.push(`${key}/${r.id}: verified without a source`);
       if(r.source&&!/^https?:\/\//.test(r.source))errors.push(`${key}/${r.id}: invalid source URL`);
-      if(r.image&&(!/^[a-z0-9/_\-.]+$/i.test(r.image)||r.image.includes('..')||!existsSync(resolve(root,'public',r.image))))errors.push(`${key}/${r.id}: invalid or missinglocal image`);
+      if(r.image&&(!/^[a-z0-9/_\-.]+$/i.test(r.image)||r.image.includes('..')||!existsSync(resolve(root,'public',r.image))))errors.push(`${key}/${r.id}: invalid or missing local image`);
       for(const field of ['checkedAt','startDate','endDate','lastTestedAt'])if(r[field]&&!/^\d{4}-\d{2}-\d{2}$/.test(r[field]))errors.push(`${key}/${r.id}: invalid date ${field}`);
     }
   }
