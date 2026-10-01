@@ -12,15 +12,15 @@ test('catalogue multi-select combines choices while preserving ingredient search
   params.delete('cuisine');assert.equal(filterRecords(real,'recipes',params).length,60);
   assert.equal(filterRecords(real,'recipes',new URLSearchParams('cuisine=川&cuisine=粵&type=不存在')).length,0);
 });
-test('artifact multi-select intersects set membership with inherited effects',()=>{
+test('artifact multi-select intersects set membership with passive and inherited effects',()=>{
   const sets=real['artifact-sets'].slice(0,2),effect=sets[0].effectTags[0];
   const params=new URLSearchParams(sets.map(s=>['set',s.id]));params.append('effect',effect);
-  const expected=real.artifacts.filter(r=>r.setIds.some(id=>sets.some(s=>s.id===id))&&r.setIds.some(id=>real['artifact-sets'].find(s=>s.id===id).effectTags.includes(effect)));
-  assert.ok(expected.length>0);assert.deepEqual(filterRecords(real,'artifacts',params).map(r=>r.id),expected.map(r=>r.id));
-  params.append('effect','不會出現的效果');assert.deepEqual(filterRecords(real,'artifacts',params).map(r=>r.id),expected.map(r=>r.id));
+  const expected=['artifact_lotus_1_tw','artifact_lotus_2_tw','artifact_lotus_3_tw','artifact_lotus_4_tw','artifact_curios_2_tw','artifact_curios_3_tw'];
+  assert.deepEqual(filterRecords(real,'artifacts',params).map(r=>r.id),expected);
+  params.append('effect','不會出現的效果');assert.deepEqual(filterRecords(real,'artifacts',params).map(r=>r.id),expected);
 });
 test('screenshot artifact sets retain three distinct tiers and reciprocal members',()=>{
-  assert.equal(real['artifact-sets'].length,28);assert.equal(real.artifacts.length,92);
+  assert.equal(real['artifact-sets'].length,28);assert.equal(real.artifacts.length,94);
   for(const set of real['artifact-sets']){assert.deepEqual(set.bonuses.map(b=>b.stars),[null,9,18]);assert.ok(set.screenshotFiles.length);assert.ok(set.artifactIds.every(id=>real.artifacts.find(a=>a.id===id)?.setIds.includes(set.id)));}
   const water=real['artifact-sets'].find(s=>s.name==='水韻古珍');assert.deepEqual(water.bonuses.map(b=>b.effects[0].value),[2.2,6.6,13.2]);assert.ok(water.bonuses.every(b=>b.effects[0].unit==='percent'));
   const trees=real['artifact-sets'].find(s=>s.name==='碧樹逢生');assert.deepEqual(trees.bonuses.map(b=>b.effects[0].value),[15,45,90]);assert.ok(trees.bonuses.every(b=>b.effects[0].unit==='flat'));
@@ -160,10 +160,19 @@ test('external content is escaped and unsafe source URLs are rejected',()=>{
 });
 
 test('artifact screenshot details separate fixed limits from account progress',()=>{
- const details=real.artifacts.filter(a=>a.screenshotProgress);assert.equal(details.length,42);assert.ok(details.every(a=>a.size&&a.passiveEffect&&a.effectiveLimit>0&&a.image));
+ const details=real.artifacts.filter(a=>a.screenshotProgress);assert.equal(details.length,94);assert.ok(details.every(a=>a.size&&a.passiveEffect&&a.effectiveLimit>0&&a.image));
  const bronze=details.find(a=>a.name==='青銅神樹');assert.equal(bronze.effectiveLimit,3);assert.equal(bronze.screenshotProgress.effectiveCount,0);assert.equal(bronze.rarity,'御品');
  const vase=details.find(a=>a.name==='魚形壺');assert.equal(vase.effectiveLimit,10);assert.ok(searchDatabase(real,'府邸物資').some(r=>r.record.id===vase.id));
  const broken=structuredClone(real);broken.artifacts.find(a=>a.name==='青銅神樹').screenshotProgress.effectiveCount=4;assert.ok(validateDatabase(broken).some(e=>e.includes('effective count exceeds limit')));
  const size=structuredClone(real);size.artifacts.find(a=>a.name==='魚燈').size='巨大';assert.ok(validateDatabase(size).some(e=>e.includes('size')));
  assert.ok(real.artifacts.filter(a=>!a.screenshotProgress).every(a=>!a.passiveEffect&&!a.effectiveLimit));
+});
+
+test('new artifact catalogue previews retain their full-star context and screenshot values',()=>{
+ const previews=real.artifacts.filter(a=>a.screenshotProgress?.context==='max-star-preview');assert.equal(previews.length,52);
+ const box=previews.find(a=>a.name==='紙箱派對');assert.equal(box.effectiveLimit,25);assert.equal(box.size,'中');assert.equal(box.screenshotProgress.effectiveCount,0);assert.deepEqual(box.setIds,[]);
+ const bells=previews.find(a=>a.name==='編鐘樂隊');assert.equal(bells.effectiveLimit,7);assert.ok(bells.passiveEffect.includes('10.7%'));assert.equal(bells.setIds[0],'artifact_set_ceremony_tw');
+ const grass=previews.find(a=>a.name==='草坪');assert.equal(grass.rarity,'良品');assert.ok(grass.passiveEffect.includes('0.85%'));
+ const fish=real.artifacts.find(a=>a.name==='魚燈');assert.notEqual(fish.screenshotProgress.context,'max-star-preview');assert.equal(fish.effectiveLimit,5);
+ const invalid=structuredClone(real);invalid.artifacts.find(a=>a.id===box.id).screenshotProgress.context='guessed';assert.ok(validateDatabase(invalid).some(e=>e.includes('context')));
 });

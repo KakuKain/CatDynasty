@@ -1242,6 +1242,12 @@
             "placementLimit": {
               "type": "integer",
               "minimum": 1
+            },
+            "context": {
+              "enum": [
+                "account",
+                "max-star-preview"
+              ]
             }
           },
           "required": [
