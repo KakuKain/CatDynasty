@@ -1,1 +1,183 @@
-[]
+[
+  {
+    "id": "guide_start_tw",
+    "name": "新手發展順序",
+    "type": "系統",
+    "description": "先完成主線，再依進度分配資源。",
+    "sections": [
+      {
+        "heading": "重點",
+        "items": [
+          "主線 → 太極殿 → 生產建築 → 累積資源 → 養成。",
+          "派遣時核對喵將的建築能力；遇到戰鬥瓶頸再調整招募與隊伍。"
+        ]
+      }
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "buildingIds": [
+      "building_taiji_tw",
+      "building_construction_tw",
+      "building_kitchen_tw",
+      "building_vinegar_tw",
+      "building_pastry_tw"
+    ],
+    "artifactIds": [],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+  },
+  {
+    "id": "guide_growth_tw",
+    "name": "喵將養成與探索",
+    "type": "系統",
+    "description": "養成與戰鬥的基本入口。",
+    "sections": [
+      {
+        "heading": "重點",
+        "items": [
+          "養成包含六藝、覺醒、古寶及御靈。",
+          "探祕結合劇情與副本；幻域樓爬塔可取得祈願燈。"
+        ]
+      }
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "buildingIds": [],
+    "artifactIds": [],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "幻域樓與其他來源的通天閣稱呼是否指同一系統，尚未核對；不直接合併。"
+  },
+  {
+    "id": "guide_home_tw",
+    "name": "古寶與家具布置",
+    "type": "系統",
+    "description": "主城收藏與府邸裝飾。",
+    "sections": [
+      {
+        "heading": "重點",
+        "items": [
+          "古寶可用於收藏與城市布置；家具用於府邸。",
+          "攻略提及黃阿瑪聯動家具祈願，但未列個別家具屬性或套裝。"
+        ]
+      }
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "buildingIds": [],
+    "artifactIds": [
+      "artifact_ama_parade_tw"
+    ],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "台版媒體／社群參考；未公開數值保留未知。"
+  },
+  {
+    "id": "guide_launch_tw",
+    "name": "開服簽到與活動",
+    "type": "活動",
+    "description": "依各伺服器／帳號活動頁確認開放時間。",
+    "sections": [
+      {
+        "heading": "重點",
+        "items": [
+          "七日簽到含沈萬三、魚燈；魚燈品質為御品，已由玩家核對。",
+          "開服狂歡以任務積分換獎勵；皇城週記首期落在開服第 4–7 天。"
+        ]
+      }
+    ],
+    "heroIds": [
+      "hero_shen_tw"
+    ],
+    "teamIds": [],
+    "buildingIds": [],
+    "artifactIds": [
+      "artifact_fish_lantern_tw"
+    ],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "開服日數不等於固定日曆日期；獎勵門檻以所屬伺服器活動頁為準。"
+  },
+  {
+    "id": "guide_ama_tw",
+    "name": "黃阿瑪聯動與領取",
+    "type": "活動",
+    "description": "太極殿 Lv.5 可領黃阿瑪，已由玩家核對。",
+    "sections": [
+      {
+        "heading": "重點",
+        "items": [
+          "專屬祈願、活躍通行證：來源標示截至 2026-10-20 23:59。",
+          "通行證介紹含花朝公子造型及罐罐瑪車御靈；條件以活動頁為準。"
+        ]
+      }
+    ],
+    "heroIds": [
+      "hero_huangama"
+    ],
+    "teamIds": [],
+    "buildingIds": [
+      "building_taiji_tw"
+    ],
+    "artifactIds": [
+      "artifact_ama_parade_tw"
+    ],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "期限為 2026-09-16 媒體報導記載，尚未於遊戲內核對；家具祈願未提供期限，不套用此日期。",
+    "endDate": "2026-10-20",
+    "endAt": "2026-10-20T23:59:00+08:00",
+    "confirmations": [
+      {
+        "fields": [
+          "description"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "黃阿瑪需太極殿達 Lv.5 才能領取。"
+      }
+    ]
+  },
+  {
+    "id": "guide_codes_tw",
+    "name": "兌換碼使用與有效性",
+    "type": "系統",
+    "description": "先核對代碼、期限，再依遊戲提示領取。",
+    "sections": [
+      {
+        "heading": "重點",
+        "items": [
+          "Lota 列出的代碼尚未實測；複製成功不代表兌換成功。",
+          "來源未提供精確兌換入口與獎勵數量；請在遊戲內尋找兌換功能。",
+          "已失效、尚未開始與示範代碼不提供複製。"
+        ]
+      }
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "buildingIds": [],
+    "artifactIds": [],
+    "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "遊戲內成功／失敗結果才能更新實測紀錄。"
+  }
+]

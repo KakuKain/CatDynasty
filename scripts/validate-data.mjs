@@ -25,6 +25,8 @@ export function validateDatabase(db,{demo=false}={}) {
       if(!demo&&r.gameVersion==='mock')errors.push(`${key}/${r.id}: demo record in real data`);
       if(r.verified&&r.gameVersion!=='mock'&&(!r.source||r.sourceType==='unknown'))errors.push(`${key}/${r.id}: verified without a source`);
       if(r.source&&!/^https?:\/\//.test(r.source))errors.push(`${key}/${r.id}: invalid source URL`);
+      for(const source of r.sources||[])if(!/^https?:\/\//.test(source.url))errors.push(`${key}/${r.id}: invalid supplementary source URL`);
+      for(const confirmation of r.confirmations||[])if(!/^\d{4}-\d{2}-\d{2}$/.test(confirmation.checkedAt))errors.push(`${key}/${r.id}: invalid confirmation date`);
       if(r.image&&(!/^[a-z0-9/_\-.]+$/i.test(r.image)||r.image.includes('..')||!existsSync(resolve(root,'public',r.image))))errors.push(`${key}/${r.id}: invalid or missing local image`);
       for(const field of ['checkedAt','startDate','endDate','lastTestedAt'])if(r[field]&&!/^\d{4}-\d{2}-\d{2}$/.test(r[field]))errors.push(`${key}/${r.id}: invalid date ${field}`);
     }
@@ -37,8 +39,9 @@ export function validateDatabase(db,{demo=false}={}) {
   for(const r of db.recipes){ref('buildings',r.buildingId,r.id);r.ingredients.forEach(i=>ref('ingredients',i.ingredientId,r.id));}
   for(const i of db.ingredients)i.obtainedFrom.forEach(id=>ref('buildings',id,i.id));
   for(const t of db.teams){t.heroIds.forEach(id=>ref('heroes',id,t.id));if(new Set(t.heroIds).size!==t.heroIds.length||t.heroIds.length>5)errors.push(`${t.id}: invalid team members`);}
-  for(const s of db.stages){s.heroIds.forEach(id=>ref('heroes',id,s.id));s.teamIds.forEach(id=>ref('teams',id,s.id));}
-  for(const a of db.artifacts){a.heroIds.forEach(id=>ref('heroes',id,a.id));a.teamIds.forEach(id=>ref('teams',id,a.id));a.levels.forEach(id=>ref('artifact-levels',id,a.id));}
+  for(const b of db.buildings)for(const reward of b.rewardConditions||[])ref('heroes',reward.heroId,b.id);
+  for(const s of db.stages){s.heroIds.forEach(id=>ref('heroes',id,s.id));s.teamIds.forEach(id=>ref('teams',id,s.id));(s.buildingIds||[]).forEach(id=>ref('buildings',id,s.id));(s.artifactIds||[]).forEach(id=>ref('artifacts',id,s.id));}
+  for(const a of db.artifacts){a.heroIds.forEach(id=>ref('heroes',id,a.id));a.teamIds.forEach(id=>ref('teams',id,a.id));a.levels.forEach(id=>ref('artifact-levels',id,a.id));for(const effect of a.effects)ref('buildings',effect.buildingId,a.id);}
   for(const l of db['artifact-levels'])ref('artifacts',l.artifactId,l.id);
   for(const f of db.furniture){ref('furniture-sets',f.setId,f.id);f.buildingIds.forEach(id=>ref('buildings',id,f.id));if(f.setId&&!db['furniture-sets'].find(s=>s.id===f.setId)?.furnitureIds.includes(f.id))errors.push(`${f.id}: reverse furniture set relation missing`);}
   for(const s of db['furniture-sets'])s.furnitureIds.forEach(id=>ref('furniture',id,s.id));

@@ -131,6 +131,24 @@
         },
         "description": {
           "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
+        },
+        "acquisition": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "required": [
@@ -256,6 +274,18 @@
             "null"
           ],
           "minimum": 0
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -323,6 +353,18 @@
             "string",
             "null"
           ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -427,6 +469,42 @@
           "type": "array",
           "items": {
             "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
+        },
+        "rewardConditions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "level": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "heroId": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "level",
+              "heroId",
+              "description"
+            ],
+            "additionalProperties": false
           }
         }
       },
@@ -543,6 +621,18 @@
             "null"
           ],
           "minimum": 0
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -651,6 +741,18 @@
             "string",
             "null"
           ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -724,6 +826,18 @@
           "type": "array",
           "items": {
             "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
           }
         }
       },
@@ -813,6 +927,18 @@
             "string",
             "null"
           ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -938,6 +1064,18 @@
           "items": {
             "type": "string"
           }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -1050,6 +1188,18 @@
               "amount"
             ],
             "additionalProperties": true
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
           }
         }
       },
@@ -1186,6 +1336,18 @@
           "items": {
             "type": "string"
           }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -1311,6 +1473,18 @@
             ],
             "additionalProperties": true
           }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -1384,6 +1558,52 @@
           "items": {
             "type": "string"
           }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "heading": {
+                "type": "string"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "heading",
+              "items"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "buildingIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "artifactIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "required": [
@@ -1450,6 +1670,18 @@
           "items": {
             "type": "string"
           }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/supplementarySource"
+          }
+        },
+        "confirmations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playerConfirmation"
+          }
         }
       },
       "required": [
@@ -1463,6 +1695,55 @@
         "heroIds"
       ],
       "additionalProperties": true
+    },
+    "supplementarySource": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "label",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "playerConfirmation": {
+      "type": "object",
+      "properties": {
+        "fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "method": {
+          "enum": [
+            "player"
+          ]
+        },
+        "checkedAt": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "fields",
+        "method",
+        "checkedAt",
+        "description"
+      ],
+      "additionalProperties": false
     }
   }
 }

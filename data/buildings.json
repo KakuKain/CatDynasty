@@ -1,5 +1,413 @@
 [
   {
+    "id": "building_taiji_tw",
+    "name": "太極殿",
+    "type": "主城",
+    "description": "升級太極殿可推進王城發展。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "未取得各級材料與解鎖對照表；Lv.5 黃阿瑪領取條件已由玩家核對。",
+    "confirmations": [
+      {
+        "fields": [
+          "rewardConditions"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "太極殿達 Lv.5 可領取黃阿瑪。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+        "label": "Lota 攻略",
+        "scope": "Lv.5 領取條件，已由玩家核對"
+      }
+    ],
+    "rewardConditions": [
+      {
+        "level": 5,
+        "heroId": "hero_huangama",
+        "description": "可領取黃阿瑪；其他獎勵領取條件待補。"
+      }
+    ]
+  },
+  {
+    "id": "building_kitchen_tw",
+    "name": "御膳房",
+    "type": "生產",
+    "description": "前期主線涉及的生產建築；品項與配方待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。 功能分類來自媒體攻略，非官方數值確認。",
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "SouNova 新手指南",
+        "scope": "建築功能參考，未於遊戲內實測"
+      }
+    ],
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_household_tw",
+    "name": "內務府",
+    "type": "訂單",
+    "description": "內務府訂單可用生產資源換取銅錢。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。 功能分類來自媒體攻略，非官方數值確認。",
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "SouNova 新手指南",
+        "scope": "建築功能參考，未於遊戲內實測"
+      }
+    ],
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_wood_tw",
+    "name": "木作司",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_needle_tw",
+    "name": "針工局",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_clothes_tw",
+    "name": "尚衣局",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_bells_tw",
+    "name": "鐘鼓司",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_vinegar_tw",
+    "name": "酒醋麵局",
+    "type": "生產",
+    "description": "前期主線涉及的生產建築；品項與配方待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。 功能分類來自媒體攻略，非官方數值確認。",
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "SouNova 新手指南",
+        "scope": "建築功能參考，未於遊戲內實測"
+      }
+    ],
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_imperial_tw",
+    "name": "御用局",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_fishery_tw",
+    "name": "漁建局",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_cooked_fish_tw",
+    "name": "烹魚局",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_silver_tw",
+    "name": "銀作局",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_training_tw",
+    "name": "演武場",
+    "type": "離線資源",
+    "description": "演武場提供離線累積資源的玩法。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。 功能分類來自媒體攻略，非官方數值確認。",
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "SouNova 新手指南",
+        "scope": "建築功能參考，未於遊戲內實測"
+      }
+    ],
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_construction_tw",
+    "name": "營造局",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_pastry_tw",
+    "name": "糕點局",
+    "type": "生產",
+    "description": "前期主線涉及的生產建築；品項與配方待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。 功能分類來自媒體攻略，非官方數值確認。",
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "SouNova 新手指南",
+        "scope": "建築功能參考，未於遊戲內實測"
+      }
+    ],
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
+    "id": "building_honglu_tw",
+    "name": "鴻臚寺",
+    "type": null,
+    "description": "台版官網「喵宮百景」收錄建築。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [],
+    "source": "https://catdynasty.poseidongame.com/#section3",
+    "sourceType": "official",
+    "verified": true,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "官方確認建築名稱；解鎖等級、生產配方、升級材料及台版喵將加成待補。",
+    "verifiedFields": [
+      "name"
+    ]
+  },
+  {
     "id": "building_silver",
     "name": "銀作局",
     "type": null,

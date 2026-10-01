@@ -40,6 +40,9 @@ export function codeStatus(code,today=new Date().toLocaleDateString('en-CA',{tim
   if(code.status==='active'&&code.verified&&code.lastTestedAt)return 'active';
   return 'unverified';
 }
+export function canCopyCode(code,{demo=false,today}={}) {
+  return Boolean(code)&&!demo&&code.gameVersion!=='mock'&&['active','unverified'].includes(codeStatus(code,today));
+}
 export function upgradeRequirements(db,buildingId,from,to) {
   if(!Number.isInteger(from)||!Number.isInteger(to)||from<0||to<=from||to>1000)throw new Error('請輸入有效的起始與目標等級。');
   const levels=[];const missing=[];

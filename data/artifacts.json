@@ -1,1 +1,91 @@
-[]
+[
+  {
+    "id": "artifact_fish_lantern_tw",
+    "name": "魚燈",
+    "rarity": "御品",
+    "description": "七日簽到提及的古寶。",
+    "effectTags": [],
+    "effects": [],
+    "acquisition": [
+      "七日簽到（媒體／社群參考）。"
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "品質已由玩家核對為御品；SouNova 的橙色稱呼保留為來源描述，不推導品質對照。效果與強化數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "rarity"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "魚燈的遊戲內品質為「御品」。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+        "label": "Lota 攻略",
+        "scope": "御品魚燈與七日簽到介紹"
+      }
+    ]
+  },
+  {
+    "id": "artifact_ama_parade_tw",
+    "name": "阿瑪出巡記",
+    "rarity": null,
+    "description": "黃阿瑪聯動古寶，可用於主城裝飾。",
+    "effectTags": [
+      "主城裝飾"
+    ],
+    "effects": [],
+    "acquisition": [
+      "開服預約達成獎勵；目前領取資格待核對。"
+    ],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "聯動主題不代表黃阿瑪的戰鬥推薦裝備；屬性效果尚未確認。"
+  },
+  {
+    "id": "artifact_bells_tw",
+    "name": "編鐘樂隊",
+    "rarity": null,
+    "description": "Lota 記載此古寶與喵將外觀收藏、鐘鼓司效率相關。",
+    "effectTags": [
+      "生產效率",
+      "外觀收藏"
+    ],
+    "effects": [
+      {
+        "type": "production_efficiency",
+        "value": null,
+        "unit": "percent",
+        "buildingId": "building_bells_tw",
+        "condition": "每收集 3 個喵將外觀",
+        "threshold": 3
+      }
+    ],
+    "acquisition": [],
+    "heroIds": [],
+    "teamIds": [],
+    "levels": [],
+    "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "效果條件為社群參考，增幅、疊加上限與取得方式待遊戲內核對。"
+  }
+]

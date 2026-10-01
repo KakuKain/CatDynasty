@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
-import {filterHeroes,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
+import {filterHeroes,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
 
 const real=readDatabase();const demo=readDatabase('data/mock');
 test('real and demo data validate, with provenance and referential integrity',()=>{
@@ -33,6 +33,25 @@ test('expired and untested codes are never counted as active',()=>{
   assert.equal(codeStatus({status:'active',verified:true,lastTestedAt:'2026-09-01',endDate:'2026-09-30'},'2026-10-01'),'expired');
   assert.equal(codeStatus({status:'active',verified:false,lastTestedAt:null},'2026-10-01'),'unverified');
   assert.equal(codeStatus({status:'active',verified:true,lastTestedAt:'2026-10-01',startDate:'2026-10-02'},'2026-10-01'),'upcoming');
+});
+
+test('community codes remain unverified and expiry gates copying at the date boundary',()=>{
+  assert.equal(real['redeem-codes'].length,12);
+  assert.ok(real['redeem-codes'].every(c=>!c.verified&&!c.lastTestedAt&&codeStatus(c,'2026-10-01')==='unverified'));
+  const due=real['redeem-codes'].filter(c=>c.endDate==='2026-10-01');assert.equal(due.length,4);
+  assert.ok(due.every(c=>canCopyCode(c,{today:'2026-10-01'})&&!canCopyCode(c,{today:'2026-10-02'})));
+  assert.equal(canCopyCode(real['redeem-codes'][0],{demo:true}),false);
+  assert.equal(canCopyCode(demo['redeem-codes'][0]),false);
+  assert.equal(canCopyCode({...real['redeem-codes'][0],startDate:'2026-10-02'},{today:'2026-10-01'}),false);
+});
+
+test('TW records keep CN attributes separate and preserve field-specific player confirmations',()=>{
+  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,11);assert.ok(tw.every(h=>h.skills.length===0&&h.attribute===null));
+  const yang=tw.find(h=>h.name==='楊玉環');assert.equal(yang.rarity,null);assert.equal(yang.buildingBonuses.length,0);
+  const huang=tw.find(h=>h.name==='黃阿瑪');assert.ok(huang.confirmations.some(c=>c.fields.includes('acquisition')));
+  const taiji=real.buildings.find(b=>b.id==='building_taiji_tw');assert.equal(taiji.rewardConditions[0].level,5);assert.equal(taiji.rewardConditions[0].heroId,huang.id);
+  const fish=real.artifacts.find(a=>a.name==='魚燈');assert.equal(fish.rarity,'御品');assert.ok(fish.confirmations.some(c=>c.fields.includes('rarity')));
+  const broken=structuredClone(real);broken.stages[0].buildingIds.push('missing');assert.ok(validateDatabase(broken).some(e=>e.includes('missing buildings')));
 });
 test('upgrade calculator reports missing levels instead of returning a false zero',()=>{
   const known=upgradeRequirements(demo,'demo_kitchen',0,2);assert.equal(known.complete,true);assert.equal(known.resources[0].amount,20);
