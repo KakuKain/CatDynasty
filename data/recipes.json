@@ -1,1 +1,1270 @@
-[]
+[
+  {
+    "id": "recipe_01_tw",
+    "name": "燒鴨",
+    "catalogueNumber": 1,
+    "originalFormula": "鴨肉",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_duck_tw",
+        "amount": null,
+        "providedName": "鴨肉"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_02_tw",
+    "name": "臭豆腐",
+    "catalogueNumber": 2,
+    "originalFormula": "豆腐",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_tofu_tw",
+        "amount": null,
+        "providedName": "豆腐"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_03_tw",
+    "name": "鮭魚寶盒",
+    "catalogueNumber": 3,
+    "originalFormula": "鮭魚",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_salmon_tw",
+        "amount": null,
+        "providedName": "鮭魚"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_04_tw",
+    "name": "番茄牛肉湯",
+    "catalogueNumber": 4,
+    "originalFormula": "牛肉+番茄+鹽",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_beef_tw",
+        "amount": null,
+        "providedName": "牛肉"
+      },
+      {
+        "ingredientId": "ingredient_tomato_tw",
+        "amount": null,
+        "providedName": "番茄"
+      },
+      {
+        "ingredientId": "ingredient_salt_tw",
+        "amount": null,
+        "providedName": "鹽"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_05_tw",
+    "name": "彩虹碗",
+    "catalogueNumber": 5,
+    "originalFormula": "鮪魚（金槍魚）+蝦",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_tuna_tw",
+        "amount": null,
+        "providedName": "鮪魚（金槍魚）"
+      },
+      {
+        "ingredientId": "ingredient_shrimp_tw",
+        "amount": null,
+        "providedName": "蝦"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_06_tw",
+    "name": "麻辣豆腐",
+    "catalogueNumber": 6,
+    "originalFormula": "豆腐+乾辣椒",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_tofu_tw",
+        "amount": null,
+        "providedName": "豆腐"
+      },
+      {
+        "ingredientId": "ingredient_chili_tw",
+        "amount": null,
+        "providedName": "乾辣椒"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_07_tw",
+    "name": "烤乳豬",
+    "catalogueNumber": 7,
+    "originalFormula": "豬肉+白糖+胡椒",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      },
+      {
+        "ingredientId": "ingredient_sugar_tw",
+        "amount": null,
+        "providedName": "白糖"
+      },
+      {
+        "ingredientId": "ingredient_pepper_tw",
+        "amount": null,
+        "providedName": "胡椒"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_08_tw",
+    "name": "紅燜小馬鈴薯",
+    "catalogueNumber": 8,
+    "originalFormula": "馬鈴薯+豬肉",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_potato_tw",
+        "amount": null,
+        "providedName": "馬鈴薯"
+      },
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_09_tw",
+    "name": "油爆蝦",
+    "catalogueNumber": 9,
+    "originalFormula": "蝦+乾辣椒+鹽",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_shrimp_tw",
+        "amount": null,
+        "providedName": "蝦"
+      },
+      {
+        "ingredientId": "ingredient_chili_tw",
+        "amount": null,
+        "providedName": "乾辣椒"
+      },
+      {
+        "ingredientId": "ingredient_salt_tw",
+        "amount": null,
+        "providedName": "鹽"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_10_tw",
+    "name": "麻辣牛肉絲",
+    "catalogueNumber": 10,
+    "originalFormula": "牛肉+乾辣椒+八角",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_beef_tw",
+        "amount": null,
+        "providedName": "牛肉"
+      },
+      {
+        "ingredientId": "ingredient_chili_tw",
+        "amount": null,
+        "providedName": "乾辣椒"
+      },
+      {
+        "ingredientId": "ingredient_anise_tw",
+        "amount": null,
+        "providedName": "八角"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_11_tw",
+    "name": "水煮肉片",
+    "catalogueNumber": 11,
+    "originalFormula": "豬肉+豆芽菜+青菜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      },
+      {
+        "ingredientId": "ingredient_sprouts_tw",
+        "amount": null,
+        "providedName": "豆芽菜"
+      },
+      {
+        "ingredientId": "ingredient_greens_tw",
+        "amount": null,
+        "providedName": "青菜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_12_tw",
+    "name": "乾炒牛河",
+    "catalogueNumber": 12,
+    "originalFormula": "牛肉+豆芽+醬油",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_beef_tw",
+        "amount": null,
+        "providedName": "牛肉"
+      },
+      {
+        "ingredientId": "ingredient_sprouts_tw",
+        "amount": null,
+        "providedName": "豆芽"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_13_tw",
+    "name": "春日宴",
+    "catalogueNumber": 13,
+    "originalFormula": "鮪魚（金槍魚）+青瓜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_tuna_tw",
+        "amount": null,
+        "providedName": "鮪魚（金槍魚）"
+      },
+      {
+        "ingredientId": "ingredient_cucumber_tw",
+        "amount": null,
+        "providedName": "青瓜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_14_tw",
+    "name": "牛肉粉",
+    "catalogueNumber": 14,
+    "originalFormula": "牛肉+青菜+青瓜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_beef_tw",
+        "amount": null,
+        "providedName": "牛肉"
+      },
+      {
+        "ingredientId": "ingredient_greens_tw",
+        "amount": null,
+        "providedName": "青菜"
+      },
+      {
+        "ingredientId": "ingredient_cucumber_tw",
+        "amount": null,
+        "providedName": "青瓜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_15_tw",
+    "name": "荷葉粉蒸肉",
+    "catalogueNumber": 15,
+    "originalFormula": "豬肉+胡椒+醬油",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      },
+      {
+        "ingredientId": "ingredient_pepper_tw",
+        "amount": null,
+        "providedName": "胡椒"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_16_tw",
+    "name": "清湯越雞",
+    "catalogueNumber": 16,
+    "originalFormula": "雞肉+青菜+醬油",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_chicken_tw",
+        "amount": null,
+        "providedName": "雞肉"
+      },
+      {
+        "ingredientId": "ingredient_greens_tw",
+        "amount": null,
+        "providedName": "青菜"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_17_tw",
+    "name": "東坡肉",
+    "catalogueNumber": 17,
+    "originalFormula": "豬肉+醬油+青菜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      },
+      {
+        "ingredientId": "ingredient_greens_tw",
+        "amount": null,
+        "providedName": "青菜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_18_tw",
+    "name": "海鮮寶石碗",
+    "catalogueNumber": 18,
+    "originalFormula": "鮭魚+蝦",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_salmon_tw",
+        "amount": null,
+        "providedName": "鮭魚"
+      },
+      {
+        "ingredientId": "ingredient_shrimp_tw",
+        "amount": null,
+        "providedName": "蝦"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_19_tw",
+    "name": "宮保雞丁",
+    "catalogueNumber": 19,
+    "originalFormula": "雞肉+青瓜+醬油",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_chicken_tw",
+        "amount": null,
+        "providedName": "雞肉"
+      },
+      {
+        "ingredientId": "ingredient_cucumber_tw",
+        "amount": null,
+        "providedName": "青瓜"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_20_tw",
+    "name": "怪味雞",
+    "catalogueNumber": 20,
+    "originalFormula": "雞肉+青瓜+乾辣椒",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_chicken_tw",
+        "amount": null,
+        "providedName": "雞肉"
+      },
+      {
+        "ingredientId": "ingredient_cucumber_tw",
+        "amount": null,
+        "providedName": "青瓜"
+      },
+      {
+        "ingredientId": "ingredient_chili_tw",
+        "amount": null,
+        "providedName": "乾辣椒"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_21_tw",
+    "name": "水晶漢堡",
+    "catalogueNumber": 21,
+    "originalFormula": "鮭魚+青菜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_salmon_tw",
+        "amount": null,
+        "providedName": "鮭魚"
+      },
+      {
+        "ingredientId": "ingredient_greens_tw",
+        "amount": null,
+        "providedName": "青菜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_22_tw",
+    "name": "清燉羊肉湯",
+    "catalogueNumber": 22,
+    "originalFormula": "羊肉+白蘿蔔+薑",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_lamb_tw",
+        "amount": null,
+        "providedName": "羊肉"
+      },
+      {
+        "ingredientId": "ingredient_radish_tw",
+        "amount": null,
+        "providedName": "白蘿蔔"
+      },
+      {
+        "ingredientId": "ingredient_ginger_tw",
+        "amount": null,
+        "providedName": "薑"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_23_tw",
+    "name": "蒜泥白肉",
+    "catalogueNumber": 23,
+    "originalFormula": "豬肉+青瓜+蒜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      },
+      {
+        "ingredientId": "ingredient_cucumber_tw",
+        "amount": null,
+        "providedName": "青瓜"
+      },
+      {
+        "ingredientId": "ingredient_garlic_tw",
+        "amount": null,
+        "providedName": "蒜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_24_tw",
+    "name": "涼拌生牛肉",
+    "catalogueNumber": 24,
+    "originalFormula": "鮪魚（金槍魚）+鮭魚+南瓜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_tuna_tw",
+        "amount": null,
+        "providedName": "鮪魚（金槍魚）"
+      },
+      {
+        "ingredientId": "ingredient_salmon_tw",
+        "amount": null,
+        "providedName": "鮭魚"
+      },
+      {
+        "ingredientId": "ingredient_pumpkin_tw",
+        "amount": null,
+        "providedName": "南瓜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "originalProvidedName": "鮮肉塔塔（涼拌生牛肉）",
+    "confirmations": [
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "使用者確認第 24 道食譜的名稱為「涼拌生牛肉」。"
+      }
+    ],
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_25_tw",
+    "name": "魚香肉絲",
+    "catalogueNumber": 25,
+    "originalFormula": "豬肉+紅蘿蔔+醋",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      },
+      {
+        "ingredientId": "ingredient_carrot_tw",
+        "amount": null,
+        "providedName": "紅蘿蔔"
+      },
+      {
+        "ingredientId": "ingredient_vinegar_tw",
+        "amount": null,
+        "providedName": "醋"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_26_tw",
+    "name": "龍井蝦仁",
+    "catalogueNumber": 26,
+    "originalFormula": "蝦+蛋",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_shrimp_tw",
+        "amount": null,
+        "providedName": "蝦"
+      },
+      {
+        "ingredientId": "ingredient_egg_tw",
+        "amount": null,
+        "providedName": "蛋"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_27_tw",
+    "name": "櫻花牛肉山",
+    "catalogueNumber": 27,
+    "originalFormula": "馬鈴薯+牛肉+紅蘿蔔",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_potato_tw",
+        "amount": null,
+        "providedName": "馬鈴薯"
+      },
+      {
+        "ingredientId": "ingredient_beef_tw",
+        "amount": null,
+        "providedName": "牛肉"
+      },
+      {
+        "ingredientId": "ingredient_carrot_tw",
+        "amount": null,
+        "providedName": "紅蘿蔔"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_28_tw",
+    "name": "白灼蝦",
+    "catalogueNumber": 28,
+    "originalFormula": "蝦+薑+醬油",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_shrimp_tw",
+        "amount": null,
+        "providedName": "蝦"
+      },
+      {
+        "ingredientId": "ingredient_ginger_tw",
+        "amount": null,
+        "providedName": "薑"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_29_tw",
+    "name": "羊腩煲",
+    "catalogueNumber": 29,
+    "originalFormula": "羊肉+胡蘿蔔+醬油",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_lamb_tw",
+        "amount": null,
+        "providedName": "羊肉"
+      },
+      {
+        "ingredientId": "ingredient_carrot_tw",
+        "amount": null,
+        "providedName": "胡蘿蔔"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_30_tw",
+    "name": "子薑炒鴨",
+    "catalogueNumber": 30,
+    "originalFormula": "鴨肉+薑+醬油",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_duck_tw",
+        "amount": null,
+        "providedName": "鴨肉"
+      },
+      {
+        "ingredientId": "ingredient_ginger_tw",
+        "amount": null,
+        "providedName": "薑"
+      },
+      {
+        "ingredientId": "ingredient_soy_sauce_tw",
+        "amount": null,
+        "providedName": "醬油"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_31_tw",
+    "name": "回鍋肉",
+    "catalogueNumber": 31,
+    "originalFormula": "豬肉+蒜+薑",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_pork_tw",
+        "amount": null,
+        "providedName": "豬肉"
+      },
+      {
+        "ingredientId": "ingredient_garlic_tw",
+        "amount": null,
+        "providedName": "蒜"
+      },
+      {
+        "ingredientId": "ingredient_ginger_tw",
+        "amount": null,
+        "providedName": "薑"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_32_tw",
+    "name": "叫化童雞",
+    "catalogueNumber": 32,
+    "originalFormula": "雞肉+薑+八角",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_chicken_tw",
+        "amount": null,
+        "providedName": "雞肉"
+      },
+      {
+        "ingredientId": "ingredient_ginger_tw",
+        "amount": null,
+        "providedName": "薑"
+      },
+      {
+        "ingredientId": "ingredient_anise_tw",
+        "amount": null,
+        "providedName": "八角"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_33_tw",
+    "name": "炙烤鮭魚",
+    "catalogueNumber": 33,
+    "originalFormula": "鮭魚+蛋",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_salmon_tw",
+        "amount": null,
+        "providedName": "鮭魚"
+      },
+      {
+        "ingredientId": "ingredient_egg_tw",
+        "amount": null,
+        "providedName": "蛋"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_34_tw",
+    "name": "白切雞",
+    "catalogueNumber": 34,
+    "originalFormula": "雞肉+蒜+薑",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_chicken_tw",
+        "amount": null,
+        "providedName": "雞肉"
+      },
+      {
+        "ingredientId": "ingredient_garlic_tw",
+        "amount": null,
+        "providedName": "蒜"
+      },
+      {
+        "ingredientId": "ingredient_ginger_tw",
+        "amount": null,
+        "providedName": "薑"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_35_tw",
+    "name": "糖油粑粑",
+    "catalogueNumber": 35,
+    "originalFormula": "白糖+澱粉",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_sugar_tw",
+        "amount": null,
+        "providedName": "白糖"
+      },
+      {
+        "ingredientId": "ingredient_starch_tw",
+        "amount": null,
+        "providedName": "澱粉"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  },
+  {
+    "id": "recipe_36_tw",
+    "name": "蛋黃奶糕",
+    "catalogueNumber": 36,
+    "originalFormula": "雞蛋+鮭魚+南瓜",
+    "description": "玩家提供的食譜材料組合。",
+    "buildingId": null,
+    "ingredients": [
+      {
+        "ingredientId": "ingredient_egg_tw",
+        "amount": null,
+        "providedName": "雞蛋"
+      },
+      {
+        "ingredientId": "ingredient_salmon_tw",
+        "amount": null,
+        "providedName": "鮭魚"
+      },
+      {
+        "ingredientId": "ingredient_pumpkin_tw",
+        "amount": null,
+        "providedName": "南瓜"
+      }
+    ],
+    "outputAmount": null,
+    "craftTime": null,
+    "unlock": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "sourceDescription": "使用者於 2026-10-01 提供的食譜配方清單。",
+    "notes": "材料用量、製作建築、產量、時間與解鎖條件尚未提供。",
+    "cuisine": null,
+    "recipeLevel": null
+  }
+]

@@ -1,9 +1,30 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
-import {filterHeroes,heroFiltersFromParams,compareSelection,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
+import {filterHeroes,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
 
 const real=readDatabase();const demo=readDatabase('data/mock');
+test('player recipe list preserves all 36 formulas, corrected name and unknown quantities',()=>{
+  assert.equal(real.recipes.length,36);
+  assert.deepEqual(real.recipes.map(r=>r.catalogueNumber),Array.from({length:36},(_,i)=>i+1));
+  assert.ok(real.recipes.every(r=>r.gameVersion==='tw'&&r.sourceType==='player'&&!r.verified&&r.ingredients.every(i=>i.amount===null)&&r.cuisine===null&&r.recipeLevel===null&&r.buildingId===null&&r.outputAmount===null&&r.craftTime===null));
+  for(const recipe of real.recipes)assert.deepEqual(recipe.ingredients.map(i=>i.providedName),recipe.originalFormula.split('+'));
+  const tartare=real.recipes.find(r=>r.catalogueNumber===24);assert.equal(tartare.name,'涼拌生牛肉');assert.equal(tartare.originalFormula,'鮪魚（金槍魚）+鮭魚+南瓜');
+  const eggRecipes=recipesForIngredient(real,'ingredient_egg_tw');assert.deepEqual(eggRecipes.map(r=>r.catalogueNumber),[26,33,36]);
+  assert.ok(searchDatabase(real,'金槍魚').some(r=>r.key==='recipes'&&r.record.catalogueNumber===5));
+  assert.ok(searchDatabase(real,'胡蘿蔔').some(r=>r.key==='recipes'&&r.record.catalogueNumber===27));
+  const broken=structuredClone(real);broken.recipes[0].ingredients[0].ingredientId='missing';assert.ok(validateDatabase(broken).some(e=>e.includes('missing ingredients')));
+});
+test('drawer links resolve valid records across table categories without accepting unknown routes',()=>{
+  for(const key of ['heroes','buildings','recipes','artifacts','skills']){const id=real[key][0].id;assert.deepEqual(detailTargetFromHash(real,`#/${key}/${encodeURIComponent(id)}`),{key,id});}
+  const furnitureId=demo.furniture[0].id;assert.deepEqual(detailTargetFromHash(demo,`#/furniture/${furnitureId}`),{key:'furniture',id:furnitureId});
+  assert.deepEqual(detailTargetFromHash(real,`#/guides/${real.stages[0].id}`),{key:'stages',id:real.stages[0].id});
+  assert.equal(detailTargetFromHash(real,'#/heroes?profession=輔助'),null);
+  assert.equal(detailTargetFromHash(real,'#/recipes/missing'),null);
+  assert.equal(detailTargetFromHash(real,'#/heroes/%E0%A4%A'),null);
+  assert.equal(detailTargetFromHash(real,'https://example.com/#/heroes/hero_huangama'),null);
+  assert.equal(detailTargetFromHash(real,'#/team-builder'),null);
+});
 test('real and demo data validate, with provenance and referential integrity',()=>{
   assert.deepEqual(validateDatabase(real),[]);assert.deepEqual(validateDatabase(demo,{demo:true}),[]);
 });

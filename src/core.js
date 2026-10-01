@@ -5,6 +5,19 @@ export const safeURL = value => {
 };
 export const normalize = value => String(value ?? '').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,'');
 export const findById = (db,key,id) => (db[key] || []).find(item => item.id === id);
+export function detailTargetFromHash(db,hash) {
+  if(typeof hash!=='string'||!hash.startsWith('#/'))return null;
+  const aliases={guides:'stages',codes:'redeem-codes'};
+  const allowed=['heroes','skills','skill-effects','buildings','recipes','ingredients','artifacts','furniture','furniture-sets','teams','stages','redeem-codes'];
+  try {
+    const url=new URL(hash.slice(1),'https://wiki.local');
+    const parts=url.pathname.split('/').filter(Boolean);
+    if(parts.length!==2)return null;
+    const key=aliases[parts[0]]||parts[0],id=decodeURIComponent(parts[1]);
+    if(!allowed.includes(key)||!findById(db,key,id))return null;
+    return {key,id};
+  } catch {return null;}
+}
 export const heroesForBuilding = (db,id) => (db.heroes || []).filter(hero => hero.buildingBonuses.some(b => b.buildingId === id));
 export const recipesForIngredient = (db,id) => (db.recipes || []).filter(recipe => recipe.ingredients.some(i => i.ingredientId === id));
 export const effectIdsForHero = (db,hero) => [...new Set(hero.skills.flatMap(id => findById(db,'skills',id)?.effects.map(e=>e.type) || []))];

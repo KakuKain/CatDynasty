@@ -172,3 +172,59 @@ main {padding-top:28px;}
   .compare-picker {grid-template-columns:1fr;max-height:320px;}.compare-search {max-width:none;}
   .compare-option {min-height:65px;}.source-block>div {gap:10px;}
 }
+// Detail drawers keep the catalogue and its current filters in place.
+html.drawer-open { overflow: hidden; }
+.record-drawer {
+  inset: 0 0 0 auto;
+  margin: 0 0 0 auto;
+  padding: 0;
+  width: min(940px, calc(100vw - 48px));
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  border: 0;
+  border-left: 1px solid #bfb18d;
+  color: $ink;
+  background: #f8f3e6;
+  box-shadow: -12px 0 48px #203b3030;
+  font-family: $font;
+  &[open] { display: flex; flex-direction: column; }
+  &::backdrop { background: #203b306b; }
+  [hidden] { display: none !important; }
+}
+.drawer-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 26px;
+  border-bottom: 1px solid $line;
+  background: #eee6d2;
+  flex-shrink: 0;
+  h2 { font-size: 1.5rem; letter-spacing: .08em; }
+  .page-kicker { margin-bottom: 3px; }
+}
+.drawer-close { margin-left: auto; flex-shrink: 0; }
+.drawer-content {
+  padding: 24px 26px 36px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  min-height: 0;
+  .page-title { margin-bottom: 20px; }
+  .page-title p { margin: 0; }
+  .page-title:has(> div:empty):not(:has(> button)) { display: none; }
+  .hero-detail-layout { grid-template-columns: 220px minmax(0, 1fr); }
+  .portrait-panel .hero-art { height: 285px; }
+  .portrait-panel .hero-placeholder { height: 250px; }
+  .panel { padding: 20px; }
+  .hero-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .source-block { margin-top: 18px; }
+  .data-table-scroll { max-width: 100%; }
+}
+@media (max-width: 700px) {
+  .record-drawer { width: 100vw; border-left: 0; }
+  .drawer-header { padding: 14px 16px; gap: 10px; }
+  .drawer-header h2 { font-size: 1.3rem; }
+  .drawer-content { padding: 18px 16px 28px; }
+  .drawer-content .two-columns, .drawer-content .hero-detail-layout { grid-template-columns: 1fr; }
+  .drawer-content .portrait-panel { max-width: 300px; width: 100%; margin: 0 auto; }
+}
