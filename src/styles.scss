@@ -287,8 +287,12 @@ html.drawer-open { overflow: hidden; }
   }
   .search-submit {
     flex: 0 0 auto;
-    min-height: 40px;
-    padding: 7px 17px;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 0;
     border: 1px solid #425b47;
     border-radius: 8px;
     background: #425b47;
@@ -298,6 +302,7 @@ html.drawer-open { overflow: hidden; }
     transition: background .18s, box-shadow .18s;
     &:hover { background: #324b37; box-shadow: 0 3px 7px #203b3026; }
     &:active { box-shadow: none; }
+    .icon { width: 20px; height: 20px; color: inherit; stroke-width: 1.8; }
   }
 }
 .topbar .keyword-search { max-width: 70%; }
@@ -313,7 +318,6 @@ html.drawer-open { overflow: hidden; }
     gap: 6px;
     padding-left: 10px;
     input[type=search] { font-size: .83rem; }
-    .search-submit { padding: 7px 12px; }
   }
   .topbar .keyword-search { max-width: none; }
   .multi-filter-form { padding: 10px; }
