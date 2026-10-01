@@ -105,9 +105,9 @@ main {padding-top:28px;}
 .hero-filters {display:block;padding:22px;}
 .filter-input-row {display:flex;gap:14px;flex-wrap:wrap;align-items:end;}
 .filter-input-row .filter-field:not(.query-field) {flex:0 1 150px;}
-.multi-filter {border:0;border-top:1px solid #d6cbb1;margin:20px 0 0;padding:15px 0 0;min-width:0;}
-.multi-filter legend {font-size:.87rem;font-weight:600;color:#3e5342;padding-right:15px;}
-.multi-filter legend small {font-size:.73rem;font-weight:400;color:#75725f;margin-left:10px;}
+.multi-filter {border:0;margin:10px 0 0;padding:0;min-width:0;}
+.filter-group-row {display:flex;align-items:center;gap:12px;min-width:0;}
+.filter-group-label {flex:0 0 38px;font-size:.87rem;font-weight:600;color:#3e5342;white-space:nowrap;}
 .filter-options {display:flex;flex-wrap:wrap;gap:10px;}
 .check-chip {display:flex;gap:8px;align-items:center;padding:8px 13px;border:1px solid #c8bda1;background:#fffaf0;min-height:43px;border-radius:3px;font-size:.87rem;cursor:pointer;}
 .check-chip:has(input:checked) {background:#e0e8d8;border-color:#5a775a;color:#29472f;}
@@ -165,7 +165,7 @@ main {padding-top:28px;}
   body {background-size:800px auto,cover,6px 6px;background-position:right bottom,center,center;}
   .hero-filters {padding:16px;}.filter-input-row {gap:10px;}
   .filter-input-row .filter-field:not(.query-field) {flex:1;min-width:calc(50% - 10px);}
-  .multi-filter {margin-top:16px;}.filter-options {gap:8px;}.check-chip {padding:8px 11px;}
+  .multi-filter {margin-top:8px;}.filter-options {gap:8px;}.check-chip {padding:8px 11px;}
   .filter-actions {gap:12px;}.filter-actions .muted {width:100%;}
   .data-table th,.data-table td {padding:13px 12px;}.data-table th:first-child {min-width:125px;}
   .hero-table {min-width:900px;}.hero-table td:nth-child(6) {min-width:180px;}
@@ -259,7 +259,12 @@ html.drawer-open { overflow: hidden; }
 }
 .hero-filters .filter-options {
   width: fit-content;
-  max-width: 100%;
+  max-width: calc(100% - 50px);
+  min-width: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
   gap: 6px;
   padding: 5px;
   border: 1px solid #d1c4a6;
@@ -268,6 +273,8 @@ html.drawer-open { overflow: hidden; }
 }
 .filter-pill {
   position: relative;
+  flex: 0 0 auto;
+  white-space: nowrap;
   display: inline-flex;
   align-items: center;
   justify-content: center;
