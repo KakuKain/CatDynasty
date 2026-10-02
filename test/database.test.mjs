@@ -1,9 +1,37 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
-import {filterHeroes,filterRecords,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
+import {catalogueRecords,compareHeroQuality,findById,filterHeroes,filterRecords,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
 
 const real=readDatabase();const demo=readDatabase('data/mock');
+
+test('catalogue prefers Taiwan entries before filtering and preserves version-specific detail references',()=>{
+  for(const [key,count] of [['heroes',46],['buildings',20]]){
+    const entries=catalogueRecords(real,key);assert.equal(entries.length,count);assert.equal(new Set(entries.map(r=>r.name)).size,count);
+    const reversed=catalogueRecords({...real,[key]:[...real[key]].reverse()},key);
+    for(const entry of real[key].filter(r=>r.gameVersion==='tw'))assert.equal(reversed.find(r=>r.name===entry.name).id,entry.id);
+  }
+  assert.deepEqual(searchDatabase(real,'婦好').filter(r=>r.key==='heroes').map(r=>r.record.id),['hero_fuhao_tw']);
+  assert.equal(filterHeroes(real,{rarity:'聖級'}).some(r=>r.name==='婦好'),false);
+  assert.equal(findById(real,'heroes','hero_fuhao').rarity,'聖級');
+  assert.equal(findById(real,'heroes','hero_fuhao_tw').rarity,'天級');
+  assert.equal(filterRecords(real,'buildings',new URLSearchParams('query=銀作局')).length,1);
+  assert.deepEqual(filterHeroes(real,{version:'cn',query:'王昭君'}).map(r=>r.id),['hero_wangzhaojun']);
+  assert.equal(catalogueRecords(demo,'heroes').length,demo.heroes.length);
+});
+test('quality order is stable within a tier and incomplete quality follows known tiers',()=>{
+  const input=[{id:'unknown',rarity:null},{id:'earth',rarity:'地級'},{id:'sky-first',rarity:'天級'},{id:'holy',rarity:'聖級'},{id:'dark',rarity:'玄級'},{id:'yellow',rarity:'黃級'},{id:'sky-second',rarity:'天級'}];
+  assert.deepEqual([...input].sort(compareHeroQuality).map(r=>r.id),['holy','sky-first','sky-second','earth','dark','yellow','unknown']);
+  assert.deepEqual(input.map(r=>r.id),['unknown','earth','sky-first','holy','dark','yellow','sky-second']);
+});
+test('identical recommended teams merge their names and sources while old URLs still resolve',()=>{
+  assert.equal(real.teams.length,6);const team=findById(real,'teams','team_wangzhaojun');assert.equal(team.id,'team_yang');assert.ok(team.aliases.includes('昭君輔助隊'));assert.ok(team.sources.some(s=>s.url.includes('836201191720357282')));
+  assert.deepEqual(detailTargetFromHash(real,'#/teams/team_wangzhaojun'),{key:'teams',id:'team_wangzhaojun'});
+  assert.deepEqual(searchDatabase(real,'昭君輔助隊').filter(r=>r.key==='teams').map(r=>r.record.id),['team_yang']);
+  const duplicated=structuredClone(real);duplicated.teams.push({...structuredClone(team),id:'team_copy',name:'另一個名稱',legacyIds:[],heroIds:[...team.heroIds].reverse()});assert.ok(validateDatabase(duplicated).some(e=>e.includes('duplicate team composition')));
+  const sameName=structuredClone(real);sameName.heroes.push({...structuredClone(real.heroes[0]),id:'hero_copy'});assert.ok(validateDatabase(sameName).some(e=>e.includes('duplicate name')));
+  const collision=structuredClone(real);collision.teams[0].legacyIds=['team_jingke'];assert.ok(validateDatabase(collision).some(e=>e.includes('duplicate legacy id')));
+});
 
 test('catalogue multi-select combines choices while preserving ingredient search',()=>{
   const params=new URLSearchParams([['cuisine','川'],['cuisine','粵'],['query','牛肉']]);
@@ -77,7 +105,8 @@ test('invalid relation and mixed demo data are rejected',()=>{
   broken.heroes[0].gameVersion='mock';assert.ok(validateDatabase(broken).some(x=>x.includes('demo record in real')));
 });
 test('search crosses hero, skill effect and building relations',()=>{
-  assert.ok(searchDatabase(real,'太醫院').some(x=>x.key==='heroes'&&x.record.name==='王昭君'));
+  assert.ok(searchDatabase(real,'太醫院').some(x=>x.key==='buildings'&&x.record.name==='太醫院'));
+  assert.ok(!searchDatabase(real,'太醫院').some(x=>x.key==='heroes'&&x.record.id==='hero_wangzhaojun'));
   assert.ok(searchDatabase(real,'復活').some(x=>x.key==='heroes'&&x.record.name==='玄奘'));
   assert.ok(searchDatabase(demo,'農田').some(x=>x.key==='recipes'&&x.record.id==='demo_recipe'));
   assert.equal(searchDatabase(real,'').length,0);
@@ -127,7 +156,7 @@ test('profession and faction multi-select filters preserve repeated URL values a
   const results=filterHeroes(real,filters);assert.equal(results.length,6);assert.ok(results.every(h=>['輔助','輸出'].includes(h.profession)&&['文臣','俠士'].includes(h.faction)));
   assert.deepEqual(filterHeroes(real,{version:'tw',professions:['輔助'],factions:['武將']}).map(h=>h.name),['靈華']);
   assert.ok(filterHeroes(real,{factions:['unknown']}).every(h=>h.faction===null));
-  assert.equal(filterHeroes(real,{professions:[],factions:[]}).length,real.heroes.length);
+  assert.equal(filterHeroes(real,{professions:[],factions:[]}).length,catalogueRecords(real,'heroes').length);
 });
 
 test('comparison accepts three distinct heroes and rejects a fourth or missing records',()=>{
@@ -143,8 +172,8 @@ test('rarity and attribute multi-select keep OR within groups and AND across gro
   assert.deepEqual(filterHeroes(real,{...filters,professions:['坦克']}).map(h=>h.id),['hero_fuhao']);
   assert.equal(filterHeroes(real,{rarities:['unknown'],attributes:['增益']}).length,0);
   const unknown=filterHeroes(real,{rarities:['unknown'],attributes:['unknown']});assert.ok(unknown.length>0);assert.ok(unknown.every(h=>h.rarity===null&&h.attribute===null));
-  assert.equal(filterHeroes(real,{rarities:[],attributes:[],professions:[],factions:[]}).length,real.heroes.length);
-  assert.deepEqual(filterHeroes(real,{rarity:'聖級',attribute:'護法・護甲・聖甲'}).map(h=>h.id),['hero_fuhao']);
+  assert.equal(filterHeroes(real,{rarities:[],attributes:[],professions:[],factions:[]}).length,catalogueRecords(real,'heroes').length);
+  assert.deepEqual(filterHeroes(real,{version:'cn',rarity:'聖級',attribute:'護法・護甲・聖甲'}).map(h=>h.id),['hero_fuhao']);
 });
 
 test('profession is a single value and player-confirmed research is distinct from production bonuses',()=>{

@@ -4,7 +4,23 @@ export const safeURL = value => {
   try { const url = new URL(value); return ['http:','https:'].includes(url.protocol) ? url.href : null; } catch { return null; }
 };
 export const normalize = value => String(value ?? '').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,'');
-export const findById = (db,key,id) => (db[key] || []).find(item => item.id === id);
+export const findById = (db,key,id) => (db[key] || []).find(item => item.id === id || item.legacyIds?.includes(id));
+// Keep version-specific records intact; catalogue entries prefer the Taiwan record.
+export function catalogueRecords(db,key) {
+  const records=db[key]||[];
+  if(!['heroes','buildings'].includes(key))return records;
+  const preferred=new Map(),priority={tw:0,cn:1,unknown:2,mock:3};
+  for(const record of records){
+    const name=normalize(record.name),current=preferred.get(name);
+    if(!current||(priority[record.gameVersion]??4)<(priority[current.gameVersion]??4))preferred.set(name,record);
+  }
+  return records.filter(record=>preferred.get(normalize(record.name))===record);
+}
+export const heroQualities=['聖','天','地','玄','黃'];
+export function compareHeroQuality(a,b) {
+  const rank=record=>{if(!record.rarity)return heroQualities.length+1;const index=heroQualities.indexOf(record.rarity.replace(/級$/,''));return index<0?heroQualities.length:index;};
+  return rank(a)-rank(b);
+}
 export function detailTargetFromHash(db,hash) {
   if(typeof hash!=='string'||!hash.startsWith('#/'))return null;
   const aliases={guides:'stages',codes:'redeem-codes'};
@@ -26,7 +42,7 @@ export const effectsForTeam = (db,heroIds) => [...new Set(heroIds.flatMap(id => 
 export function searchDatabase(db, query) {
   const q=normalize(query); if(!q)return [];
   const searchable=['heroes','skills','skill-effects','buildings','recipes','ingredients','artifacts','artifact-sets','furniture','furniture-sets','redeem-codes','stages','teams'];
-  return searchable.flatMap(key=>(db[key]||[]).map(record=>{
+  return searchable.flatMap(key=>catalogueRecords(db,key).map(record=>{
     const related=[];
     if(key==='heroes'){
       related.push(...record.skills.map(id=>findById(db,'skills',id)),...record.buildingBonuses.map(b=>findById(db,'buildings',b.buildingId)),...effectIdsForHero(db,record).map(id=>findById(db,'skill-effects',id)));
@@ -51,7 +67,7 @@ export function filterRecords(db,key,params) {
   const hits=query?new Set(searchDatabase(db,query).filter(r=>r.key===key).map(r=>r.record.id)):null;
   const choices=name=>params.getAll(name).filter(Boolean);
   const types=choices('type'),cuisines=choices('cuisine'),effects=choices('effect'),sets=choices('set'),statuses=choices('status');
-  return (db[key]||[]).filter(record=>(!hits||hits.has(record.id))
+  return catalogueRecords(db,key).filter(record=>(!hits||hits.has(record.id))
     &&(!types.length||types.includes(record.type))
     &&(!cuisines.length||cuisines.includes(record.cuisine))
     &&(!effects.length||effects.some(effect=>record.effectTags?.includes(effect)||(record.setIds||[]).some(id=>findById(db,'artifact-sets',id)?.effectTags?.includes(effect))))
@@ -63,9 +79,10 @@ export function heroFiltersFromParams(params) {
   return {...Object.fromEntries(params),rarities:params.getAll('rarity'),attributes:params.getAll('attribute'),professions:params.getAll('profession'),factions:params.getAll('faction')};
 }
 export function filterHeroes(db,{query='',rarity='',role='',effect='',version='',attribute='',rarities=[],attributes=[],professions=[],factions=[]}={}) {
-  const queryIds=query?new Set(searchDatabase(db,query).filter(r=>r.key==='heroes').map(r=>r.record.id)):null;
+  const queryDB=version?{...db,heroes:(db.heroes||[]).filter(h=>h.gameVersion===version)}:db;
+  const queryIds=query?new Set(searchDatabase(queryDB,query).filter(r=>r.key==='heroes').map(r=>r.record.id)):null;
   const rarityChoices=rarities.length?rarities:rarity?[rarity]:[],attributeChoices=attributes.length?attributes:attribute?[attribute]:[];
-  return (db.heroes||[]).filter(hero=>(!queryIds||queryIds.has(hero.id))&&(!rarityChoices.length||rarityChoices.some(r=>r==='unknown'?!hero.rarity:hero.rarity===r))&&(!role||hero.role.includes(role))&&(!effect||effectIdsForHero(db,hero).includes(effect))&&(!version||hero.gameVersion===version)&&(!attributeChoices.length||attributeChoices.some(a=>a==='unknown'?!hero.attribute:hero.attribute===a))&&(!professions.length||professions.some(p=>p==='unknown'?!hero.profession:hero.profession===p))&&(!factions.length||factions.some(f=>f==='unknown'?!hero.faction:hero.faction===f)));
+  return (version?(db.heroes||[]):catalogueRecords(db,'heroes')).filter(hero=>(!queryIds||queryIds.has(hero.id))&&(!rarityChoices.length||rarityChoices.some(r=>r==='unknown'?!hero.rarity:hero.rarity===r))&&(!role||hero.role.includes(role))&&(!effect||effectIdsForHero(db,hero).includes(effect))&&(!version||hero.gameVersion===version)&&(!attributeChoices.length||attributeChoices.some(a=>a==='unknown'?!hero.attribute:hero.attribute===a))&&(!professions.length||professions.some(p=>p==='unknown'?!hero.profession:hero.profession===p))&&(!factions.length||factions.some(f=>f==='unknown'?!hero.faction:hero.faction===f)));
 }
 export function compareSelection(db,values,limit=3) {
   const ids=[...new Set(values)].filter(id=>findById(db,'heroes',id));

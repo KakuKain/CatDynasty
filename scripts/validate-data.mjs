@@ -2,7 +2,7 @@ import {readFileSync,existsSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {resolve,dirname} from 'node:path';
 import Ajv from 'ajv';
-import {collectionKeys} from '../src/core.js';
+import {collectionKeys,normalize} from '../src/core.js';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const load=path=>JSON.parse(readFileSync(path,'utf8'));
@@ -13,15 +13,17 @@ export function validateDatabase(db,{demo=false}={}) {
   const errors=[];const schema=load(resolve(root,'data/schema.json'));
   const ajv=new Ajv({allErrors:true,strict:false});ajv.addSchema(schema);
   const ids={};
+  const namedCollections=new Set(['heroes','buildings','recipes','ingredients','artifacts','artifact-sets','furniture','furniture-sets','teams','stages','skill-effects']);
   for(const key of collectionKeys){
     const records=db[key];
     if(!Array.isArray(records)){errors.push(`${key}: expected an array`);continue;}
-    ids[key]=new Set();
+    ids[key]=new Set();const names=new Set();
     const validate=ajv.compile({type:'array',items:{$ref:`${schema.$id}#/$defs/${key}`}});
     if(!validate(records))errors.push(`${key}: ${ajv.errorsText(validate.errors)}`);
     for(const r of records){
       if(ids[key].has(r.id))errors.push(`${key}: duplicate id ${r.id}`);
       ids[key].add(r.id);
+      if(namedCollections.has(key)&&r.name){const identity=`${r.gameVersion}:${normalize(r.name)}`;if(names.has(identity))errors.push(`${key}: duplicate name in ${r.gameVersion} ${r.name}`);names.add(identity);}
       if(!demo&&r.gameVersion==='mock')errors.push(`${key}/${r.id}: demo record in real data`);
       if(r.verified&&r.gameVersion!=='mock'&&(!r.source||r.sourceType==='unknown'))errors.push(`${key}/${r.id}: verified without a source`);
       if(r.source&&!/^https?:\/\//.test(r.source))errors.push(`${key}/${r.id}: invalid source URL`);
@@ -31,6 +33,9 @@ export function validateDatabase(db,{demo=false}={}) {
       for(const field of ['checkedAt','startDate','endDate','lastTestedAt'])if(r[field]&&!/^\d{4}-\d{2}-\d{2}$/.test(r[field]))errors.push(`${key}/${r.id}: invalid date ${field}`);
     }
   }
+  for(const key of collectionKeys){const legacyIds=new Set();for(const record of db[key]||[])for(const id of record.legacyIds||[]){if(ids[key]?.has(id)||legacyIds.has(id))errors.push(`${key}: duplicate legacy id ${id}`);legacyIds.add(id);}}
+  const teamCompositions=new Set();
+  for(const team of db.teams||[]){if(!team.heroIds.length)continue;const composition=`${team.gameVersion}:${[...team.heroIds].sort().join('|')}`;if(teamCompositions.has(composition))errors.push(`${team.id}: duplicate team composition`);teamCompositions.add(composition);}
   const ref=(key,id,context)=>{if(id&&!ids[key]?.has(id))errors.push(`${context}: missing ${key}/${id}`);};
   for(const h of db.heroes)for(const talent of h.researchTalents)ref('buildings',talent.buildingId,h.id);
   for(const h of db.heroes){h.skills.forEach(id=>ref('skills',id,h.id));h.buildingBonuses.forEach(b=>{ref('buildings',b.buildingId,h.id);const building=db.buildings.find(x=>x.id===b.buildingId);if(building&&!building.acceleratingHeroes.includes(h.id))errors.push(`${h.id}: reverse building relation missing`);});}

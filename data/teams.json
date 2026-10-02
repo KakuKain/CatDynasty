@@ -15,25 +15,20 @@
     "verified": true,
     "gameVersion": "cn",
     "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
-  },
-  {
-    "id": "team_wangzhaojun",
-    "name": "昭君輔助隊",
-    "heroIds": [
-      "hero_su",
-      "hero_wangzhaojun",
-      "hero_yang",
-      "hero_zhuge",
-      "hero_di"
+    "notes": "陸版官方圖鑑；台版效果與數值待核對。 2026-10-02 核對：原「昭君輔助隊」的五位成員與本隊完全相同，已合併名稱、來源及舊連結。",
+    "aliases": [
+      "昭君輔助隊"
     ],
-    "description": "陸版官方圖鑑附列的推薦陣容；台版適用性待核對，未作強度評級。",
-    "source": "https://www.taptap.cn/moment/836201191720357282",
-    "sourceType": "official",
-    "verified": true,
-    "gameVersion": "cn",
-    "checkedAt": "2026-10-01",
-    "notes": "陸版官方圖鑑；台版效果與數值待核對。"
+    "legacyIds": [
+      "team_wangzhaojun"
+    ],
+    "sources": [
+      {
+        "url": "https://www.taptap.cn/moment/836201191720357282",
+        "label": "王昭君圖鑑推薦陣容",
+        "scope": "同一組五位成員；原「昭君輔助隊」合併至本筆，來源與舊連結保留。"
+      }
+    ]
   },
   {
     "id": "team_lichunfeng",

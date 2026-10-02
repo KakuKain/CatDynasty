@@ -1931,6 +1931,22 @@
           "items": {
             "$ref": "#/$defs/playerConfirmation"
           }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "legacyIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
         }
       },
       "required": [
