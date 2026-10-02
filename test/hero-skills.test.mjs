@@ -7,8 +7,8 @@ import {heroTableHeaders,skillForSlot,sheetSkillText} from '../src/hero-catalogu
 const db=readDatabase();
 const source=JSON.parse(readFileSync(new URL('../data/sources/hero-skills-2026-10-02.json',import.meta.url),'utf8'));
 
-test('hero catalogue uses the original sheet headers and maps slots independently of screenshot order',()=>{
-  assert.deepEqual(heroTableHeaders,['品質','名稱','職業','陣營','屬性','必殺技','2星解鎖技能','5星解鎖技能','天賦','六藝推薦']);
+test('hero catalogue combines profession and faction and maps slots independently of screenshot order',()=>{
+  assert.deepEqual(heroTableHeaders,['品質','名稱','職業／陣營','屬性','必殺技','2星解鎖技能','5星解鎖技能','天賦','六藝推薦']);
   const hero=db.heroes.find(h=>h.name==='李淳風'&&h.gameVersion==='tw');
   assert.equal(skillForSlot(db,hero,'star2').name,'言兆');
   assert.equal(skillForSlot(db,hero,'star5').name,'周算');
