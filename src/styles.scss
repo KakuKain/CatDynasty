@@ -558,12 +558,9 @@ html.drawer-open { overflow: hidden; }
 .hero-skill-explanation {font-size:.98rem;line-height:1.65;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;overflow-wrap:anywhere;white-space:pre-wrap;}
 .hero-skill-toggle {width:18px;height:18px;color:#846d4d;transform:rotate(180deg);}
 .hero-skill-item[open] {border-top:2px solid #a24b3b;}
-.hero-skill-item[open] .hero-skill-kind {align-self:stretch;display:grid;place-items:center;writing-mode:vertical-rl;background:#963d32;color:#fff4dc;border:0;margin:-10px 0 -10px -12px;padding:8px 5px;border-radius:2px 0 0 0;font-size:1rem;}
+.hero-skill-item[open] .hero-skill-kind {align-self:stretch;display:grid;place-items:center;writing-mode:vertical-rl;text-orientation:upright;background:#963d32;color:#fff4dc;border:0;margin:-10px 0 -10px -12px;padding:8px 5px;border-radius:2px 0 0 0;font-size:1rem;}
 .hero-skill-item[open] .hero-skill-explanation {display:block;overflow:visible;}
 .hero-skill-item[open] .hero-skill-toggle {transform:rotate(90deg);}
-.hero-skill-more {display:flex;justify-content:flex-end;padding:0 40px 8px 12px;}
-.hero-skill-more>.tag,.hero-skill-more>.muted {display:none;}
-.hero-skill-more>.hero-name-link {font-size:.76rem;color:#7b755d;text-decoration:underline;text-underline-offset:3px;}
 .hero-empty-note {padding:12px 0;}
 .hero-secondary-details {border-top:1px solid #cfc2a5;}
 .hero-secondary-details>details {border-bottom:1px solid #d8cdb5;}
