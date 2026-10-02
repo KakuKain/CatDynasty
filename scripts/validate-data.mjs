@@ -39,7 +39,8 @@ export function validateDatabase(db,{demo=false}={}) {
   const ref=(key,id,context)=>{if(id&&!ids[key]?.has(id))errors.push(`${context}: missing ${key}/${id}`);};
   for(const h of db.heroes)for(const talent of h.researchTalents)ref('buildings',talent.buildingId,h.id);
   for(const h of db.heroes){h.skills.forEach(id=>ref('skills',id,h.id));h.buildingBonuses.forEach(b=>{ref('buildings',b.buildingId,h.id);const building=db.buildings.find(x=>x.id===b.buildingId);if(building&&!building.acceleratingHeroes.includes(h.id))errors.push(`${h.id}: reverse building relation missing`);});}
-  for(const s of db.skills)s.effects.forEach(v=>ref('skill-effects',v.type,s.id));
+  for(const s of db.skills){s.effects.forEach(v=>ref('skill-effects',v.type,s.id));if(s.talent)ref('buildings',s.talent.buildingId,s.id);}
+  for(const hero of db.heroes){const slots=new Set();for(const id of hero.skills){const skill=db.skills.find(s=>s.id===id);if(skill?.slot){if(slots.has(skill.slot))errors.push(`${hero.id}: duplicate skill slot ${skill.slot}`);slots.add(skill.slot);}if(skill&&skill.gameVersion!==hero.gameVersion)errors.push(`${hero.id}: skill version mismatch ${id}`);}}
   for(const b of db.buildings){b.production.forEach(id=>ref('ingredients',id,b.id));b.levels.forEach(id=>ref('building-levels',id,b.id));b.acceleratingHeroes.forEach(id=>{ref('heroes',id,b.id);const hero=db.heroes.find(h=>h.id===id);if(hero&&!hero.buildingBonuses.some(v=>v.buildingId===b.id))errors.push(`${b.id}: reverse hero relation missing`);});}
   for(const l of db['building-levels'])ref('buildings',l.buildingId,l.id);
   for(const r of db.recipes){ref('buildings',r.buildingId,r.id);r.ingredients.forEach(i=>ref('ingredients',i.ingredientId,r.id));}

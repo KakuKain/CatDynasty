@@ -479,6 +479,55 @@
           "items": {
             "$ref": "#/$defs/playerConfirmation"
           }
+        },
+        "slot": {
+          "enum": [
+            "entry",
+            "ultimate",
+            "star2",
+            "star5",
+            "talent"
+          ]
+        },
+        "unlockStars": {
+          "enum": [
+            null,
+            2,
+            5
+          ]
+        },
+        "levelContext": {
+          "enum": [
+            "max-level-preview"
+          ]
+        },
+        "screenshotFile": {
+          "type": "string"
+        },
+        "talent": {
+          "type": "object",
+          "properties": {
+            "buildingId": {
+              "type": "string"
+            },
+            "efficiency": {
+              "type": "number",
+              "minimum": 0
+            },
+            "timeReduction": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "required": [
+            "buildingId",
+            "efficiency",
+            "timeReduction"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [

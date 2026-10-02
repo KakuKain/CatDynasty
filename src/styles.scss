@@ -22,12 +22,12 @@ $font: "LXGW WenKai TC", "DFKai-SB", "BiauKai", "KaiTi", serif;
   margin-bottom: 30px;
 }
 .hero-table {
-  min-width: 1050px;
+  min-width: 1440px;
   font-size: .88rem;
   th, td { padding: 16px 14px; vertical-align: middle; }
   thead th { white-space: nowrap; }
   tbody th { background: white; }
-  th:first-child {
+  th:nth-child(2) {
     position: sticky;
     left: 0;
     min-width: 145px;
@@ -46,7 +46,7 @@ $font: "LXGW WenKai TC", "DFKai-SB", "BiauKai", "KaiTi", serif;
 }
 @media(max-width:640px) {
   .hero-table th, .hero-table td { padding: 13px 12px; }
-  .hero-table th:first-child { min-width: 120px; }
+  .hero-table th:nth-child(2) { min-width: 145px; }
 }
 
 // Paper, ink wash and vermilion seals. Illustrations are original SVG vectors.
@@ -125,10 +125,13 @@ main {padding-top:28px;}
 .data-table th:first-child {position:sticky;left:0;z-index:1;border-right:1px solid #d8cdb4;min-width:140px;}
 .data-table thead th:first-child {background:#e6e6d5;}
 .data-table tbody tr:last-child>* {border-bottom:0;}
-.hero-table {min-width:940px;}
+.hero-table {min-width:1440px;}
 .hero-table td:nth-child(4) {min-width:90px;width:auto;}
-.hero-table td:nth-child(6) {min-width:190px;max-width:250px;}
-.hero-table td:last-child {min-width:110px;}
+.hero-table td:nth-child(6),.hero-table td:nth-child(7),.hero-table td:nth-child(8) {min-width:145px;max-width:180px;}
+.hero-table td:nth-child(9) {min-width:170px;}
+.hero-table td:last-child {min-width:190px;max-width:250px;}
+.data-table.hero-table thead th:first-child {position:static;min-width:120px;z-index:auto;}
+.data-table.hero-table th:nth-child(2) {min-width:185px;}
 .hero-name-link {font-size:1rem;font-weight:600;color:#2f4c3a;display:block;}
 .cell-note {display:block;font-size:.73rem;line-height:1.65;font-weight:400;color:#6d715d;margin-top:5px;}
 .cell-note .badge {font-size:.66rem;white-space:normal;}
@@ -169,7 +172,7 @@ main {padding-top:28px;}
   .multi-filter {margin-top:8px;}.filter-options {gap:8px;}.check-chip {padding:8px 11px;}
   .filter-actions {gap:12px;}.filter-actions .muted {width:100%;}
   .data-table th,.data-table td {padding:13px 12px;}.data-table th:first-child {min-width:125px;}
-  .hero-table {min-width:900px;}.hero-table td:nth-child(6) {min-width:180px;}
+  .hero-table {min-width:1440px;}
   .compare-picker {grid-template-columns:1fr;max-height:320px;}.compare-search {max-width:none;}
   .compare-option {min-height:65px;}.source-block>div {gap:10px;}
 }

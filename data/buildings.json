@@ -82,7 +82,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_shangguanwaner_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -140,7 +142,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_qingzhao_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -162,7 +166,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_h_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -184,7 +190,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_hanbao_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -206,7 +214,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_qi_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -228,7 +238,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_lichunfeng_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -257,7 +269,10 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_shuai_tw",
+      "hero_qin_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -279,7 +294,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_ayi_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -311,7 +328,10 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_huo_tw",
+      "hero_pu_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -333,7 +353,10 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_wuzetian_tw",
+      "hero_xuanzang_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -384,7 +407,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_libai_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -406,7 +431,9 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_xuxiake_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -435,7 +462,10 @@
     },
     "levels": [],
     "production": [],
-    "acceleratingHeroes": [],
+    "acceleratingHeroes": [
+      "hero_shen_tw",
+      "hero_jingke_tw"
+    ],
     "source": "https://catdynasty.poseidongame.com/#section3",
     "sourceType": "official",
     "verified": true,
@@ -555,5 +585,91 @@
       "description"
     ],
     "notes": "依官方更新公告核對名稱與功能；解鎖、研究、升級與生產資料待補。"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "building_candied_tw",
+    "name": "蜜餞房",
+    "type": null,
+    "description": "台版喵將天賦截圖確認的建築；解鎖與升級資料待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_fuhao_tw"
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_24.jpg"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "building_garden_tw",
+    "name": "司苑局",
+    "type": null,
+    "description": "台版喵將天賦截圖確認的建築；解鎖與升級資料待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_zhuge_tw",
+      "hero_huangyueying_tw"
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_30.jpg"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "building_incense_tw",
+    "name": "染香局",
+    "type": null,
+    "description": "台版喵將天賦截圖確認的建築；解鎖與升級資料待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_di_tw",
+      "hero_qu_tw"
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_50.jpg"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "building_hospital_tw",
+    "name": "太醫院",
+    "type": null,
+    "description": "台版喵將天賦截圖確認的建築；解鎖與升級資料待補。",
+    "unlock": {
+      "cityLevel": null,
+      "condition": null
+    },
+    "levels": [],
+    "production": [],
+    "acceleratingHeroes": [
+      "hero_wangzhaojun_tw"
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_82.jpg"
   }
 ]

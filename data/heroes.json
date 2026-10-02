@@ -140,16 +140,29 @@
     "attribute": "增傷",
     "sixArts": [],
     "image": "images/heroes/hero-26-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_libai_tw_ultimate",
+      "skill_libai_tw_star2",
+      "skill_libai_tw_star5",
+      "skill_libai_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_construction_tw",
+        "effectType": "efficiency",
+        "value": 70,
+        "timeReduction": null,
+        "description": "營造天賦（滿級）：【營造局】效率70%"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "墨客",
     "sixArtsRecommendations": [],
@@ -173,7 +186,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -189,6 +203,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 26 張：天級（稀有）、輸出、墨客、增傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 118、119、120、121、122；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -197,7 +224,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_118.jpg",
+        "LINE_ALBUM_2026102_261002_119.jpg",
+        "LINE_ALBUM_2026102_261002_120.jpg",
+        "LINE_ALBUM_2026102_261002_121.jpg",
+        "LINE_ALBUM_2026102_261002_122.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_yang_tw",
@@ -211,20 +249,30 @@
     "attribute": "驅散",
     "sixArts": [],
     "image": "images/heroes/hero-12-tw.webp",
-    "skills": [],
+    "skills": [
+      "skill_yang_tw_ultimate",
+      "skill_yang_tw_star2",
+      "skill_yang_tw_star5",
+      "skill_yang_tw_talent"
+    ],
     "buildingBonuses": [],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "文臣",
     "sixArtsRecommendations": [],
-    "researchTalents": [],
+    "researchTalents": [
+      {
+        "buildingId": "building_hanlin_tw",
+        "description": "研究天賦（滿級）：【翰林院】效率63%"
+      }
+    ],
     "rarityType": null,
     "imageType": "cutout",
     "screenshotProgress": {
@@ -244,7 +292,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -260,6 +309,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 12 張：天級、輔助、文臣、驅散。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 61、62、63、64、65；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -268,7 +330,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_61.jpg",
+        "LINE_ALBUM_2026102_261002_62.jpg",
+        "LINE_ALBUM_2026102_261002_63.jpg",
+        "LINE_ALBUM_2026102_261002_64.jpg",
+        "LINE_ALBUM_2026102_261002_65.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_jingke_tw",
@@ -282,16 +355,29 @@
     "attribute": "真傷",
     "sixArts": [],
     "image": "images/heroes/hero-10-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_jingke_tw_ultimate",
+      "skill_jingke_tw_star2",
+      "skill_jingke_tw_star5",
+      "skill_jingke_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_honglu_tw",
+        "effectType": "efficiency",
+        "value": 70,
+        "timeReduction": null,
+        "description": "外交天賦（滿級）：【鴻臚寺】效率70%"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "俠士",
     "sixArtsRecommendations": [],
@@ -315,7 +401,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -331,6 +418,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 10 張：天級（稀有）、輸出、俠士、真傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 103、104、105、106、107；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -339,7 +439,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_103.jpg",
+        "LINE_ALBUM_2026102_261002_104.jpg",
+        "LINE_ALBUM_2026102_261002_105.jpg",
+        "LINE_ALBUM_2026102_261002_106.jpg",
+        "LINE_ALBUM_2026102_261002_107.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_xuxiake_tw",
@@ -353,16 +464,29 @@
     "attribute": "加速",
     "sixArts": [],
     "image": "images/heroes/hero-14-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_xuxiake_tw_ultimate",
+      "skill_xuxiake_tw_star2",
+      "skill_xuxiake_tw_star5",
+      "skill_xuxiake_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_pastry_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "烘焙天賦（滿級）：【糕點局】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "俠士",
     "sixArtsRecommendations": [],
@@ -386,7 +510,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -402,6 +527,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 14 張：天級、輸出、俠士、加速。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 36、37、38、39、40；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -410,7 +548,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_36.jpg",
+        "LINE_ALBUM_2026102_261002_37.jpg",
+        "LINE_ALBUM_2026102_261002_38.jpg",
+        "LINE_ALBUM_2026102_261002_39.jpg",
+        "LINE_ALBUM_2026102_261002_40.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_xuanzang_tw",
@@ -424,16 +573,29 @@
     "attribute": "復活",
     "sixArts": [],
     "image": "images/heroes/hero-18-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_xuanzang_tw_ultimate",
+      "skill_xuanzang_tw_star2",
+      "skill_xuanzang_tw_star5",
+      "skill_xuanzang_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_silver_tw",
+        "effectType": "efficiency",
+        "value": 56,
+        "timeReduction": 210,
+        "description": "金工天賦（滿級）：【銀作局】效率56%，時間-210秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "俠士",
     "sixArtsRecommendations": [],
@@ -457,7 +619,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -473,6 +636,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 18 張：天級（稀有）、輔助、俠士、復活。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 93、94、95、96、97；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -481,7 +657,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_93.jpg",
+        "LINE_ALBUM_2026102_261002_94.jpg",
+        "LINE_ALBUM_2026102_261002_95.jpg",
+        "LINE_ALBUM_2026102_261002_96.jpg",
+        "LINE_ALBUM_2026102_261002_97.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_shen_tw",
@@ -495,16 +682,29 @@
     "attribute": "免傷",
     "sixArts": [],
     "image": "images/heroes/hero-13-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_shen_tw_ultimate",
+      "skill_shen_tw_star2",
+      "skill_shen_tw_star5",
+      "skill_shen_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_honglu_tw",
+        "effectType": "efficiency",
+        "value": 63,
+        "timeReduction": null,
+        "description": "外交天賦（滿級）：【鴻臚寺】效率63%"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 天級品質來自 Lota，尚未由玩家核對。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "acquisition": [
       "七日簽到（攻略來源記載，待遊戲內核對）。"
     ],
@@ -543,7 +743,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -559,8 +760,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 13 張：天級、肉盾、俠士、免傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 98、99、100、101、102；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_98.jpg",
+        "LINE_ALBUM_2026102_261002_99.jpg",
+        "LINE_ALBUM_2026102_261002_100.jpg",
+        "LINE_ALBUM_2026102_261002_101.jpg",
+        "LINE_ALBUM_2026102_261002_102.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_zhuge_tw",
@@ -574,16 +799,29 @@
     "attribute": "灼燒",
     "sixArts": [],
     "image": "images/heroes/hero-22-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_zhuge_tw_ultimate",
+      "skill_zhuge_tw_star2",
+      "skill_zhuge_tw_star5",
+      "skill_zhuge_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_garden_tw",
+        "effectType": "efficiency",
+        "value": 56,
+        "timeReduction": 210,
+        "description": "種植天賦（滿級）：【司苑局】效率56%，時間-210秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "文臣",
     "sixArtsRecommendations": [],
@@ -607,7 +845,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -623,6 +862,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 22 張：天級（稀有）、輸出、文臣、灼燒。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 26、27、28、29、30；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -631,7 +883,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_26.jpg",
+        "LINE_ALBUM_2026102_261002_27.jpg",
+        "LINE_ALBUM_2026102_261002_28.jpg",
+        "LINE_ALBUM_2026102_261002_29.jpg",
+        "LINE_ALBUM_2026102_261002_30.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_wangzhaojun_tw",
@@ -645,16 +908,29 @@
     "attribute": "驅散",
     "sixArts": [],
     "image": "images/heroes/hero-16-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_wangzhaojun_tw_ultimate",
+      "skill_wangzhaojun_tw_star2",
+      "skill_wangzhaojun_tw_star5",
+      "skill_wangzhaojun_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_hospital_tw",
+        "effectType": "efficiency",
+        "value": 56,
+        "timeReduction": 210,
+        "description": "岐黃天賦（滿級）：【太醫院】效率56%，時間-210秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "文臣",
     "sixArtsRecommendations": [],
@@ -678,7 +954,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -694,6 +971,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 16 張：天級（稀有）、輔助、文臣、驅散。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 76、77、79、80、81、82；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -702,7 +992,19 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_76.jpg",
+        "LINE_ALBUM_2026102_261002_77.jpg",
+        "LINE_ALBUM_2026102_261002_79.jpg",
+        "LINE_ALBUM_2026102_261002_80.jpg",
+        "LINE_ALBUM_2026102_261002_81.jpg",
+        "LINE_ALBUM_2026102_261002_82.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_qin_tw",
@@ -716,16 +1018,30 @@
     "attribute": "無敵",
     "sixArts": [],
     "image": "images/heroes/hero-02-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_qin_tw_entry",
+      "skill_qin_tw_ultimate",
+      "skill_qin_tw_star2",
+      "skill_qin_tw_star5",
+      "skill_qin_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_imperial_tw",
+        "effectType": "efficiency",
+        "value": 70,
+        "timeReduction": 280,
+        "description": "鑄造天賦（滿級）：【御用局】效率70%，時間-280秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "帝王",
     "sixArtsRecommendations": [],
@@ -754,7 +1070,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -770,6 +1087,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 2 張：聖級、輔助、帝王、無敵。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 11、12、13、14、15；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -778,7 +1108,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_11.jpg",
+        "LINE_ALBUM_2026102_261002_12.jpg",
+        "LINE_ALBUM_2026102_261002_13.jpg",
+        "LINE_ALBUM_2026102_261002_14.jpg",
+        "LINE_ALBUM_2026102_261002_15.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_wuzetian_tw",
@@ -792,16 +1133,30 @@
     "attribute": "回怒",
     "sixArts": [],
     "image": "images/heroes/hero-01-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_wuzetian_tw_entry",
+      "skill_wuzetian_tw_ultimate",
+      "skill_wuzetian_tw_star2",
+      "skill_wuzetian_tw_star5",
+      "skill_wuzetian_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_silver_tw",
+        "effectType": "efficiency",
+        "value": 70,
+        "timeReduction": 280,
+        "description": "金工天賦（滿級）：【銀作局】效率70%，時間-280秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版攻略提及此喵將；屬性與技能待補。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "帝王",
     "sixArtsRecommendations": [],
@@ -830,7 +1185,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -846,6 +1202,19 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 1 張：聖級、輔助、帝王、回怒。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 16、17、18、19、20；技能數值為滿級預覽。"
       }
     ],
     "sources": [
@@ -854,7 +1223,18 @@
         "label": "既有角色介紹來源",
         "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_16.jpg",
+        "LINE_ALBUM_2026102_261002_17.jpg",
+        "LINE_ALBUM_2026102_261002_18.jpg",
+        "LINE_ALBUM_2026102_261002_19.jpg",
+        "LINE_ALBUM_2026102_261002_20.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_yang",
@@ -1555,24 +1935,36 @@
     "aliases": [],
     "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "灼燒",
     "sixArts": [],
     "image": null,
     "skills": [
       "skill_yueying_1_tw",
-      "skill_yueying_2_tw"
+      "skill_yueying_2_tw",
+      "skill_huangyueying_tw_star5",
+      "skill_huangyueying_tw_talent"
     ],
-    "buildingBonuses": [],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_garden_tw",
+        "effectType": "efficiency",
+        "value": 56,
+        "timeReduction": 210,
+        "description": "種植天賦（滿級）：【司苑局】效率56%，時間-210秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版官方公告確認的稀有天級喵將，技能可引燃或延長灼燒。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
     "sourceType": "official",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "profession": null,
-    "faction": null,
+    "checkedAt": "2026-10-02",
+    "profession": "輔助",
+    "faction": "墨客",
     "sixArtsRecommendations": [],
     "researchTalents": [],
     "rarityType": "稀有",
@@ -1580,12 +1972,41 @@
       "name",
       "rarity",
       "rarityType",
-      "skills"
+      "skills",
+      "profession",
+      "faction",
+      "attribute"
     ],
     "acquisition": [
       "官方曾於 9/27–9/29 開放第三方通路累積儲值活動取得（已結束；常駐取得方式待補）。"
     ],
-    "notes": "僅收錄公告確認的品質與技能，未推定職業、陣營、屬性、六藝或研究天賦。活動資訊保留於攻略回顧。"
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_51.jpg",
+        "LINE_ALBUM_2026102_261002_52.jpg",
+        "LINE_ALBUM_2026102_261002_53.jpg",
+        "LINE_ALBUM_2026102_261002_54.jpg",
+        "LINE_ALBUM_2026102_261002_55.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    },
+    "confirmations": [
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 51、52、53、54、55；技能數值為滿級預覽。"
+      }
+    ]
   },
   {
     "id": "hero_fuquan_tw",
@@ -1855,16 +2276,29 @@
     "attribute": "嘲諷",
     "sixArts": [],
     "image": "images/heroes/hero-08-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_pu_tw_ultimate",
+      "skill_pu_tw_star2",
+      "skill_pu_tw_star5",
+      "skill_pu_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_cooked_fish_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "鮮餌天賦（滿級）：【烹魚局】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "肉盾",
     "faction": "墨客",
     "sixArtsRecommendations": [],
@@ -1888,7 +2322,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -1904,8 +2339,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 8 張：天級、肉盾、墨客、嘲諷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 41、42、43、44、45；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_41.jpg",
+        "LINE_ALBUM_2026102_261002_42.jpg",
+        "LINE_ALBUM_2026102_261002_43.jpg",
+        "LINE_ALBUM_2026102_261002_44.jpg",
+        "LINE_ALBUM_2026102_261002_45.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_qi_tw",
@@ -1919,16 +2378,29 @@
     "attribute": "無敵",
     "sixArts": [],
     "image": "images/heroes/hero-09-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_qi_tw_ultimate",
+      "skill_qi_tw_star2",
+      "skill_qi_tw_star5",
+      "skill_qi_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_bells_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "禮樂天賦（滿級）：【鐘鼓司】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "武將",
     "sixArtsRecommendations": [],
@@ -1952,7 +2424,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -1968,8 +2441,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 9 張：天級、輸出、武將、無敵。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 56、57、58、59、60；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_56.jpg",
+        "LINE_ALBUM_2026102_261002_57.jpg",
+        "LINE_ALBUM_2026102_261002_58.jpg",
+        "LINE_ALBUM_2026102_261002_59.jpg",
+        "LINE_ALBUM_2026102_261002_60.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_fuhao_tw",
@@ -1983,16 +2480,29 @@
     "attribute": "嘲諷",
     "sixArts": [],
     "image": "images/heroes/hero-11-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_fuhao_tw_ultimate",
+      "skill_fuhao_tw_star2",
+      "skill_fuhao_tw_star5",
+      "skill_fuhao_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_candied_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "糖漬天賦（滿級）：【蜜餞房】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "肉盾",
     "faction": "武將",
     "sixArtsRecommendations": [],
@@ -2016,7 +2526,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2032,8 +2543,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 11 張：天級、肉盾、武將、嘲諷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 21、22、23、24、25；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_21.jpg",
+        "LINE_ALBUM_2026102_261002_22.jpg",
+        "LINE_ALBUM_2026102_261002_23.jpg",
+        "LINE_ALBUM_2026102_261002_24.jpg",
+        "LINE_ALBUM_2026102_261002_25.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_di_tw",
@@ -2047,16 +2582,29 @@
     "attribute": "連擊",
     "sixArts": [],
     "image": "images/heroes/hero-15-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_di_tw_ultimate",
+      "skill_di_tw_star2",
+      "skill_di_tw_star5",
+      "skill_di_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_incense_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "調香天賦（滿級）：【染香局】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "文臣",
     "sixArtsRecommendations": [],
@@ -2080,7 +2628,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2096,8 +2645,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 15 張：天級、輸出、文臣、連擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 46、47、48、49、50；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_46.jpg",
+        "LINE_ALBUM_2026102_261002_47.jpg",
+        "LINE_ALBUM_2026102_261002_48.jpg",
+        "LINE_ALBUM_2026102_261002_49.jpg",
+        "LINE_ALBUM_2026102_261002_50.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_lichunfeng_tw",
@@ -2111,16 +2684,29 @@
     "attribute": "加速",
     "sixArts": [],
     "image": "images/heroes/hero-17-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_lichunfeng_tw_ultimate",
+      "skill_lichunfeng_tw_star2",
+      "skill_lichunfeng_tw_star5",
+      "skill_lichunfeng_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_vinegar_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "釀造天賦（滿級）：【酒醋麵局】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "文臣",
     "sixArtsRecommendations": [],
@@ -2144,7 +2730,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2160,8 +2747,33 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 17 張：天級、輔助、文臣、加速。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 78、83、84、85、86、87；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_78.jpg",
+        "LINE_ALBUM_2026102_261002_83.jpg",
+        "LINE_ALBUM_2026102_261002_84.jpg",
+        "LINE_ALBUM_2026102_261002_85.jpg",
+        "LINE_ALBUM_2026102_261002_86.jpg",
+        "LINE_ALBUM_2026102_261002_87.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_h_tw",
@@ -2175,16 +2787,29 @@
     "attribute": "驅散",
     "sixArts": [],
     "image": "images/heroes/hero-19-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_h_tw_ultimate",
+      "skill_h_tw_star2",
+      "skill_h_tw_star5",
+      "skill_h_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_needle_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "針線天賦（滿級）：【針工局】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "俠士",
     "sixArtsRecommendations": [],
@@ -2208,7 +2833,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2224,8 +2850,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 19 張：天級、輔助、俠士、驅散。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 108、109、110、111、112；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_108.jpg",
+        "LINE_ALBUM_2026102_261002_109.jpg",
+        "LINE_ALBUM_2026102_261002_110.jpg",
+        "LINE_ALBUM_2026102_261002_111.jpg",
+        "LINE_ALBUM_2026102_261002_112.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_hanbao_tw",
@@ -2239,16 +2889,29 @@
     "attribute": "流血",
     "sixArts": [],
     "image": "images/heroes/hero-20-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_hanbao_tw_ultimate",
+      "skill_hanbao_tw_star2",
+      "skill_hanbao_tw_star5",
+      "skill_hanbao_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_clothes_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "裁縫天賦（滿級）：【尚衣局】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "武將",
     "sixArtsRecommendations": [],
@@ -2272,7 +2935,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2288,8 +2952,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 20 張：天級、輸出、武將、流血。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 66、67、68、69、70；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_66.jpg",
+        "LINE_ALBUM_2026102_261002_67.jpg",
+        "LINE_ALBUM_2026102_261002_68.jpg",
+        "LINE_ALBUM_2026102_261002_69.jpg",
+        "LINE_ALBUM_2026102_261002_70.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_qingzhao_tw",
@@ -2303,16 +2991,29 @@
     "attribute": "治療",
     "sixArts": [],
     "image": "images/heroes/hero-21-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_qingzhao_tw_ultimate",
+      "skill_qingzhao_tw_star2",
+      "skill_qingzhao_tw_star5",
+      "skill_qingzhao_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_wood_tw",
+        "effectType": "efficiency",
+        "value": 70,
+        "timeReduction": null,
+        "description": "木工天賦（滿級）：【木作司】效率70%"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "墨客",
     "sixArtsRecommendations": [],
@@ -2336,7 +3037,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2352,8 +3054,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 21 張：天級（稀有）、輔助、墨客、治療。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 88、89、90、91、92；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_88.jpg",
+        "LINE_ALBUM_2026102_261002_89.jpg",
+        "LINE_ALBUM_2026102_261002_90.jpg",
+        "LINE_ALBUM_2026102_261002_91.jpg",
+        "LINE_ALBUM_2026102_261002_92.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_shangguanwaner_tw",
@@ -2367,16 +3093,29 @@
     "attribute": "治療",
     "sixArts": [],
     "image": "images/heroes/hero-23-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_shangguanwaner_tw_ultimate",
+      "skill_shangguanwaner_tw_star2",
+      "skill_shangguanwaner_tw_star5",
+      "skill_shangguanwaner_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_kitchen_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "烹飪天賦（滿級）：【御膳房】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "墨客",
     "sixArtsRecommendations": [],
@@ -2400,7 +3139,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2416,8 +3156,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 23 張：天級、輔助、墨客、治療。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 31、32、33、34、35；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_31.jpg",
+        "LINE_ALBUM_2026102_261002_32.jpg",
+        "LINE_ALBUM_2026102_261002_33.jpg",
+        "LINE_ALBUM_2026102_261002_34.jpg",
+        "LINE_ALBUM_2026102_261002_35.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_qu_tw",
@@ -2431,16 +3195,29 @@
     "attribute": "控制",
     "sixArts": [],
     "image": "images/heroes/hero-24-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_qu_tw_ultimate",
+      "skill_qu_tw_star2",
+      "skill_qu_tw_star5",
+      "skill_qu_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_incense_tw",
+        "effectType": "efficiency",
+        "value": 42,
+        "timeReduction": 168,
+        "description": "調香天賦（滿級）：【染香局】效率42%，時間-168秒"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "墨客",
     "sixArtsRecommendations": [],
@@ -2464,7 +3241,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2480,8 +3258,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 24 張：天級、輸出、墨客、控制。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 71、72、73、74、75；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_71.jpg",
+        "LINE_ALBUM_2026102_261002_72.jpg",
+        "LINE_ALBUM_2026102_261002_73.jpg",
+        "LINE_ALBUM_2026102_261002_74.jpg",
+        "LINE_ALBUM_2026102_261002_75.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_ayi_tw",
@@ -2495,16 +3297,29 @@
     "attribute": "暴擊",
     "sixArts": [],
     "image": "images/heroes/hero-25-tw.webp",
-    "skills": [],
-    "buildingBonuses": [],
+    "skills": [
+      "skill_ayi_tw_ultimate",
+      "skill_ayi_tw_star2",
+      "skill_ayi_tw_star5",
+      "skill_ayi_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_fishery_tw",
+        "effectType": "efficiency",
+        "value": 70,
+        "timeReduction": null,
+        "description": "垂釣天賦（滿級）：【魚肆局】效率70%"
+      }
+    ],
     "teamTags": [],
-    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "俠士",
     "sixArtsRecommendations": [],
@@ -2528,7 +3343,8 @@
       "profession",
       "faction",
       "attribute",
-      "image"
+      "image",
+      "skills"
     ],
     "confirmations": [
       {
@@ -2544,8 +3360,32 @@
         "method": "screenshot",
         "checkedAt": "2026-10-01",
         "description": "台版喵將截圖第 25 張：天級（稀有）、輔助、俠士、暴擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 113、114、115、116、117；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_113.jpg",
+        "LINE_ALBUM_2026102_261002_114.jpg",
+        "LINE_ALBUM_2026102_261002_115.jpg",
+        "LINE_ALBUM_2026102_261002_116.jpg",
+        "LINE_ALBUM_2026102_261002_117.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_marcopolo_tw",
@@ -3558,6 +4398,158 @@
         "method": "player",
         "checkedAt": "2026-10-01",
         "description": "玩家更正角色名稱為「蒼髥大臣」。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "hero_huo_tw",
+    "name": "霍去病",
+    "aliases": [],
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "sixArts": [],
+    "image": null,
+    "skills": [
+      "skill_huo_tw_ultimate",
+      "skill_huo_tw_star2",
+      "skill_huo_tw_star5",
+      "skill_huo_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_cooked_fish_tw",
+        "effectType": "efficiency",
+        "value": 56,
+        "timeReduction": 210,
+        "description": "鮮餌天賦（滿級）：【烹魚局】效率56%，時間-210秒"
+      }
+    ],
+    "teamTags": [],
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": "暴擊",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_1.jpg",
+        "LINE_ALBUM_2026102_261002_2.jpg",
+        "LINE_ALBUM_2026102_261002_3.jpg",
+        "LINE_ALBUM_2026102_261002_4.jpg",
+        "LINE_ALBUM_2026102_261002_5.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    },
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "skills"
+    ],
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
+    "confirmations": [
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 1、2、3、4、5；技能數值為滿級預覽。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "hero_shuai_tw",
+    "name": "帥波",
+    "aliases": [],
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "sixArts": [],
+    "image": null,
+    "skills": [
+      "skill_shuai_tw_ultimate",
+      "skill_shuai_tw_star2",
+      "skill_shuai_tw_star5",
+      "skill_shuai_tw_talent"
+    ],
+    "buildingBonuses": [
+      {
+        "buildingId": "building_imperial_tw",
+        "effectType": "efficiency",
+        "value": 56,
+        "timeReduction": 210,
+        "description": "鑄造天賦（滿級）：【御用局】效率56%，時間-210秒"
+      }
+    ],
+    "teamTags": [],
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": "暴擊",
+    "description": "台版喵將圖鑑；技能與天賦依玩家提供的滿級預覽截圖整理。",
+    "skillEvidence": {
+      "files": [
+        "LINE_ALBUM_2026102_261002_6.jpg",
+        "LINE_ALBUM_2026102_261002_7.jpg",
+        "LINE_ALBUM_2026102_261002_8.jpg",
+        "LINE_ALBUM_2026102_261002_9.jpg",
+        "LINE_ALBUM_2026102_261002_10.jpg"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    },
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "skills"
+    ],
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
+    "confirmations": [
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 6、7、8、9、10；技能數值為滿級預覽。"
       }
     ]
   }

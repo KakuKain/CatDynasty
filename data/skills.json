@@ -791,34 +791,61 @@
     "id": "skill_yueying_1_tw",
     "name": "流火金縷",
     "type": "必殺技",
-    "target": "隨機兩名敵人",
-    "description": "隨機攻擊兩個敵方單位，造成攻擊力 50% 的傷害；目標若有灼燒，立即引燃剩餘回合的灼燒傷害。",
+    "target": null,
+    "description": "隨機攻擊敵方全體單位，造成黃月英攻擊力82%的傷害，若對方單位身上存在灼燒效果，則一次性「引燃」其剩餘回合數的傷害，並為我方血量最低的兩個單位施加黃月英攻擊力90%的護盾。（引燃：根據目標的「灼燒」效果的剩餘回合數，一次性結算，並造成黃月英攻擊力110%的傷害結果。）",
     "effects": [
       {
         "type": "damage",
-        "value": 50,
-        "unit": "percent",
-        "target": "隨機兩名敵人"
+        "value": null
       },
       {
         "type": "burn",
         "value": null
+      },
+      {
+        "type": "shield",
+        "value": null
       }
     ],
-    "source": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
-    "sourceType": "official",
-    "verified": true,
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
+    "checkedAt": "2026-10-02",
     "cooldown": null,
-    "notes": "台版官方公告／圖鑑確認所列效果；未公布的倍率、機率、持續時間與技能類型保留待補。"
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
+        "label": "既有台版官方技能介紹",
+        "scope": "技能名稱與機制；本次數值以滿級截圖為準。"
+      }
+    ],
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_52.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_52.jpg",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
   },
   {
     "id": "skill_yueying_2_tw",
     "name": "燎原餘燼",
-    "type": "未標示",
-    "target": "隨機三名敵人",
-    "description": "攻擊改為隨機三名敵人；目標有灼燒時，有 30% 機率使灼燒持續回合增加 1。",
+    "type": "被動技能",
+    "target": null,
+    "description": "攻擊變為隨機三名敵人，若對方身上有灼燒效果，則有50%機率使灼燒回合數+1。",
     "effects": [
       {
         "type": "damage",
@@ -826,18 +853,4104 @@
       },
       {
         "type": "burn",
-        "value": null,
-        "chance": 30,
-        "duration": null,
-        "durationChange": 1
+        "value": null
       }
     ],
-    "source": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
-    "sourceType": "official",
-    "verified": true,
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
+    "checkedAt": "2026-10-02",
     "cooldown": null,
-    "notes": "台版官方公告／圖鑑確認所列效果；未公布的倍率、機率、持續時間與技能類型保留待補。"
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "sources": [
+      {
+        "url": "https://www.facebook.com/photo/?fbid=122126552984985922&set=pb.61579577675547.-2207520000",
+        "label": "既有台版官方技能介紹",
+        "scope": "技能名稱與機制；本次數值以滿級截圖為準。"
+      }
+    ],
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_53.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_53.jpg",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-02",
+        "description": "玩家核對技能名稱。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huo_tw_ultimate",
+    "name": "冠軍侯",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方全體單位造成相當於自身攻擊力76%的傷害，並為我方全體單位提升30%攻擊力與19%暴擊率，持續2回合。同時為自身施加「冠軍侯」狀態，持續2回合。（冠軍侯：釋放主動技能後，在狀態持續期間提升主動技能40%的傷害）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "attack_up",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      },
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_2.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_2.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huo_tw_star2",
+    "name": "封狼居胥",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方前排全體單位。普通攻擊造成傷害時，提升自身11%攻擊力，直至戰鬥結束。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "attack_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_3.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_3.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huo_tw_star5",
+    "name": "無以家為",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "我方單位死亡時，提升自身30%攻擊力，直至戰鬥結束。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "attack_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_4.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_4.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huo_tw_talent",
+    "name": "鮮餌天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【烹魚局】效率56%，時間-210秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_5.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_5.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_cooked_fish_tw",
+      "efficiency": 56,
+      "timeReduction": 210
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shuai_tw_ultimate",
+    "name": "颯沓流星",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方最前排的1名單位造成相當於自身攻擊力355%的傷害，並提升自身26%攻擊力與21%暴擊率，持續2回合。釋放主動技能後，為自身施加「反擊」狀態，持續2回合。（反擊：受到傷害時，對攻擊單位造成1次100%的傷害反擊）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "attack_up",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      },
+      {
+        "type": "counterattack",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_7.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_7.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shuai_tw_star2",
+    "name": "世上英",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方前排全體單位，並有25%機率提升自身28%暴擊率，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_8.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_8.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shuai_tw_star5",
+    "name": "俠骨香",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "我方單位死亡時，提升自身23%暴擊傷害，直至戰鬥結束。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "crit_damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_9.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_9.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shuai_tw_talent",
+    "name": "鑄造天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【御用局】效率56%，時間-210秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_10.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_10.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_imperial_tw",
+      "efficiency": 56,
+      "timeReduction": 210
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qin_tw_entry",
+    "name": "寰宇一統",
+    "type": "入場技能",
+    "slot": "entry",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "秦始皇入場時，敵方全體單位受到「震懾」效果，直到戰鬥結束。（震懾：攻擊力降低15%）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "attack_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_11.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_11.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qin_tw_ultimate",
+    "name": "千古一帝",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "攻擊全體敵人，造成秦始皇攻擊力98%的傷害，並且使我方全體附加一層「威壓」效果，直到戰鬥結束，每層增加7%攻擊力，最高疊加5層；釋放技能後，使自己和隨機一名隊友恢復50點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "attack_up",
+        "value": null
+      },
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_12.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_12.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qin_tw_star2",
+    "name": "六合吞鋒",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "攻擊變為隨機三人，並施加「集權」效果2個回合。（集權：秦始皇從目標身上汲取10%攻擊力附加到自己身上）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "attack_down",
+        "value": null
+      },
+      {
+        "type": "attack_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_13.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_13.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qin_tw_star5",
+    "name": "祖龍歸墟",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "秦始皇受到致命傷害時，保持1血狀態，並進入無敵狀態2回合（此時不受到任何治療效果恢復）。2回合後消耗場上所有成員的「威壓」，每層威壓恢復秦始皇9%生命值，並對敵方全體單位釋放360%攻擊力傷害。（每場戰鬥限1次）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "invincible",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "damage",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_14.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_14.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qin_tw_talent",
+    "name": "鑄造天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【御用局】效率70%，時間-280秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_15.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_15.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_imperial_tw",
+      "efficiency": 70,
+      "timeReduction": 280
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wuzetian_tw_entry",
+    "name": "鳳儀天下",
+    "type": "入場技能",
+    "slot": "entry",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "武則天入場時，為我方全體施加「鳳佑」效果，直到戰鬥結束。（鳳佑：每回合開始時回復45點怒氣值）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_16.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_16.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wuzetian_tw_ultimate",
+    "name": "恩威並施",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "武則天在單數回合釋放技能，會對敵方全體單位造成武則天生命值上限45%的傷害，並扣除目標30點怒氣值以及隨機消除目標當前附加的3個增益狀態；在雙數回合釋放技能，會恢復我方全體單位相當於武則天生命值上限45%的生命值，並增加目標30點怒氣值以及隨機消除目標當前附加的3個減益狀態。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "energy",
+        "value": null
+      },
+      {
+        "type": "energy_down",
+        "value": null
+      },
+      {
+        "type": "dispel",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_17.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_17.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wuzetian_tw_star2",
+    "name": "女帝之威",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "武則天攻擊方式變為攻擊三名敵方生命值最低的單位，並在單數回合開始時，增加我方全體15%的減傷效果；在雙數回合時，為我方全體增加15%的增傷率。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null
+      },
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_18.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_18.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wuzetian_tw_star5",
+    "name": "治世之能",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "己方單位每次釋放主動技能時，武則天都會獲得1層【天命印記】，最高可以疊加5層。（天命印記：武則天免控率提升15%，暴擊抵抗提升10%）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "control_resistance_up",
+        "value": null
+      },
+      {
+        "type": "crit_resistance_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_19.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_19.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wuzetian_tw_talent",
+    "name": "金工天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【銀作局】效率70%，時間-280秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_20.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_20.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_silver_tw",
+      "efficiency": 70,
+      "timeReduction": 280
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_fuhao_tw_ultimate",
+    "name": "騰梟執斧",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方全體單位造成相當於自身攻擊力70%的傷害，並有30%機率嘲諷敵方全體單位，持續2回合。同時為除自身外的我方全體單位施加「守衛」狀態，持續2回合。（守衛：減免該次傷害的22.5%，承擔剩餘傷害效果提升至45%）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "taunt",
+        "value": null
+      },
+      {
+        "type": "guard",
+        "value": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_21.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_21.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-02",
+        "description": "玩家核對技能名稱。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_fuhao_tw_star2",
+    "name": "呼伐羌",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊隨機3名敵方單位，並降低目標單位13%攻擊力，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "attack_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_22.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_22.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-02",
+        "description": "玩家核對技能名稱。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_fuhao_tw_star5",
+    "name": "登旅萬",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "受到傷害時，有25%機率對攻擊單位造成1次相當於自身攻擊力110%的傷害。釋放主動技能後的2個回合內，機率提升至50%。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "counterattack",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_23.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_23.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_fuhao_tw_talent",
+    "name": "糖漬天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【蜜餞房】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_24.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_24.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_candied_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_zhuge_tw_ultimate",
+    "name": "燒赤壁",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方全體單位造成攻擊力79%的傷害，並有60%機率使目標單位進入「灼燒」狀態，持續3回合。釋放主動技能後，有50%機率使主動技能傷害增加為原來的二倍，此效果每回合最多觸發1次。（灼燒：每回合結束時，對目標單位造成相當於自身攻擊力50%的傷害）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "burn",
+        "value": null
+      },
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_27.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_27.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_zhuge_tw_star2",
+    "name": "借東風",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方全體單位。當目標單位處於「灼燒」狀態時，提升此次攻擊90%的傷害。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_28.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_28.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_zhuge_tw_star5",
+    "name": "慟白帝",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "回合結束時，如有2名及2名以上敵方單位處於「灼燒」狀態，增加自身70點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_29.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_29.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_zhuge_tw_talent",
+    "name": "種植天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【司苑局】效率56%，時間-210秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_30.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_30.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_garden_tw",
+      "efficiency": 56,
+      "timeReduction": 210
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shangguanwaner_tw_ultimate",
+    "name": "稱量天下士",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "為我方全體單位恢復相當於自身攻擊力42%的生命值。釋放主動技能時，有25%機率為目標單位驅散全部負面狀態，並有20%機率增加自身20點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "dispel",
+        "value": null
+      },
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_32.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_32.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shangguanwaner_tw_star2",
+    "name": "玉簪仙",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊隨機2名敵方單位，並有50%機率為當前攻擊力最高的1名我方單位提升18%暴擊率，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_33.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_33.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shangguanwaner_tw_star5",
+    "name": "淑黛臣",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "生命值首次低於50%時，為自身施加「淑黛」狀態，持續3回合。（淑黛：回合開始時，使目標單位恢復相當於自身生命值上限10%的生命值）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_34.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_34.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-02",
+        "description": "玩家核對技能名稱。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shangguanwaner_tw_talent",
+    "name": "烹飪天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【御膳房】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_35.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_35.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_kitchen_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuxiake_tw_ultimate",
+    "name": "登天下山",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方最前排的1名單位造成相當於自身攻擊力380%的傷害，並提升自身14%速度，持續2回合。當目標單位處於「灼燒」、「中毒」或「流血」狀態時，有50%機率對目標單位額外造成1次相當於自身攻擊力150%的傷害。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "speed_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_37.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_37.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuxiake_tw_star2",
+    "name": "朝碧海",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊當前生命值最低的1名敵方單位。普通攻擊擊殺敵方單位時，恢復相當於自身生命值上限18%的生命值，並為自身增加35點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_38.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_38.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuxiake_tw_star5",
+    "name": "暮蒼梧",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "自身生命值高於50%時，提升主動技能18%傷害；低於50%時，所受傷害減少18%。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage_up",
+        "value": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_39.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_39.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuxiake_tw_talent",
+    "name": "烘焙天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【糕點局】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_40.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_40.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_pastry_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_pu_tw_ultimate",
+    "name": "留仙",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "為自身提供相當於自身生命值上限25%的護盾。釋放主動技能後，隨機嘲諷2名敵方單位，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "shield",
+        "value": null
+      },
+      {
+        "type": "taunt",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_42.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_42.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_pu_tw_star2",
+    "name": "談鬼",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方前排全體單位，並有70%機率提升自身30%防禦力，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "defense_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_43.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_43.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_pu_tw_star5",
+    "name": "搜神",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "受到傷害時，有30%機率為自身恢復相當於自身生命值上限20%的生命值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_44.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_44.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_pu_tw_talent",
+    "name": "鮮餌天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【烹魚局】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_45.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_45.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_cooked_fish_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_di_tw_ultimate",
+    "name": "鬥南一貓",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對當前攻擊力最高的1名敵方單位造成相當於自身攻擊力260%的傷害，並減少目標單位28點怒氣值。如主動技能擊殺目標單位，有60%機率再次釋放主動技能，此效果每回合最多觸發1次。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "energy_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_47.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_47.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-02",
+        "description": "玩家核對技能名稱。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_di_tw_star2",
+    "name": "稽查神斷",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方前排全體單位，並有45%機率減少目標單位30點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "energy_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_48.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_48.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_di_tw_star5",
+    "name": "明鏡無冤",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "敵方單位死亡時，提升自身18%攻擊力，直至戰鬥結束。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "attack_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_49.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_49.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_di_tw_talent",
+    "name": "調香天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【染香局】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_50.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_50.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_incense_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huangyueying_tw_star5",
+    "name": "墨工引火",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "黃月英在場時，全體隊友附加「星火傳承」。（星火傳承：普通攻擊時有45%機率使目標附加灼燒效果2回合。）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "burn",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_54.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_54.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huangyueying_tw_talent",
+    "name": "種植天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【司苑局】效率56%，時間-210秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_55.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_55.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_garden_tw",
+      "efficiency": 56,
+      "timeReduction": 210
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qi_tw_ultimate",
+    "name": "橫戈馬上行",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對隨機3名敵方單位造成相當於自身攻擊力124%的傷害，並降低目標單位30%防禦力，持續2回合，並有30%機率增加自身50點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "defense_down",
+        "value": null
+      },
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_57.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_57.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qi_tw_star2",
+    "name": "封侯非我意",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方後排全體單位，並有45%機率降低目標單位18%防禦力，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "defense_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_58.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_58.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qi_tw_star5",
+    "name": "但願海波平",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "生命值首次低於28%時，為自身施加「無敵」狀態，持續3回合。（無敵：使目標單位無法被選中）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "invincible",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_59.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_59.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qi_tw_talent",
+    "name": "禮樂天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【鐘鼓司】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_60.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_60.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_bells_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_yang_tw_ultimate",
+    "name": "霓裳羽衣舞",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方前排全體單位造成相當於自身攻擊力93%的傷害，並有100%機率使目標單位進入「繁花」狀態，持續2回合。同時提升我方全體單位25%攻擊力與15%速度。（繁花：使目標單位隨機進入「灼燒」、「中毒」、「流血」中的1種狀態）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "flourish",
+        "value": null
+      },
+      {
+        "type": "attack_up",
+        "value": null
+      },
+      {
+        "type": "speed_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_62.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_62.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_yang_tw_star2",
+    "name": "荔枝醉",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊隨機3名敵方單位，並為我方全體單位恢復相當於自身攻擊力18%的生命值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_63.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_63.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_yang_tw_star5",
+    "name": "太真姝",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "回合結束時，有58%機率為我方全體單位驅散全部負面控制狀態，並提升目標單位18%暴擊率，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "dispel",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_64.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_64.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_yang_tw_talent",
+    "name": "研究天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【翰林院】效率63%",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_65.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_65.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_hanlin_tw",
+      "efficiency": 63,
+      "timeReduction": null
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_hanbao_tw_ultimate",
+    "name": "射鵰",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對隨機3名敵方單位造成相當於自身攻擊力140%的傷害，並提升自身15%速度，持續2回合。同時有30%機率使目標單位進入「流血」狀態，持續2回合。（流血：每回合結束時，對目標單位造成相當於自身攻擊力60%的傷害）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "speed_up",
+        "value": null
+      },
+      {
+        "type": "bleed",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_67.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_67.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_hanbao_tw_star2",
+    "name": "皆土",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方全體單位。當目標單位處於「流血」狀態時，提升自身18%速度，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "speed_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_68.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_68.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-02",
+        "description": "玩家核對技能名稱。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_hanbao_tw_star5",
+    "name": "論道",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "擊殺敵方單位時，提升自身18%攻擊力，直至戰鬥結束。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "attack_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_69.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_69.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_hanbao_tw_talent",
+    "name": "裁縫天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【尚衣局】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_70.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_70.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_clothes_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qu_tw_ultimate",
+    "name": "汨羅遺風",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方全體單位造成相當於自身攻擊力86%的傷害，並有35%機率使目標單位進入「眩暈」狀態，持續2回合。同時有20%機率減少目標單位20點怒氣值。（眩暈：使目標單位無法進行任何行動）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "stun",
+        "value": null
+      },
+      {
+        "type": "energy_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_72.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_72.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qu_tw_star2",
+    "name": "皆醉獨醒",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方後排全體單位。當目標單位處於「眩暈」狀態時，提升此次攻擊18%的傷害。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_73.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_73.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qu_tw_star5",
+    "name": "皆濁獨清",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "敵方每有1名單位進入「眩暈」狀態時，增加自身17點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_74.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_74.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qu_tw_talent",
+    "name": "調香天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【染香局】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_75.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_75.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_incense_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wangzhaojun_tw_ultimate",
+    "name": "明妃出塞曲",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "為當前生命值最低的1名我方單位恢復相當於自身攻擊力120%的生命值，並為目標單位施加「出塞曲」狀態，持續2回合，同時提升自身15%速度，持續2回合。（出塞曲：為目標單位提供10%減傷效果，並使目標單位免疫所有負面狀態）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "speed_up",
+        "value": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null
+      },
+      {
+        "type": "immunity",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_79.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_79.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wangzhaojun_tw_star2",
+    "name": "木落雁南渡",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊隨機1名敵方單位，並有45%機率使敵方單位進入「灼燒」或「眩暈」狀態，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "burn",
+        "value": null
+      },
+      {
+        "type": "stun",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_80.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_80.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wangzhaojun_tw_star5",
+    "name": "漢家秦地月",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "受到傷害時，有38%機率為隨機2名我方單位施加「出塞曲」狀態，持續2回合。（出塞曲：為目標單位提供10%減傷效果，並使目標單位免疫所有負面狀態）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage_reduction",
+        "value": null
+      },
+      {
+        "type": "immunity",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_81.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_81.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_wangzhaojun_tw_talent",
+    "name": "岐黃天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【太醫院】效率56%，時間-210秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_82.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_82.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_hospital_tw",
+      "efficiency": 56,
+      "timeReduction": 210
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_lichunfeng_tw_ultimate",
+    "name": "乙巳占",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方全體單位造成相當於自身攻擊力90%的傷害，並降低敵方全體單位15%速度，持續2回合。同時提升我方全體單位15%速度，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "speed_down",
+        "value": null
+      },
+      {
+        "type": "speed_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_84.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_84.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_lichunfeng_tw_star2",
+    "name": "言兆",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方前排全體單位，並有20%機率降低目標單位14%速度，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "speed_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_86.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_86.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_lichunfeng_tw_star5",
+    "name": "周算",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "回合結束時，有50%機率為隨機1名我方單位驅散1個負面狀態，並為目標單位恢復相當於自身攻擊力14%的生命值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "dispel",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_85.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_85.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_lichunfeng_tw_talent",
+    "name": "釀造天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【酒醋麵局】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_87.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_87.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_vinegar_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qingzhao_tw_ultimate",
+    "name": "薄露初零",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "為當前生命值最低的1名我方單位恢復相當於自身攻擊力131%的生命值，並為目標單位提升20%防禦力，持續2回合。同時為目標單位施加「薄露」狀態，持續3回合。（薄露：回合開始時，使目標單位恢復相當於自身攻擊力120%的生命值）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "defense_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_89.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_89.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qingzhao_tw_star2",
+    "name": "聞天語",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方全體單位，並有25%機率降低目標單位18%防禦力，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "defense_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_90.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_90.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qingzhao_tw_star5",
+    "name": "風休住",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "生命值首次低於50%時，為我方全體單位恢復相當於自身攻擊力120%的生命值，每場戰鬥最多觸發1次。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_91.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_91.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_qingzhao_tw_talent",
+    "name": "木工天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【木作司】效率70%",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_92.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_92.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_wood_tw",
+      "efficiency": 70,
+      "timeReduction": null
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuanzang_tw_ultimate",
+    "name": "三藏",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "提升我方全體單位20%攻擊力與20%速度，並提升我方全體單位25%暴擊率與25%暴擊傷害，同時為我方全體單位提供11%的減傷效果，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "attack_up",
+        "value": null
+      },
+      {
+        "type": "speed_up",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      },
+      {
+        "type": "crit_damage_up",
+        "value": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_94.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_94.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuanzang_tw_star2",
+    "name": "具戒",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊隨機2名敵方單位，並有30%機率使目標單位進入「具戒」狀態，持續2回合。（具戒：回合開始時，使目標單位進入「禁錮」或「暈眩」狀態）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "jujie",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_95.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_95.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuanzang_tw_star5",
+    "name": "涅盤",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "死亡時，復活除自身外的隨機1名我方單位，並為目標單位恢復相當於自身生命值上限70%的生命值與60點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "revive",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_96.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_96.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_xuanzang_tw_talent",
+    "name": "金工天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【銀作局】效率56%，時間-210秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_97.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_97.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_silver_tw",
+      "efficiency": 56,
+      "timeReduction": 210
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shen_tw_ultimate",
+    "name": "犒三軍",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "為包括自身在內的隨機3名我方單位提供30%免傷效果，並為目標單位提升23%防禦力，持續3回合。釋放主動技能時，為自身恢復相當於自身生命值上限30%的生命值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage_reduction",
+        "value": null
+      },
+      {
+        "type": "defense_up",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_99.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_99.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shen_tw_star2",
+    "name": "聚寶盆",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方全體單位，並有50%機率為自身施加「黃金萬兩」狀態，持續2回合。（黃金萬兩：回合開始時，為自身提供20%減傷效果，恢復相當於自身已損失生命值20%的生命值）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "damage_reduction",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_100.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_100.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shen_tw_star5",
+    "name": "千金盡",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "受到暴擊傷害時，減少自身所受傷害的28%。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage_reduction",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_101.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_101.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_shen_tw_talent",
+    "name": "外交天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【鴻臚寺】效率63%",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_102.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_102.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_honglu_tw",
+      "efficiency": 63,
+      "timeReduction": null
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_jingke_tw_ultimate",
+    "name": "圖窮匕見",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對當前生命值最低的1名敵方單位造成相當於自身攻擊力90%的【真實傷害】，並使自身進入「隱身」狀態，持續2回合。如主動技能傷害足以擊殺當前生命值最低的目標單位，則有45%機率將目標單位數量提升至2名，並為自身恢復相當於自身生命值上限8%的生命值。（隱身：使目標單位無法被普通攻擊選中）（真實傷害：無視目標防禦所造成的傷害）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "true_damage",
+        "value": null
+      },
+      {
+        "type": "stealth",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_104.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_104.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_jingke_tw_star2",
+    "name": "悲歌擊筑",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊當前生命值最低的1名敵方單位，同時恢復相當於自身攻擊力20%的生命值。如普通攻擊傷害足以擊殺此單位，則將目標單位數量提升至2名。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_105.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_105.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_jingke_tw_star5",
+    "name": "風蕭水寒",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "入場時，進入「隱身」狀態，提升自身18%攻擊力，持續1回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "stealth",
+        "value": null
+      },
+      {
+        "type": "attack_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_106.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_106.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_jingke_tw_talent",
+    "name": "外交天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【鴻臚寺】效率70%",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_107.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_107.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_honglu_tw",
+      "efficiency": 70,
+      "timeReduction": null
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_h_tw_ultimate",
+    "name": "躍龍門",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "為我方全體單位恢復相當於自身攻擊力40%的生命值。釋放主動技能時，驅散負面狀態數量提升至全部。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "dispel",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_109.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_109.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_h_tw_star2",
+    "name": "朱衣",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊隨機3名敵方單位，並為當前生命值最低的2名我方單位恢復相當於自身攻擊力13%的生命值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_110.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_110.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_h_tw_star5",
+    "name": "龍睛",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "回合開始時，為我方全體單位提供相當於自身生命值上限12.5%的護盾，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "shield",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_111.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_111.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-02",
+        "description": "玩家核對技能名稱。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_h_tw_talent",
+    "name": "針線天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【針工局】效率42%，時間-168秒",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_112.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_112.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_needle_tw",
+      "efficiency": 42,
+      "timeReduction": 168
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_ayi_tw_ultimate",
+    "name": "駝鈴古樂",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "提升我方全體單位26%攻擊力與30%暴擊率，持續3回合。同時為當前生命值最低的1名我方單位恢復相當於自身生命值上限13%的生命值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "attack_up",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      },
+      {
+        "type": "heal",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_114.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_114.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_ayi_tw_star2",
+    "name": "丹血遺",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊敵方後排全體單位，並降低目標單位23%暴擊抵抗率，持續3回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "crit_resistance_down",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_115.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_115.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_ayi_tw_star5",
+    "name": "碧心歸",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "受到傷害時，有30%機率提升我方全體單位12%暴擊傷害，持續2回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "crit_damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_116.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_116.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_ayi_tw_talent",
+    "name": "垂釣天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【魚肆局】效率70%",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_117.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_117.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_fishery_tw",
+      "efficiency": 70,
+      "timeReduction": null
+    }
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_libai_tw_ultimate",
+    "name": "酒中仙",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "對敵方全體單位造成相當於自身攻擊力85%的傷害，並有50%機率使目標單位進入「破甲」狀態，持續3回合。同時提升自身50%暴擊率，持續3回合。（破甲：使目標單位防禦力降低25%，所受傷害增加15%）",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "defense_down",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      },
+      {
+        "type": "damage_taken_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_119.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_119.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_libai_tw_star2",
+    "name": "仗劍去國",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "普通攻擊改為攻擊隨機3名敵方單位。暴擊時，有50%機率增加自身18點怒氣值。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage",
+        "value": null
+      },
+      {
+        "type": "energy",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_120.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_120.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_libai_tw_star5",
+    "name": "見月懷鄉",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "如目標單位當前生命值高於50%，提升自身70%傷害。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_121.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_121.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ]
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_libai_tw_talent",
+    "name": "營造天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【營造局】效率70%",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：LINE_ALBUM_2026102_261002_122.jpg",
+    "screenshotFile": "LINE_ALBUM_2026102_261002_122.jpg",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_construction_tw",
+      "efficiency": 70,
+      "timeReduction": null
+    }
   }
 ]

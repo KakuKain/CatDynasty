@@ -6,7 +6,7 @@ import {heroQualities,catalogueRecords,compareHeroQuality,findById,filterHeroes,
 const real=readDatabase();const demo=readDatabase('data/mock');
 
 test('catalogue prefers Taiwan entries before filtering and preserves version-specific detail references',()=>{
-  for(const [key,count] of [['heroes',46],['buildings',20]]){
+  for(const [key,count] of [['heroes',46],['buildings',22]]){
     const entries=catalogueRecords(real,key);assert.equal(entries.length,count);assert.equal(new Set(entries.map(r=>r.name)).size,count);
     const reversed=catalogueRecords({...real,[key]:[...real[key]].reverse()},key);
     for(const entry of real[key].filter(r=>r.gameVersion==='tw'))assert.equal(reversed.find(r=>r.name===entry.name).id,entry.id);
@@ -146,9 +146,9 @@ test('community codes remain unverified and expiry gates copying at the date bou
 });
 
 test('TW records keep CN attributes separate and preserve field-specific player confirmations',()=>{
-  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,44);assert.ok(tw.every(h=>h.skills.every(id=>real.skills.find(s=>s.id===id)?.gameVersion==='tw')));assert.ok(tw.filter(h=>!h.screenshotEvidence&&h.id!=='hero_qingwan_tw').every(h=>h.attribute===null));
+  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,46);assert.ok(tw.every(h=>h.skills.every(id=>real.skills.find(s=>s.id===id)?.gameVersion==='tw')));assert.ok(tw.filter(h=>!h.screenshotEvidence&&!h.skillEvidence&&h.id!=='hero_qingwan_tw').every(h=>h.attribute===null));
   const qingwan=tw.find(h=>h.id==='hero_qingwan_tw');assert.equal(qingwan.faction,'墨客');assert.equal(qingwan.attribute,'暴擊');assert.equal(qingwan.rarity,'地級');assert.equal(qingwan.skills.length,3);
-  const yueying=tw.find(h=>h.id==='hero_huangyueying_tw');assert.equal(yueying.rarityType,'稀有');assert.equal(yueying.profession,null);assert.equal(yueying.skills.length,2);
+  const yueying=tw.find(h=>h.id==='hero_huangyueying_tw');assert.equal(yueying.rarityType,'稀有');assert.equal(yueying.profession,'輔助');assert.equal(yueying.skills.length,4);
   const yang=tw.find(h=>h.name==='楊玉環');assert.equal(yang.rarity,'天級');assert.equal(yang.buildingBonuses.length,0);
   const huang=tw.find(h=>h.name==='黃阿瑪');assert.ok(huang.confirmations.some(c=>c.fields.includes('acquisition')));
   const taiji=real.buildings.find(b=>b.id==='building_taiji_tw');assert.equal(taiji.rewardConditions[0].level,5);assert.equal(taiji.rewardConditions[0].heroId,huang.id);
@@ -177,7 +177,7 @@ test('rarity and attribute multi-select keep OR within groups and AND across gro
   assert.deepEqual(filterHeroes(real,filters).map(h=>h.id),['hero_yang','hero_wangzhaojun','hero_fuhao']);
   assert.deepEqual(filterHeroes(real,{...filters,professions:['坦克']}).map(h=>h.id),['hero_fuhao']);
   assert.equal(filterHeroes(real,{rarities:['unknown'],attributes:['增益']}).length,0);
-  const unknown=filterHeroes(real,{rarities:['unknown'],attributes:['unknown']});assert.ok(unknown.length>0);assert.ok(unknown.every(h=>h.rarity===null&&h.attribute===null));
+  const unknown=filterHeroes({...real,heroes:[{...real.heroes[0],rarity:null,attribute:null}]},{rarities:['unknown'],attributes:['unknown']});assert.equal(unknown.length,1);assert.ok(unknown.every(h=>h.rarity===null&&h.attribute===null));
   assert.equal(filterHeroes(real,{rarities:[],attributes:[],professions:[],factions:[]}).length,catalogueRecords(real,'heroes').length);
   assert.deepEqual(filterHeroes(real,{version:'cn',rarity:'聖級',attribute:'護法・護甲・聖甲'}).map(h=>h.id),['hero_fuhao']);
 });
