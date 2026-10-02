@@ -91,9 +91,9 @@
   },
   {
     "id": "ingredient_tuna_tw",
-    "name": "鮪魚（金槍魚）",
+    "name": "鮪魚",
     "aliases": [
-      "鮪魚",
+      "鮪魚（金槍魚）",
       "金槍魚"
     ],
     "type": "食材",
@@ -261,8 +261,10 @@
   },
   {
     "id": "ingredient_cucumber_tw",
-    "name": "青瓜",
-    "aliases": [],
+    "name": "小黃瓜",
+    "aliases": [
+      "青瓜"
+    ],
     "type": "食材",
     "description": "使用者提供配方中的材料。",
     "obtainedFrom": [],
