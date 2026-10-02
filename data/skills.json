@@ -5050,5 +5050,173 @@
       "timeReduction": null
     },
     "image": "images/skills/skill_libai_tw_talent.webp"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huangama_ultimate",
+    "name": "罐罐發放日",
+    "type": "必殺技",
+    "slot": "ultimate",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "阿瑪宣布今日加餐。全體友軍恢復38%黃阿瑪攻擊力的生命值，並提升15%暴擊率，持續2回合。對我方攻擊最高單位的治療量效果提高30%，暴擊率加成提高到25%。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "heal",
+        "value": null
+      },
+      {
+        "type": "crit_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：huangama-2026-10-02-2.png",
+    "screenshotFile": "huangama-2026-10-02-2.png",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "image": "images/skills/skill_huangama_ultimate.webp"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huangama_star2",
+    "name": "紙箱的智慧",
+    "type": "被動技能",
+    "slot": "star2",
+    "unlockStars": 2,
+    "levelContext": "max-level-preview",
+    "description": "阿瑪深信最好的寶物都藏在紙箱裡。戰鬥開始時自身獲得82%生命上限的護盾。護盾擊破時提高我方全體70%暴擊傷害，持續4回合。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "shield",
+        "value": null
+      },
+      {
+        "type": "crit_damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：huangama-2026-10-02-3.png",
+    "screenshotFile": "huangama-2026-10-02-3.png",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "image": "images/skills/skill_huangama_star2.webp"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huangama_star5",
+    "name": "天命之貓",
+    "type": "被動技能",
+    "slot": "star5",
+    "unlockStars": 5,
+    "levelContext": "max-level-preview",
+    "description": "阿瑪受命於天，為國家帶來興旺。自身擁有護盾時，所有友方單位受到傷害減少20%；自身沒有護盾時，所有友方單位造成傷害提高20%。",
+    "target": null,
+    "cooldown": null,
+    "effects": [
+      {
+        "type": "damage_reduction",
+        "value": null
+      },
+      {
+        "type": "damage_up",
+        "value": null
+      }
+    ],
+    "sourceDescription": "玩家提供台版技能截圖：huangama-2026-10-02-4.png",
+    "screenshotFile": "huangama-2026-10-02-4.png",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "image": "images/skills/skill_huangama_star5.webp"
+  },
+  {
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-02",
+    "id": "skill_huangama_talent",
+    "name": "研究天賦",
+    "type": "經營天賦",
+    "slot": "talent",
+    "unlockStars": null,
+    "levelContext": "max-level-preview",
+    "description": "【翰林院】效率70%",
+    "target": null,
+    "cooldown": null,
+    "effects": [],
+    "sourceDescription": "玩家提供台版技能截圖：huangama-2026-10-02-5.png",
+    "screenshotFile": "huangama-2026-10-02-5.png",
+    "notes": "滿級預覽；其他技能等級、冷卻與未顯示的數值待補。",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "description",
+          "slot",
+          "levelContext"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "依圖片中的滿級預覽文字收錄。"
+      }
+    ],
+    "talent": {
+      "buildingId": "building_hanlin_tw",
+      "efficiency": 70,
+      "timeReduction": null
+    },
+    "image": "images/skills/skill_huangama_talent.webp"
   }
 ]

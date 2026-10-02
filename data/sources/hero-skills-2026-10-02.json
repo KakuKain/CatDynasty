@@ -491,6 +491,26 @@
     {
       "file": "LINE_ALBUM_2026102_261002_122.jpg",
       "hash": "dbee5d2dde8b0bbc918c25925d7de31166af794bdb0e501ab34a92c4e9bf0dea"
+    },
+    {
+      "file": "huangama-2026-10-02-1.png",
+      "hash": "ae53d953c59756d3debde523fa87a7f5361b2b111fef58ded2226f1484043290"
+    },
+    {
+      "file": "huangama-2026-10-02-2.png",
+      "hash": "435c810e3558540ffa11dab8828c5c09a0bcb0ffa035f62dfdd937b39be1d135"
+    },
+    {
+      "file": "huangama-2026-10-02-3.png",
+      "hash": "6773dfb139c21b455e9eda9d570d5a334f1885ffd242432bfba3be886c1dd714"
+    },
+    {
+      "file": "huangama-2026-10-02-4.png",
+      "hash": "2c5f6971e7753d202794e01efb82460daa9ca65fd2bde19e5989415a1348006b"
+    },
+    {
+      "file": "huangama-2026-10-02-5.png",
+      "hash": "d364f2aa2eb91a9a9618b6d93295bf06106af9592d8ff3959f805df606c95617"
     }
   ],
   "heroes": [
@@ -1566,6 +1586,50 @@
           "name": "營造天賦",
           "description": "【營造局】效率70%",
           "building": "營造局",
+          "efficiency": 70,
+          "timeReduction": null
+        }
+      ]
+    },
+    {
+      "name": "黃阿瑪",
+      "quality": "天",
+      "rare": true,
+      "profession": "輔助",
+      "faction": "文臣",
+      "attribute": "暴擊",
+      "files": [
+        "huangama-2026-10-02-1.png",
+        "huangama-2026-10-02-2.png",
+        "huangama-2026-10-02-3.png",
+        "huangama-2026-10-02-4.png",
+        "huangama-2026-10-02-5.png"
+      ],
+      "skills": [
+        {
+          "file": "huangama-2026-10-02-2.png",
+          "slot": "ultimate",
+          "name": "罐罐發放日",
+          "description": "阿瑪宣布今日加餐。全體友軍恢復38%黃阿瑪攻擊力的生命值，並提升15%暴擊率，持續2回合。對我方攻擊最高單位的治療量效果提高30%，暴擊率加成提高到25%。"
+        },
+        {
+          "file": "huangama-2026-10-02-3.png",
+          "slot": "star2",
+          "name": "紙箱的智慧",
+          "description": "阿瑪深信最好的寶物都藏在紙箱裡。戰鬥開始時自身獲得82%生命上限的護盾。護盾擊破時提高我方全體70%暴擊傷害，持續4回合。"
+        },
+        {
+          "file": "huangama-2026-10-02-4.png",
+          "slot": "star5",
+          "name": "天命之貓",
+          "description": "阿瑪受命於天，為國家帶來興旺。自身擁有護盾時，所有友方單位受到傷害減少20%；自身沒有護盾時，所有友方單位造成傷害提高20%。"
+        },
+        {
+          "file": "huangama-2026-10-02-5.png",
+          "slot": "talent",
+          "name": "研究天賦",
+          "description": "【翰林院】效率70%",
+          "building": "翰林院",
           "efficiency": 70,
           "timeReduction": null
         }

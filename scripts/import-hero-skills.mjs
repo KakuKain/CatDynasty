@@ -10,9 +10,10 @@ const heroes=read('heroes'),skills=read('skills'),buildings=read('buildings'),ef
 const common={source:'',sourceType:'observation',verified:false,gameVersion:'tw',checkedAt:source.checkedAt};
 const newHeroes={'霍去病':'hero_huo_tw','帥波':'hero_shuai_tw'};
 const newBuildings={'司苑局':'building_garden_tw','染香局':'building_incense_tw','太醫院':'building_hospital_tw','蜜餞房':'building_candied_tw'};
-const fileName=n=>`LINE_ALBUM_2026102_261002_${n}.jpg`;
+const fileName=n=>typeof n==='string'?n:`LINE_ALBUM_2026102_261002_${n}.jpg`;
 // Tags describe effects actually applied by the skill, not conditions mentioning another effect.
 const tags={
+  '黃阿瑪':['heal crit_up','shield crit_damage_up','damage_reduction damage_up'],
   '霍去病':['damage attack_up crit_up damage_up','damage attack_up','attack_up'],
   '帥波':['damage attack_up crit_up counterattack','damage crit_up','crit_damage_up'],
   '秦始皇':['damage attack_up energy','damage attack_down attack_up','invincible heal damage'],

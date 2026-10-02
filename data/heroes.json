@@ -13,18 +13,23 @@
     "attribute": "暴擊",
     "sixArts": [],
     "image": "images/heroes/hero-03-tw.webp",
-    "skills": [],
+    "skills": [
+      "skill_huangama_ultimate",
+      "skill_huangama_star2",
+      "skill_huangama_star5",
+      "skill_huangama_talent"
+    ],
     "buildingBonuses": [],
     "teamTags": [
       "聯動"
     ],
-    "description": "《黃阿瑪的後宮生活》台版聯動喵將；技能與建築加成等待台版圖鑑核對。",
+    "description": "《黃阿瑪的後宮生活》台版聯動喵將；技能與天賦依玩家提供的滿級預覽截圖整理。",
     "source": "",
     "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "官方確認角色與天級品質；其餘欄位尚待核對。 領取條件已由玩家核對；台版技能數值仍待補。 輔助定位已由玩家核對。 職業、陣營、屬性、六藝推薦與研究天賦已由玩家核對。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "checkedAt": "2026-10-02",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "acquisition": [
       "太極殿達 Lv.5 後領取（玩家已核對）。"
     ],
@@ -71,6 +76,28 @@
         "method": "player",
         "checkedAt": "2026-10-01",
         "description": "玩家確認以新截圖更新：屬性由增益改為暴擊；其餘先前核對欄位保留。"
+      },
+      {
+        "fields": [
+          "skills",
+          "profession",
+          "faction",
+          "attribute",
+          "rarity",
+          "rarityType"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "台版技能截圖 huangama-2026-10-02-1.png、huangama-2026-10-02-2.png、huangama-2026-10-02-3.png、huangama-2026-10-02-4.png、huangama-2026-10-02-5.png；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "screenshotProgress",
+          "researchTalents"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-02",
+        "description": "本次截圖確認 Lv.3000，戰力45617、攻擊55143、防禦43437、最大生命130006、速度455、經營值14255；滿級研究天賦為翰林院效率70%，未顯示時間減免。"
       }
     ],
     "sources": [
@@ -103,21 +130,26 @@
     "researchTalents": [
       {
         "buildingId": "building_hanlin_tw",
-        "description": "翰林院研究天賦；加成數值待補。"
+        "description": "研究天賦（滿級）：【翰林院】效率70%"
       }
     ],
     "rarityType": "稀有",
     "imageType": "cutout",
     "screenshotProgress": {
-      "level": 410,
-      "power": 9686
+      "level": 3000,
+      "power": 45617,
+      "attack": 55143,
+      "defense": 43437,
+      "maxHp": 130006,
+      "speed": 455,
+      "management": 14255
     },
     "screenshotEvidence": {
-      "file": "LINE_ALBUM_2026101 _1_261001_3.jpg",
-      "checkedAt": "2026-10-01",
-      "display": "圖鑑預覽／截圖帳號狀態"
+      "file": "huangama-2026-10-02-1.png",
+      "checkedAt": "2026-10-02",
+      "display": "圖鑑預覽（Lv.3000）；數值為截圖狀態，非固定基礎值"
     },
-    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_3.jpg",
+    "sourceDescription": "玩家提供台版遊戲截圖：huangama-2026-10-02-1.png",
     "verifiedFields": [
       "name",
       "rarity",
@@ -125,8 +157,22 @@
       "profession",
       "faction",
       "attribute",
-      "image"
-    ]
+      "image",
+      "skills",
+      "screenshotProgress",
+      "researchTalents"
+    ],
+    "skillEvidence": {
+      "files": [
+        "huangama-2026-10-02-1.png",
+        "huangama-2026-10-02-2.png",
+        "huangama-2026-10-02-3.png",
+        "huangama-2026-10-02-4.png",
+        "huangama-2026-10-02-5.png"
+      ],
+      "checkedAt": "2026-10-02",
+      "display": "技能滿級預覽"
+    }
   },
   {
     "id": "hero_libai_tw",
