@@ -52,9 +52,13 @@
           }
         },
         "rarity": {
-          "type": [
-            "string",
-            "null"
+          "enum": [
+            "聖級",
+            "天級",
+            "地級",
+            "玄級",
+            "示範",
+            null
           ]
         },
         "type": {
@@ -311,7 +315,55 @@
         "sixArtsRecommendations",
         "researchTalents"
       ],
-      "additionalProperties": true
+      "additionalProperties": true,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "gameVersion": {
+                "not": {
+                  "const": "mock"
+                }
+              }
+            },
+            "required": [
+              "gameVersion"
+            ]
+          },
+          "then": {
+            "properties": {
+              "rarity": {
+                "enum": [
+                  "聖級",
+                  "天級",
+                  "地級",
+                  "玄級",
+                  null
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "rarityType": {
+                "const": "稀有"
+              }
+            },
+            "required": [
+              "rarityType"
+            ]
+          },
+          "then": {
+            "properties": {
+              "rarity": {
+                "const": "天級"
+              }
+            }
+          }
+        }
+      ]
     },
     "skills": {
       "type": "object",

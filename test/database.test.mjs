@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
-import {catalogueRecords,compareHeroQuality,findById,filterHeroes,filterRecords,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
+import {heroQualities,catalogueRecords,compareHeroQuality,findById,filterHeroes,filterRecords,heroFiltersFromParams,compareSelection,detailTargetFromHash,searchDatabase,heroesForBuilding,recipesForIngredient,effectsForTeam,codeStatus,canCopyCode,upgradeRequirements,escapeHTML,safeURL} from '../src/core.js';
 
 const real=readDatabase();const demo=readDatabase('data/mock');
 
@@ -20,9 +20,15 @@ test('catalogue prefers Taiwan entries before filtering and preserves version-sp
   assert.equal(catalogueRecords(demo,'heroes').length,demo.heroes.length);
 });
 test('quality order is stable within a tier and incomplete quality follows known tiers',()=>{
-  const input=[{id:'unknown',rarity:null},{id:'earth',rarity:'地級'},{id:'sky-first',rarity:'天級'},{id:'holy',rarity:'聖級'},{id:'dark',rarity:'玄級'},{id:'yellow',rarity:'黃級'},{id:'sky-second',rarity:'天級'}];
-  assert.deepEqual([...input].sort(compareHeroQuality).map(r=>r.id),['holy','sky-first','sky-second','earth','dark','yellow','unknown']);
-  assert.deepEqual(input.map(r=>r.id),['unknown','earth','sky-first','holy','dark','yellow','sky-second']);
+  assert.deepEqual(heroQualities,['聖','天','地','玄']);
+  const input=[{id:'unknown',rarity:null},{id:'earth',rarity:'地級'},{id:'sky-first',rarity:'天級'},{id:'holy',rarity:'聖級'},{id:'dark',rarity:'玄級'},{id:'sky-second',rarity:'天級'}];
+  assert.deepEqual([...input].sort(compareHeroQuality).map(r=>r.id),['holy','sky-first','sky-second','earth','dark','unknown']);
+  assert.deepEqual(input.map(r=>r.id),['unknown','earth','sky-first','holy','dark','sky-second']);
+});
+test('hero quality permits only four real tiers and rare is restricted to heaven',()=>{
+  const invalidTier=structuredClone(real);invalidTier.heroes[0].rarity='不存在的品質';assert.ok(validateDatabase(invalidTier).some(e=>e.includes('heroes:')&&e.includes('allowed values')));
+  const invalidRare=structuredClone(real);invalidRare.heroes[0].rarity='聖級';invalidRare.heroes[0].rarityType='稀有';assert.ok(validateDatabase(invalidRare).some(e=>e.includes('heroes:')&&e.includes('constant')));
+  assert.ok(real.heroes.filter(h=>h.rarityType==='稀有').every(h=>h.rarity==='天級'));
 });
 test('identical recommended teams merge their names and sources while old URLs still resolve',()=>{
   assert.equal(real.teams.length,6);const team=findById(real,'teams','team_wangzhaojun');assert.equal(team.id,'team_yang');assert.ok(team.aliases.includes('昭君輔助隊'));assert.ok(team.sources.some(s=>s.url.includes('836201191720357282')));

@@ -16,7 +16,7 @@ export function catalogueRecords(db,key) {
   }
   return records.filter(record=>preferred.get(normalize(record.name))===record);
 }
-export const heroQualities=['聖','天','地','玄','黃'];
+export const heroQualities=['聖','天','地','玄'];
 export function compareHeroQuality(a,b) {
   const rank=record=>{if(!record.rarity)return heroQualities.length+1;const index=heroQualities.indexOf(record.rarity.replace(/級$/,''));return index<0?heroQualities.length:index;};
   return rank(a)-rank(b);

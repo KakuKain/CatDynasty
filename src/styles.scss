@@ -382,6 +382,80 @@ html.drawer-open { overflow: hidden; }
 .hero-cutout-panel {background:radial-gradient(ellipse,#e6ead650,transparent 70%);}
 .hero-cutout-panel .hero-art {object-fit:contain;width:100%;}
 .hero-screenshot-progress>p {margin:10px 0 18px;}
+
+// Game-inspired quality seals: four tiers; rare is an annotation on heaven.
+.hero-quality-badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 58px;
+  flex: 0 0 48px;
+  vertical-align: middle;
+  isolation: isolate;
+}
+.hero-quality-seal {
+  --quality-paint: #b95064;
+  --quality-edge: #db9c92;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 48px;
+  color: #fffaf0;
+  background: linear-gradient(112deg,#ffffff18,transparent 52%),var(--quality-paint);
+  border: 1px solid var(--quality-edge);
+  border-radius: 3px 5px 2px 4px;
+  transform: rotate(-2deg);
+  box-shadow: 0 0 0 2px #f6efd6,0 0 0 3px var(--quality-edge);
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border: 1px solid #fff4cf9c;
+    border-radius: 2px 3px 1px 2px;
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border: 1px dashed var(--quality-edge);
+    border-radius: 5px 2px 4px 2px;
+    pointer-events: none;
+  }
+  &.quality-heaven { --quality-paint: #d2b74c; --quality-edge: #ddcb81; }
+  &.quality-earth { --quality-paint: #a38cbd; --quality-edge: #cbb4d7; }
+  &.quality-mystic { --quality-paint: #83b6be; --quality-edge: #b7d4d1; }
+}
+.hero-quality-glyph {
+  position: relative;
+  font-family: $font;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 1px 1px #4732218a;
+}
+.hero-quality-rare {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  z-index: 1;
+  padding: 3px 2px;
+  color: #fff9e6;
+  background: #bf662b;
+  border: 1px solid #e9b35b;
+  border-radius: 4px 2px 3px 2px;
+  writing-mode: vertical-rl;
+  font-size: 11px;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  transform: rotate(9deg);
+  box-shadow: 0 1px 2px #49301d29;
+}
+.hero-quality-unknown { color: #817d6c; font-size: .84rem; }
+.hero-card-quality { position: absolute; top: 12px; left: 12px; z-index: 1; }
+.facts dd:has(.hero-quality-badge) { padding-top: 2px; }
 .artifact-image-pending {display:grid;place-items:center;color:#aaa58f;background:#efeadc;border-radius:8px;}
 .artifact-overview {display:grid;grid-template-columns:minmax(180px,280px) 1fr;align-items:center;gap:24px;}
 .artifact-illustration {display:grid;place-items:center;background:radial-gradient(ellipse,#e6ead650,transparent 70%);min-height:200px;}
