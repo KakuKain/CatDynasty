@@ -523,6 +523,9 @@ html.drawer-open { overflow: hidden; }
 .hero-profile-facts dt {display:flex;align-items:center;gap:10px;font-size:.88rem;color:#76745e;}
 .hero-fact-symbol {width:30px;height:30px;display:grid;place-items:center;border:1px solid #8c9677;border-radius:50%;color:#526348;flex-shrink:0;}
 .hero-fact-symbol .profile-symbol {width:19px;height:19px;}
+.profile-illustrated-icon {display:block;width:32px;height:32px;object-fit:contain;flex-shrink:0;}
+.hero-fact-symbol:has(.profile-illustrated-icon) {border:0;}
+.hero-fact-symbol .profile-illustrated-icon {width:30px;height:30px;}
 .hero-fact-symbol:has(.hero-talent-icon) {border:0;border-radius:4px;}
 .hero-talent-icon {display:block;width:30px;height:30px;object-fit:contain;border-radius:4px;}
 .hero-profile-facts dd {margin:0 0 0 40px;font-size:1.1rem;overflow-wrap:anywhere;}
@@ -583,6 +586,8 @@ html.drawer-open { overflow: hidden; }
   .hero-profile-facts dd {font-size:1rem;margin-left:34px;}
   .hero-profile-facts dt {gap:6px;font-size:.78rem;}
   .hero-fact-symbol {width:28px;height:28px;}
+  .hero-fact-symbol .profile-illustrated-icon {width:28px;height:28px;}
+  .hero-stat-grid .profile-illustrated-icon {width:24px;height:24px;}
   .hero-stat-grid {column-gap:16px;}
   .hero-stat-grid dt {gap:6px;font-size:.8rem;}
   .hero-skill-item>summary {grid-template-columns:34px 44px minmax(0,1fr) 16px;gap:8px;padding:9px 10px;}

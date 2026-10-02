@@ -13,3 +13,10 @@ import bulb from '@phosphor-icons/core/assets/fill/lightbulb-fill.svg?raw';
 // Standard icon assets; paths are supplied by Phosphor rather than drawn here.
 const symbols={heart,shield,sword,gauge,bank,crown,person,flag,sparkle,scroll,bulb};
 export function profileIcon(name){return (symbols[name]||sparkle).replace('<svg ','<svg class="profile-symbol" aria-hidden="true" focusable="false" ');}
+
+// Decorative category/stat artwork, separate from original in-game skill icons.
+const illustratedIcons=new Set(['profession','attribute','faction','six-arts','health','attack','defense','speed','power','management']);
+export function illustratedProfileIcon(name){
+  if(!illustratedIcons.has(name))return profileIcon('sparkle');
+  return `<img class="profile-illustrated-icon" src="${import.meta.env.BASE_URL}images/ui/profile/${name}.webp" width="32" height="32" alt="" aria-hidden="true" decoding="async"/>`;
+}

@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-02",
+  "tool": "built-in imagegen",
+  "transparentBackground": true,
+  "icons": [
+    {
+      "name": "profession",
+      "path": "images/ui/profile/profession.webp",
+      "bytes": 5672,
+      "width": 96,
+      "height": 96,
+      "original": "exec-ee0fc74a-89ca-4439-9afe-6fb35839fa79.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: A crossed Chinese straight sword and writing brush, representing vocation and civil or martial professions."
+    },
+    {
+      "name": "attribute",
+      "path": "images/ui/profile/attribute.webp",
+      "bytes": 4668,
+      "width": 96,
+      "height": 96,
+      "original": "exec-68b7914d-2cf1-482a-9978-c2e39de4aeb0.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: A single bold four-point magical spark with two small accompanying sparks, representing character attributes."
+    },
+    {
+      "name": "faction",
+      "path": "images/ui/profile/faction.webp",
+      "bytes": 6590,
+      "width": 96,
+      "height": 96,
+      "original": "exec-c0f78e39-7448-4586-874e-09d5504dd4bd.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: An upright ancient Chinese triangular silk banner on a short pole, representing allegiance."
+    },
+    {
+      "name": "six-arts",
+      "path": "images/ui/profile/six-arts.webp",
+      "bytes": 6314,
+      "width": 96,
+      "height": 96,
+      "original": "exec-ad4fdf11-a990-4a9c-8160-80a1a41155dd.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: An open bamboo scroll with a calligraphy brush, representing the six arts."
+    },
+    {
+      "name": "health",
+      "path": "images/ui/profile/health.webp",
+      "bytes": 3864,
+      "width": 96,
+      "height": 96,
+      "original": "exec-5fde1a48-c748-4b8b-92c7-1ca0ea6e9b35.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: A single rounded heart, representing life and health; restrained vermilion center with dark ink-green contour."
+    },
+    {
+      "name": "attack",
+      "path": "images/ui/profile/attack.webp",
+      "bytes": 3688,
+      "width": 96,
+      "height": 96,
+      "original": "exec-1f23cfdf-acad-4ab7-989b-c537fc0896e9.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: A single ancient Chinese straight sword angled upwards, representing attack."
+    },
+    {
+      "name": "defense",
+      "path": "images/ui/profile/defense.webp",
+      "bytes": 5092,
+      "width": 96,
+      "height": 96,
+      "original": "exec-62cd30a6-8c14-4996-90c9-365a680676a8.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: A simple broad ancient shield, representing defense."
+    },
+    {
+      "name": "speed",
+      "path": "images/ui/profile/speed.webp",
+      "bytes": 5532,
+      "width": 96,
+      "height": 96,
+      "original": "exec-6eb8119b-7fc6-4774-95ea-cba6ce19f156.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: Two clean sweeping wind strokes and one small feather, representing speed."
+    },
+    {
+      "name": "power",
+      "path": "images/ui/profile/power.webp",
+      "bytes": 5332,
+      "width": 96,
+      "height": 96,
+      "original": "exec-71cca47d-3099-4a01-ae9c-d0fcc4058bc9.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: Two crossed ancient Chinese swords, representing overall battle power."
+    },
+    {
+      "name": "management",
+      "path": "images/ui/profile/management.webp",
+      "bytes": 6492,
+      "width": 96,
+      "height": 96,
+      "original": "exec-3113f7bb-2321-4412-aeeb-41d6ef3d85b0.png",
+      "prompt": "Use case: stylized-concept. Asset type: one production UI icon for a Taiwanese ancient-China cat game wiki. Create a SINGLE isolated emblem, square 1024x1024, with genuinely transparent background. Style: elegant Chinese ink-painted mini illustration, bold clean ink-green (#405e49) outlines, muted jade green fills, a few restrained antique-gold (#b39b5b) accents. Flat frontal shape, subtle hand-brushed texture, no 3D bevel, no glow, no drop shadow, no circular border, no enclosing frame. Subject fills 85% of canvas, centered, generous clear silhouette, strong contrast and chunky strokes readable at 30px. Match an ivory parchment and ink-wash UI. Do not draw letters, words, labels, numerals, logo, watermark, background, checkerboard, or extra objects. Subject: Three stacked traditional square-hole coins, representing management and economic capability."
+    }
+  ]
+}
