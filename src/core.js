@@ -24,7 +24,7 @@ export function compareHeroQuality(a,b) {
 export function detailTargetFromHash(db,hash) {
   if(typeof hash!=='string'||!hash.startsWith('#/'))return null;
   const aliases={guides:'stages',codes:'redeem-codes'};
-  const allowed=['heroes','skills','skill-effects','buildings','recipes','ingredients','artifacts','artifact-sets','furniture','furniture-sets','teams','stages','redeem-codes'];
+  const allowed=['heroes','skill-effects','buildings','recipes','ingredients','artifacts','artifact-sets','furniture','furniture-sets','teams','stages','redeem-codes'];
   try {
     const url=new URL(hash.slice(1),'https://wiki.local');
     const parts=url.pathname.split('/').filter(Boolean);
