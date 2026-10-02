@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-02",
+  "tool": "built-in imagegen",
+  "records": [
+    {
+      "heroId": "hero_huangyueying_tw",
+      "name": "黃月英",
+      "sourceFile": "LINE_ALBUM_2026102_261002_51.jpg",
+      "image": "images/heroes/hero_huangyueying_tw.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: background-extraction. Asset type: transparent character cutout for the CatDynasty wiki. Edit target: the supplied game screenshot. Extract ONLY the central illustrated character and their original equipment; remove every UI element, all Chinese labels, level/power numbers, buttons, portrait frame, parchment/background, floor and unrelated ink splashes. Preserve the original hand-drawn watercolor/ink illustration, face, costume, colors, proportions, pose and accessories. Where the level label overlaps the bottom of the character, restore only the small occluded contour naturally and faithfully. Center the entire character in a square canvas with a small even transparent margin, no clipped extremities. Output real transparent alpha, not a checkerboard, no opaque backdrop. No text, added objects, redesigned costume or restyling. Subject: 黃月英, the white fluffy cat with pale silver hair, face covering, red and gold wide-sleeved robe, black cat mask on the chest and black cat-head staff above the right shoulder. Keep the staff, ribbons, tail and original pale gold magical aura as part of the character; the empty areas around and between them must be transparent.",
+      "sourceSha256": "8942ce5120d8b5297d21e40984c6e8247cb4d20cd71603de46e4d99b781940a2",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true
+    },
+    {
+      "heroId": "hero_shuai_tw",
+      "name": "帥波",
+      "sourceFile": "LINE_ALBUM_2026102_261002_6.jpg",
+      "image": "images/heroes/hero_shuai_tw.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: background-extraction. Asset type: transparent character cutout for the CatDynasty wiki. Edit target: the supplied game screenshot. Extract ONLY the central illustrated character and their original equipment; remove every UI element, all Chinese labels, level/power numbers, buttons, portrait frame, parchment/background, floor and unrelated ink splashes. Preserve the original hand-drawn watercolor/ink illustration, face, costume, colors, proportions, pose and accessories. Where the level label overlaps the bottom of the character, restore only the small occluded contour naturally and faithfully. Center the entire character in a square canvas with a small even transparent margin, no clipped extremities. Output real transparent alpha, not a checkerboard, no opaque backdrop. No text, added objects, redesigned costume or restyling. Subject: 帥波, the orange-white swordsman cat with black hat, long black gold-trimmed clothing, red scarf, flying dark cloak and curved sword pointing right. Preserve the full body, feet, tail, sword blade and both floating red tassels.",
+      "sourceSha256": "92184e11a6f4ee8964c675bfb33c794ef9411184d72b81f8756bd58f60807926",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true
+    },
+    {
+      "heroId": "hero_huo_tw",
+      "name": "霍去病",
+      "sourceFile": "LINE_ALBUM_2026102_261002_1.jpg",
+      "image": "images/heroes/hero_huo_tw.webp",
+      "tool": "built-in imagegen",
+      "prompt": "Use case: background-extraction. Asset type: transparent character cutout for the CatDynasty wiki. Edit target: the supplied game screenshot. Extract ONLY the central illustrated character and their original equipment; remove every UI element, all Chinese labels, level/power numbers, buttons, portrait frame, parchment/background, floor and unrelated ink splashes. Preserve the original hand-drawn watercolor/ink illustration, face, costume, colors, proportions, pose and accessories. Where the level label overlaps the bottom of the character, restore only the small occluded contour naturally and faithfully. Center the entire character in a square canvas with a small even transparent margin, no clipped extremities. Output real transparent alpha, not a checkerboard, no opaque backdrop. No text, added objects, redesigned costume or restyling. Subject: 霍去病, the gray armored cat riding the white galloping horse, holding a long polearm, with the high black helmet plume, white cape, red-gold armor and horse harness. Keep the ENTIRE horse and rider as one cutout, including the cape, weapon, tail and visible legs. Do not include the earth-colored background splashes.",
+      "refinementPrompt": "Use case: background-extraction. Edit target: the supplied transparent cutout of 霍去病 riding a white horse. Make a single framing correction: provide generous even transparent padding around the ENTIRE existing illustration, with the full rider, horse, cape, tail, hooves and polearm fitting fully inside the canvas. The current polearm's top is clipped at the top edge; restore only its small missing terminal cap matching the original weapon and ensure at least 8% transparent clear margin above it. Reduce the illustration's scale as needed while preserving exactly the character identity, face, clothes, colors, watercolor ink style, pose, horse, equipment and all existing outlines. Do not redesign, add scenery or text. Center the complete silhouette on a square transparent alpha canvas. No checkerboard and no opaque background.",
+      "sourceSha256": "37e17a5ed251d60d8b4cca4688749cc885387bd083725297ae244aad622996aa",
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true
+    }
+  ]
+}

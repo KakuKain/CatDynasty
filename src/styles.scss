@@ -216,8 +216,9 @@ html.drawer-open { overflow: hidden; }
   .page-title { margin-bottom: 20px; }
   .page-title p { margin: 0; }
   .page-title:has(> div:empty):not(:has(> button)) { display: none; }
-  .hero-detail-layout { grid-template-columns: 220px minmax(0, 1fr); }
-  .portrait-panel .hero-art { height: 285px; }
+  .hero-detail-layout { grid-template-columns: minmax(0, 1fr); }
+  .portrait-panel {width:100%;max-width:300px;margin:0 auto;}
+  .portrait-panel .hero-art { height: 285px; object-position:center; }
   .portrait-panel .hero-placeholder { height: 250px; }
   .panel { padding: 20px; }
   .hero-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -383,7 +384,7 @@ html.drawer-open { overflow: hidden; }
 .hero-thumbnail {width:48px;height:48px;flex:0 0 48px;object-fit:contain;}
 .hero-image-pending {display:grid;place-items:center;color:#aaa58f;background:#efeadc;border-radius:8px;}
 .hero-cutout-panel {background:radial-gradient(ellipse,#e6ead650,transparent 70%);}
-.hero-cutout-panel .hero-art {object-fit:contain;width:100%;}
+.hero-cutout-panel .hero-art {object-fit:contain;object-position:center;width:100%;}
 .hero-screenshot-progress>p {margin:10px 0 18px;}
 
 // Game-inspired quality seals: four tiers; rare is an annotation on heaven.

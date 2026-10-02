@@ -1940,7 +1940,7 @@
     ],
     "attribute": "灼燒",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero_huangyueying_tw.webp",
     "skills": [
       "skill_yueying_1_tw",
       "skill_yueying_2_tw",
@@ -1975,7 +1975,8 @@
       "skills",
       "profession",
       "faction",
-      "attribute"
+      "attribute",
+      "image"
     ],
     "acquisition": [
       "官方曾於 9/27–9/29 開放第三方通路累積儲值活動取得（已結束；常駐取得方式待補）。"
@@ -2006,7 +2007,13 @@
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 51、52、53、54、55；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "imageType": "cutout",
+    "imageEvidence": {
+      "file": "LINE_ALBUM_2026102_261002_51.jpg",
+      "checkedAt": "2026-10-02",
+      "processing": "imagegen transparent cutout"
+    }
   },
   {
     "id": "hero_fuquan_tw",
@@ -4415,7 +4422,7 @@
       "輸出"
     ],
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero_huo_tw.webp",
     "skills": [
       "skill_huo_tw_ultimate",
       "skill_huo_tw_star2",
@@ -4458,7 +4465,8 @@
       "profession",
       "faction",
       "attribute",
-      "skills"
+      "skills",
+      "image"
     ],
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "confirmations": [
@@ -4475,7 +4483,13 @@
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 1、2、3、4、5；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "imageType": "cutout",
+    "imageEvidence": {
+      "file": "LINE_ALBUM_2026102_261002_1.jpg",
+      "checkedAt": "2026-10-02",
+      "processing": "imagegen transparent cutout"
+    }
   },
   {
     "source": "",
@@ -4491,7 +4505,7 @@
       "輸出"
     ],
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero_shuai_tw.webp",
     "skills": [
       "skill_shuai_tw_ultimate",
       "skill_shuai_tw_star2",
@@ -4534,7 +4548,8 @@
       "profession",
       "faction",
       "attribute",
-      "skills"
+      "skills",
+      "image"
     ],
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "confirmations": [
@@ -4551,6 +4566,12 @@
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 6、7、8、9、10；技能數值為滿級預覽。"
       }
-    ]
+    ],
+    "imageType": "cutout",
+    "imageEvidence": {
+      "file": "LINE_ALBUM_2026102_261002_6.jpg",
+      "checkedAt": "2026-10-02",
+      "processing": "imagegen transparent cutout"
+    }
   }
 ]
