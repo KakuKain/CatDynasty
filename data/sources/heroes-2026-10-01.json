@@ -1,0 +1,657 @@
+[
+  {
+    "number": 1,
+    "name": "武則天",
+    "rarity": "聖級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "帝王",
+    "attribute": "回怒",
+    "screenshotProgress": {
+      "level": 3000,
+      "power": 58744,
+      "attack": 48317,
+      "defense": 61516,
+      "maxHp": 207619,
+      "speed": 444,
+      "management": 17124
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_1.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 2,
+    "name": "秦始皇",
+    "rarity": "聖級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "帝王",
+    "attribute": "無敵",
+    "screenshotProgress": {
+      "level": 3000,
+      "power": 55598,
+      "attack": 66808,
+      "defense": 61516,
+      "maxHp": 150979,
+      "speed": 250,
+      "management": 17124
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_2.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 3,
+    "name": "黃阿瑪",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輔助",
+    "faction": "文臣",
+    "attribute": "暴擊",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 9686
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_3.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 4,
+    "name": "福全",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "肉盾",
+    "faction": "俠士",
+    "attribute": "嘲諷",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 7075
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_4.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 5,
+    "name": "李大肚",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "肉盾",
+    "faction": "俠士",
+    "attribute": "嘲諷",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 7163
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_5.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 6,
+    "name": "奕心郡主",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "墨客",
+    "attribute": "增傷",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 7294
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_6.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 7,
+    "name": "蘇照水",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "文臣",
+    "attribute": "暴擊",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6824
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_7.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 8,
+    "name": "蒲松齡",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "肉盾",
+    "faction": "墨客",
+    "attribute": "嘲諷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7812
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_8.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 9,
+    "name": "戚繼光",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": "無敵",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7460
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_9.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 10,
+    "name": "荊軻",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輸出",
+    "faction": "俠士",
+    "attribute": "真傷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7961
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_10.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 11,
+    "name": "婦好",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "肉盾",
+    "faction": "武將",
+    "attribute": "嘲諷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7767
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_11.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 12,
+    "name": "楊玉環",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "文臣",
+    "attribute": "驅散",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7581
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_12.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 13,
+    "name": "沈萬三",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "肉盾",
+    "faction": "俠士",
+    "attribute": "免傷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7529
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_13.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 14,
+    "name": "徐霞客",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "俠士",
+    "attribute": "加速",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7245
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_14.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 15,
+    "name": "狄仁傑",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "文臣",
+    "attribute": "連擊",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7206
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_15.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 16,
+    "name": "王昭君",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輔助",
+    "faction": "文臣",
+    "attribute": "驅散",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 8010
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_16.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 17,
+    "name": "李淳風",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "文臣",
+    "attribute": "加速",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7628
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_17.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 18,
+    "name": "玄奘",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輔助",
+    "faction": "俠士",
+    "attribute": "復活",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 8151
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_18.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 19,
+    "name": "霍嬗",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "俠士",
+    "attribute": "驅散",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7281
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_19.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 20,
+    "name": "汗寶",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": "流血",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6901
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_20.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 21,
+    "name": "李清照",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輔助",
+    "faction": "墨客",
+    "attribute": "治療",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7935
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_21.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 22,
+    "name": "諸葛亮",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輸出",
+    "faction": "文臣",
+    "attribute": "灼燒",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 8606
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_22.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 23,
+    "name": "上官婉兒",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "墨客",
+    "attribute": "治療",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7127
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_23.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 24,
+    "name": "屈原",
+    "rarity": "天級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "墨客",
+    "attribute": "控制",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6984
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_24.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 25,
+    "name": "阿依古麗",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輔助",
+    "faction": "俠士",
+    "attribute": "暴擊",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7905
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_25.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 26,
+    "name": "李白",
+    "rarity": "天級",
+    "rarityType": "稀有",
+    "profession": "輸出",
+    "faction": "墨客",
+    "attribute": "增傷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7564
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_26.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 27,
+    "name": "馬可波羅",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "俠士",
+    "attribute": "暴擊",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6799
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_27.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 28,
+    "name": "艾麗婭",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "墨客",
+    "attribute": "中毒",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6825
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_28.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 29,
+    "name": "靈悅公主",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "文臣",
+    "attribute": "驅散",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6809
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_29.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 30,
+    "name": "影",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": "增傷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6795
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_30.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 31,
+    "name": "清婉",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "墨客",
+    "attribute": "暴擊",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6676
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_31.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 32,
+    "name": "沙莉雅",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "文臣",
+    "attribute": "灼燒",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6508
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_32.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 33,
+    "name": "狐兒",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": "真傷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6614
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_33.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 34,
+    "name": "帕麗札提",
+    "rarity": "地級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "俠士",
+    "attribute": "增傷",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6516
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_34.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 35,
+    "name": "玄澤",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5863
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_35.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 36,
+    "name": "靈華",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "武將",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6031
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_36.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 37,
+    "name": "莊曉",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "俠士",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5991
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_37.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 38,
+    "name": "書意",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "俠士",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5894
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_38.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 39,
+    "name": "趙公公",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "肉盾",
+    "faction": "文臣",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5894
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_39.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 40,
+    "name": "凌七",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5819
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_40.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 41,
+    "name": "圈圈",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "墨客",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5972
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_41.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 42,
+    "name": "圓圓",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輸出",
+    "faction": "武將",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5882
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_42.jpg",
+    "checkedAt": "2026-10-01"
+  },
+  {
+    "number": 43,
+    "name": "蒼髥大臣",
+    "rarity": "玄級",
+    "rarityType": null,
+    "profession": "輔助",
+    "faction": "文臣",
+    "attribute": null,
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5873
+    },
+    "file": "LINE_ALBUM_2026101 _1_261001_43.jpg",
+    "checkedAt": "2026-10-01"
+  }
+]

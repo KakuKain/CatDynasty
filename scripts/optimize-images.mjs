@@ -9,7 +9,7 @@ const load=async name=>JSON.parse(await readFile(resolve(root,'data',`${name}.js
 const artifacts=await load('artifacts'),heroes=await load('heroes');
 const inputs=[
   ...artifacts.filter(r=>r.image).map(r=>({path:r.image,variants:{thumbnail:[96,76],detail:[640,82]}})),
-  ...heroes.filter(r=>r.image).map(r=>({path:r.image,variants:{detail:[900,85]}})),
+  ...heroes.filter(r=>r.image).map(r=>({path:r.image,variants:r.imageType==='cutout'?{thumbnail:[96,76],detail:[640,82]}:{thumbnail:[96,76],detail:[900,85]}})),
   {path:'images/brand-logo.png',variants:{thumbnail:[96,82],icon:[192,82]}},
 ];
 await mkdir(resolve(root,'public/images/optimized'),{recursive:true});

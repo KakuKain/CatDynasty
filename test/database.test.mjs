@@ -84,7 +84,7 @@ test('search crosses hero, skill effect and building relations',()=>{
 });
 test('hero filters combine without inventing attributes',()=>{
   const result=filterHeroes(real,{effect:'revive',role:'輔助',version:'cn'});assert.deepEqual(result.map(h=>h.name),['玄奘']);
-  assert.equal(filterHeroes(real,{version:'tw',rarity:'聖級'}).length,0);
+  assert.deepEqual(filterHeroes(real,{version:'tw',rarity:'聖級'}).map(h=>h.name),['秦始皇','武則天']);
 });
 test('building and recipe reverse lookups preserve declared relationships',()=>{
   assert.ok(heroesForBuilding(real,'building_silver').some(x=>x.name==='楊玉環'));
@@ -111,10 +111,10 @@ test('community codes remain unverified and expiry gates copying at the date bou
 });
 
 test('TW records keep CN attributes separate and preserve field-specific player confirmations',()=>{
-  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,13);assert.ok(tw.every(h=>h.skills.every(id=>real.skills.find(s=>s.id===id)?.gameVersion==='tw')));assert.ok(tw.filter(h=>!['hero_huangama','hero_qingwan_tw'].includes(h.id)).every(h=>h.attribute===null));
-  const qingwan=tw.find(h=>h.id==='hero_qingwan_tw');assert.equal(qingwan.faction,'墨客');assert.equal(qingwan.attribute,'暴擊');assert.equal(qingwan.rarity,null);assert.equal(qingwan.skills.length,3);
+  const tw=filterHeroes(real,{version:'tw'});assert.equal(tw.length,44);assert.ok(tw.every(h=>h.skills.every(id=>real.skills.find(s=>s.id===id)?.gameVersion==='tw')));assert.ok(tw.filter(h=>!h.screenshotEvidence&&h.id!=='hero_qingwan_tw').every(h=>h.attribute===null));
+  const qingwan=tw.find(h=>h.id==='hero_qingwan_tw');assert.equal(qingwan.faction,'墨客');assert.equal(qingwan.attribute,'暴擊');assert.equal(qingwan.rarity,'地級');assert.equal(qingwan.skills.length,3);
   const yueying=tw.find(h=>h.id==='hero_huangyueying_tw');assert.equal(yueying.rarityType,'稀有');assert.equal(yueying.profession,null);assert.equal(yueying.skills.length,2);
-  const yang=tw.find(h=>h.name==='楊玉環');assert.equal(yang.rarity,null);assert.equal(yang.buildingBonuses.length,0);
+  const yang=tw.find(h=>h.name==='楊玉環');assert.equal(yang.rarity,'天級');assert.equal(yang.buildingBonuses.length,0);
   const huang=tw.find(h=>h.name==='黃阿瑪');assert.ok(huang.confirmations.some(c=>c.fields.includes('acquisition')));
   const taiji=real.buildings.find(b=>b.id==='building_taiji_tw');assert.equal(taiji.rewardConditions[0].level,5);assert.equal(taiji.rewardConditions[0].heroId,huang.id);
   const fish=real.artifacts.find(a=>a.name==='魚燈');assert.equal(fish.rarity,'御品');assert.ok(fish.confirmations.some(c=>c.fields.includes('rarity')));
@@ -125,7 +125,7 @@ test('profession and faction multi-select filters preserve repeated URL values a
   const params=new URLSearchParams('profession=輔助&profession=輸出&faction=文臣&faction=俠士&version=cn');
   const filters=heroFiltersFromParams(params);assert.deepEqual(filters.professions,['輔助','輸出']);assert.deepEqual(filters.factions,['文臣','俠士']);
   const results=filterHeroes(real,filters);assert.equal(results.length,6);assert.ok(results.every(h=>['輔助','輸出'].includes(h.profession)&&['文臣','俠士'].includes(h.faction)));
-  assert.equal(filterHeroes(real,{professions:['輔助'],factions:['武將']}).length,0);
+  assert.deepEqual(filterHeroes(real,{version:'tw',professions:['輔助'],factions:['武將']}).map(h=>h.name),['靈華']);
   assert.ok(filterHeroes(real,{factions:['unknown']}).every(h=>h.faction===null));
   assert.equal(filterHeroes(real,{professions:[],factions:[]}).length,real.heroes.length);
 });
@@ -138,7 +138,7 @@ test('comparison accepts three distinct heroes and rejects a fourth or missing r
 });
 test('rarity and attribute multi-select keep OR within groups and AND across groups',()=>{
   const params=new URLSearchParams('rarity=天級&rarity=聖級&attribute=驅散&attribute=護法・護甲・聖甲');
-  const filters=heroFiltersFromParams(params);assert.deepEqual(filters.rarities,['天級','聖級']);assert.deepEqual(filters.attributes,['驅散','護法・護甲・聖甲']);
+  const filters={...heroFiltersFromParams(params),version:'cn'};assert.deepEqual(filters.rarities,['天級','聖級']);assert.deepEqual(filters.attributes,['驅散','護法・護甲・聖甲']);
   assert.deepEqual(filterHeroes(real,filters).map(h=>h.id),['hero_yang','hero_wangzhaojun','hero_fuhao']);
   assert.deepEqual(filterHeroes(real,{...filters,professions:['坦克']}).map(h=>h.id),['hero_fuhao']);
   assert.equal(filterHeroes(real,{rarities:['unknown'],attributes:['增益']}).length,0);
@@ -148,7 +148,7 @@ test('rarity and attribute multi-select keep OR within groups and AND across gro
 });
 
 test('profession is a single value and player-confirmed research is distinct from production bonuses',()=>{
-  const huang=real.heroes.find(h=>h.id==='hero_huangama');assert.equal(huang.profession,'輔助');assert.equal(huang.faction,'文臣');assert.equal(huang.attribute,'增益');assert.equal(huang.sixArtsRecommendations[0].name,'鎏金');assert.equal(huang.researchTalents[0].buildingId,'building_hanlin_tw');assert.equal(huang.buildingBonuses.length,0);
+  const huang=real.heroes.find(h=>h.id==='hero_huangama');assert.equal(huang.profession,'輔助');assert.equal(huang.faction,'文臣');assert.equal(huang.attribute,'暴擊');assert.equal(huang.sixArtsRecommendations[0].name,'鎏金');assert.equal(huang.researchTalents[0].buildingId,'building_hanlin_tw');assert.equal(huang.buildingBonuses.length,0);
   const broken=structuredClone(real);broken.heroes[0].profession=['輔助','輸出'];assert.ok(validateDatabase(broken).some(e=>e.includes('profession')));
   const missing=structuredClone(real);missing.heroes[0].researchTalents[0].buildingId='missing';assert.ok(validateDatabase(missing).some(e=>e.includes('missing buildings')));
 });
@@ -177,4 +177,14 @@ test('new artifact catalogue previews retain their full-star context and screens
  const grass=previews.find(a=>a.name==='草坪');assert.equal(grass.rarity,'良品');assert.ok(grass.passiveEffect.includes('0.85%'));
  const fish=real.artifacts.find(a=>a.name==='魚燈');assert.notEqual(fish.screenshotProgress.context,'max-star-preview');assert.equal(fish.effectiveLimit,5);
  const invalid=structuredClone(real);invalid.artifacts.find(a=>a.id===box.id).screenshotProgress.context='guessed';assert.ok(validateDatabase(invalid).some(e=>e.includes('context')));
+});
+
+test('Taiwan hero screenshots keep account values separate and support emperor and shield roles',()=>{
+ const imported=real.heroes.filter(h=>h.screenshotEvidence);assert.equal(imported.length,43);
+ assert.ok(imported.every(h=>h.gameVersion==='tw'&&h.imageType==='cutout'&&h.sourceType==='observation'));
+ assert.equal(real.heroes.find(h=>h.name==='蒼髥大臣').profession,'輔助');
+ assert.deepEqual(filterHeroes(real,{version:'tw',factions:['帝王']}).map(h=>h.name),['秦始皇','武則天']);
+ assert.ok(filterHeroes(real,{version:'tw',professions:['肉盾']}).some(h=>h.name==='婦好'&&h.rarity==='天級'));
+ const wu=real.heroes.find(h=>h.id==='hero_wuzetian_tw');assert.equal(wu.screenshotProgress.level,3000);assert.equal(wu.screenshotProgress.attack,48317);assert.equal(wu.attribute,'回怒');
+ const bad=structuredClone(real);bad.heroes.find(h=>h.id===wu.id).screenshotProgress.level=-1;assert.ok(validateDatabase(bad).some(e=>e.includes('screenshotProgress')));
 });

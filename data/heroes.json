@@ -10,21 +10,21 @@
     "role": [
       "輔助"
     ],
-    "attribute": "增益",
+    "attribute": "暴擊",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-03-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [
       "聯動"
     ],
     "description": "《黃阿瑪的後宮生活》台版聯動喵將；技能與建築加成等待台版圖鑑核對。",
-    "source": "https://play.google.com/store/apps/details?id=com.poseidongame.mgxtw",
-    "sourceType": "official",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "官方確認角色與天級品質；其餘欄位尚待核對。 領取條件已由玩家核對；台版技能數值仍待補。 輔助定位已由玩家核對。 職業、陣營、屬性、六藝推薦與研究天賦已由玩家核對。",
+    "notes": "官方確認角色與天級品質；其餘欄位尚待核對。 領取條件已由玩家核對；台版技能數值仍待補。 輔助定位已由玩家核對。 職業、陣營、屬性、六藝推薦與研究天賦已由玩家核對。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
     "acquisition": [
       "太極殿達 Lv.5 後領取（玩家已核對）。"
     ],
@@ -49,6 +49,28 @@
         "method": "player",
         "checkedAt": "2026-10-01",
         "description": "職業輔助、陣營文臣、屬性增益；天（稀有）；六藝推薦鎏金（增加攻擊力百分比）；研究天賦翰林院。"
+      },
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 3 張：天級（稀有）、輔助、文臣、暴擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "attribute"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "玩家確認以新截圖更新：屬性由增益改為暴擊；其餘先前核對欄位保留。"
       }
     ],
     "sources": [
@@ -61,6 +83,11 @@
         "url": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
         "label": "Lota 攻略",
         "scope": "輔助定位參考；太極殿 Lv.5 領取條件已由玩家核對"
+      },
+      {
+        "url": "https://play.google.com/store/apps/details?id=com.poseidongame.mgxtw",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
     ],
     "profession": "輔助",
@@ -79,132 +106,382 @@
         "description": "翰林院研究天賦；加成數值待補。"
       }
     ],
-    "rarityType": "稀有"
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 9686
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_3.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_3.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ]
   },
   {
     "id": "hero_libai_tw",
     "name": "李白",
     "aliases": [],
-    "rarity": null,
+    "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "增傷",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-26-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "墨客",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7564
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_26.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_26.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 26 張：天級（稀有）、輸出、墨客、增傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_yang_tw",
     "name": "楊玉環",
     "aliases": [],
-    "rarity": null,
+    "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "驅散",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-12-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "文臣",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7581
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_12.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_12.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 12 張：天級、輔助、文臣、驅散。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_jingke_tw",
     "name": "荊軻",
     "aliases": [],
-    "rarity": null,
+    "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "真傷",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-10-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "俠士",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7961
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_10.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_10.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 10 張：天級（稀有）、輸出、俠士、真傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_xuxiake_tw",
     "name": "徐霞客",
     "aliases": [],
-    "rarity": null,
+    "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "加速",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-14-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "俠士",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7245
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_14.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_14.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 14 張：天級、輸出、俠士、加速。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_xuanzang_tw",
     "name": "玄奘",
     "aliases": [],
-    "rarity": null,
+    "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "復活",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-18-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "俠士",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 8151
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_18.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_18.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 18 張：天級（稀有）、輔助、俠士、復活。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_shen_tw",
@@ -212,20 +489,22 @@
     "aliases": [],
     "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "肉盾"
+    ],
+    "attribute": "免傷",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-13-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。 天級品質來自 Lota，尚未由玩家核對。",
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 天級品質來自 Lota，尚未由玩家核對。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
     "acquisition": [
       "七日簽到（攻略來源記載，待遊戲內核對）。"
     ],
@@ -234,112 +513,348 @@
         "url": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
         "label": "Lota 攻略",
         "scope": "天級品質與簽到獎勵參考"
+      },
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
       }
     ],
-    "profession": null,
-    "faction": null,
+    "profession": "肉盾",
+    "faction": "俠士",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7529
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_13.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_13.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 13 張：天級、肉盾、俠士、免傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
   },
   {
     "id": "hero_zhuge_tw",
     "name": "諸葛亮",
     "aliases": [],
-    "rarity": null,
+    "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "灼燒",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-22-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "文臣",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 8606
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_22.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_22.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 22 張：天級（稀有）、輸出、文臣、灼燒。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_wangzhaojun_tw",
     "name": "王昭君",
     "aliases": [],
-    "rarity": null,
+    "rarity": "天級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "驅散",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-16-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "文臣",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 8010
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_16.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_16.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 16 張：天級（稀有）、輔助、文臣、驅散。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sounova.com/game/kitty-chronicles-beginner-guide-gameplay-tips",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_qin_tw",
     "name": "秦始皇",
     "aliases": [],
-    "rarity": null,
+    "rarity": "聖級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "無敵",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-02-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "帝王",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 3000,
+      "power": 55598,
+      "attack": 66808,
+      "defense": 61516,
+      "maxHp": 150979,
+      "speed": 250,
+      "management": 17124
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_2.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽（Lv.3000）"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_2.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 2 張：聖級、輔助、帝王、無敵。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_wuzetian_tw",
     "name": "武則天",
     "aliases": [],
-    "rarity": null,
+    "rarity": "聖級",
     "type": null,
-    "role": [],
-    "attribute": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "回怒",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-01-tw.webp",
     "skills": [],
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版攻略提及此喵將；屬性與技能待補。",
-    "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
-    "sourceType": "community",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
-    "notes": "台版媒體／社群參考；未公開數值保留未知。",
-    "profession": null,
-    "faction": null,
+    "notes": "台版媒體／社群參考；未公開數值保留未知。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "帝王",
     "sixArtsRecommendations": [],
-    "researchTalents": []
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 3000,
+      "power": 58744,
+      "attack": 48317,
+      "defense": 61516,
+      "maxHp": 207619,
+      "speed": 444,
+      "management": 17124
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_1.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽（Lv.3000）"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_1.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 1 張：聖級、輔助、帝王、回怒。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_yang",
@@ -962,14 +1477,14 @@
     "id": "hero_qingwan_tw",
     "name": "清婉",
     "aliases": [],
-    "rarity": null,
+    "rarity": "地級",
     "type": null,
     "role": [
       "輸出"
     ],
     "attribute": "暴擊",
     "sixArts": [],
-    "image": null,
+    "image": "images/heroes/hero-31-tw.webp",
     "skills": [
       "skill_qingwan_1_tw",
       "skill_qingwan_2_tw",
@@ -978,8 +1493,8 @@
     "buildingBonuses": [],
     "teamTags": [],
     "description": "台版官方「貓物誌」介紹的暴擊型輸出喵將。",
-    "source": "https://www.facebook.com/photo/?fbid=122126734574985922&set=pb.61579577675547.-2207520000",
-    "sourceType": "official",
+    "source": "",
+    "sourceType": "observation",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-01",
@@ -992,9 +1507,47 @@
       "profession",
       "faction",
       "attribute",
-      "skills"
+      "skills",
+      "rarity",
+      "rarityType",
+      "image"
     ],
-    "notes": "官方圖鑑「定位／職業」對應網站的「職業／陣營」。品質、六藝推薦、研究天賦及未標示的技能數值待補。"
+    "notes": "官方圖鑑「定位／職業」對應網站的「職業／陣營」。品質、六藝推薦、研究天賦及未標示的技能數值待補。 2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6676
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_31.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_31.jpg",
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 31 張：地級、輸出、墨客、暴擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.facebook.com/photo/?fbid=122126734574985922&set=pb.61579577675547.-2207520000",
+        "label": "既有角色介紹來源",
+        "scope": "保留既有名稱、介紹或技能來源；本次分類與圖中數值由玩家截圖核對。"
+      }
+    ]
   },
   {
     "id": "hero_huangyueying_tw",
@@ -1033,5 +1586,1979 @@
       "官方曾於 9/27–9/29 開放第三方通路累積儲值活動取得（已結束；常駐取得方式待補）。"
     ],
     "notes": "僅收錄公告確認的品質與技能，未推定職業、陣營、屬性、六藝或研究天賦。活動資訊保留於攻略回顧。"
+  },
+  {
+    "id": "hero_fuquan_tw",
+    "name": "福全",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "肉盾"
+    ],
+    "attribute": "嘲諷",
+    "sixArts": [],
+    "image": "images/heroes/hero-04-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "肉盾",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 7075
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_4.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_4.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 4 張：地級、肉盾、俠士、嘲諷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_lidadu_tw",
+    "name": "李大肚",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "肉盾"
+    ],
+    "attribute": "嘲諷",
+    "sixArts": [],
+    "image": "images/heroes/hero-05-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "肉盾",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 7163
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_5.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_5.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 5 張：地級、肉盾、俠士、嘲諷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_yixin_tw",
+    "name": "奕心郡主",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "增傷",
+    "sixArts": [],
+    "image": "images/heroes/hero-06-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 410,
+      "power": 7294
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_6.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_6.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 6 張：地級、輔助、墨客、增傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_su_tw",
+    "name": "蘇照水",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "暴擊",
+    "sixArts": [],
+    "image": "images/heroes/hero-07-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6824
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_7.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_7.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 7 張：地級、輔助、文臣、暴擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_pu_tw",
+    "name": "蒲松齡",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "肉盾"
+    ],
+    "attribute": "嘲諷",
+    "sixArts": [],
+    "image": "images/heroes/hero-08-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "肉盾",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7812
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_8.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_8.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 8 張：天級、肉盾、墨客、嘲諷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_qi_tw",
+    "name": "戚繼光",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "無敵",
+    "sixArts": [],
+    "image": "images/heroes/hero-09-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7460
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_9.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_9.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 9 張：天級、輸出、武將、無敵。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_fuhao_tw",
+    "name": "婦好",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "肉盾"
+    ],
+    "attribute": "嘲諷",
+    "sixArts": [],
+    "image": "images/heroes/hero-11-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "肉盾",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7767
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_11.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_11.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 11 張：天級、肉盾、武將、嘲諷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_di_tw",
+    "name": "狄仁傑",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "連擊",
+    "sixArts": [],
+    "image": "images/heroes/hero-15-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7206
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_15.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_15.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 15 張：天級、輸出、文臣、連擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_lichunfeng_tw",
+    "name": "李淳風",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "加速",
+    "sixArts": [],
+    "image": "images/heroes/hero-17-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7628
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_17.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_17.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 17 張：天級、輔助、文臣、加速。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_h_tw",
+    "name": "霍嬗",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "驅散",
+    "sixArts": [],
+    "image": "images/heroes/hero-19-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7281
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_19.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_19.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 19 張：天級、輔助、俠士、驅散。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_hanbao_tw",
+    "name": "汗寶",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "流血",
+    "sixArts": [],
+    "image": "images/heroes/hero-20-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6901
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_20.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_20.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 20 張：天級、輸出、武將、流血。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_qingzhao_tw",
+    "name": "李清照",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "治療",
+    "sixArts": [],
+    "image": "images/heroes/hero-21-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7935
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_21.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_21.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 21 張：天級（稀有）、輔助、墨客、治療。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_shangguanwaner_tw",
+    "name": "上官婉兒",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "治療",
+    "sixArts": [],
+    "image": "images/heroes/hero-23-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7127
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_23.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_23.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 23 張：天級、輔助、墨客、治療。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_qu_tw",
+    "name": "屈原",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "控制",
+    "sixArts": [],
+    "image": "images/heroes/hero-24-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6984
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_24.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_24.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 24 張：天級、輸出、墨客、控制。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_ayi_tw",
+    "name": "阿依古麗",
+    "aliases": [],
+    "rarity": "天級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "暴擊",
+    "sixArts": [],
+    "image": "images/heroes/hero-25-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": "稀有",
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 7905
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_25.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_25.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 25 張：天級（稀有）、輔助、俠士、暴擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_marcopolo_tw",
+    "name": "馬可波羅",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "暴擊",
+    "sixArts": [],
+    "image": "images/heroes/hero-27-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6799
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_27.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_27.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 27 張：地級、輸出、俠士、暴擊。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_ailiya_tw",
+    "name": "艾麗婭",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "中毒",
+    "sixArts": [],
+    "image": "images/heroes/hero-28-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6825
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_28.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_28.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 28 張：地級、輸出、墨客、中毒。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_lingyue_tw",
+    "name": "靈悅公主",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": "驅散",
+    "sixArts": [],
+    "image": "images/heroes/hero-29-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6809
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_29.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_29.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 29 張：地級、輔助、文臣、驅散。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_ying_tw",
+    "name": "影",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "增傷",
+    "sixArts": [],
+    "image": "images/heroes/hero-30-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6795
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_30.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_30.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 30 張：地級、輸出、武將、增傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_shaliya_tw",
+    "name": "沙莉雅",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "灼燒",
+    "sixArts": [],
+    "image": "images/heroes/hero-32-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6508
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_32.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_32.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 32 張：地級、輸出、文臣、灼燒。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_huer_tw",
+    "name": "狐兒",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "真傷",
+    "sixArts": [],
+    "image": "images/heroes/hero-33-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6614
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_33.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_33.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 33 張：地級、輸出、武將、真傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_palizhati_tw",
+    "name": "帕麗札提",
+    "aliases": [],
+    "rarity": "地級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": "增傷",
+    "sixArts": [],
+    "image": "images/heroes/hero-34-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6516
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_34.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_34.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "attribute",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "attribute",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 34 張：地級、輸出、俠士、增傷。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_xuanze_tw",
+    "name": "玄澤",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-35-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5863
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_35.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_35.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 35 張：玄級、輸出、武將。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_linghua_tw",
+    "name": "靈華",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-36-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 6031
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_36.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_36.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 36 張：玄級、輔助、武將。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_zhuangxiao_tw",
+    "name": "莊曉",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-37-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5991
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_37.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_37.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 37 張：玄級、輔助、俠士。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_shuyi_tw",
+    "name": "書意",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-38-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "俠士",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5894
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_38.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_38.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 38 張：玄級、輔助、俠士。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_zhaogonggong_tw",
+    "name": "趙公公",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "肉盾"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-39-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "肉盾",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5894
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_39.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_39.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 39 張：玄級、肉盾、文臣。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_lingqi_tw",
+    "name": "凌七",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-40-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5819
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_40.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_40.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 40 張：玄級、輸出、武將。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_quanquan_tw",
+    "name": "圈圈",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-41-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "墨客",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5972
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_41.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_41.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 41 張：玄級、輸出、墨客。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_yuanyuan_tw",
+    "name": "圓圓",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輸出"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-42-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輸出",
+    "faction": "武將",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5882
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_42.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_42.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 42 張：玄級、輸出、武將。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      }
+    ]
+  },
+  {
+    "id": "hero_cangran_tw",
+    "name": "蒼髥大臣",
+    "aliases": [],
+    "rarity": "玄級",
+    "type": null,
+    "role": [
+      "輔助"
+    ],
+    "attribute": null,
+    "sixArts": [],
+    "image": "images/heroes/hero-43-tw.webp",
+    "skills": [],
+    "buildingBonuses": [],
+    "teamTags": [],
+    "description": "台版遊戲截圖確認的喵將；技能文字、六藝推薦與研究天賦等待詳情截圖補充。",
+    "source": "",
+    "sourceType": "observation",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-01",
+    "notes": "2026-10-01 喵將截圖已核對；最新基本分類以本次截圖為準，圖中數值不代表固定基礎值。",
+    "profession": "輔助",
+    "faction": "文臣",
+    "sixArtsRecommendations": [],
+    "researchTalents": [],
+    "rarityType": null,
+    "imageType": "cutout",
+    "screenshotProgress": {
+      "level": 409,
+      "power": 5873
+    },
+    "screenshotEvidence": {
+      "file": "LINE_ALBUM_2026101 _1_261001_43.jpg",
+      "checkedAt": "2026-10-01",
+      "display": "圖鑑預覽／截圖帳號狀態"
+    },
+    "sourceDescription": "玩家提供台版遊戲截圖：LINE_ALBUM_2026101 _1_261001_43.jpg",
+    "verifiedFields": [
+      "name",
+      "rarity",
+      "rarityType",
+      "profession",
+      "faction",
+      "image"
+    ],
+    "confirmations": [
+      {
+        "fields": [
+          "name",
+          "rarity",
+          "rarityType",
+          "profession",
+          "faction",
+          "screenshotProgress"
+        ],
+        "method": "screenshot",
+        "checkedAt": "2026-10-01",
+        "description": "台版喵將截圖第 43 張：玄級、輔助、文臣。等級與戰力僅代表截圖狀態；未提供技能文字及六藝、研究天賦詳情。"
+      },
+      {
+        "fields": [
+          "name"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-01",
+        "description": "玩家更正角色名稱為「蒼髥大臣」。"
+      }
+    ]
   }
 ]

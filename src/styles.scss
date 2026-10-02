@@ -376,6 +376,12 @@ html.drawer-open { overflow: hidden; }
 // Ancient treasure cutouts and screenshot observations.
 .data-table .artifact-name-link {display:flex;align-items:center;gap:10px;min-width:170px;}
 .artifact-thumbnail {width:48px;height:48px;flex:0 0 48px;object-fit:contain;}
+.data-table .hero-portrait-name-link {display:flex;align-items:center;gap:10px;min-width:150px;}
+.hero-thumbnail {width:48px;height:48px;flex:0 0 48px;object-fit:contain;}
+.hero-image-pending {display:grid;place-items:center;color:#aaa58f;background:#efeadc;border-radius:8px;}
+.hero-cutout-panel {background:radial-gradient(ellipse,#e6ead650,transparent 70%);}
+.hero-cutout-panel .hero-art {object-fit:contain;width:100%;}
+.hero-screenshot-progress>p {margin:10px 0 18px;}
 .artifact-image-pending {display:grid;place-items:center;color:#aaa58f;background:#efeadc;border-radius:8px;}
 .artifact-overview {display:grid;grid-template-columns:minmax(180px,280px) 1fr;align-items:center;gap:24px;}
 .artifact-illustration {display:grid;place-items:center;background:radial-gradient(ellipse,#e6ead650,transparent 70%);min-height:200px;}

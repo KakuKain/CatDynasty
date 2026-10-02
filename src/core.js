@@ -45,7 +45,7 @@ export function searchDatabase(db, query) {
     return {key,record,related:!own.includes(q),score};
   }).filter(Boolean)).sort((a,b)=>b.score-a.score);
 }
-export const heroProfessions=['輸出','坦克','輔助'];
+export const heroProfessions=['輸出','肉盾','輔助'];
 export function filterRecords(db,key,params) {
   const query=params.get('query')||'';
   const hits=query?new Set(searchDatabase(db,query).filter(r=>r.key===key).map(r=>r.record.id)):null;
@@ -58,7 +58,7 @@ export function filterRecords(db,key,params) {
     &&(!sets.length||sets.some(id=>(record.setIds||[]).includes(id)))
     &&(!statuses.length||statuses.includes(codeStatus(record))));
 }
-export const heroFactions=['武將','文臣','俠士','墨客'];
+export const heroFactions=['武將','文臣','俠士','墨客','帝王'];
 export function heroFiltersFromParams(params) {
   return {...Object.fromEntries(params),rarities:params.getAll('rarity'),attributes:params.getAll('attribute'),professions:params.getAll('profession'),factions:params.getAll('faction')};
 }
