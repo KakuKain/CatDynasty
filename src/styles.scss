@@ -462,6 +462,18 @@ html.drawer-open { overflow: hidden; }
   box-shadow: 0 1px 2px #49301d29;
 }
 .hero-quality-unknown { color: #817d6c; font-size: .84rem; }
+.skill-preview-link {width:fit-content;max-width:100%;text-decoration:underline dotted #a9aa89;text-underline-offset:5px;}
+.skill-tooltip {
+  position:fixed;inset:auto;margin:0;z-index:120;
+  width:min(390px,calc(100vw - 24px));max-height:min(440px,calc(100dvh - 24px));
+  overflow-y:auto;overscroll-behavior:contain;
+  padding:17px 20px;border:1px solid #bfb18d;border-top:3px solid #49644d;border-radius:9px;
+  color:$ink;background:#fffaf0;box-shadow:0 8px 28px #293c3629;font-family:$font;
+  strong {display:block;font-size:1.08rem;color:#35513d;}
+  >span {display:block;margin:3px 0 10px;color:#85806a;font-size:.76rem;}
+  p {font-size:.9rem;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;}
+  &[hidden] {display:none;}
+}
 .hero-card-quality { position: absolute; top: 12px; left: 12px; z-index: 1; }
 .facts dd:has(.hero-quality-badge) { padding-top: 2px; }
 .artifact-image-pending {display:grid;place-items:center;color:#aaa58f;background:#efeadc;border-radius:8px;}
