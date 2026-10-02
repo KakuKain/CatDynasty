@@ -1,0 +1,1479 @@
+{
+  "checkedAt": "2026-10-02",
+  "method": "original-screenshot-crop",
+  "description": "依玩家要求直接裁切遊戲截圖，沒有生成、補繪或重新描繪技能圖示。",
+  "icons": [
+    {
+      "heroId": "hero_huo_tw",
+      "skillId": "skill_huo_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_huo_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_1.jpg",
+      "sourceHash": "37e17a5ed251d60d8b4cca4688749cc885387bd083725297ae244aad622996aa",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3730
+    },
+    {
+      "heroId": "hero_huo_tw",
+      "skillId": "skill_huo_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_huo_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_1.jpg",
+      "sourceHash": "37e17a5ed251d60d8b4cca4688749cc885387bd083725297ae244aad622996aa",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2354
+    },
+    {
+      "heroId": "hero_huo_tw",
+      "skillId": "skill_huo_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_huo_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_1.jpg",
+      "sourceHash": "37e17a5ed251d60d8b4cca4688749cc885387bd083725297ae244aad622996aa",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2714
+    },
+    {
+      "heroId": "hero_huo_tw",
+      "skillId": "skill_huo_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_huo_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_1.jpg",
+      "sourceHash": "37e17a5ed251d60d8b4cca4688749cc885387bd083725297ae244aad622996aa",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_shuai_tw",
+      "skillId": "skill_shuai_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_shuai_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_6.jpg",
+      "sourceHash": "92184e11a6f4ee8964c675bfb33c794ef9411184d72b81f8756bd58f60807926",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3880
+    },
+    {
+      "heroId": "hero_shuai_tw",
+      "skillId": "skill_shuai_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_shuai_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_6.jpg",
+      "sourceHash": "92184e11a6f4ee8964c675bfb33c794ef9411184d72b81f8756bd58f60807926",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 1892
+    },
+    {
+      "heroId": "hero_shuai_tw",
+      "skillId": "skill_shuai_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_shuai_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_6.jpg",
+      "sourceHash": "92184e11a6f4ee8964c675bfb33c794ef9411184d72b81f8756bd58f60807926",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2610
+    },
+    {
+      "heroId": "hero_shuai_tw",
+      "skillId": "skill_shuai_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_shuai_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_6.jpg",
+      "sourceHash": "92184e11a6f4ee8964c675bfb33c794ef9411184d72b81f8756bd58f60807926",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_qin_tw",
+      "skillId": "skill_qin_tw_entry",
+      "slot": "entry",
+      "image": "images/skills/skill_qin_tw_entry.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_2.jpg",
+      "sourceHash": "4ee316893b5aa3d95b66b7cd4316495a109719c3922d52fd230701f756322205",
+      "crop": {
+        "left": 105,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4480
+    },
+    {
+      "heroId": "hero_qin_tw",
+      "skillId": "skill_qin_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_qin_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_2.jpg",
+      "sourceHash": "4ee316893b5aa3d95b66b7cd4316495a109719c3922d52fd230701f756322205",
+      "crop": {
+        "left": 245,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4484
+    },
+    {
+      "heroId": "hero_qin_tw",
+      "skillId": "skill_qin_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_qin_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_2.jpg",
+      "sourceHash": "4ee316893b5aa3d95b66b7cd4316495a109719c3922d52fd230701f756322205",
+      "crop": {
+        "left": 385,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3970
+    },
+    {
+      "heroId": "hero_qin_tw",
+      "skillId": "skill_qin_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_qin_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_2.jpg",
+      "sourceHash": "4ee316893b5aa3d95b66b7cd4316495a109719c3922d52fd230701f756322205",
+      "crop": {
+        "left": 525,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3210
+    },
+    {
+      "heroId": "hero_qin_tw",
+      "skillId": "skill_qin_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_qin_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_2.jpg",
+      "sourceHash": "4ee316893b5aa3d95b66b7cd4316495a109719c3922d52fd230701f756322205",
+      "crop": {
+        "left": 665,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4070
+    },
+    {
+      "heroId": "hero_wuzetian_tw",
+      "skillId": "skill_wuzetian_tw_entry",
+      "slot": "entry",
+      "image": "images/skills/skill_wuzetian_tw_entry.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_1.jpg",
+      "sourceHash": "7253fc5d61d09c60630ce0ba49b6e51249d11516c2d53ced5d274d06c6c4e40b",
+      "crop": {
+        "left": 105,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3796
+    },
+    {
+      "heroId": "hero_wuzetian_tw",
+      "skillId": "skill_wuzetian_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_wuzetian_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_1.jpg",
+      "sourceHash": "7253fc5d61d09c60630ce0ba49b6e51249d11516c2d53ced5d274d06c6c4e40b",
+      "crop": {
+        "left": 245,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3882
+    },
+    {
+      "heroId": "hero_wuzetian_tw",
+      "skillId": "skill_wuzetian_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_wuzetian_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_1.jpg",
+      "sourceHash": "7253fc5d61d09c60630ce0ba49b6e51249d11516c2d53ced5d274d06c6c4e40b",
+      "crop": {
+        "left": 385,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4660
+    },
+    {
+      "heroId": "hero_wuzetian_tw",
+      "skillId": "skill_wuzetian_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_wuzetian_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_1.jpg",
+      "sourceHash": "7253fc5d61d09c60630ce0ba49b6e51249d11516c2d53ced5d274d06c6c4e40b",
+      "crop": {
+        "left": 525,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2378
+    },
+    {
+      "heroId": "hero_wuzetian_tw",
+      "skillId": "skill_wuzetian_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_wuzetian_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將/LINE_ALBUM_2026101 _1_261001_1.jpg",
+      "sourceHash": "7253fc5d61d09c60630ce0ba49b6e51249d11516c2d53ced5d274d06c6c4e40b",
+      "crop": {
+        "left": 665,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3506
+    },
+    {
+      "heroId": "hero_fuhao_tw",
+      "skillId": "skill_fuhao_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_fuhao_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_25.jpg",
+      "sourceHash": "c816ac167cb6809c2432ccb13b769553b0de506c5f360ca7a43025db05904ac4",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4578
+    },
+    {
+      "heroId": "hero_fuhao_tw",
+      "skillId": "skill_fuhao_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_fuhao_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_25.jpg",
+      "sourceHash": "c816ac167cb6809c2432ccb13b769553b0de506c5f360ca7a43025db05904ac4",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 1938
+    },
+    {
+      "heroId": "hero_fuhao_tw",
+      "skillId": "skill_fuhao_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_fuhao_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_25.jpg",
+      "sourceHash": "c816ac167cb6809c2432ccb13b769553b0de506c5f360ca7a43025db05904ac4",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2766
+    },
+    {
+      "heroId": "hero_fuhao_tw",
+      "skillId": "skill_fuhao_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_fuhao_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_25.jpg",
+      "sourceHash": "c816ac167cb6809c2432ccb13b769553b0de506c5f360ca7a43025db05904ac4",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_zhuge_tw",
+      "skillId": "skill_zhuge_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_zhuge_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_26.jpg",
+      "sourceHash": "5121fc3b89545727ce6633181bf354bc52e044f08d79cbbc50f83671e251da4d",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3892
+    },
+    {
+      "heroId": "hero_zhuge_tw",
+      "skillId": "skill_zhuge_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_zhuge_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_26.jpg",
+      "sourceHash": "5121fc3b89545727ce6633181bf354bc52e044f08d79cbbc50f83671e251da4d",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3522
+    },
+    {
+      "heroId": "hero_zhuge_tw",
+      "skillId": "skill_zhuge_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_zhuge_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_26.jpg",
+      "sourceHash": "5121fc3b89545727ce6633181bf354bc52e044f08d79cbbc50f83671e251da4d",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2936
+    },
+    {
+      "heroId": "hero_zhuge_tw",
+      "skillId": "skill_zhuge_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_zhuge_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_26.jpg",
+      "sourceHash": "5121fc3b89545727ce6633181bf354bc52e044f08d79cbbc50f83671e251da4d",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3880
+    },
+    {
+      "heroId": "hero_shangguanwaner_tw",
+      "skillId": "skill_shangguanwaner_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_shangguanwaner_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_31.jpg",
+      "sourceHash": "9df817de0491672b23fbbc6adf4e09594594b799512904e1bda8006bb22ddb3f",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4766
+    },
+    {
+      "heroId": "hero_shangguanwaner_tw",
+      "skillId": "skill_shangguanwaner_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_shangguanwaner_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_31.jpg",
+      "sourceHash": "9df817de0491672b23fbbc6adf4e09594594b799512904e1bda8006bb22ddb3f",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3180
+    },
+    {
+      "heroId": "hero_shangguanwaner_tw",
+      "skillId": "skill_shangguanwaner_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_shangguanwaner_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_31.jpg",
+      "sourceHash": "9df817de0491672b23fbbc6adf4e09594594b799512904e1bda8006bb22ddb3f",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3058
+    },
+    {
+      "heroId": "hero_shangguanwaner_tw",
+      "skillId": "skill_shangguanwaner_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_shangguanwaner_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_31.jpg",
+      "sourceHash": "9df817de0491672b23fbbc6adf4e09594594b799512904e1bda8006bb22ddb3f",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_xuxiake_tw",
+      "skillId": "skill_xuxiake_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_xuxiake_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_36.jpg",
+      "sourceHash": "884b53dd87e349f003419f199f86edc6295df0b3d60a9c5249deeda8dfbd941b",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4248
+    },
+    {
+      "heroId": "hero_xuxiake_tw",
+      "skillId": "skill_xuxiake_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_xuxiake_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_36.jpg",
+      "sourceHash": "884b53dd87e349f003419f199f86edc6295df0b3d60a9c5249deeda8dfbd941b",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2346
+    },
+    {
+      "heroId": "hero_xuxiake_tw",
+      "skillId": "skill_xuxiake_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_xuxiake_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_36.jpg",
+      "sourceHash": "884b53dd87e349f003419f199f86edc6295df0b3d60a9c5249deeda8dfbd941b",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2540
+    },
+    {
+      "heroId": "hero_xuxiake_tw",
+      "skillId": "skill_xuxiake_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_xuxiake_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_36.jpg",
+      "sourceHash": "884b53dd87e349f003419f199f86edc6295df0b3d60a9c5249deeda8dfbd941b",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_pu_tw",
+      "skillId": "skill_pu_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_pu_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_41.jpg",
+      "sourceHash": "734c029caaf6c9ba771b1abac4d6426c4b8145d14a583e7858b517ddf6609462",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3966
+    },
+    {
+      "heroId": "hero_pu_tw",
+      "skillId": "skill_pu_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_pu_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_41.jpg",
+      "sourceHash": "734c029caaf6c9ba771b1abac4d6426c4b8145d14a583e7858b517ddf6609462",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3358
+    },
+    {
+      "heroId": "hero_pu_tw",
+      "skillId": "skill_pu_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_pu_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_41.jpg",
+      "sourceHash": "734c029caaf6c9ba771b1abac4d6426c4b8145d14a583e7858b517ddf6609462",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4466
+    },
+    {
+      "heroId": "hero_pu_tw",
+      "skillId": "skill_pu_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_pu_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_41.jpg",
+      "sourceHash": "734c029caaf6c9ba771b1abac4d6426c4b8145d14a583e7858b517ddf6609462",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_di_tw",
+      "skillId": "skill_di_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_di_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_46.jpg",
+      "sourceHash": "6aea39422a679f4270e4fb0235c1328b4c2c9af50496ab6d15d1c09f5495aaaa",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3864
+    },
+    {
+      "heroId": "hero_di_tw",
+      "skillId": "skill_di_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_di_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_46.jpg",
+      "sourceHash": "6aea39422a679f4270e4fb0235c1328b4c2c9af50496ab6d15d1c09f5495aaaa",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3052
+    },
+    {
+      "heroId": "hero_di_tw",
+      "skillId": "skill_di_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_di_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_46.jpg",
+      "sourceHash": "6aea39422a679f4270e4fb0235c1328b4c2c9af50496ab6d15d1c09f5495aaaa",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3358
+    },
+    {
+      "heroId": "hero_di_tw",
+      "skillId": "skill_di_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_di_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_46.jpg",
+      "sourceHash": "6aea39422a679f4270e4fb0235c1328b4c2c9af50496ab6d15d1c09f5495aaaa",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3534
+    },
+    {
+      "heroId": "hero_huangyueying_tw",
+      "skillId": "skill_yueying_1_tw",
+      "slot": "ultimate",
+      "image": "images/skills/skill_yueying_1_tw.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_51.jpg",
+      "sourceHash": "8942ce5120d8b5297d21e40984c6e8247cb4d20cd71603de46e4d99b781940a2",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4462
+    },
+    {
+      "heroId": "hero_huangyueying_tw",
+      "skillId": "skill_yueying_2_tw",
+      "slot": "star2",
+      "image": "images/skills/skill_yueying_2_tw.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_51.jpg",
+      "sourceHash": "8942ce5120d8b5297d21e40984c6e8247cb4d20cd71603de46e4d99b781940a2",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3024
+    },
+    {
+      "heroId": "hero_huangyueying_tw",
+      "skillId": "skill_huangyueying_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_huangyueying_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_51.jpg",
+      "sourceHash": "8942ce5120d8b5297d21e40984c6e8247cb4d20cd71603de46e4d99b781940a2",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3482
+    },
+    {
+      "heroId": "hero_huangyueying_tw",
+      "skillId": "skill_huangyueying_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_huangyueying_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_51.jpg",
+      "sourceHash": "8942ce5120d8b5297d21e40984c6e8247cb4d20cd71603de46e4d99b781940a2",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3880
+    },
+    {
+      "heroId": "hero_qi_tw",
+      "skillId": "skill_qi_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_qi_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_56.jpg",
+      "sourceHash": "58a09f6f6c8a6cd8ee10fa14d46ec8336fec870597e1ef08afb1fa886736a605",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4190
+    },
+    {
+      "heroId": "hero_qi_tw",
+      "skillId": "skill_qi_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_qi_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_56.jpg",
+      "sourceHash": "58a09f6f6c8a6cd8ee10fa14d46ec8336fec870597e1ef08afb1fa886736a605",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2508
+    },
+    {
+      "heroId": "hero_qi_tw",
+      "skillId": "skill_qi_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_qi_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_56.jpg",
+      "sourceHash": "58a09f6f6c8a6cd8ee10fa14d46ec8336fec870597e1ef08afb1fa886736a605",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2764
+    },
+    {
+      "heroId": "hero_qi_tw",
+      "skillId": "skill_qi_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_qi_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_56.jpg",
+      "sourceHash": "58a09f6f6c8a6cd8ee10fa14d46ec8336fec870597e1ef08afb1fa886736a605",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_yang_tw",
+      "skillId": "skill_yang_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_yang_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_61.jpg",
+      "sourceHash": "777b7fe13c431bc0258ad322170e088a86263139b8e996f6099420d45229c5f4",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3848
+    },
+    {
+      "heroId": "hero_yang_tw",
+      "skillId": "skill_yang_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_yang_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_61.jpg",
+      "sourceHash": "777b7fe13c431bc0258ad322170e088a86263139b8e996f6099420d45229c5f4",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3034
+    },
+    {
+      "heroId": "hero_yang_tw",
+      "skillId": "skill_yang_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_yang_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_61.jpg",
+      "sourceHash": "777b7fe13c431bc0258ad322170e088a86263139b8e996f6099420d45229c5f4",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2122
+    },
+    {
+      "heroId": "hero_yang_tw",
+      "skillId": "skill_yang_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_yang_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_61.jpg",
+      "sourceHash": "777b7fe13c431bc0258ad322170e088a86263139b8e996f6099420d45229c5f4",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3534
+    },
+    {
+      "heroId": "hero_hanbao_tw",
+      "skillId": "skill_hanbao_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_hanbao_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_66.jpg",
+      "sourceHash": "2f3c8a755acb37e9fe614f2e35a86b728c9c35a45988c086dbd32bf881edd994",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4488
+    },
+    {
+      "heroId": "hero_hanbao_tw",
+      "skillId": "skill_hanbao_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_hanbao_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_66.jpg",
+      "sourceHash": "2f3c8a755acb37e9fe614f2e35a86b728c9c35a45988c086dbd32bf881edd994",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2540
+    },
+    {
+      "heroId": "hero_hanbao_tw",
+      "skillId": "skill_hanbao_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_hanbao_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_66.jpg",
+      "sourceHash": "2f3c8a755acb37e9fe614f2e35a86b728c9c35a45988c086dbd32bf881edd994",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2976
+    },
+    {
+      "heroId": "hero_hanbao_tw",
+      "skillId": "skill_hanbao_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_hanbao_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_66.jpg",
+      "sourceHash": "2f3c8a755acb37e9fe614f2e35a86b728c9c35a45988c086dbd32bf881edd994",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_qu_tw",
+      "skillId": "skill_qu_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_qu_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_71.jpg",
+      "sourceHash": "50233ada09d2eed3c31edd34af01b30bf62321490df6ad14fc2750ec9f2723c6",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4012
+    },
+    {
+      "heroId": "hero_qu_tw",
+      "skillId": "skill_qu_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_qu_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_71.jpg",
+      "sourceHash": "50233ada09d2eed3c31edd34af01b30bf62321490df6ad14fc2750ec9f2723c6",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2476
+    },
+    {
+      "heroId": "hero_qu_tw",
+      "skillId": "skill_qu_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_qu_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_71.jpg",
+      "sourceHash": "50233ada09d2eed3c31edd34af01b30bf62321490df6ad14fc2750ec9f2723c6",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4202
+    },
+    {
+      "heroId": "hero_qu_tw",
+      "skillId": "skill_qu_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_qu_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_71.jpg",
+      "sourceHash": "50233ada09d2eed3c31edd34af01b30bf62321490df6ad14fc2750ec9f2723c6",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3534
+    },
+    {
+      "heroId": "hero_wangzhaojun_tw",
+      "skillId": "skill_wangzhaojun_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_wangzhaojun_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_76.jpg",
+      "sourceHash": "bd9c54e7c44047d8ccd9b6b60b1fd0a2893651377260448b9a7bc4ddbf78f48d",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4254
+    },
+    {
+      "heroId": "hero_wangzhaojun_tw",
+      "skillId": "skill_wangzhaojun_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_wangzhaojun_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_76.jpg",
+      "sourceHash": "bd9c54e7c44047d8ccd9b6b60b1fd0a2893651377260448b9a7bc4ddbf78f48d",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2878
+    },
+    {
+      "heroId": "hero_wangzhaojun_tw",
+      "skillId": "skill_wangzhaojun_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_wangzhaojun_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_76.jpg",
+      "sourceHash": "bd9c54e7c44047d8ccd9b6b60b1fd0a2893651377260448b9a7bc4ddbf78f48d",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2516
+    },
+    {
+      "heroId": "hero_wangzhaojun_tw",
+      "skillId": "skill_wangzhaojun_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_wangzhaojun_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_76.jpg",
+      "sourceHash": "bd9c54e7c44047d8ccd9b6b60b1fd0a2893651377260448b9a7bc4ddbf78f48d",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_lichunfeng_tw",
+      "skillId": "skill_lichunfeng_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_lichunfeng_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_83.jpg",
+      "sourceHash": "eb414475b00b87e38b02769051cd3ae1732165974403e2b60adfae9652a6afc0",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3310
+    },
+    {
+      "heroId": "hero_lichunfeng_tw",
+      "skillId": "skill_lichunfeng_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_lichunfeng_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_83.jpg",
+      "sourceHash": "eb414475b00b87e38b02769051cd3ae1732165974403e2b60adfae9652a6afc0",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3050,
+      "note": "依技能彈窗位置核對：言兆在第三格、周算在第二格，不依檔案順序推定。"
+    },
+    {
+      "heroId": "hero_lichunfeng_tw",
+      "skillId": "skill_lichunfeng_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_lichunfeng_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_83.jpg",
+      "sourceHash": "eb414475b00b87e38b02769051cd3ae1732165974403e2b60adfae9652a6afc0",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3100,
+      "note": "依技能彈窗位置核對：言兆在第三格、周算在第二格，不依檔案順序推定。"
+    },
+    {
+      "heroId": "hero_lichunfeng_tw",
+      "skillId": "skill_lichunfeng_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_lichunfeng_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_83.jpg",
+      "sourceHash": "eb414475b00b87e38b02769051cd3ae1732165974403e2b60adfae9652a6afc0",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_qingzhao_tw",
+      "skillId": "skill_qingzhao_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_qingzhao_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_88.jpg",
+      "sourceHash": "7a0703ab85c134cd6706140e372a98d6081b2a1f0d8a33dffcb8516e525173b7",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3320
+    },
+    {
+      "heroId": "hero_qingzhao_tw",
+      "skillId": "skill_qingzhao_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_qingzhao_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_88.jpg",
+      "sourceHash": "7a0703ab85c134cd6706140e372a98d6081b2a1f0d8a33dffcb8516e525173b7",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3072
+    },
+    {
+      "heroId": "hero_qingzhao_tw",
+      "skillId": "skill_qingzhao_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_qingzhao_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_88.jpg",
+      "sourceHash": "7a0703ab85c134cd6706140e372a98d6081b2a1f0d8a33dffcb8516e525173b7",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3956
+    },
+    {
+      "heroId": "hero_qingzhao_tw",
+      "skillId": "skill_qingzhao_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_qingzhao_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_88.jpg",
+      "sourceHash": "7a0703ab85c134cd6706140e372a98d6081b2a1f0d8a33dffcb8516e525173b7",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_xuanzang_tw",
+      "skillId": "skill_xuanzang_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_xuanzang_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_93.jpg",
+      "sourceHash": "edfdf23b3b28ae9473ef8cd71cdd6fe2c70c2da3ebf10d336ea16e97b8d7f306",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4064
+    },
+    {
+      "heroId": "hero_xuanzang_tw",
+      "skillId": "skill_xuanzang_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_xuanzang_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_93.jpg",
+      "sourceHash": "edfdf23b3b28ae9473ef8cd71cdd6fe2c70c2da3ebf10d336ea16e97b8d7f306",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3396
+    },
+    {
+      "heroId": "hero_xuanzang_tw",
+      "skillId": "skill_xuanzang_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_xuanzang_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_93.jpg",
+      "sourceHash": "edfdf23b3b28ae9473ef8cd71cdd6fe2c70c2da3ebf10d336ea16e97b8d7f306",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2944
+    },
+    {
+      "heroId": "hero_xuanzang_tw",
+      "skillId": "skill_xuanzang_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_xuanzang_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_93.jpg",
+      "sourceHash": "edfdf23b3b28ae9473ef8cd71cdd6fe2c70c2da3ebf10d336ea16e97b8d7f306",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3534
+    },
+    {
+      "heroId": "hero_shen_tw",
+      "skillId": "skill_shen_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_shen_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_98.jpg",
+      "sourceHash": "44a9140e0692b3bd636578ae397518d14a3d34f47a27da4f7d0c86d458d59cd9",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4574
+    },
+    {
+      "heroId": "hero_shen_tw",
+      "skillId": "skill_shen_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_shen_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_98.jpg",
+      "sourceHash": "44a9140e0692b3bd636578ae397518d14a3d34f47a27da4f7d0c86d458d59cd9",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2756
+    },
+    {
+      "heroId": "hero_shen_tw",
+      "skillId": "skill_shen_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_shen_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_98.jpg",
+      "sourceHash": "44a9140e0692b3bd636578ae397518d14a3d34f47a27da4f7d0c86d458d59cd9",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2960
+    },
+    {
+      "heroId": "hero_shen_tw",
+      "skillId": "skill_shen_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_shen_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_98.jpg",
+      "sourceHash": "44a9140e0692b3bd636578ae397518d14a3d34f47a27da4f7d0c86d458d59cd9",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3534
+    },
+    {
+      "heroId": "hero_jingke_tw",
+      "skillId": "skill_jingke_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_jingke_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_103.jpg",
+      "sourceHash": "5695a196313932d784c01c61221b246d8d26c19f44916d599a3be4141f352292",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4476
+    },
+    {
+      "heroId": "hero_jingke_tw",
+      "skillId": "skill_jingke_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_jingke_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_103.jpg",
+      "sourceHash": "5695a196313932d784c01c61221b246d8d26c19f44916d599a3be4141f352292",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3088
+    },
+    {
+      "heroId": "hero_jingke_tw",
+      "skillId": "skill_jingke_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_jingke_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_103.jpg",
+      "sourceHash": "5695a196313932d784c01c61221b246d8d26c19f44916d599a3be4141f352292",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2852
+    },
+    {
+      "heroId": "hero_jingke_tw",
+      "skillId": "skill_jingke_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_jingke_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_103.jpg",
+      "sourceHash": "5695a196313932d784c01c61221b246d8d26c19f44916d599a3be4141f352292",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3534
+    },
+    {
+      "heroId": "hero_h_tw",
+      "skillId": "skill_h_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_h_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_108.jpg",
+      "sourceHash": "d14507d229e75e3e845438ca2dbd6ed70e0f3740f92968702c02210787fe542d",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3436
+    },
+    {
+      "heroId": "hero_h_tw",
+      "skillId": "skill_h_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_h_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_108.jpg",
+      "sourceHash": "d14507d229e75e3e845438ca2dbd6ed70e0f3740f92968702c02210787fe542d",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2856
+    },
+    {
+      "heroId": "hero_h_tw",
+      "skillId": "skill_h_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_h_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_108.jpg",
+      "sourceHash": "d14507d229e75e3e845438ca2dbd6ed70e0f3740f92968702c02210787fe542d",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2668
+    },
+    {
+      "heroId": "hero_h_tw",
+      "skillId": "skill_h_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_h_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_108.jpg",
+      "sourceHash": "d14507d229e75e3e845438ca2dbd6ed70e0f3740f92968702c02210787fe542d",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_ayi_tw",
+      "skillId": "skill_ayi_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_ayi_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_113.jpg",
+      "sourceHash": "0db47be1721b1c1f6710f1539a929e839bb875203892b3553d3f8848e80c5fb7",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3276
+    },
+    {
+      "heroId": "hero_ayi_tw",
+      "skillId": "skill_ayi_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_ayi_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_113.jpg",
+      "sourceHash": "0db47be1721b1c1f6710f1539a929e839bb875203892b3553d3f8848e80c5fb7",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2512
+    },
+    {
+      "heroId": "hero_ayi_tw",
+      "skillId": "skill_ayi_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_ayi_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_113.jpg",
+      "sourceHash": "0db47be1721b1c1f6710f1539a929e839bb875203892b3553d3f8848e80c5fb7",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2530
+    },
+    {
+      "heroId": "hero_ayi_tw",
+      "skillId": "skill_ayi_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_ayi_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_113.jpg",
+      "sourceHash": "0db47be1721b1c1f6710f1539a929e839bb875203892b3553d3f8848e80c5fb7",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    },
+    {
+      "heroId": "hero_libai_tw",
+      "skillId": "skill_libai_tw_ultimate",
+      "slot": "ultimate",
+      "image": "images/skills/skill_libai_tw_ultimate.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_118.jpg",
+      "sourceHash": "1a4ab7fffefeb097e28b76ccd14bfa918fe5aacb6f1b1b85abeb1e8c81ca4457",
+      "crop": {
+        "left": 175,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 3578
+    },
+    {
+      "heroId": "hero_libai_tw",
+      "skillId": "skill_libai_tw_star2",
+      "slot": "star2",
+      "image": "images/skills/skill_libai_tw_star2.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_118.jpg",
+      "sourceHash": "1a4ab7fffefeb097e28b76ccd14bfa918fe5aacb6f1b1b85abeb1e8c81ca4457",
+      "crop": {
+        "left": 315,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 2998
+    },
+    {
+      "heroId": "hero_libai_tw",
+      "skillId": "skill_libai_tw_star5",
+      "slot": "star5",
+      "image": "images/skills/skill_libai_tw_star5.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_118.jpg",
+      "sourceHash": "1a4ab7fffefeb097e28b76ccd14bfa918fe5aacb6f1b1b85abeb1e8c81ca4457",
+      "crop": {
+        "left": 455,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4186
+    },
+    {
+      "heroId": "hero_libai_tw",
+      "skillId": "skill_libai_tw_talent",
+      "slot": "talent",
+      "image": "images/skills/skill_libai_tw_talent.webp",
+      "sourceFile": "D:/Kaku/jibun/喵將技能/LINE_ALBUM_2026102_261002_118.jpg",
+      "sourceHash": "1a4ab7fffefeb097e28b76ccd14bfa918fe5aacb6f1b1b85abeb1e8c81ca4457",
+      "crop": {
+        "left": 595,
+        "top": 1249,
+        "width": 98,
+        "height": 98
+      },
+      "bytes": 4108
+    }
+  ]
+}
