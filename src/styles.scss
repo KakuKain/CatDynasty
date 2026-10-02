@@ -389,9 +389,12 @@ html.drawer-open { overflow: hidden; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 58px;
-  flex: 0 0 48px;
+  width: auto;
+  min-width: 58px;
+  height: 38px;
+  padding: 4px;
+  gap: 8px;
+  flex: 0 0 auto;
   vertical-align: middle;
   isolation: isolate;
 }
@@ -401,8 +404,9 @@ html.drawer-open { overflow: hidden; }
   position: relative;
   display: grid;
   place-items: center;
-  width: 34px;
-  height: 48px;
+  width: 50px;
+  height: 28px;
+  flex: 0 0 50px;
   color: #fffaf0;
   background: linear-gradient(112deg,#ffffff18,transparent 52%),var(--quality-paint);
   border: 1px solid var(--quality-edge);
@@ -431,26 +435,27 @@ html.drawer-open { overflow: hidden; }
 .hero-quality-glyph {
   position: relative;
   font-family: $font;
-  font-size: 29px;
+  font-size: 23px;
   font-weight: 700;
   line-height: 1;
   text-shadow: 0 1px 1px #4732218a;
 }
 .hero-quality-rare {
-  position: absolute;
-  top: -1px;
-  right: -1px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
   z-index: 1;
-  padding: 3px 2px;
+  padding: 3px 5px;
   color: #fff9e6;
   background: #bf662b;
   border: 1px solid #e9b35b;
   border-radius: 4px 2px 3px 2px;
-  writing-mode: vertical-rl;
+  writing-mode: horizontal-tb;
+  white-space: nowrap;
   font-size: 11px;
   line-height: 1.1;
   letter-spacing: 1px;
-  transform: rotate(9deg);
+  transform: rotate(-4deg);
   box-shadow: 0 1px 2px #49301d29;
 }
 .hero-quality-unknown { color: #817d6c; font-size: .84rem; }
