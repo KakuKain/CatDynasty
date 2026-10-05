@@ -2,6 +2,7 @@
   "checkedAt": "2026-10-05",
   "recommendationStatus": "theory",
   "teamIds": [
+    "team_tw_tower_qin_zero",
     "team_tw_campaign_crit",
     "team_tw_campaign_burn",
     "team_tw_boss_ailment",
@@ -39,6 +40,10 @@
     {
       "url": "https://www.taptap.cn/moment/831196379673005085",
       "result": "陸版官方圖鑑；原有參考隊另存，不當作台版配隊驗證。"
+    },
+    {
+      "url": "https://www.mobile01.com/topicdetail.php?f=675&t=7300331",
+      "result": "搜尋可見秦始皇推薦標題；沒有本次零星推塔隊的完整實戰條件，不據此宣稱官方T0或通關率。"
     }
   ],
   "unverified": [
@@ -53,5 +58,20 @@
     "T0或最佳隊伍",
     "保證先手、連續控場或無限主動循環",
     "用預覽帳號數值或技能倍率直接排名強度"
+  ],
+  "evaluationOrder": [
+    "目前星級的單角實戰影響",
+    "是否依賴尚未解鎖技能",
+    "目前帳號養成與關卡敵人",
+    "隊友互補與技能聯動"
+  ],
+  "playerObservations": [
+    {
+      "heroId": "hero_qin_tw",
+      "stars": 0,
+      "purpose": "推塔",
+      "checkedAt": "2026-10-05",
+      "description": "玩家回報：秦始皇即使只有 0 星，在推塔時也有突然翻盤的經驗。這是單角使用觀察，未提供關卡、其他隊友、養成與對戰紀錄，不能視為本五人隊已驗證。"
+    }
   ]
 }

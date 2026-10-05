@@ -1,5 +1,120 @@
 [
   {
+    "id": "team_tw_tower_qin_zero",
+    "name": "0 星秦始皇核心隊",
+    "purposes": [
+      "推塔"
+    ],
+    "heroIds": [
+      "hero_qin_tw",
+      "hero_fuhao_tw",
+      "hero_huangama",
+      "hero_libai_tw",
+      "hero_h_tw"
+    ],
+    "coreHeroIds": [
+      "hero_qin_tw"
+    ],
+    "description": "依玩家「0 星秦始皇可在推塔翻盤」的經驗，優先以秦始皇為核心，再補守衛、治療驅散與群攻；完整五人配置尚待實測。",
+    "suitableFor": "已持有秦始皇、推塔卡關時優先試用；不要求同時持有武則天，也不要求秦始皇升到 2 星或 5 星。",
+    "corePlan": {
+      "heroId": "hero_qin_tw",
+      "stars": 0,
+      "skillIds": [
+        "skill_qin_tw_entry",
+        "skill_qin_tw_ultimate"
+      ],
+      "description": "先評估 0 星秦始皇的入場與必殺技價值，周圍成員用來維持生存與技能施放。此處不計入 2 星集權或 5 星瀕死無敵、回血與反攻。截圖是滿級預覽，0 星帳號的技能等級與數值須另核對；其他隊友也不是一律要求 0 星。"
+    },
+    "playerObservations": [
+      {
+        "heroId": "hero_qin_tw",
+        "stars": 0,
+        "purpose": "推塔",
+        "checkedAt": "2026-10-05",
+        "description": "玩家回報：秦始皇即使只有 0 星，在推塔時也有突然翻盤的經驗。這是單角使用觀察，未提供關卡、其他隊友、養成與對戰紀錄，不能視為本五人隊已驗證。"
+      }
+    ],
+    "rationale": [
+      {
+        "heroId": "hero_qin_tw",
+        "skillIds": [
+          "skill_qin_tw_entry",
+          "skill_qin_tw_ultimate"
+        ],
+        "description": "核心先考慮入場的全體敵方降攻，以及必殺技的群攻、隊友威壓增攻、自身與隨機一名隊友回怒。這些機制有全隊影響，不必把 5 星保命當作推薦前提；實際 0 星技能數值待核對。"
+      },
+      {
+        "heroId": "hero_fuhao_tw",
+        "skillIds": [
+          "skill_fuhao_tw_ultimate"
+        ],
+        "description": "守衛與機率嘲諷用來減少隊友被擊倒的風險，讓秦始皇與輸出有機會施放技能；需確認婦好承傷能力。"
+      },
+      {
+        "heroId": "hero_huangama",
+        "skillIds": [
+          "skill_huangama_ultimate"
+        ],
+        "description": "以全體治療與暴擊增益支援秦始皇、李白；基礎方案不依賴黃阿瑪 2 星破盾或 5 星護盾切換。"
+      },
+      {
+        "heroId": "hero_libai_tw",
+        "skillIds": [
+          "skill_libai_tw_ultimate"
+        ],
+        "description": "提供另一個群體輸出與機率破甲來源；先觀察秦始皇加入後的通關改善，再決定是否需要更換輸出位。"
+      },
+      {
+        "heroId": "hero_h_tw",
+        "skillIds": [
+          "skill_h_tw_ultimate"
+        ],
+        "description": "以主動全體治療與負面驅散維持隊伍行動；此方案不依賴 5 星每回合群體護盾。"
+      }
+    ],
+    "keyUnlocks": [],
+    "substitutions": [
+      {
+        "heroId": "hero_libai_tw",
+        "replacementHeroId": "hero_huo_tw",
+        "reason": "可用霍去病群攻與團隊攻擊、暴擊增益作為另一個輸出候選。",
+        "tradeoff": "失去李白的破甲效果；誰更適合要看實際養成與卡關敵人，不能只按技能倍率排序。"
+      },
+      {
+        "heroId": "hero_fuhao_tw",
+        "replacementHeroId": "hero_shen_tw",
+        "reason": "若沈萬三的養成較完整，可試用他的減傷、防禦與自身回血。",
+        "tradeoff": "隊友增益隨機覆蓋 3 名，無法等效重現婦好的守衛與嘲諷。"
+      },
+      {
+        "heroId": "hero_h_tw",
+        "replacementHeroId": "hero_qingzhao_tw",
+        "reason": "若主要問題是單一成員瀕死，可考慮李清照集中治療。",
+        "tradeoff": "缺少霍嬗的主動全體驅散；遇到控制或群體負面狀態時須重新評估。"
+      }
+    ],
+    "rotationNotes": [
+      "先在同一個卡關層以秦始皇替換一個既有位置，保留其餘養成與配置，觀察是否增加存活或必殺技施放機會。",
+      "再依失敗原因調整保護、治療或輸出位；沒有證據時不必一次更換整隊。",
+      "檢查實際技能面板與戰鬥紀錄；0 星不等於技能滿級，也不等於能使用 2 星、5 星被動。"
+    ],
+    "limitations": [
+      "玩家觀察只確認秦始皇在推塔有 0 星翻盤經驗，未確認本五人陣容或所有塔層的通關率。",
+      "本配置尚未確認秦始皇 0 星的實際技能數值、初始怒氣、施放頻率與敵方抗性。",
+      "秦始皇 2 星集權與 5 星祖龍歸墟未列入核心收益；0 星不具備這些被動效果。",
+      "其他成員實際養成可能比紙面搭配更重要；先保留已練好的坦補，再逐一換位。"
+    ],
+    "recommendationStatus": "theory",
+    "source": "",
+    "sourceType": "unknown",
+    "sourceDescription": "玩家回報秦始皇 0 星推塔翻盤經驗；完整五人配置依台版技能截圖推導，未經實戰驗證。",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-05",
+    "notes": "優先評估核心單角在目前星級的實戰價值，再搭配保護、續航與輸出。玩家觀察與技能推導分開記錄；滿級截圖數值不當作 0 星實際數值。同類增益疊加規則尚待核對，成員順序不代表站位或出手順序。"
+  },
+  {
     "id": "team_tw_campaign_crit",
     "name": "暴擊平衡隊",
     "purposes": [
@@ -549,7 +664,7 @@
       "hero_wuzetian_tw"
     ],
     "description": "武則天入場提供每回合怒氣，秦始皇主動增攻與回怒，搭配李白群攻、黃阿瑪治療與婦好守衛。",
-    "suitableFor": "已持有兩位聖品質喵將、希望測試主動技能頻率的競技配置。",
+    "suitableFor": "已持有兩位聖品質喵將、希望測試主動技能頻率的競技配置。 秦始皇 0 星推塔價值另有獨立候選隊，不以兩位聖品質或秦始皇 5 星作為使用他的前提。",
     "rationale": [
       {
         "heroId": "hero_qin_tw",
@@ -607,7 +722,7 @@
       {
         "heroId": "hero_qin_tw",
         "skillId": "skill_qin_tw_star5",
-        "description": "瀕死保命需解鎖 5 星；不是無限次觸發。"
+        "description": "5 星是額外瀕死保命與反攻能力，不是秦始皇上場前提；0 星不能計入這項效果，每場僅一次。"
       }
     ],
     "substitutions": [
