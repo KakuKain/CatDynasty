@@ -2048,6 +2048,147 @@
             "minLength": 1
           },
           "uniqueItems": true
+        },
+        "recommendationStatus": {
+          "enum": [
+            "theory"
+          ]
+        },
+        "purposes": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "推圖",
+              "Boss",
+              "競技"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "coreHeroIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "suitableFor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceDescription": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rationale": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "heroId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "skillIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "heroId",
+              "skillIds",
+              "description"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "keyUnlocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "heroId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "skillId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "heroId",
+              "skillId",
+              "description"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "substitutions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "heroId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "replacementHeroId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              },
+              "tradeoff": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "heroId",
+              "replacementHeroId",
+              "reason",
+              "tradeoff"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "rotationNotes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
         }
       },
       "required": [
@@ -2060,7 +2201,43 @@
         "description",
         "heroIds"
       ],
-      "additionalProperties": true
+      "additionalProperties": true,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "recommendationStatus": {
+                "const": "theory"
+              }
+            },
+            "required": [
+              "recommendationStatus"
+            ]
+          },
+          "then": {
+            "properties": {
+              "verified": {
+                "const": false
+              },
+              "gameVersion": {
+                "const": "tw"
+              }
+            },
+            "required": [
+              "purposes",
+              "coreHeroIds",
+              "suitableFor",
+              "sourceDescription",
+              "rationale",
+              "keyUnlocks",
+              "substitutions",
+              "rotationNotes",
+              "limitations",
+              "notes"
+            ]
+          }
+        }
+      ]
     },
     "supplementarySource": {
       "type": "object",

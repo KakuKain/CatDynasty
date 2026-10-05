@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-05",
+  "recommendationStatus": "theory",
+  "teamIds": [
+    "team_tw_campaign_crit",
+    "team_tw_campaign_burn",
+    "team_tw_boss_ailment",
+    "team_tw_boss_sustain",
+    "team_tw_arena_control",
+    "team_tw_arena_emperor"
+  ],
+  "basis": {
+    "dataset": "data/sources/hero-skills-2026-10-02.json",
+    "skills": "data/skills.json",
+    "scope": "玩家提供的台版滿級技能截圖；含黃阿瑪新增截圖與玩家核對的技能名稱。",
+    "method": "依技能目標、觸發條件與輔助效果推導五人候選配置；非玩家實戰隊伍。"
+  },
+  "publicSourcesReviewed": [
+    {
+      "url": "https://forum.gamer.com.tw/C.php?bsn=85777&snA=6",
+      "result": "貼文與影片標題有黃阿瑪推薦；未取得足以驗證本次六組隊伍的完整成員、星級與實戰條件。"
+    },
+    {
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=306908",
+      "result": "遊戲介紹，未提供本次六組配隊的實戰依據。"
+    },
+    {
+      "url": "https://www.facebook.com/catdynasty.tw/",
+      "result": "公開抓取受限，未據此新增配隊結論。"
+    },
+    {
+      "url": "https://www.facebook.com/groups/910354332113299/",
+      "result": "公開抓取受限，未據此新增配隊結論。"
+    },
+    {
+      "url": "https://www.taptap.cn/moment/838733480924810718",
+      "result": "陸版官方圖鑑；原有參考隊另存，不當作台版配隊驗證。"
+    },
+    {
+      "url": "https://www.taptap.cn/moment/831196379673005085",
+      "result": "陸版官方圖鑑；原有參考隊另存，不當作台版配隊驗證。"
+    }
+  ],
+  "unverified": [
+    "同類增益疊加、覆蓋與上限",
+    "護盾疊加、破盾觸發與補盾的先後",
+    "灼燒引燃與回合結束回怒的結算順序",
+    "各 Boss 異常免疫與目標站位",
+    "競技初始怒氣、速度與控制抗性",
+    "本次六組配隊的傷害、通關率與勝率"
+  ],
+  "excludedClaims": [
+    "T0或最佳隊伍",
+    "保證先手、連續控場或無限主動循環",
+    "用預覽帳號數值或技能倍率直接排名強度"
+  ]
+}

@@ -31,7 +31,7 @@ test('hero quality permits only four real tiers and rare is restricted to heaven
   assert.ok(real.heroes.filter(h=>h.rarityType==='稀有').every(h=>h.rarity==='天級'));
 });
 test('identical recommended teams merge their names and sources while old URLs still resolve',()=>{
-  assert.equal(real.teams.length,6);const team=findById(real,'teams','team_wangzhaojun');assert.equal(team.id,'team_yang');assert.ok(team.aliases.includes('昭君輔助隊'));assert.ok(team.sources.some(s=>s.url.includes('836201191720357282')));
+  assert.equal(real.teams.filter(t=>t.gameVersion==='cn').length,6);const team=findById(real,'teams','team_wangzhaojun');assert.equal(team.id,'team_yang');assert.ok(team.aliases.includes('昭君輔助隊'));assert.ok(team.sources.some(s=>s.url.includes('836201191720357282')));
   assert.deepEqual(detailTargetFromHash(real,'#/teams/team_wangzhaojun'),{key:'teams',id:'team_wangzhaojun'});
   assert.deepEqual(searchDatabase(real,'昭君輔助隊').filter(r=>r.key==='teams').map(r=>r.record.id),['team_yang']);
   const duplicated=structuredClone(real);duplicated.teams.push({...structuredClone(team),id:'team_copy',name:'另一個名稱',legacyIds:[],heroIds:[...team.heroIds].reverse()});assert.ok(validateDatabase(duplicated).some(e=>e.includes('duplicate team composition')));

@@ -46,6 +46,32 @@ export function validateDatabase(db,{demo=false}={}) {
   for(const r of db.recipes){ref('buildings',r.buildingId,r.id);r.ingredients.forEach(i=>ref('ingredients',i.ingredientId,r.id));}
   for(const i of db.ingredients)i.obtainedFrom.forEach(id=>ref('buildings',id,i.id));
   for(const t of db.teams){t.heroIds.forEach(id=>ref('heroes',id,t.id));if(new Set(t.heroIds).size!==t.heroIds.length||t.heroIds.length>5)errors.push(`${t.id}: invalid team members`);}
+  for(const team of db.teams){
+    if(team.recommendationStatus!=='theory')continue;
+    if(team.heroIds.length!==5)errors.push(`${team.id}: candidate team must have five members`);
+    const heroFor=id=>db.heroes.find(h=>h.id===id);
+    for(const id of team.heroIds)if(heroFor(id)?.gameVersion!==team.gameVersion)errors.push(`${team.id}: team hero version mismatch ${id}`);
+    for(const id of team.coreHeroIds||[])if(!team.heroIds.includes(id))errors.push(`${team.id}: core hero is not a member ${id}`);
+    const evidenceHeroes=new Set();
+    const checkEvidence=(item,skillIds)=>{
+      if(!team.heroIds.includes(item.heroId))errors.push(`${team.id}: evidence hero is not a member ${item.heroId}`);
+      const hero=heroFor(item.heroId);
+      for(const id of skillIds){
+        ref('skills',id,team.id);
+        const skill=db.skills.find(s=>s.id===id);
+        if(!hero?.skills.includes(id))errors.push(`${team.id}: evidence skill does not belong to hero ${id}`);
+        if(skill&&skill.gameVersion!==team.gameVersion)errors.push(`${team.id}: evidence skill version mismatch ${id}`);
+      }
+    };
+    for(const item of team.rationale||[]){checkEvidence(item,item.skillIds);if(evidenceHeroes.has(item.heroId))errors.push(`${team.id}: duplicate hero rationale`);evidenceHeroes.add(item.heroId);}
+    if(team.heroIds.some(id=>!evidenceHeroes.has(id)))errors.push(`${team.id}: member rationale missing`);
+    for(const item of team.keyUnlocks||[]){checkEvidence(item,[item.skillId]);const skill=db.skills.find(s=>s.id===item.skillId);if(skill&&!['star2','star5'].includes(skill.slot))errors.push(`${team.id}: key unlock must be a star skill`);}
+    for(const item of team.substitutions||[]){
+      ref('heroes',item.replacementHeroId,team.id);
+      if(!team.heroIds.includes(item.heroId)||team.heroIds.includes(item.replacementHeroId))errors.push(`${team.id}: invalid substitution members`);
+      if(heroFor(item.replacementHeroId)?.gameVersion!==team.gameVersion)errors.push(`${team.id}: substitution version mismatch`);
+    }
+  }
   for(const b of db.buildings)for(const reward of b.rewardConditions||[])ref('heroes',reward.heroId,b.id);
   for(const s of db.stages){s.heroIds.forEach(id=>ref('heroes',id,s.id));s.teamIds.forEach(id=>ref('teams',id,s.id));(s.buildingIds||[]).forEach(id=>ref('buildings',id,s.id));(s.artifactIds||[]).forEach(id=>ref('artifacts',id,s.id));}
   for(const a of db.artifacts){a.heroIds.forEach(id=>ref('heroes',id,a.id));a.teamIds.forEach(id=>ref('teams',id,a.id));a.levels.forEach(id=>ref('artifact-levels',id,a.id));for(const effect of a.effects)ref('buildings',effect.buildingId,a.id);}
