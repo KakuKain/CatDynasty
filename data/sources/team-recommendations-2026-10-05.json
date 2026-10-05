@@ -2,7 +2,6 @@
   "checkedAt": "2026-10-05",
   "recommendationStatus": "theory",
   "teamIds": [
-    "team_tw_tower_qin_zero",
     "team_tw_campaign_crit",
     "team_tw_campaign_burn",
     "team_tw_boss_ailment",
@@ -65,13 +64,72 @@
     "目前帳號養成與關卡敵人",
     "隊友互補與技能聯動"
   ],
-  "playerObservations": [
+  "playerFeedback": {
+    "checkedAt": "2026-10-05",
+    "description": "玩家提到秦始皇 0 星在推塔可翻盤，並澄清這是評估方向建議，不要求新增固定陣容。",
+    "usage": "考慮單角強度與低星價值；不由此推導固定隊伍、競技勝率或強度排行。"
+  },
+  "withdrawnCandidates": [
     {
-      "heroId": "hero_qin_tw",
-      "stars": 0,
-      "purpose": "推塔",
+      "id": "team_tw_tower_qin_zero",
       "checkedAt": "2026-10-05",
-      "description": "玩家回報：秦始皇即使只有 0 星，在推塔時也有突然翻盤的經驗。這是單角使用觀察，未提供關卡、其他隊友、養成與對戰紀錄，不能視為本五人隊已驗證。"
+      "reason": "將玩家單角觀察誤推成具體五人隊；依玩家澄清撤下。"
     }
-  ]
+  ],
+  "reviewResults": [
+    {
+      "teamId": "team_tw_campaign_crit",
+      "conclusion": "可保留為群攻與續航構想；多個暴擊增益的實際收益未確認，不能據此判為高強度推圖隊。",
+      "coreStrength": "黃阿瑪、霍去病、李白在相同養成下的單角影響尚未比較；不能只按職能完整或群攻技能數量決定優先順序。",
+      "starImpact": "主動群攻、治療與增益可分開評估；李白 2 星暴擊回怒、黃阿瑪 2 星破盾增益、霍嬗 5 星護盾是額外條件。所列百分比是滿級預覽。",
+      "nextEvidence": "同關卡比較替換一名核心前後的結果，確認暴擊增益覆蓋、技能頻率，以及雙輔助是否犧牲過多輸出。"
+    },
+    {
+      "teamId": "team_tw_campaign_burn",
+      "conclusion": "灼燒與引燃的技能關聯明確，可保留為條件式聯動構想；實際通關效率與強度仍待確認。",
+      "coreStrength": "諸葛亮和黃月英的聯動有文字依據，但沒有同養成實測證明兩人必須同時上場，或比其他強核心更好。",
+      "starImpact": "諸葛亮主動灼燒與黃月英主動引燃可先評估；黃月英 5 星全隊普攻附加灼燒、諸葛亮 5 星雙目標回怒屬進階聯動。",
+      "nextEvidence": "確認引燃後灼燒是否消失、回合結束回怒是否觸發，以及敵人免疫對收益的影響。"
+    },
+    {
+      "teamId": "team_tw_boss_ailment",
+      "conclusion": "雙重機率與異常命中條件較多；只保留為 Boss 異常聯動構想，不作一般 Boss 首選。",
+      "coreStrength": "徐霞客單體攻擊有文字依據；汗寶佔一個位置來施加流血是否值得，尚未與直接加入另一位強核心比較。",
+      "starImpact": "流血與徐霞客異常追加攻擊來自主動；徐霞客 5 星血線增傷、霍嬗 5 星補盾是額外收益。",
+      "nextEvidence": "確認 Boss 可受流血且是徐霞客鎖定目標，再比較異常覆蓋率、追加攻擊次數和替換汗寶後的整隊傷害。"
+    },
+    {
+      "teamId": "team_tw_boss_sustain",
+      "conclusion": "單體輸出與續航方向可保留；長戰增攻能否提高整隊傷害，仍受出手次數與隊伍輸出占比影響。",
+      "coreStrength": "不能用帥波的技能倍率或霍去病的增益項目直接判定單角強度；雙治療是否必要取決於實際生存壓力。",
+      "starImpact": "帥波主動單體輸出與霍去病主動增益可先評估；「長戰累積攻擊」需霍去病 2 星普攻，不是所有星級都成立。",
+      "nextEvidence": "記錄普攻次數、前排鎖定、帥波受擊反擊次數；比較減少一個防守位置後的生存與傷害。"
+    },
+    {
+      "teamId": "team_tw_arena_control",
+      "conclusion": "可保留為控制與減怒構想；沒有速度、抗性與對戰樣本，不能判為可靠控場或競技首選。",
+      "coreStrength": "李淳風、屈原、狄仁傑各自是否值得佔位尚待確認；多個控場位置不代表能壓過單角強度較高的對手。",
+      "starImpact": "速度調整、眩暈與主動減怒可先評估；屈原 5 星眩暈回怒與狄仁傑 2 星普攻減怒分別有解鎖条件。",
+      "nextEvidence": "核對開局能否行動、控制成功率，以及減怒是否確實延後對手技能；再觀察對不同核心的勝負。"
+    },
+    {
+      "teamId": "team_tw_arena_emperor",
+      "conclusion": "入場與回怒機制有全隊影響，值得優先核對核心角色價值；仍不足以證明雙聖固定五人隊是競技最佳配置。",
+      "coreStrength": "秦始皇的低星價值應納入評估。玩家提到的 0 星翻盤是在推塔，不能直接證明這組競技陣容或武則天的強度。",
+      "starImpact": "秦始皇、武則天的入場与主動和 2／5 星被動分開評估；秦始皇 5 星瀕死反攻是額外能力，不是上場前提。低星實際技能等級與數值仍待核對。",
+      "nextEvidence": "分別觀察秦始皇與武則天加入後的變化，再核對初始怒氣、施放頻率與養成差異；不從一次翻盤建立排行榜。"
+    }
+  ],
+  "externalReview": {
+    "checkedAt": "2026-10-05",
+    "officialReferencePages": [
+      "https://www.taptap.cn/moment/833658249378006944",
+      "https://www.taptap.cn/moment/831196379673005085",
+      "https://www.taptap.cn/moment/843545659427523895",
+      "https://www.taptap.cn/moment/841275939361916869",
+      "https://www.taptap.cn/moment/838733480924810718",
+      "https://www.taptap.cn/moment/851415878065979840"
+    ],
+    "scope": "重訪六個陸版官方圖鑑來源頁；來源版本仍為陸版，不能驗證台版強度。"
+  }
 }

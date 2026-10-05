@@ -7,26 +7,28 @@ import {teamStatusLabel,teamRecommendationDetails,teamEffectIds} from '../src/te
 const db=readDatabase();
 const candidates=db.teams.filter(t=>t.recommendationStatus==='theory');
 
-test('zero-star Qin tower plan excludes locked passives and scopes the player observation',()=>{
-  const team=candidates.find(t=>t.id==='team_tw_tower_qin_zero');
-  assert.deepEqual(team.purposes,['推塔']);assert.equal(team.corePlan.stars,0);
-  assert.deepEqual(team.corePlan.skillIds,['skill_qin_tw_entry','skill_qin_tw_ultimate']);
-  assert.deepEqual(team.coreHeroIds,['hero_qin_tw']);assert.equal(team.keyUnlocks.length,0);
-  assert.ok(!team.heroIds.includes('hero_wuzetian_tw'));
-  assert.equal(team.playerObservations[0].purpose,'推塔');assert.equal(team.playerObservations[0].stars,0);
-  assert.equal(team.verified,false);
-  assert.ok(!teamEffectIds(db,team).includes('invincible'));
-  const html=teamRecommendationDetails(team,{heroLink:id=>id,skillPreview:id=>id});
-  assert.ok(html.includes('玩家實戰觀察'));assert.ok(html.includes('核心星級 · 0 星'));
-  assert.ok(!html.includes('skill_qin_tw_star2'));assert.ok(!html.includes('skill_qin_tw_star5'));
-  assert.deepEqual(filterRecords(db,'teams',new URLSearchParams('purpose=推塔&query=秦始皇')).map(t=>t.id),[team.id]);
-  const locked=structuredClone(db);locked.teams.find(t=>t.id===team.id).corePlan.skillIds.push('skill_qin_tw_star5');
-  assert.ok(validateDatabase(locked).some(e=>e.includes('core plan uses a locked star skill')));
+test('review withdraws the unsolicited tower lineup without treating feedback as a team result',()=>{
+  assert.ok(!db.teams.some(t=>t.id==='team_tw_tower_qin_zero'));
+  const emperor=candidates.find(t=>t.id==='team_tw_arena_emperor');
+  assert.ok(emperor.review.coreStrength.includes('推塔'));assert.ok(emperor.review.coreStrength.includes('不能直接證明'));
+  for(const team of candidates){assert.equal(team.review.checkedAt,'2026-10-05');for(const field of ['conclusion','coreStrength','starImpact','nextEvidence'])assert.ok(team.review[field]);}
+  const html=teamRecommendationDetails(emperor,{heroLink:id=>id,skillPreview:id=>id});
+  for(const heading of ['檢視結論','單角價值','星級影響','需要的實戰依據'])assert.ok(html.includes(heading));
+  assert.equal(filterRecords(db,'teams',new URLSearchParams('purpose=推塔')).length,0);
+  const missing=structuredClone(db);delete missing.teams[0].review;assert.ok(validateDatabase(missing).some(e=>e.includes('review')));
+});
+
+test('candidate effect summary only includes skills cited in its rationale',()=>{
+  const burn=candidates.find(t=>t.id==='team_tw_campaign_burn');
+  const shieldBreak=db.skills.find(s=>s.id==='skill_huangama_star2');
+  const cited=burn.rationale.flatMap(r=>r.skillIds).map(id=>db.skills.find(s=>s.id===id));
+  const expected=[...new Set(cited.flatMap(s=>s.effects.map(e=>e.type)))];
+  assert.deepEqual(teamEffectIds(db,burn),expected);
+  assert.ok(shieldBreak.effects.some(e=>!expected.includes(e.type)));
 });
 
 test('Taiwan candidates cover all three purposes with traceable member skills',()=>{
-  assert.equal(candidates.length,7);
-  assert.equal(candidates.filter(t=>t.purposes.includes('推塔')).length,1);
+  assert.equal(candidates.length,6);
   for(const purpose of ['推圖','Boss','競技'])assert.equal(candidates.filter(t=>t.purposes.includes(purpose)).length,2);
   for(const team of candidates){
     assert.equal(team.verified,false);assert.equal(team.gameVersion,'tw');assert.equal(team.heroIds.length,5);
@@ -45,7 +47,7 @@ test('purpose buttons combine with OR and keyword search intersects member names
   assert.deepEqual(filterRecords(db,'teams',new URLSearchParams('purpose=Boss&query=帥波')).map(t=>t.id),['team_tw_boss_sustain']);
   assert.equal(filterRecords(db,'teams',new URLSearchParams('purpose=競技&query=帥波')).length,0);
   assert.equal(filterRecords(db,'teams',new URLSearchParams('purpose=unknown')).length,6);
-  assert.equal(filterRecords(db,'teams',new URLSearchParams()).length,13);
+  assert.equal(filterRecords(db,'teams',new URLSearchParams()).length,12);
 });
 
 test('candidate validation rejects mismatched evidence, star unlocks and duplicate substitutions',()=>{

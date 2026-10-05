@@ -63,16 +63,7 @@ export function validateDatabase(db,{demo=false}={}) {
         if(skill&&skill.gameVersion!==team.gameVersion)errors.push(`${team.id}: evidence skill version mismatch ${id}`);
       }
     };
-    if(team.corePlan){
-      checkEvidence(team.corePlan,team.corePlan.skillIds);
-      if(!team.coreHeroIds?.includes(team.corePlan.heroId))errors.push(`${team.id}: core plan hero is not a core member`);
-      for(const id of team.corePlan.skillIds){const skill=db.skills.find(s=>s.id===id);if(skill?.unlockStars>team.corePlan.stars)errors.push(`${team.id}: core plan uses a locked star skill`);if(skill&&team.corePlan.stars===0&&!['entry','ultimate'].includes(skill.slot))errors.push(`${team.id}: zero-star core must use entry or ultimate skills`);}
-    }
-    for(const observation of team.playerObservations||[]){
-      if(!team.heroIds.includes(observation.heroId))errors.push(`${team.id}: observed hero is not a member`);
-      if(!team.purposes?.includes(observation.purpose))errors.push(`${team.id}: observation purpose mismatch`);
-      if(!/^\d{4}-\d{2}-\d{2}$/.test(observation.checkedAt))errors.push(`${team.id}: invalid observation date`);
-    }
+    if(team.review&&!/^\d{4}-\d{2}-\d{2}$/.test(team.review.checkedAt))errors.push(`${team.id}: invalid team review date`);
     for(const item of team.rationale||[]){checkEvidence(item,item.skillIds);if(evidenceHeroes.has(item.heroId))errors.push(`${team.id}: duplicate hero rationale`);evidenceHeroes.add(item.heroId);}
     if(team.heroIds.some(id=>!evidenceHeroes.has(id)))errors.push(`${team.id}: member rationale missing`);
     for(const item of team.keyUnlocks||[]){checkEvidence(item,[item.skillId]);const skill=db.skills.find(s=>s.id===item.skillId);if(skill&&!['star2','star5'].includes(skill.slot))errors.push(`${team.id}: key unlock must be a star skill`);}
