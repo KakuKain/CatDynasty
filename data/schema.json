@@ -2223,6 +2223,10 @@
             "nextEvidence"
           ],
           "additionalProperties": false
+        },
+        "placement": {
+          "type": "string",
+          "minLength": 1
         }
       },
       "required": [
@@ -2268,7 +2272,8 @@
               "rotationNotes",
               "limitations",
               "notes",
-              "review"
+              "review",
+              "placement"
             ]
           }
         }

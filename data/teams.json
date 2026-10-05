@@ -1,31 +1,39 @@
 [
   {
     "id": "team_tw_campaign_crit",
-    "name": "暴擊平衡隊",
+    "name": "帝王文臣通用隊",
     "purposes": [
       "推圖"
     ],
     "heroIds": [
-      "hero_shen_tw",
+      "hero_qin_tw",
+      "hero_wuzetian_tw",
       "hero_huangama",
-      "hero_huo_tw",
-      "hero_libai_tw",
-      "hero_h_tw"
+      "hero_yang_tw",
+      "hero_zhuge_tw"
     ],
     "coreHeroIds": [
-      "hero_huangama",
-      "hero_huo_tw",
-      "hero_libai_tw"
+      "hero_qin_tw",
+      "hero_wuzetian_tw"
     ],
-    "description": "以李白與霍去病的群攻推進，搭配黃阿瑪暴擊增益、沈萬三減傷與霍嬗治療驅散。",
-    "suitableFor": "多名敵人的一般推圖；兼顧群攻與續航，適合先觀察輸出或生存缺口。",
+    "description": "雙帝王配三文臣啟動全體攻擊與最大生命 +20%，以秦始皇增攻回怒、武則天生命倍率技能支援群攻與續航。",
+    "suitableFor": "多敵推圖，已有秦始皇與武則天且想先發揮核心價值的帳號。兩位聖品不是所有玩家的必備前提。",
     "rationale": [
       {
-        "heroId": "hero_shen_tw",
+        "heroId": "hero_qin_tw",
         "skillIds": [
-          "skill_shen_tw_ultimate"
+          "skill_qin_tw_entry",
+          "skill_qin_tw_ultimate"
         ],
-        "description": "犒三軍為包含自身的隨機 3 名隊友提供減傷與防禦增益；不是全隊固定覆蓋。"
+        "description": "入場全敵降攻，主動群攻、威壓增攻並回怒；帝王同時補文臣人數。先評估目前已解鎖的核心效果，不要求先到 5 星。"
+      },
+      {
+        "heroId": "hero_wuzetian_tw",
+        "skillIds": [
+          "skill_wuzetian_tw_entry",
+          "skill_wuzetian_tw_ultimate"
+        ],
+        "description": "入場提供全隊每回合回怒；主動依單雙回合攻擊／治療，倍率依自身最大生命。陣營生命加成因此也支援其技能量級，不只增加生存。"
       },
       {
         "heroId": "hero_huangama",
@@ -34,124 +42,133 @@
           "skill_huangama_star2",
           "skill_huangama_star5"
         ],
-        "description": "提供群體治療與暴擊率；2 星需自身護盾被擊破才啟動暴擊傷害增益，5 星則依自身是否有護盾切換減傷或增傷。"
+        "description": "主動群體治療與暴擊增益，攻擊加成也有利於依自身攻擊計算的治療。破盾暴傷和護盾狀態切換另有星級條件，不能同時計入減傷與增傷。"
       },
       {
-        "heroId": "hero_huo_tw",
+        "heroId": "hero_yang_tw",
         "skillIds": [
-          "skill_huo_tw_ultimate"
+          "skill_yang_tw_ultimate"
         ],
-        "description": "群攻並提供隊友攻擊與暴擊增益，補足李白之外的群體輸出。"
+        "description": "提供全隊增攻與加速，前排繁花能補異常傷害；此隊不把繁花當作保證灼燒。"
       },
       {
-        "heroId": "hero_libai_tw",
+        "heroId": "hero_zhuge_tw",
         "skillIds": [
-          "skill_libai_tw_ultimate",
-          "skill_libai_tw_star2",
-          "skill_libai_tw_star5"
+          "skill_zhuge_tw_ultimate"
         ],
-        "description": "群攻有機率破甲；2 星暴擊有機率回怒，5 星對生命高於一半的目標增傷。"
-      },
-      {
-        "heroId": "hero_h_tw",
-        "skillIds": [
-          "skill_h_tw_ultimate",
-          "skill_h_tw_star5"
-        ],
-        "description": "主動技能群體治療並驅散負面狀態；5 星在回合開始提供群體護盾。"
+        "description": "群攻與機率灼燒補足後排輸出；選文臣維持最高門檻，但若異常免疫或傷害不足，應直接比較替換其他強輸出的收益。"
       }
     ],
     "keyUnlocks": [
       {
-        "heroId": "hero_libai_tw",
-        "skillId": "skill_libai_tw_star2",
-        "description": "暴擊回怒的循環依賴此解鎖；未解鎖仍可使用群攻。"
-      },
-      {
         "heroId": "hero_huangama",
         "skillId": "skill_huangama_star2",
-        "description": "護盾擊破後的暴擊傷害增益依賴 2 星；不能當作常駐效果。"
+        "description": "破盾後全隊暴擊傷害增益需 2 星，且必須真的破盾。"
       },
       {
-        "heroId": "hero_h_tw",
-        "skillId": "skill_h_tw_star5",
-        "description": "回合開始的群體護盾依賴 5 星；未解鎖時續航仍由主動治療提供。"
+        "heroId": "hero_qin_tw",
+        "skillId": "skill_qin_tw_star5",
+        "description": "瀕死無敵與之後反攻需 5 星；不是本隊基本加成或秦始皇上場的條件。"
       }
     ],
     "substitutions": [
       {
-        "heroId": "hero_shen_tw",
-        "replacementHeroId": "hero_fuhao_tw",
-        "reason": "需要守衛保護與嘲諷時，可改用婦好。",
-        "tradeoff": "承傷方式改變，嘲諷有機率；需確認婦好能否承受集中傷害。"
+        "heroId": "hero_wuzetian_tw",
+        "replacementHeroId": "hero_di_tw",
+        "reason": "缺武則天時，以狄仁傑補單體擊殺與減怒。",
+        "tradeoff": "維持文臣最高門檻，但失去全隊每回合回怒與生命倍率攻擊／治療。"
       },
       {
-        "heroId": "hero_h_tw",
-        "replacementHeroId": "hero_shangguanwaner_tw",
-        "reason": "可用上官婉兒提供群體治療。",
-        "tradeoff": "驅散有機率，無法重現霍嬗 5 星的每回合護盾。"
+        "heroId": "hero_yang_tw",
+        "replacementHeroId": "hero_shen_tw",
+        "reason": "前排承受不住時補沈萬三肉盾。",
+        "tradeoff": "陣營門檻降低，換取肉盾及減傷；失去楊玉環增攻、速度與繁花。"
+      },
+      {
+        "heroId": "hero_qin_tw",
+        "replacementHeroId": "hero_wangzhaojun_tw",
+        "reason": "沒有秦始皇時，以王昭君補文臣治療與負面免疫。",
+        "tradeoff": "維持最高門檻，但失去秦始皇入場降攻、威壓與回怒；保留武則天作為核心。"
       }
     ],
     "rotationNotes": [
-      "有操作空間時，讓增益先覆蓋群攻輸出；實際順序依速度與怒氣決定。",
-      "先確認李白的暴擊回怒是否已解鎖，再決定是否以暴擊循環作為培養方向。"
+      "先觀察秦始皇、武則天加入後的存活與主動技能頻率，再決定雙聖是否值得同隊。",
+      "全體 +20% 不是額外暴擊或防禦；各技能增攻／回怒是否疊加需分開觀察。"
     ],
     "limitations": [
-      "黃阿瑪、霍去病與李白的暴擊增益如何疊加尚未實測。",
-      "霍嬗補盾可能改變黃阿瑪的護盾擊破時機與 5 星狀態；不要刻意犧牲生存來破盾。",
-      "此隊包含稀有喵將，不代表低成本或新手必備。"
+      "需要雙聖，培養成本較高；無肉盾是主要生存風險。",
+      "多個增攻來源的疊加與覆蓋尚未確認；不能直接把百分比相加推算傷害。"
     ],
     "recommendationStatus": "theory",
     "source": "",
     "sourceType": "unknown",
-    "sourceDescription": "依已收錄的台版玩家技能截圖推導，未經實戰驗證。",
+    "sourceDescription": "依台版玩家提供的技能與陣容規則截圖分析；隊伍未經實戰驗證。",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-05",
-    "notes": "依台版玩家技能截圖推導的搭配構想，尚未實戰驗證。評估須包含單角強度、目前星級價值、帳號養成與關卡條件；技能互補本身不足以證明隊伍強度。技能百分比為滿級預覽，同類增益疊加與覆蓋未核對，成員順序不代表站位或出手順序。",
+    "notes": "依目前技能與陣營加成提出的候選配置，尚未實戰驗證。陣營門檻不看職業或星級；角色技能與當前養成仍優先。所列技能百分比為滿級預覽，未解鎖的 2／5 星效果不計入基礎表現。成員順序不代表出手或站位，替換後加成會重新計算。",
     "review": {
-      "checkedAt": "2026-10-05",
-      "conclusion": "可保留為群攻與續航構想；多個暴擊增益的實際收益未確認，不能據此判為高強度推圖隊。",
-      "coreStrength": "黃阿瑪、霍去病、李白在相同養成下的單角影響尚未比較；不能只按職能完整或群攻技能數量決定優先順序。",
-      "starImpact": "主動群攻、治療與增益可分開評估；李白 2 星暴擊回怒、黃阿瑪 2 星破盾增益、霍嬗 5 星護盾是額外條件。所列百分比是滿級預覽。",
-      "nextEvidence": "同關卡比較替換一名核心前後的結果，確認暴擊增益覆蓋、技能頻率，以及雙輔助是否犧牲過多輸出。"
-    }
+      "conclusion": "有雙聖時可先試的通用配置；3 文臣＋2 帝王達到全體 +20%，以強核心與技能頻率為重點。",
+      "coreStrength": "秦始皇低星推塔翻盤的玩家觀察提示應重視單角價值；不能直接證明這組推圖隊或武則天的實戰強度。",
+      "starImpact": "陣營門檻不看星級。基本搭配引用入場與主動；黃阿瑪破盾、秦始皇瀕死反攻另需 2／5 星，數字來自滿級預覽。",
+      "nextEvidence": "比較有無武則天與補肉盾後的推圖結果，確認第一輪承傷與回怒帶來的施放次數。",
+      "checkedAt": "2026-10-05"
+    },
+    "placement": "沒有肉盾職業；先以當前血量與防禦較高的秦始皇／武則天試前排，諸葛亮放後排，黃阿瑪與楊玉環依受擊壓力調位。Lv.3000 截圖中雙帝王的生命、防禦較高，但不能當成低星保證承傷。前排撐不住時先補坦。",
+    "aliases": [
+      "暴擊平衡隊"
+    ]
   },
   {
     "id": "team_tw_campaign_burn",
-    "name": "灼燒聯動隊",
+    "name": "文臣灼燒聯動隊",
     "purposes": [
       "推圖"
     ],
     "heroIds": [
-      "hero_fuhao_tw",
+      "hero_qin_tw",
       "hero_zhuge_tw",
-      "hero_huangyueying_tw",
+      "hero_yang_tw",
       "hero_huangama",
-      "hero_h_tw"
+      "hero_huangyueying_tw"
     ],
     "coreHeroIds": [
       "hero_zhuge_tw",
       "hero_huangyueying_tw"
     ],
-    "description": "以諸葛亮施加灼燒，黃月英引燃與延長灼燒，搭配婦好守衛及雙輔助維持生存。",
-    "suitableFor": "允許灼燒、敵人數量較多且戰鬥持續數回合的關卡。",
+    "description": "諸葛亮與黃月英負責灼燒／引燃，三文臣加一帝王啟動全體 +15%；黃月英雖屬墨客仍受益。",
+    "suitableFor": "可受灼燒的多敵推圖；已有灼燒核心時測試聯動。",
     "rationale": [
       {
-        "heroId": "hero_fuhao_tw",
+        "heroId": "hero_qin_tw",
         "skillIds": [
-          "skill_fuhao_tw_ultimate"
+          "skill_qin_tw_entry",
+          "skill_qin_tw_ultimate"
         ],
-        "description": "提供隊友守衛並有機率嘲諷，爭取灼燒建立與結算的時間。"
+        "description": "降攻減少建立灼燒時的壓力，增攻回怒支援群攻；帝王把 3 文臣推到 4 人門檻。"
       },
       {
         "heroId": "hero_zhuge_tw",
         "skillIds": [
           "skill_zhuge_tw_ultimate",
-          "skill_zhuge_tw_star2",
           "skill_zhuge_tw_star5"
         ],
-        "description": "主動群攻有機率灼燒；2 星普攻對灼燒目標增傷，5 星需回合結束至少 2 名敵人仍處於灼燒才能回怒。"
+        "description": "主動機率灼燒是主要起火來源；5 星需回合結束仍有至少 2 名灼燒敵人才能回怒。"
+      },
+      {
+        "heroId": "hero_yang_tw",
+        "skillIds": [
+          "skill_yang_tw_ultimate"
+        ],
+        "description": "全隊增攻與加速，繁花補異常；隨機結果包含中毒／流血，不能算作穩定的第二灼燒來源。"
+      },
+      {
+        "heroId": "hero_huangama",
+        "skillIds": [
+          "skill_huangama_ultimate",
+          "skill_huangama_star5"
+        ],
+        "description": "全體治療與暴擊支援持續作戰；5 星依自身護盾切換效果，黃月英補盾可能影響切換時機。"
       },
       {
         "heroId": "hero_huangyueying_tw",
@@ -160,107 +177,94 @@
           "skill_yueying_2_tw",
           "skill_huangyueying_tw_star5"
         ],
-        "description": "主動對灼燒目標引燃，2 星有機率延長灼燒；5 星讓隊友普攻有機率附加灼燒，是全隊聯動的關鍵。"
-      },
-      {
-        "heroId": "hero_huangama",
-        "skillIds": [
-          "skill_huangama_ultimate",
-          "skill_huangama_star5"
-        ],
-        "description": "群體治療維持長戰；5 星減傷或增傷依自身護盾狀態切換。"
-      },
-      {
-        "heroId": "hero_h_tw",
-        "skillIds": [
-          "skill_h_tw_ultimate",
-          "skill_h_tw_star5"
-        ],
-        "description": "提供全體治療與驅散，5 星補充群體護盾。"
+        "description": "主動引燃灼燒目標並補盾；2 星延長灼燒、5 星讓全隊普攻機率起火。保留這名不同陣營的核心，勝過只為最高門檻拆掉聯動的機械配法。"
       }
     ],
     "keyUnlocks": [
       {
         "heroId": "hero_huangyueying_tw",
         "skillId": "skill_huangyueying_tw_star5",
-        "description": "全隊普攻附加灼燒需解鎖 5 星；未解鎖時主要靠諸葛亮起火。"
-      },
-      {
-        "heroId": "hero_zhuge_tw",
-        "skillId": "skill_zhuge_tw_star5",
-        "description": "至少 2 名灼燒敵人的回怒需解鎖 5 星。"
+        "description": "全隊普攻附加灼燒需 5 星；未解鎖時先以諸葛亮起火。"
       },
       {
         "heroId": "hero_huangyueying_tw",
         "skillId": "skill_yueying_2_tw",
-        "description": "延長灼燒回合需解鎖 2 星，且有機率限制。"
+        "description": "延長灼燒需 2 星且有機率。"
+      },
+      {
+        "heroId": "hero_zhuge_tw",
+        "skillId": "skill_zhuge_tw_star5",
+        "description": "至少兩名灼燒敵人的回怒需 5 星；單 Boss 無小怪時不計入。"
       }
     ],
     "substitutions": [
       {
-        "heroId": "hero_huangama",
-        "replacementHeroId": "hero_qingzhao_tw",
-        "reason": "單一隊友經常瀕死時，可改用李清照集中治療。",
-        "tradeoff": "失去全體暴擊增益與黃阿瑪護盾狀態效果，團隊治療分布也不同。"
+        "heroId": "hero_qin_tw",
+        "replacementHeroId": "hero_wangzhaojun_tw",
+        "reason": "沒有秦始皇時，以同陣營王昭君補治療與負面免疫。",
+        "tradeoff": "保持門檻，失去秦始皇入場降攻、威壓與回怒；承傷要重新安排。"
       },
       {
-        "heroId": "hero_fuhao_tw",
-        "replacementHeroId": "hero_pu_tw",
-        "reason": "可用蒲松齡自盾與嘲諷作為承傷候選。",
-        "tradeoff": "無法複製婦好的全體守衛，仍需檢查隊友生存。"
+        "heroId": "hero_yang_tw",
+        "replacementHeroId": "hero_fuhao_tw",
+        "reason": "需要肉盾守衛時改用婦好。",
+        "tradeoff": "降低陣營加成並失去楊玉環增攻加速；換取守衛和機率嘲諷。"
       }
     ],
     "rotationNotes": [
-      "先確認目標已有灼燒，再觀察黃月英引燃的收益。",
-      "核對引燃是否消耗灼燒，以及結算後是否仍滿足諸葛亮 5 星的回怒條件。"
+      "先確認灼燒已施加，再觀察黃月英引燃。",
+      "核對引燃是否移除灼燒，避免假定諸葛亮 5 星每回合必定回怒。"
     ],
     "limitations": [
-      "灼燒施加、延長與普攻附加均有機率；異常免疫敵人不適合此聯動。",
-      "單一 Boss 沒有小怪時，諸葛亮 5 星的至少 2 名敵人條件無法成立。",
-      "灼燒疊加、引燃結算和回合結束順序尚未實測。"
+      "灼燒命中、延長與普攻起火皆有條件；異常免疫敵人不適合。",
+      "此隊無肉盾，先看承傷，不能只因 +15% 就忽略生存。"
     ],
     "recommendationStatus": "theory",
     "source": "",
     "sourceType": "unknown",
-    "sourceDescription": "依已收錄的台版玩家技能截圖推導，未經實戰驗證。",
+    "sourceDescription": "依台版玩家提供的技能與陣容規則截圖分析；隊伍未經實戰驗證。",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-05",
-    "notes": "依台版玩家技能截圖推導的搭配構想，尚未實戰驗證。評估須包含單角強度、目前星級價值、帳號養成與關卡條件；技能互補本身不足以證明隊伍強度。技能百分比為滿級預覽，同類增益疊加與覆蓋未核對，成員順序不代表站位或出手順序。",
+    "notes": "依目前技能與陣營加成提出的候選配置，尚未實戰驗證。陣營門檻不看職業或星級；角色技能與當前養成仍優先。所列技能百分比為滿級預覽，未解鎖的 2／5 星效果不計入基礎表現。成員順序不代表出手或站位，替換後加成會重新計算。",
     "review": {
-      "checkedAt": "2026-10-05",
-      "conclusion": "灼燒與引燃的技能關聯明確，可保留為條件式聯動構想；實際通關效率與強度仍待確認。",
-      "coreStrength": "諸葛亮和黃月英的聯動有文字依據，但沒有同養成實測證明兩人必須同時上場，或比其他強核心更好。",
-      "starImpact": "諸葛亮主動灼燒與黃月英主動引燃可先評估；黃月英 5 星全隊普攻附加灼燒、諸葛亮 5 星雙目標回怒屬進階聯動。",
-      "nextEvidence": "確認引燃後灼燒是否消失、回合結束回怒是否觸發，以及敵人免疫對收益的影響。"
-    }
+      "conclusion": "保留灼燒核心並補到 +15%；比原混搭更符合陣營規則，但需可受灼燒的敵人。",
+      "coreStrength": "諸葛亮與黃月英的技能關聯明確；秦始皇提供獨立的降攻、回怒價值，而不是為湊人數才上場。",
+      "starImpact": "主動灼燒與引燃可先用；全隊普攻起火及雙目標回怒是 5 星進階聯動。",
+      "nextEvidence": "測試引燃結算、灼燒覆蓋及坦位需求，確認 +15% 是否足以支撐目前關卡。",
+      "checkedAt": "2026-10-05"
+    },
+    "placement": "先讓養成較好的秦始皇試前排，諸葛亮放後排；黃月英護盾覆蓋最低血量兩人，並非固定保護前排。缺乏肉盾時依關卡承傷調整，不把輔助職業視為不能站前排。",
+    "aliases": [
+      "灼燒聯動隊"
+    ]
   },
   {
     "id": "team_tw_boss_ailment",
-    "name": "單體異常隊",
+    "name": "俠士異常單體隊",
     "purposes": [
       "Boss"
     ],
     "heroIds": [
       "hero_shen_tw",
       "hero_xuxiake_tw",
-      "hero_hanbao_tw",
-      "hero_huangama",
-      "hero_h_tw"
+      "hero_h_tw",
+      "hero_yang_tw",
+      "hero_qin_tw"
     ],
     "coreHeroIds": [
       "hero_xuxiake_tw",
-      "hero_hanbao_tw"
+      "hero_yang_tw"
     ],
-    "description": "汗寶嘗試施加流血，讓徐霞客對異常目標觸發追加攻擊；其餘位置提供減傷與治療。",
-    "suitableFor": "Boss 位於最前排、允許流血，且生存壓力需要坦補支援的戰鬥。",
+    "description": "楊玉環給前排施加繁花，徐霞客對灼燒／中毒／流血目標嘗試追擊；3 俠士加帝王給全體 +15%。",
+    "suitableFor": "Boss 在最前排且可受灼燒、中毒或流血的戰鬥。",
     "rationale": [
       {
         "heroId": "hero_shen_tw",
         "skillIds": [
           "skill_shen_tw_ultimate"
         ],
-        "description": "提供隨機 3 名隊友減傷與防禦，自身施放主動時回血。"
+        "description": "肉盾減傷、防禦與自療保護長戰；主動僅隨機覆蓋 3 人，不是全隊固定減傷。"
       },
       {
         "heroId": "hero_xuxiake_tw",
@@ -268,22 +272,7 @@
           "skill_xuxiake_tw_ultimate",
           "skill_xuxiake_tw_star5"
         ],
-        "description": "主動攻擊最前排 1 名敵人；目標處於灼燒、中毒或流血時有機率追加攻擊，5 星依自身血量改變增傷或減傷。"
-      },
-      {
-        "heroId": "hero_hanbao_tw",
-        "skillIds": [
-          "skill_hanbao_tw_ultimate"
-        ],
-        "description": "對隨機 3 名敵人攻擊並有 30% 機率流血，作為徐霞客追加攻擊的異常來源候選。"
-      },
-      {
-        "heroId": "hero_huangama",
-        "skillIds": [
-          "skill_huangama_ultimate",
-          "skill_huangama_star2"
-        ],
-        "description": "治療並提高暴擊率；破盾後的暴擊傷害增益另需 2 星。"
+        "description": "主動最前排單體 380% 攻擊倍率；三種繁花結果都符合異常追加攻擊條件，但追擊仍只有 50% 機率。"
       },
       {
         "heroId": "hero_h_tw",
@@ -291,86 +280,104 @@
           "skill_h_tw_ultimate",
           "skill_h_tw_star5"
         ],
-        "description": "治療與驅散支援持續作戰，5 星可在回合開始補盾。"
+        "description": "全體治療與驅散維持生存，5 星每回合補盾有助維持徐霞客的高血線。"
+      },
+      {
+        "heroId": "hero_yang_tw",
+        "skillIds": [
+          "skill_yang_tw_ultimate"
+        ],
+        "description": "繁花對前排標示 100% 施加機率，三種隨機結果均可供徐霞客判定；相較只靠汗寶 30% 流血，減少異常來源的機率環節，但免疫仍會使其失效。"
+      },
+      {
+        "heroId": "hero_qin_tw",
+        "skillIds": [
+          "skill_qin_tw_entry",
+          "skill_qin_tw_ultimate"
+        ],
+        "description": "帝王補足俠士 4 人門檻，入場降攻與增攻回怒兼顧核心價值；不靠擊殺才提供支援。"
       }
     ],
     "keyUnlocks": [
       {
         "heroId": "hero_xuxiake_tw",
         "skillId": "skill_xuxiake_tw_star5",
-        "description": "自身生命高於一半時的主動增傷依賴 5 星；需維持血線。"
+        "description": "高於半血時主動增傷需 5 星；未解鎖仍有主動單體與異常追擊。"
       },
       {
         "heroId": "hero_h_tw",
         "skillId": "skill_h_tw_star5",
-        "description": "每回合群體護盾依賴 5 星；先評估是否真的需要。"
+        "description": "每回合群體護盾需 5 星；未解鎖時以主動治療與驅散支援。"
       }
     ],
     "substitutions": [
       {
-        "heroId": "hero_hanbao_tw",
-        "replacementHeroId": "hero_zhuge_tw",
-        "reason": "Boss 允許灼燒時，可改用諸葛亮嘗試施加另一種異常。",
-        "tradeoff": "單一 Boss 無法觸發諸葛亮 5 星的雙目標灼燒回怒；目標選擇與實際命中率需重測。"
+        "heroId": "hero_qin_tw",
+        "replacementHeroId": "hero_xuanzang_tw",
+        "reason": "沒有秦始皇時，以玄奘提供群體攻速、暴擊與減傷。",
+        "tradeoff": "維持俠士門檻；失去入場降攻與回怒，復活效果另需玄奘 5 星。"
       },
       {
-        "heroId": "hero_h_tw",
-        "replacementHeroId": "hero_qingzhao_tw",
-        "reason": "可用李清照集中維持徐霞客或坦位血量。",
-        "tradeoff": "缺少霍嬗的群體驅散與 5 星補盾。"
+        "heroId": "hero_yang_tw",
+        "replacementHeroId": "hero_huangama",
+        "reason": "Boss 異常免疫時改用黃阿瑪治療與暴擊支援。",
+        "tradeoff": "保持加成；失去繁花，不能再把徐霞客異常追擊列入主要收益。"
       }
     ],
     "rotationNotes": [
-      "先確認 Boss 能否被流血，以及徐霞客實際鎖定的前排目標是不是 Boss。",
-      "觀察異常是否在徐霞客施放主動時仍存在；速度順序可在確認技能命中後再調整。"
+      "確認繁花目標和徐霞客攻擊目標相同，且施放時異常還在。",
+      "先觀察異常覆蓋與徐霞客追擊次數，再比較其他單體核心。"
     ],
     "limitations": [
-      "流血只有機率施加，徐霞客追加攻擊也只有機率觸發，不能保證每輪連擊。",
-      "Boss 異常免疫或前排有其他目標時，此隊的核心收益會降低。",
-      "汗寶擊殺增攻與徐霞客擊殺回怒，在無小怪的單一 Boss 戰不可預設能觸發。"
+      "100% 繁花是技能文字的施加機率，不是免疫 Boss 必定中異常。",
+      "無小怪時，徐霞客擊殺回怒不當作可用常態；此隊不保證每輪追擊。"
     ],
     "recommendationStatus": "theory",
     "source": "",
     "sourceType": "unknown",
-    "sourceDescription": "依已收錄的台版玩家技能截圖推導，未經實戰驗證。",
+    "sourceDescription": "依台版玩家提供的技能與陣容規則截圖分析；隊伍未經實戰驗證。",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-05",
-    "notes": "依台版玩家技能截圖推導的搭配構想，尚未實戰驗證。評估須包含單角強度、目前星級價值、帳號養成與關卡條件；技能互補本身不足以證明隊伍強度。技能百分比為滿級預覽，同類增益疊加與覆蓋未核對，成員順序不代表站位或出手順序。",
+    "notes": "依目前技能與陣營加成提出的候選配置，尚未實戰驗證。陣營門檻不看職業或星級；角色技能與當前養成仍優先。所列技能百分比為滿級預覽，未解鎖的 2／5 星效果不計入基礎表現。成員順序不代表出手或站位，替換後加成會重新計算。",
     "review": {
-      "checkedAt": "2026-10-05",
-      "conclusion": "雙重機率與異常命中條件較多；只保留為 Boss 異常聯動構想，不作一般 Boss 首選。",
-      "coreStrength": "徐霞客單體攻擊有文字依據；汗寶佔一個位置來施加流血是否值得，尚未與直接加入另一位強核心比較。",
-      "starImpact": "流血與徐霞客異常追加攻擊來自主動；徐霞客 5 星血線增傷、霍嬗 5 星補盾是額外收益。",
-      "nextEvidence": "確認 Boss 可受流血且是徐霞客鎖定目標，再比較異常覆蓋率、追加攻擊次數和替換汗寶後的整隊傷害。"
-    }
+      "conclusion": "可受異常的前排 Boss 可先試；保留坦補，並將異常來源由機率流血改為繁花，取得全體 +15%。",
+      "coreStrength": "徐霞客負責單體，楊玉環提供與其條件匹配的異常；秦始皇則補獨立核心支援。",
+      "starImpact": "基礎異常聯動來自主動；徐霞客 5 星血線效果、霍嬗 5 星護盾分開評估。",
+      "nextEvidence": "確認 Boss 異常免疫、鎖定位置與追擊次數，再測整隊傷害及生存。",
+      "checkedAt": "2026-10-05"
+    },
+    "placement": "沈萬三優先前排，徐霞客後排；霍嬗、楊玉環與秦始皇依承傷調位。不要讓徐霞客為追擊冒險承傷；先確認他鎖定的目標是 Boss。",
+    "aliases": [
+      "單體異常隊"
+    ]
   },
   {
     "id": "team_tw_boss_sustain",
-    "name": "長戰增攻隊",
+    "name": "武將單體長戰隊",
     "purposes": [
       "Boss"
     ],
     "heroIds": [
-      "hero_shen_tw",
+      "hero_fuhao_tw",
       "hero_shuai_tw",
       "hero_huo_tw",
       "hero_huangama",
-      "hero_qingzhao_tw"
+      "hero_qin_tw"
     ],
     "coreHeroIds": [
       "hero_shuai_tw",
       "hero_huo_tw"
     ],
-    "description": "帥波集中攻擊前排單體，霍去病提供攻擊增益並以普攻累積自身攻擊，坦補支援長戰。",
-    "suitableFor": "Boss 在最前排、沒有嚴重群體負面狀態，且有足夠回合讓增益發揮的戰鬥。",
+    "description": "婦好守衛承傷、帥波集中單體、霍去病增攻；3 武將加帝王給全體 +15%，黃阿瑪提供全隊治療。",
+    "suitableFor": "Boss 在最前排、需要肉盾且可以持續作戰的戰鬥；異常免疫時可作為不同方向的候選。",
     "rationale": [
       {
-        "heroId": "hero_shen_tw",
+        "heroId": "hero_fuhao_tw",
         "skillIds": [
-          "skill_shen_tw_ultimate"
+          "skill_fuhao_tw_ultimate"
         ],
-        "description": "以減傷、防禦與自身回血承受壓力；隊友增益僅隨機 3 名。"
+        "description": "肉盾守衛減少其他隊友承傷，有機率嘲諷。替原本不同陣營的沈萬三也能讓武將數達到門檻，但需能承受集中傷害。"
       },
       {
         "heroId": "hero_shuai_tw",
@@ -378,7 +385,7 @@
           "skill_shuai_tw_ultimate",
           "skill_shuai_tw_star2"
         ],
-        "description": "主動攻擊最前排 1 名敵人並強化自身攻擊、暴擊；反擊需自己受到傷害才觸發。"
+        "description": "最前排單體 355% 攻擊倍率與自身攻擊、暴擊增益是主要輸出；反擊須受擊，不作固定附加傷害。"
       },
       {
         "heroId": "hero_huo_tw",
@@ -386,7 +393,7 @@
           "skill_huo_tw_ultimate",
           "skill_huo_tw_star2"
         ],
-        "description": "主動提供團隊攻擊與暴擊增益；2 星普攻造成傷害後可累積自身攻擊至戰鬥結束。"
+        "description": "全隊增攻、暴擊支援帥波，2 星普攻可累積自身攻擊，適合較長回合；低星未解鎖則只評估主動。"
       },
       {
         "heroId": "hero_huangama",
@@ -394,110 +401,105 @@
           "skill_huangama_ultimate",
           "skill_huangama_star5"
         ],
-        "description": "提供群體治療與暴擊率；5 星狀態需依自身有無護盾分開觀察。"
+        "description": "群體治療與暴擊支援；本配置先保留一位治療，確認是否比原先雙治療更適合。"
       },
       {
-        "heroId": "hero_qingzhao_tw",
+        "heroId": "hero_qin_tw",
         "skillIds": [
-          "skill_qingzhao_tw_ultimate"
+          "skill_qin_tw_entry",
+          "skill_qin_tw_ultimate"
         ],
-        "description": "集中治療最低血量隊友並提供防禦與後續治療，補上單位瀕死時的續航。"
+        "description": "入場降攻與威壓增攻、回怒都有直接價值，帝王同時補足武將 4 人門檻。"
       }
     ],
     "keyUnlocks": [
       {
         "heroId": "hero_huo_tw",
         "skillId": "skill_huo_tw_star2",
-        "description": "長戰的普攻累積攻擊依賴 2 星；未解鎖時仍有主動團隊增益。"
+        "description": "普攻累積攻擊需 2 星，長戰收益取決於實際普攻次數。"
       },
       {
         "heroId": "hero_shuai_tw",
         "skillId": "skill_shuai_tw_star2",
-        "description": "普攻有機率提高自身暴擊需解鎖 2 星。"
+        "description": "普攻機率增暴擊需 2 星；主動單體不依賴此解鎖。"
       }
     ],
     "substitutions": [
       {
-        "heroId": "hero_shuai_tw",
-        "replacementHeroId": "hero_xuxiake_tw",
-        "reason": "可改用同樣鎖定最前排單體的徐霞客。",
-        "tradeoff": "本隊沒有固定異常來源，不能預設徐霞客會追加攻擊；需另行實測輸出。"
+        "heroId": "hero_qin_tw",
+        "replacementHeroId": "hero_qi_tw",
+        "reason": "沒有秦始皇時，以戚繼光補武將輸出及降防。",
+        "tradeoff": "保持武將門檻，但失去入場降攻、全隊威壓與回怒；隨機多目標技能打單 Boss 的規則需確認。"
       },
       {
-        "heroId": "hero_qingzhao_tw",
+        "heroId": "hero_huangama",
         "replacementHeroId": "hero_h_tw",
-        "reason": "Boss 負面狀態多時，可改用霍嬗群體治療與驅散。",
-        "tradeoff": "失去李清照的集中治療與薄露持續恢復；補盾亦可能改變黃阿瑪狀態。"
+        "reason": "全隊負面狀態壓力大時，換霍嬗群體驅散。",
+        "tradeoff": "保持武將加成；失去黃阿瑪暴擊與護盾狀態效果，霍嬗補盾另需 5 星。"
       }
     ],
     "rotationNotes": [
-      "讓坦補穩住血線，再觀察霍去病是否能累積普攻增攻。",
-      "確認帥波鎖定目標與增益覆蓋；不要為了反擊或隊友死亡被動刻意放棄生存。"
+      "觀察霍去病增益是否覆蓋帥波主動，並記錄普攻累積次數。",
+      "不要為反擊或死亡被動刻意犧牲坦位；只計實際發生的收益。"
     ],
     "limitations": [
-      "攻擊、暴擊增益存在多個來源，疊加與覆蓋規則未確認。",
-      "帥波反擊需受擊；霍去病與帥波的隊友死亡被動不能當作常態收益。",
-      "本隊沒有主動全體驅散；若負面狀態導致減員，優先考慮霍嬗替換。"
+      "同類增攻／暴擊增益疊加與覆蓋未確認。",
+      "此隊沒有主動全隊驅散；遇控制或持續負面狀態，優先調補位。"
     ],
     "recommendationStatus": "theory",
     "source": "",
     "sourceType": "unknown",
-    "sourceDescription": "依已收錄的台版玩家技能截圖推導，未經實戰驗證。",
+    "sourceDescription": "依台版玩家提供的技能與陣容規則截圖分析；隊伍未經實戰驗證。",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-05",
-    "notes": "依台版玩家技能截圖推導的搭配構想，尚未實戰驗證。評估須包含單角強度、目前星級價值、帳號養成與關卡條件；技能互補本身不足以證明隊伍強度。技能百分比為滿級預覽，同類增益疊加與覆蓋未核對，成員順序不代表站位或出手順序。",
+    "notes": "依目前技能與陣營加成提出的候選配置，尚未實戰驗證。陣營門檻不看職業或星級；角色技能與當前養成仍優先。所列技能百分比為滿級預覽，未解鎖的 2／5 星效果不計入基礎表現。成員順序不代表出手或站位，替換後加成會重新計算。",
     "review": {
-      "checkedAt": "2026-10-05",
-      "conclusion": "單體輸出與續航方向可保留；長戰增攻能否提高整隊傷害，仍受出手次數與隊伍輸出占比影響。",
-      "coreStrength": "不能用帥波的技能倍率或霍去病的增益項目直接判定單角強度；雙治療是否必要取決於實際生存壓力。",
-      "starImpact": "帥波主動單體輸出與霍去病主動增益可先評估；「長戰累積攻擊」需霍去病 2 星普攻，不是所有星級都成立。",
-      "nextEvidence": "記錄普攻次數、前排鎖定、帥波受擊反擊次數；比較減少一個防守位置後的生存與傷害。"
-    }
+      "conclusion": "較不依賴異常的 Boss 方向；以 3 武將＋帝王取得 +15%，兼顧單體、坦位與治療。",
+      "coreStrength": "帥波與霍去病分別提供單體輸出和團隊增益；秦始皇的獨立支援也應與替代輸出直接比較。",
+      "starImpact": "長戰累積增攻需霍去病 2 星；不預設隊友死亡或反擊是常態。",
+      "nextEvidence": "記錄鎖定、普攻次數、反擊及治療缺口，比較秦始皇與戚繼光替換後的整隊結果。",
+      "checkedAt": "2026-10-05"
+    },
+    "placement": "婦好前排，帥波與霍去病後排，黃阿瑪與秦始皇按敵方技能目標調位。婦好守衛可能改變帥波受擊情形，反擊僅按實際觸發計算。",
+    "aliases": [
+      "長戰增攻隊"
+    ]
   },
   {
     "id": "team_tw_arena_control",
-    "name": "減怒控場隊",
+    "name": "文臣減怒競技隊",
     "purposes": [
       "競技"
     ],
     "heroIds": [
       "hero_fuhao_tw",
       "hero_lichunfeng_tw",
-      "hero_qu_tw",
       "hero_di_tw",
-      "hero_h_tw"
+      "hero_huangama",
+      "hero_qin_tw"
     ],
     "coreHeroIds": [
-      "hero_lichunfeng_tw",
-      "hero_qu_tw",
-      "hero_di_tw"
+      "hero_qin_tw",
+      "hero_di_tw",
+      "hero_lichunfeng_tw"
     ],
-    "description": "李淳風調整速度，屈原嘗試眩暈，狄仁傑針對高攻敵人減怒，婦好與霍嬗負責保護。",
-    "suitableFor": "對手可被控制、主要威脅來自主動技能，且我方有機會及時施放技能的競技對局。",
+    "description": "李淳風調整速度、狄仁傑壓制高攻目標怒氣，婦好守衛保護；3 文臣加帝王給全體 +15%。",
+    "suitableFor": "對手主要威脅依賴主動技能，需要穩住第一輪承傷的競技對局。",
     "rationale": [
       {
         "heroId": "hero_fuhao_tw",
         "skillIds": [
           "skill_fuhao_tw_ultimate"
         ],
-        "description": "守衛保護隊友並有機率嘲諷，降低控場組在技能施放前被擊倒的風險。"
+        "description": "守衛與機率嘲諷維持第一輪生存，保留肉盾而不強求 +20%。"
       },
       {
         "heroId": "hero_lichunfeng_tw",
         "skillIds": [
           "skill_lichunfeng_tw_ultimate"
         ],
-        "description": "主動降低敵方速度並提高我方速度；能否先出手仍取決於實際速度與初始怒氣。"
-      },
-      {
-        "heroId": "hero_qu_tw",
-        "skillIds": [
-          "skill_qu_tw_ultimate",
-          "skill_qu_tw_star2",
-          "skill_qu_tw_star5"
-        ],
-        "description": "群攻有機率眩暈及減怒；2 星對眩暈目標增傷，5 星可因敵人進入眩暈而回怒。"
+        "description": "全隊加速與敵方減速支援後續行動；只有先施放才生效，不能據此保證開局先手。"
       },
       {
         "heroId": "hero_di_tw",
@@ -505,112 +507,7 @@
           "skill_di_tw_ultimate",
           "skill_di_tw_star2"
         ],
-        "description": "主動鎖定攻擊最高敵人並減怒；2 星普攻前排有機率減怒，擊殺後才有機率再施放主動。"
-      },
-      {
-        "heroId": "hero_h_tw",
-        "skillIds": [
-          "skill_h_tw_ultimate"
-        ],
-        "description": "以群體治療與負面驅散維持控場組行動。"
-      }
-    ],
-    "keyUnlocks": [
-      {
-        "heroId": "hero_qu_tw",
-        "skillId": "skill_qu_tw_star5",
-        "description": "眩暈回怒需解鎖 5 星；敵人抵抗控制時收益下降。"
-      },
-      {
-        "heroId": "hero_di_tw",
-        "skillId": "skill_di_tw_star2",
-        "description": "普攻減怒需解鎖 2 星，且有機率限制。"
-      }
-    ],
-    "substitutions": [
-      {
-        "heroId": "hero_fuhao_tw",
-        "replacementHeroId": "hero_shen_tw",
-        "reason": "可換沈萬三提供減傷與防禦支援。",
-        "tradeoff": "增益隨機 3 名，無法複製婦好的守衛與嘲諷。"
-      },
-      {
-        "heroId": "hero_h_tw",
-        "replacementHeroId": "hero_shangguanwaner_tw",
-        "reason": "可用上官婉兒提供全體治療。",
-        "tradeoff": "驅散是機率效果，不能視為相同的解控可靠度。"
-      }
-    ],
-    "rotationNotes": [
-      "先查雙方速度與初始怒氣，確認李淳風何時能施放主動。",
-      "記錄眩暈、減怒是否命中，以及是否真正延後敵方主動技能；不是看效果名稱就判定控制成功。"
-    ],
-    "limitations": [
-      "控制抗性、免控與技能機率都會打斷循環，無法保證連續控場。",
-      "李淳風的主動速度增益不等於開局必定先手。",
-      "狄仁傑再次施放主動需先擊殺，不能預設每回合追擊。"
-    ],
-    "recommendationStatus": "theory",
-    "source": "",
-    "sourceType": "unknown",
-    "sourceDescription": "依已收錄的台版玩家技能截圖推導，未經實戰驗證。",
-    "verified": false,
-    "gameVersion": "tw",
-    "checkedAt": "2026-10-05",
-    "notes": "依台版玩家技能截圖推導的搭配構想，尚未實戰驗證。評估須包含單角強度、目前星級價值、帳號養成與關卡條件；技能互補本身不足以證明隊伍強度。技能百分比為滿級預覽，同類增益疊加與覆蓋未核對，成員順序不代表站位或出手順序。",
-    "review": {
-      "checkedAt": "2026-10-05",
-      "conclusion": "可保留為控制與減怒構想；沒有速度、抗性與對戰樣本，不能判為可靠控場或競技首選。",
-      "coreStrength": "李淳風、屈原、狄仁傑各自是否值得佔位尚待確認；多個控場位置不代表能壓過單角強度較高的對手。",
-      "starImpact": "速度調整、眩暈與主動減怒可先評估；屈原 5 星眩暈回怒與狄仁傑 2 星普攻減怒分別有解鎖條件。",
-      "nextEvidence": "核對開局能否行動、控制成功率，以及減怒是否確實延後對手技能；再觀察對不同核心的勝負。"
-    }
-  },
-  {
-    "id": "team_tw_arena_emperor",
-    "name": "帝王回怒隊",
-    "purposes": [
-      "競技"
-    ],
-    "heroIds": [
-      "hero_qin_tw",
-      "hero_wuzetian_tw",
-      "hero_libai_tw",
-      "hero_huangama",
-      "hero_fuhao_tw"
-    ],
-    "coreHeroIds": [
-      "hero_qin_tw",
-      "hero_wuzetian_tw"
-    ],
-    "description": "武則天入場提供每回合怒氣，秦始皇主動增攻與回怒，搭配李白群攻、黃阿瑪治療與婦好守衛。",
-    "suitableFor": "已持有秦始皇與武則天、希望觀察入場效果與主動技能頻率的競技配置；兩位角色的單角價值與星級加成需分開評估。",
-    "rationale": [
-      {
-        "heroId": "hero_qin_tw",
-        "skillIds": [
-          "skill_qin_tw_entry",
-          "skill_qin_tw_ultimate",
-          "skill_qin_tw_star5"
-        ],
-        "description": "入場降低敵方攻擊；主動為我方累積威壓並讓自己與隨機 1 名隊友回怒。5 星瀕死保命有不能接受治療的階段。"
-      },
-      {
-        "heroId": "hero_wuzetian_tw",
-        "skillIds": [
-          "skill_wuzetian_tw_entry",
-          "skill_wuzetian_tw_ultimate",
-          "skill_wuzetian_tw_star5"
-        ],
-        "description": "入場讓友軍每回合開始回怒；主動在奇數回合攻擊、減怒與清增益，偶數回合治療、回怒與清負面；5 星隨友軍主動施放累積印記。"
-      },
-      {
-        "heroId": "hero_libai_tw",
-        "skillIds": [
-          "skill_libai_tw_ultimate",
-          "skill_libai_tw_star2"
-        ],
-        "description": "群攻與機率破甲提供輸出，2 星暴擊有機率回怒。"
+        "description": "主動針對攻擊最高敵人減怒，2 星普攻另有機率前排減怒；擊殺重放還需擊殺和機率，不能當固定連發。"
       },
       {
         "heroId": "hero_huangama",
@@ -618,71 +515,196 @@
           "skill_huangama_ultimate",
           "skill_huangama_star2"
         ],
-        "description": "提供治療與暴擊率，2 星破盾後另有暴擊傷害增益。"
+        "description": "治療與暴擊支援，快速穩定血線；2 星破盾增益另需觸發條件。"
       },
       {
-        "heroId": "hero_fuhao_tw",
+        "heroId": "hero_qin_tw",
         "skillIds": [
-          "skill_fuhao_tw_ultimate"
+          "skill_qin_tw_entry",
+          "skill_qin_tw_ultimate"
         ],
-        "description": "守衛保護輸出與輔助，有機率嘲諷；需檢查自身承傷能否維持。"
+        "description": "入場降攻能在施放主動前影響全敵，主動提供威壓與回怒；帝王補到 4 文臣門檻。"
+      }
+    ],
+    "keyUnlocks": [
+      {
+        "heroId": "hero_di_tw",
+        "skillId": "skill_di_tw_star2",
+        "description": "普攻前排減怒需 2 星且機率觸發；主動減怒可先評估。"
+      },
+      {
+        "heroId": "hero_huangama",
+        "skillId": "skill_huangama_star2",
+        "description": "破盾全隊暴傷需 2 星與破盾，不當作開局常駐。"
+      }
+    ],
+    "substitutions": [
+      {
+        "heroId": "hero_fuhao_tw",
+        "replacementHeroId": "hero_wuzetian_tw",
+        "reason": "已養成武則天且能承受沒有肉盾時，可改成雙帝王文臣。",
+        "tradeoff": "門檻提高，並增加回怒與單雙回合技能；失去婦好守衛，並非必然更強。"
+      },
+      {
+        "heroId": "hero_lichunfeng_tw",
+        "replacementHeroId": "hero_wangzhaojun_tw",
+        "reason": "容易被控制或負面狀態打穿時，以王昭君保護低血隊友。",
+        "tradeoff": "保持加成；失去主動全隊加速，改成單一目標治療與負面免疫。"
+      },
+      {
+        "heroId": "hero_qin_tw",
+        "replacementHeroId": "hero_wangzhaojun_tw",
+        "reason": "沒有秦始皇時，以王昭君補文臣治療與負面免疫。",
+        "tradeoff": "保持文臣門檻；失去秦始皇入場降攻、威壓與回怒，需觀察狄仁傑主動頻率。"
+      }
+    ],
+    "rotationNotes": [
+      "先檢查李淳風實際速度與怒氣，確認何時能施放加減速。",
+      "觀察狄仁傑減怒是否延後對方關鍵技能，未擊殺時不要計入重放。"
+    ],
+    "limitations": [
+      "只有減怒與速度調整，不能宣稱眩暈連控。",
+      "對方帝王角色分別剋制普通陣營；加成不能消除剋制或養成差距。"
+    ],
+    "recommendationStatus": "theory",
+    "source": "",
+    "sourceType": "unknown",
+    "sourceDescription": "依台版玩家提供的技能與陣容規則截圖分析；隊伍未經實戰驗證。",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-05",
+    "notes": "依目前技能與陣營加成提出的候選配置，尚未實戰驗證。陣營門檻不看職業或星級；角色技能與當前養成仍優先。所列技能百分比為滿級預覽，未解鎖的 2／5 星效果不計入基礎表現。成員順序不代表出手或站位，替換後加成會重新計算。",
+    "review": {
+      "conclusion": "保留肉盾、加入秦始皇與 +15% 文臣門檻的減怒配置；適合觀察能否延後敵方關鍵主動。",
+      "coreStrength": "秦始皇的入場影響優先納入；李淳風、狄仁傑是否值得佔位要看對手，而非只看技能標籤數。",
+      "starImpact": "主動速度調整與減怒可先用；狄仁傑普攻減怒、黃阿瑪破盾均有 2 星條件。",
+      "nextEvidence": "核對第一輪存活、行動次序、實際減怒與敵方技能次數，再比較換武則天或王昭君。",
+      "checkedAt": "2026-10-05"
+    },
+    "placement": "婦好前排；狄仁傑後排。秦始皇與兩位文臣輔助依敵方攻擊目標調位，先保住能施放關鍵技能的成員。",
+    "aliases": [
+      "減怒控場隊"
+    ]
+  },
+  {
+    "id": "team_tw_arena_emperor",
+    "name": "墨客群攻競技隊",
+    "purposes": [
+      "競技"
+    ],
+    "heroIds": [
+      "hero_pu_tw",
+      "hero_libai_tw",
+      "hero_qu_tw",
+      "hero_qingzhao_tw",
+      "hero_qin_tw"
+    ],
+    "coreHeroIds": [
+      "hero_libai_tw",
+      "hero_qin_tw"
+    ],
+    "description": "4 墨客加帝王取得全體 +20%，蒲松齡承傷、李白群攻破甲、屈原機率控場，李清照維持坦位。",
+    "suitableFor": "多目標競技，需要肉盾、群攻與控制互補的對局；敵方多文臣時可再參考墨客剋制。",
+    "rationale": [
+      {
+        "heroId": "hero_pu_tw",
+        "skillIds": [
+          "skill_pu_tw_ultimate",
+          "skill_pu_tw_star5"
+        ],
+        "description": "肉盾主動自盾與隨機兩名嘲諷；最大生命加成也有利於生命倍率護盾，5 星受擊回血另有機率。"
+      },
+      {
+        "heroId": "hero_libai_tw",
+        "skillIds": [
+          "skill_libai_tw_ultimate",
+          "skill_libai_tw_star2",
+          "skill_libai_tw_star5"
+        ],
+        "description": "群攻機率破甲支援整隊，2 星暴擊機率回怒、5 星對高血目標增傷；不預設所有敵人都能破甲。"
+      },
+      {
+        "heroId": "hero_qu_tw",
+        "skillIds": [
+          "skill_qu_tw_ultimate",
+          "skill_qu_tw_star5"
+        ],
+        "description": "群攻機率眩暈與減怒，5 星敵方眩暈回怒；與李白群攻互補但不是保證控制鏈。"
+      },
+      {
+        "heroId": "hero_qingzhao_tw",
+        "skillIds": [
+          "skill_qingzhao_tw_ultimate"
+        ],
+        "description": "最低血量集中治療、防禦與持續恢復維持坦位，使用墨客補位保住 5 人門檻。"
+      },
+      {
+        "heroId": "hero_qin_tw",
+        "skillIds": [
+          "skill_qin_tw_entry",
+          "skill_qin_tw_ultimate"
+        ],
+        "description": "帝王把 4 墨客推到最高門檻，入場降攻、增攻回怒提供獨立價值。低星是否強仍應按實戰評估。"
       }
     ],
     "keyUnlocks": [
       {
         "heroId": "hero_libai_tw",
         "skillId": "skill_libai_tw_star2",
-        "description": "暴擊回怒需解鎖 2 星。"
+        "description": "暴擊機率回怒需 2 星。"
       },
       {
-        "heroId": "hero_wuzetian_tw",
-        "skillId": "skill_wuzetian_tw_star5",
-        "description": "友軍主動技能觸發印記與抗性增益需解鎖 5 星。"
+        "heroId": "hero_libai_tw",
+        "skillId": "skill_libai_tw_star5",
+        "description": "對生命高於一半目標增傷需 5 星，不適用於所有血線。"
       },
       {
-        "heroId": "hero_qin_tw",
-        "skillId": "skill_qin_tw_star5",
-        "description": "5 星是額外瀕死保命與反攻能力，不是秦始皇上場前提；0 星不能計入這項效果，每場僅一次。"
+        "heroId": "hero_qu_tw",
+        "skillId": "skill_qu_tw_star5",
+        "description": "敵方眩暈回怒需 5 星且眩暈成功。"
       }
     ],
     "substitutions": [
       {
-        "heroId": "hero_libai_tw",
-        "replacementHeroId": "hero_huo_tw",
-        "reason": "可改用霍去病的群攻與團隊增益。",
-        "tradeoff": "失去李白 2 星暴擊回怒，團隊增益覆蓋規則需另外核對。"
+        "heroId": "hero_qin_tw",
+        "replacementHeroId": "hero_huangyueying_tw",
+        "reason": "沒有秦始皇時，以黃月英盾輔補墨客人數。",
+        "tradeoff": "純墨客仍達最高門檻，但失去秦始皇核心支援；無固定灼燒來源時不計黃月英引燃聯動。"
       },
       {
-        "heroId": "hero_huangama",
-        "replacementHeroId": "hero_h_tw",
-        "reason": "負面狀態壓力大時，可改用霍嬗治療與驅散。",
-        "tradeoff": "失去黃阿瑪暴擊增益及護盾切換效果；不是等效替換。"
+        "heroId": "hero_qingzhao_tw",
+        "replacementHeroId": "hero_shangguanwaner_tw",
+        "reason": "需要群體治療時以上官婉兒替代。",
+        "tradeoff": "保持墨客門檻；失去集中治療與薄露，驅散是機率效果。"
       }
     ],
     "rotationNotes": [
-      "逐回合核對武則天的奇偶回合效果與怒氣供給，再觀察主動施放頻率。",
-      "秦始皇進入 5 星瀕死無敵階段時不能接受治療，須分開計算其後續恢復。"
+      "先確認蒲松齡能撐到自盾／嘲諷，李白能否對關鍵目標施加破甲。",
+      "對照敵方陣營調整：墨客對文臣傷害 +10%，對俠士傷害 −10%；其他成員各自判定。"
     ],
     "limitations": [
-      "兩位聖品質的取得與培養門檻較高，沒有標為平民或必備。",
-      "初始怒氣、回怒上限、控制抗性與出手次序未實測，不能宣稱無限主動循環。",
-      "秦始皇威壓與其他攻擊增益的疊加規則未知，不能直接相加。"
+      "控制與破甲都有機率；對免疫或高抗性敵人需換角。",
+      "李清照集中治療不能取代全隊驅散；不保證競技先手。"
     ],
     "recommendationStatus": "theory",
     "source": "",
     "sourceType": "unknown",
-    "sourceDescription": "依已收錄的台版玩家技能截圖推導，未經實戰驗證。",
+    "sourceDescription": "依台版玩家提供的技能與陣容規則截圖分析；隊伍未經實戰驗證。",
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-05",
-    "notes": "依台版玩家技能截圖推導的搭配構想，尚未實戰驗證。評估須包含單角強度、目前星級價值、帳號養成與關卡條件；技能互補本身不足以證明隊伍強度。技能百分比為滿級預覽，同類增益疊加與覆蓋未核對，成員順序不代表站位或出手順序。",
+    "notes": "依目前技能與陣營加成提出的候選配置，尚未實戰驗證。陣營門檻不看職業或星級；角色技能與當前養成仍優先。所列技能百分比為滿級預覽，未解鎖的 2／5 星效果不計入基礎表現。成員順序不代表出手或站位，替換後加成會重新計算。",
     "review": {
-      "checkedAt": "2026-10-05",
-      "conclusion": "入場與回怒機制有全隊影響，值得優先核對核心角色價值；仍不足以證明雙聖固定五人隊是競技最佳配置。",
-      "coreStrength": "秦始皇的低星價值應納入評估。玩家提到的 0 星翻盤是在推塔，不能直接證明這組競技陣容或武則天的強度。",
-      "starImpact": "秦始皇、武則天的入場與主動和 2／5 星被動分開評估；秦始皇 5 星瀕死反攻是額外能力，不是上場前提。低星實際技能等級與數值仍待核對。",
-      "nextEvidence": "分別觀察秦始皇與武則天加入後的變化，再核對初始怒氣、施放頻率與養成差異；不從一次翻盤建立排行榜。"
-    }
+      "conclusion": "以肉盾、群攻與續航組成 4 墨客＋帝王的 +20% 配置；是另一種競技方向，不是固定最佳隊。",
+      "coreStrength": "秦始皇低星推塔翻盤提示應考慮單角價值；不能直接證明本競技隊勝率。李白當前星級、破甲與群攻價值應獨立評估。",
+      "starImpact": "主動群攻、自盾、治療和秦始皇入場先評估；李白暴擊回怒及高血增傷、屈原回怒另需 2／5 星。",
+      "nextEvidence": "比較敵方陣營、坦位存活與控制成功率，測秦始皇替換同陣營輔助的效果。",
+      "checkedAt": "2026-10-05"
+    },
+    "placement": "蒲松齡前排，李白與屈原後排；李清照與秦始皇依受擊風險調位。李清照治療最低血量目標，不保證每次都是蒲松齡。",
+    "aliases": [
+      "帝王回怒隊"
+    ]
   },
   {
     "id": "team_yang",

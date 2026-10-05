@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-05",
+  "gameVersion": "tw",
+  "sourceType": "observation",
+  "sourceDescription": "玩家提供的遊戲內喵將職業與陣容增益截圖；不由此推定改版日期。",
+  "evidence": [
+    "docs/evidence/lineup-roles-2026-10-05.png",
+    "docs/evidence/lineup-factions-2026-10-05.png"
+  ],
+  "factions": [
+    "武將",
+    "文臣",
+    "俠士",
+    "墨客"
+  ],
+  "thresholds": [
+    {
+      "count": 3,
+      "percent": 10
+    },
+    {
+      "count": 4,
+      "percent": 15
+    },
+    {
+      "count": 5,
+      "percent": 20
+    }
+  ],
+  "bonusStats": [
+    "攻擊力",
+    "最大生命值"
+  ],
+  "recipients": "所有上陣喵將",
+  "emperor": "可適配啟動其他陣營加成",
+  "unaligned": "在野不算入任意陣營",
+  "counterCycle": [
+    "俠士",
+    "墨客",
+    "文臣",
+    "武將"
+  ],
+  "counterPercent": 10,
+  "roles": [
+    {
+      "name": "肉盾",
+      "description": "血量與防禦較高，比較適合站在前排。"
+    },
+    {
+      "name": "輸出",
+      "description": "攻擊較高，比較適合站在後排。"
+    },
+    {
+      "name": "輔助",
+      "description": "大多數可以給隊友提供增益或給敵方減益、控制等，可以根據需要調整位置。"
+    }
+  ],
+  "unverified": [
+    "純帝王配置的陣營加成",
+    "多個陣營同時達標的結算與疊加",
+    "帝王和在野之間的克制關係",
+    "職業不是此截圖陣營加成的計數條件；截圖未證明存在另加的職業人數加成"
+  ]
+}
