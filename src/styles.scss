@@ -643,3 +643,8 @@ html.drawer-open { overflow: hidden; }
   .hero-stat-grid dd {font-size:1.08rem;}
   #view>.hero-profile {padding:16px;}
 }
+.code-actions {display:flex;align-items:center;flex-wrap:wrap;gap:16px;}
+.code-usage {display:inline-flex;align-items:center;gap:8px;min-height:44px;cursor:pointer;white-space:nowrap;color:#293c36;}
+.code-usage input {width:19px;height:19px;flex-shrink:0;margin:0;accent-color:#425d48;cursor:pointer;}
+.code-usage input:focus-visible {outline:2px solid #963d32;outline-offset:4px;}
+.code-usage.is-used {color:#425d48;}

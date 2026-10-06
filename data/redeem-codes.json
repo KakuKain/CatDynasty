@@ -1,5 +1,53 @@
 [
   {
+    "id": "code_tw_13",
+    "code": "喵喵爭鼎",
+    "rewards": [],
+    "startDate": null,
+    "endDate": null,
+    "status": "unverified",
+    "lastTestedAt": null,
+    "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-10-04"
+  },
+  {
+    "id": "code_tw_14",
+    "code": "我要爭第一",
+    "rewards": [],
+    "startDate": null,
+    "endDate": null,
+    "status": "unverified",
+    "lastTestedAt": null,
+    "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-10-03"
+  },
+  {
+    "id": "code_tw_15",
+    "code": "再跑一個訂單就好",
+    "rewards": [],
+    "startDate": null,
+    "endDate": "2026-10-08",
+    "status": "unverified",
+    "lastTestedAt": null,
+    "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。來源標示到期日為 2026-10-08，截止時刻尚未確認。",
+    "sourceListedAt": "2026-10-02"
+  },
+  {
     "id": "code_tw_01",
     "code": "黃阿瑪",
     "rewards": [],
@@ -11,7 +59,7 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
+    "checkedAt": "2026-10-06",
     "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
     "sourceListedAt": "2026-09-27"
   },
@@ -27,7 +75,7 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
+    "checkedAt": "2026-10-06",
     "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
     "sourceListedAt": "2026-09-27"
   },
@@ -43,8 +91,9 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-09-25"
   },
   {
     "id": "code_tw_04",
@@ -58,8 +107,9 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源標示 2026-10-01 到期，未提供截止時刻。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源標示 2026-10-01 到期，未提供截止時刻。",
+    "sourceListedAt": "2026-09-25"
   },
   {
     "id": "code_tw_05",
@@ -73,8 +123,9 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源標示 2026-10-01 到期，未提供截止時刻。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源標示 2026-10-01 到期，未提供截止時刻。",
+    "sourceListedAt": "2026-09-25"
   },
   {
     "id": "code_tw_06",
@@ -118,8 +169,9 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-09-22"
   },
   {
     "id": "code_tw_09",
@@ -133,8 +185,9 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-09-22"
   },
   {
     "id": "code_tw_10",
@@ -148,8 +201,9 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-09-22"
   },
   {
     "id": "code_tw_11",
@@ -163,8 +217,9 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-09-22"
   },
   {
     "id": "code_tw_12",
@@ -178,7 +233,8 @@
     "sourceType": "community",
     "verified": false,
     "gameVersion": "tw",
-    "checkedAt": "2026-10-01",
-    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。"
+    "checkedAt": "2026-10-06",
+    "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
+    "sourceListedAt": "2026-09-22"
   }
 ]

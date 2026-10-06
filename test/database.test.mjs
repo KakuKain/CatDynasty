@@ -137,7 +137,7 @@ test('expired and untested codes are never counted as active',()=>{
 });
 
 test('community codes remain unverified and expiry gates copying at the date boundary',()=>{
-  assert.equal(real['redeem-codes'].length,12);
+  assert.equal(real['redeem-codes'].length,15);
   assert.ok(real['redeem-codes'].every(c=>!c.verified&&!c.lastTestedAt&&codeStatus(c,'2026-10-01')==='unverified'));
   const due=real['redeem-codes'].filter(c=>c.endDate==='2026-10-01');assert.equal(due.length,4);
   assert.ok(due.every(c=>canCopyCode(c,{today:'2026-10-01'})&&!canCopyCode(c,{today:'2026-10-02'})));

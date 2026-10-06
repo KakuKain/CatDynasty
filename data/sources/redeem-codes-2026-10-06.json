@@ -1,0 +1,117 @@
+{
+  "source": "https://lota.games/zh-hant/game/01a0c82e-9747-721f-8b3d-f9b5cfc69fd5/giftcodes",
+  "checkedAt": "2026-10-06",
+  "sourceModifiedAt": "2026-10-04T08:03:20.984Z",
+  "newCodes": [
+    "喵喵爭鼎",
+    "我要爭第一",
+    "再跑一個訂單就好"
+  ],
+  "codes": [
+    {
+      "code": "喵喵爭鼎",
+      "sourceId": 10588,
+      "sourceStatus": "PENDING",
+      "firstPublicAt": "2026-10-04T08:03:20.984Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "我要爭第一",
+      "sourceId": 10583,
+      "sourceStatus": "PENDING",
+      "firstPublicAt": "2026-10-03T14:17:42.155Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "再跑一個訂單就好",
+      "sourceId": 10560,
+      "sourceStatus": "ACTIVE",
+      "firstPublicAt": "2026-10-02T15:12:53.752Z",
+      "endDate": "2026-10-08",
+      "rewardDescription": null
+    },
+    {
+      "code": "黃阿瑪",
+      "sourceId": 10523,
+      "sourceStatus": "PENDING",
+      "firstPublicAt": "2026-09-27T07:10:19.556Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "LUCKYCAT",
+      "sourceId": 10522,
+      "sourceStatus": "PENDING",
+      "firstPublicAt": "2026-09-27T07:10:11.831Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "HAPPYFRIDAY",
+      "sourceId": 10478,
+      "sourceStatus": "PENDING",
+      "firstPublicAt": "2026-09-24T16:56:15.607Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "貓貓不能戴柚子帽喔",
+      "sourceId": 10477,
+      "sourceStatus": "PENDING",
+      "firstPublicAt": "2026-09-24T16:55:11.612Z",
+      "endDate": "2026-10-01",
+      "rewardDescription": null
+    },
+    {
+      "code": "月圓人團圓",
+      "sourceId": 10476,
+      "sourceStatus": "PENDING",
+      "firstPublicAt": "2026-09-24T16:53:48.853Z",
+      "endDate": "2026-10-01",
+      "rewardDescription": null
+    },
+    {
+      "code": "我要吸貓",
+      "sourceId": 10400,
+      "sourceStatus": "ACTIVE",
+      "firstPublicAt": "2026-09-22T08:17:07.389Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "CAT666",
+      "sourceId": 10399,
+      "sourceStatus": "ACTIVE",
+      "firstPublicAt": "2026-09-22T08:17:07.389Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "WORKINGCAT",
+      "sourceId": 10398,
+      "sourceStatus": "ACTIVE",
+      "firstPublicAt": "2026-09-22T08:17:07.389Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "APPLEFEATURE",
+      "sourceId": 10397,
+      "sourceStatus": "ACTIVE",
+      "firstPublicAt": "2026-09-22T08:17:07.389Z",
+      "endDate": null,
+      "rewardDescription": null
+    },
+    {
+      "code": "UBERCAT",
+      "sourceId": 10396,
+      "sourceStatus": "ACTIVE",
+      "firstPublicAt": "2026-09-22T08:17:07.389Z",
+      "endDate": null,
+      "rewardDescription": null
+    }
+  ],
+  "notes": "來源的社群狀態不代表遊戲內實測結果；未確認獎勵。保留先前已收錄但本次來源未列出的到期碼。"
+}
