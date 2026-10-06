@@ -1,6 +1,10 @@
-import {escapeHTML as e,effectsForTeam,findById} from './core.js';
+import {escapeHTML as e,effectsForTeam,findById,catalogueRecords,compareHeroQuality,normalize} from './core.js';
 
 export const teamPurposeOptions=['推圖','Boss','競技',['unknown','未分類']];
+export function teamExclusionOptions(db){
+  const memberNames=new Set((db.teams||[]).flatMap(team=>team.heroIds).map(id=>findById(db,'heroes',id)).filter(Boolean).map(hero=>normalize(hero.name)));
+  return catalogueRecords(db,'heroes').filter(hero=>memberNames.has(normalize(hero.name))).sort(compareHeroQuality).map(hero=>[hero.id,hero.name]);
+}
 export const teamStatusLabel=record=>record.recommendationStatus==='theory'?'搭配構想 · 待實測':record.gameVersion==='cn'?'官方參考 · 適用性待核對':'參考搭配';
 export function teamEffectIds(db,record){
   if(record.recommendationStatus!=='theory')return effectsForTeam(db,record.heroIds);

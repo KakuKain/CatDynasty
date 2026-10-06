@@ -67,12 +67,14 @@ export function filterRecords(db,key,params) {
   const hits=query?new Set(searchDatabase(db,query).filter(r=>r.key===key).map(r=>r.record.id)):null;
   const choices=name=>params.getAll(name).filter(Boolean);
   const types=choices('type'),cuisines=choices('cuisine'),effects=choices('effect'),sets=choices('set'),statuses=choices('status'),purposes=choices('purpose');
+  const excludedNames=new Set(key==='teams'?choices('excludeHero').map(id=>findById(db,'heroes',id)).filter(Boolean).map(hero=>normalize(hero.name)):[]);
   return catalogueRecords(db,key).filter(record=>(!hits||hits.has(record.id))
     &&(!types.length||types.includes(record.type))
     &&(!cuisines.length||cuisines.includes(record.cuisine))
     &&(!effects.length||effects.some(effect=>record.effectTags?.includes(effect)||(record.setIds||[]).some(id=>findById(db,'artifact-sets',id)?.effectTags?.includes(effect))))
     &&(!sets.length||sets.some(id=>(record.setIds||[]).includes(id)))
     &&(!purposes.length||purposes.some(purpose=>purpose==='unknown'?!record.purposes?.length:record.purposes?.includes(purpose)))
+    &&(key!=='teams'||!record.heroIds.some(id=>excludedNames.has(normalize(findById(db,'heroes',id)?.name))))
     &&(!statuses.length||statuses.includes(codeStatus(record))));
 }
 export const heroFactions=['武將','文臣','俠士','墨客','帝王'];

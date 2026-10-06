@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readDatabase,validateDatabase} from '../scripts/validate-data.mjs';
 import {filterRecords,escapeHTML} from '../src/core.js';
-import {teamStatusLabel,teamRecommendationDetails,teamEffectIds} from '../src/team-recommendations.js';
+import {teamExclusionOptions,teamStatusLabel,teamRecommendationDetails,teamEffectIds} from '../src/team-recommendations.js';
 
 const db=readDatabase();
 const candidates=db.teams.filter(t=>t.recommendationStatus==='theory');
@@ -48,6 +48,36 @@ test('purpose buttons combine with OR and keyword search intersects member names
   assert.equal(filterRecords(db,'teams',new URLSearchParams('purpose=競技&query=帥波')).length,0);
   assert.equal(filterRecords(db,'teams',new URLSearchParams('purpose=unknown')).length,6);
   assert.equal(filterRecords(db,'teams',new URLSearchParams()).length,12);
+});
+
+test('missing hero exclusions reject any selected member across Taiwan and mainland identity records',()=>{
+  const noQin=filterRecords(db,'teams',new URLSearchParams('excludeHero=hero_qin_tw'));
+  assert.equal(noQin.length,5);
+  assert.ok(noQin.every(team=>team.heroIds.every(id=>db.heroes.find(hero=>hero.id===id).name!=='秦始皇')));
+  assert.deepEqual(filterRecords(db,'teams',new URLSearchParams('excludeHero=hero_qin')).map(team=>team.id),noQin.map(team=>team.id));
+  const multiple=filterRecords(db,'teams',new URLSearchParams('excludeHero=hero_qin_tw&excludeHero=hero_xuanzang_tw'));
+  assert.equal(multiple.length,3);
+  assert.ok(multiple.every(team=>team.heroIds.every(id=>!['秦始皇','玄奘'].includes(db.heroes.find(hero=>hero.id===id).name))));
+  assert.equal(filterRecords(db,'teams',new URLSearchParams('purpose=推圖&excludeHero=hero_qin_tw')).length,0);
+});
+
+test('missing hero exclusions intersect purpose and search and reset without affecting other catalogues',()=>{
+  const matched=filterRecords(db,'teams',new URLSearchParams('purpose=Boss&query=帥波&excludeHero=hero_wuzetian_tw'));
+  assert.deepEqual(matched.map(team=>team.id),['team_tw_boss_sustain']);
+  assert.equal(filterRecords(db,'teams',new URLSearchParams('purpose=Boss&query=帥波&excludeHero=hero_shuai_tw')).length,0);
+  assert.equal(filterRecords(db,'teams',new URLSearchParams('excludeHero=missing-id')).length,12);
+  const params=new URLSearchParams('purpose=Boss&excludeHero=hero_qin_tw');params.delete('excludeHero');
+  assert.equal(filterRecords(db,'teams',params).length,2);
+  assert.equal(filterRecords(db,'recipes',new URLSearchParams('excludeHero=hero_qin_tw')).length,db.recipes.length);
+});
+
+test('exclusion buttons list current team members once and prefer Taiwan names',()=>{
+  const options=teamExclusionOptions(db);
+  assert.ok(options.some(([id,name])=>id==='hero_qin_tw'&&name==='秦始皇'));
+  assert.ok(!options.some(([id])=>id==='hero_qin'));
+  assert.equal(new Set(options.map(([,name])=>name)).size,options.length);
+  assert.ok(!options.some(([id])=>id==='hero_qingwan_tw'));
+  assert.deepEqual(teamExclusionOptions({heroes:db.heroes,teams:[]}),[]);
 });
 
 test('candidate validation rejects mismatched evidence, star unlocks and duplicate substitutions',()=>{
