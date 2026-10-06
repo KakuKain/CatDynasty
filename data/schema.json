@@ -290,6 +290,12 @@
             "display"
           ],
           "additionalProperties": false
+        },
+        "sixArtsRecommendationStatus": {
+          "enum": [
+            "pending",
+            "provided"
+          ]
         }
       },
       "required": [

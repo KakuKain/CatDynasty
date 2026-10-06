@@ -211,7 +211,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "墨客",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": "稀有",
     "imageType": "cutout",
@@ -262,6 +269,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 118、119、120、121、122；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -312,7 +327,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "文臣",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [
       {
         "buildingId": "building_hanlin_tw",
@@ -368,6 +390,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 61、62、63、64、65；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -426,7 +456,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "俠士",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": "稀有",
     "imageType": "cutout",
@@ -477,6 +514,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 103、104、105、106、107；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -535,7 +580,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "俠士",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -586,6 +638,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 36、37、38、39、40；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -644,7 +704,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "俠士",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": "稀有",
     "imageType": "cutout",
@@ -695,6 +762,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 93、94、95、96、97；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -768,7 +843,14 @@
     ],
     "profession": "肉盾",
     "faction": "俠士",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "絲羽",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -819,6 +901,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 98、99、100、101、102；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「絲羽」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -870,7 +960,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "文臣",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": "稀有",
     "imageType": "cutout",
@@ -921,6 +1018,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 26、27、28、29、30；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -979,7 +1084,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "文臣",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": "稀有",
     "imageType": "cutout",
@@ -1030,6 +1142,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 76、77、79、80、81、82；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -1090,7 +1210,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "帝王",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -1146,6 +1273,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 11、12、13、14、15；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "sources": [
@@ -1261,6 +1396,15 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 16、17、18、19、20；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations",
+          "sixArtsRecommendationStatus"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家要求六藝推薦先顯示「-」，推薦內容尚未提供。"
       }
     ],
     "sources": [
@@ -1280,7 +1424,8 @@
       ],
       "checkedAt": "2026-10-02",
       "display": "技能滿級預覽"
-    }
+    },
+    "sixArtsRecommendationStatus": "pending"
   },
   {
     "id": "hero_yang",
@@ -2052,6 +2197,15 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 51、52、53、54、55；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations",
+          "sixArtsRecommendationStatus"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家要求六藝推薦先顯示「-」，推薦內容尚未提供。"
       }
     ],
     "imageType": "cutout",
@@ -2059,7 +2213,8 @@
       "file": "LINE_ALBUM_2026102_261002_51.jpg",
       "checkedAt": "2026-10-02",
       "processing": "imagegen transparent cutout"
-    }
+    },
+    "sixArtsRecommendationStatus": "pending"
   },
   {
     "id": "hero_fuquan_tw",
@@ -2354,7 +2509,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "肉盾",
     "faction": "墨客",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "絲羽",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -2405,6 +2567,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 41、42、43、44、45；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「絲羽」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -2456,7 +2626,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "武將",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -2507,6 +2684,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 56、57、58、59、60；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -2558,7 +2743,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "肉盾",
     "faction": "武將",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "絲羽",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -2609,6 +2801,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 21、22、23、24、25；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「絲羽」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -2660,7 +2860,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "文臣",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -2711,6 +2918,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 46、47、48、49、50；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -2762,7 +2977,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "文臣",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -2813,6 +3035,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 78、83、84、85、86、87；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -2865,7 +3095,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "俠士",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -2916,6 +3153,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 108、109、110、111、112；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -2967,7 +3212,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "武將",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -3018,6 +3270,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 66、67、68、69、70；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -3069,7 +3329,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "墨客",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": "稀有",
     "imageType": "cutout",
@@ -3120,6 +3387,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 88、89、90、91、92；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -3171,7 +3446,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "墨客",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -3222,6 +3504,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 31、32、33、34、35；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -3273,7 +3563,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輸出",
     "faction": "墨客",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "鎏金",
+        "description": "增加攻擊力百分比",
+        "value": null,
+        "unit": "percent"
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -3324,6 +3621,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 71、72、73、74、75；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「鎏金」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -3375,7 +3680,14 @@
     "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
     "profession": "輔助",
     "faction": "俠士",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": "稀有",
     "imageType": "cutout",
@@ -3426,6 +3738,14 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 113、114、115、116、117；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家提供六藝推薦「碧實」；未提供實測排行或數值。"
       }
     ],
     "skillEvidence": {
@@ -4528,6 +4848,15 @@
         "method": "screenshot",
         "checkedAt": "2026-10-02",
         "description": "台版技能截圖 1、2、3、4、5；技能數值為滿級預覽。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations",
+          "sixArtsRecommendationStatus"
+        ],
+        "method": "player",
+        "checkedAt": "2026-10-06",
+        "description": "玩家要求六藝推薦先顯示「-」，推薦內容尚未提供。"
       }
     ],
     "imageType": "cutout",
@@ -4535,7 +4864,8 @@
       "file": "LINE_ALBUM_2026102_261002_1.jpg",
       "checkedAt": "2026-10-02",
       "processing": "imagegen transparent cutout"
-    }
+    },
+    "sixArtsRecommendationStatus": "pending"
   },
   {
     "source": "",

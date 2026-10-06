@@ -1,0 +1,274 @@
+{
+  "checkedAt": "2026-10-06",
+  "sourceType": "player",
+  "gameVersion": "tw",
+  "sourceDescription": "使用者提供六藝推薦清單；武則天、黃月英、霍去病經回覆要求先顯示「-」。",
+  "records": [
+    {
+      "heroId": "hero_qin_tw",
+      "name": "秦始皇",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_libai_tw",
+      "name": "李白",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_yang_tw",
+      "name": "楊玉環",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_jingke_tw",
+      "name": "荊軻",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_xuxiake_tw",
+      "name": "徐霞客",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_xuanzang_tw",
+      "name": "玄奘",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_shen_tw",
+      "name": "沈萬三",
+      "recommendation": "絲羽",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_zhuge_tw",
+      "name": "諸葛亮",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_wangzhaojun_tw",
+      "name": "王昭君",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_pu_tw",
+      "name": "蒲松齡",
+      "recommendation": "絲羽",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_qi_tw",
+      "name": "戚繼光",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_fuhao_tw",
+      "name": "婦好",
+      "recommendation": "絲羽",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_di_tw",
+      "name": "狄仁傑",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_lichunfeng_tw",
+      "name": "李淳風",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_h_tw",
+      "name": "霍嬗",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_hanbao_tw",
+      "name": "汗寶",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_qingzhao_tw",
+      "name": "李清照",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_shangguanwaner_tw",
+      "name": "上官婉兒",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_qu_tw",
+      "name": "屈原",
+      "recommendation": "鎏金",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_ayi_tw",
+      "name": "阿依古麗",
+      "recommendation": "碧實",
+      "status": "provided"
+    },
+    {
+      "heroId": "hero_wuzetian_tw",
+      "name": "武則天",
+      "recommendation": null,
+      "status": "pending"
+    },
+    {
+      "heroId": "hero_huangyueying_tw",
+      "name": "黃月英",
+      "recommendation": null,
+      "status": "pending"
+    },
+    {
+      "heroId": "hero_huo_tw",
+      "name": "霍去病",
+      "recommendation": null,
+      "status": "pending"
+    }
+  ],
+  "unknown": [
+    "碧實、絲羽的效果及數值未由本清單提供",
+    "鎏金加成值未提供，沿用先前核對的攻擊力百分比效果名稱"
+  ],
+  "scope": "只更新台版推薦及欄位核對紀錄，不改角色品質、技能或陸版資料。",
+  "spreadsheetSync": {
+    "spreadsheetId": "169FydDQ7r9jhAmT-jizLQZNpKT9-CU7PcZDiRRnb2-U",
+    "sheetId": 0,
+    "sheetTitle": "工作表1",
+    "verifiedAt": "2026-10-06",
+    "cells": [
+      {
+        "name": "秦始皇",
+        "value": "鎏金",
+        "cell": "K3"
+      },
+      {
+        "name": "李白",
+        "value": "鎏金",
+        "cell": "K6"
+      },
+      {
+        "name": "楊玉環",
+        "value": "碧實",
+        "cell": "K7"
+      },
+      {
+        "name": "荊軻",
+        "value": "鎏金",
+        "cell": "K8"
+      },
+      {
+        "name": "徐霞客",
+        "value": "鎏金",
+        "cell": "K9"
+      },
+      {
+        "name": "玄奘",
+        "value": "碧實",
+        "cell": "K10"
+      },
+      {
+        "name": "沈萬三",
+        "value": "絲羽",
+        "cell": "K11"
+      },
+      {
+        "name": "諸葛亮",
+        "value": "鎏金",
+        "cell": "K12"
+      },
+      {
+        "name": "王昭君",
+        "value": "碧實",
+        "cell": "K13"
+      },
+      {
+        "name": "蒲松齡",
+        "value": "絲羽",
+        "cell": "K15"
+      },
+      {
+        "name": "戚繼光",
+        "value": "鎏金",
+        "cell": "K16"
+      },
+      {
+        "name": "婦好",
+        "value": "絲羽",
+        "cell": "K17"
+      },
+      {
+        "name": "狄仁傑",
+        "value": "鎏金",
+        "cell": "K18"
+      },
+      {
+        "name": "李淳風",
+        "value": "碧實",
+        "cell": "K19"
+      },
+      {
+        "name": "霍嬗",
+        "value": "碧實",
+        "cell": "K20"
+      },
+      {
+        "name": "汗寶",
+        "value": "鎏金",
+        "cell": "K21"
+      },
+      {
+        "name": "李清照",
+        "value": "碧實",
+        "cell": "K22"
+      },
+      {
+        "name": "上官婉兒",
+        "value": "碧實",
+        "cell": "K23"
+      },
+      {
+        "name": "屈原",
+        "value": "鎏金",
+        "cell": "K24"
+      },
+      {
+        "name": "阿依古麗",
+        "value": "碧實",
+        "cell": "K25"
+      },
+      {
+        "name": "武則天",
+        "value": "-",
+        "cell": "K4"
+      },
+      {
+        "name": "黃月英",
+        "value": "-",
+        "cell": "K14"
+      },
+      {
+        "name": "霍去病",
+        "value": "-",
+        "cell": "K48"
+      }
+    ]
+  }
+}
