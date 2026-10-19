@@ -72,7 +72,9 @@ test('revised candidates meet their faction tiers and every substitute has a fre
     assert.ok(html.includes('建議站位'));for(const summary of summaries)assert.ok(html.includes(summary));
   }
   const general=db.teams.find(team=>team.id==='team_tw_campaign_crit');
-  assert.equal(factionAnalysis(db,general.heroIds.map(id=>id==='hero_yang_tw'?'hero_shen_tw':id)).percent,15);
+  assert.ok(general.heroIds.includes('hero_wangzhaojun_tw'));
+  assert.ok(general.substitutions.some(item=>item.heroId==='hero_wangzhaojun_tw'&&item.replacementHeroId==='hero_yang_tw'));
+  assert.equal(factionAnalysis(db,general.heroIds.map(id=>id==='hero_wangzhaojun_tw'?'hero_shen_tw':id)).percent,15);
   const control=db.teams.find(team=>team.id==='team_tw_arena_control');
   assert.equal(factionAnalysis(db,control.heroIds.map(id=>id==='hero_fuhao_tw'?'hero_wuzetian_tw':id)).percent,20);
 });
