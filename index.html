@@ -6,14 +6,44 @@
     <meta name="theme-color" content="#f4eedf" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&amp;display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&amp;display=swap" /></noscript>
     <meta name="description" content="《小貓咪大史記》非官方攻略資料庫：搜尋喵將、技能、建築、食譜、古寶與家具，查詢資料來源與雙向關聯。" />
     <link rel="icon" type="image/webp" href="/images/optimized/favicon.webp" />
     <title>小貓咪大史記｜喵國資料庫</title>
+    <style>
+      :root{color-scheme:light;--boot-ink:#263b34;--boot-red:#963d32;--boot-gold:#a68b58;--boot-paper:#f7f2e5}
+      *{box-sizing:border-box}
+      html,body{min-width:320px;min-height:100%;margin:0}
+      body{background:var(--boot-paper);color:var(--boot-ink);font-family:"LXGW WenKai TC","DFKai-SB",serif}
+      .skip-link{position:fixed;top:-60px;left:14px;z-index:2;padding:9px 14px;border:1px solid #b9a77b;border-radius:3px;background:#fffaf0;color:var(--boot-ink);text-decoration:none}
+      .skip-link:focus{top:12px}
+      .boot-screen{position:relative;display:grid;min-height:100svh;place-items:center;overflow:hidden;padding:24px;background:radial-gradient(ellipse at 76% 22%,#e8e1cb8c 0,transparent 37%),radial-gradient(ellipse at 14% 85%,#e8e1cb75 0,transparent 35%),linear-gradient(135deg,#faf7ed,#f3eddd 62%,#eee7d5)}
+      .boot-screen:before,.boot-screen:after{position:absolute;right:-8vw;bottom:0;width:70vw;height:45vh;content:"";pointer-events:none;opacity:.32;background:linear-gradient(145deg,transparent 35%,#d4d0bd 36% 39%,transparent 40%),linear-gradient(35deg,transparent 48%,#ded8c4 49% 53%,transparent 54%);clip-path:polygon(0 100%,15% 63%,25% 79%,44% 18%,55% 54%,68% 30%,100% 100%)}
+      .boot-screen:after{right:auto;bottom:-5vh;left:-8vw;width:60vw;height:30vh;opacity:.2;transform:scaleX(-1)}
+      .boot-card{position:relative;z-index:1;width:min(420px,100%);padding:42px 34px 35px;border:1px solid #b8a77e;background:#fbf8eeed;text-align:center;box-shadow:0 16px 48px #403b2814}
+      .boot-card:before{position:absolute;inset:6px;border:1px solid #d8c9a8;content:"";pointer-events:none}
+      .boot-seal{position:relative;display:grid;width:58px;height:58px;place-items:center;margin:0 auto 17px;border:1px solid #963d32;outline:1px solid #963d32;outline-offset:3px;background:#963d32;color:#fff4df;font-size:1.8rem;line-height:1}
+      .boot-card h1{position:relative;margin:0;font-size:1.65rem;font-weight:700;letter-spacing:.12em}
+      .boot-subtitle{position:relative;margin:4px 0 24px;color:#8b7550;font-size:.86rem;letter-spacing:.2em}
+      .boot-rule{position:relative;width:82px;height:1px;margin:0 auto 22px;background:#c9b995}
+      .boot-rule:after{position:absolute;top:-3px;left:calc(50% - 3px);width:6px;height:6px;transform:rotate(45deg);border:1px solid #a48a56;background:#f9f5e9;content:""}
+      .boot-status{position:relative;display:flex;align-items:center;justify-content:center;gap:10px;margin:0;color:#526050;font-size:.95rem}
+      .boot-spinner{width:16px;height:16px;border:2px solid #d7c9a9;border-top-color:var(--boot-red);border-radius:50%;animation:boot-spin .9s linear infinite}
+      .boot-retry{position:relative;margin-top:17px;padding:7px 13px;border:1px solid #b8a77e;border-radius:3px;background:#f7f0df;color:#544d3b;cursor:pointer;font:inherit;font-size:.8rem}
+      .boot-retry[hidden]{display:none}
+      @keyframes boot-spin{to{transform:rotate(360deg)}}
+      @media(max-width:480px){.boot-card{padding:35px 22px 30px}.boot-card h1{font-size:1.42rem}}
+      @media(prefers-reduced-motion:reduce){.boot-spinner{animation-duration:2.5s}}
+    </style>
   </head>
   <body>
     <a class="skip-link" href="#main">跳至主要內容</a>
-    <div id="app"><p class="initial-load">正在開啟喵國資料庫…</p></div>
+    <div id="app"><main class="boot-screen" role="status" aria-live="polite"><section class="boot-card" aria-label="載入喵國資料庫"><span class="boot-seal" aria-hidden="true">喵</span><h1>小貓咪大史記</h1><p class="boot-subtitle">喵 國 資 料 庫</p><div class="boot-rule" aria-hidden="true"></div><p class="boot-status" data-boot-status><span class="boot-spinner" aria-hidden="true"></span><span>正在開啟喵國資料庫…</span></p><button class="boot-retry" type="button" data-boot-retry hidden>重新載入</button></section></main></div>
+    <script>
+      window.setTimeout(()=>{const screen=document.querySelector('.boot-screen');if(!screen)return;const message=screen.querySelector('[data-boot-status] span:last-child');if(message)message.textContent='資料載入較久，請檢查連線後重試。';const retry=screen.querySelector('[data-boot-retry]');if(retry)retry.hidden=false;},12000);
+      document.addEventListener('click',event=>{if(event.target.closest('[data-boot-retry]'))location.reload();});
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
