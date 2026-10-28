@@ -236,5 +236,37 @@
     "checkedAt": "2026-10-06",
     "notes": "Lota 列出的台版代碼；未在遊戲內實測，不代表目前有效。 來源未提供截止日期，不代表永久有效。",
     "sourceListedAt": "2026-09-22"
+  },
+  {
+    "id": "code_tw_16",
+    "code": "親王平安",
+    "rewards": [],
+    "startDate": null,
+    "endDate": null,
+    "status": "unverified",
+    "lastTestedAt": null,
+    "source": "https://www.ludens.com.tw/catdynasty-coupon/",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-28",
+    "notes": "Ludens 清單更新於 2026/10/26。獎勵、適用伺服器及官方公告日期待確認；未於遊戲內實測，不代表目前有效。來源未列有效期限，不據此視為永久有效。",
+    "sourceListedAt": "2026-10-26"
+  },
+  {
+    "id": "code_tw_17",
+    "code": "喵喵獻禮",
+    "rewards": [],
+    "startDate": null,
+    "endDate": null,
+    "status": "unverified",
+    "lastTestedAt": null,
+    "source": "https://www.ludens.com.tw/catdynasty-coupon/",
+    "sourceType": "community",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-10-28",
+    "notes": "Ludens 清單更新於 2026/10/26。獎勵、適用伺服器及官方公告日期待確認；未於遊戲內實測，不代表目前有效。來源未列有效期限，不據此視為永久有效。",
+    "sourceListedAt": "2026-10-26"
   }
 ]
