@@ -401,7 +401,11 @@
         "label": "官方 10/23 維護與合服公告",
         "scope": "確認活動名稱與同盟 PVP 分類；日期、規則與獎勵仍待公布。"
       }
-    ]
+    ],
+    "announcementDate": null,
+    "implementationDate": null,
+    "releaseStatus": "announced",
+    "region": "台灣"
   },
   {
     "id": "guide_update_20261023_tw",
@@ -449,6 +453,39 @@
         "label": "官方合服開機通知",
         "scope": "記錄 2026/10/23 15:35 開機；公告發布日期待確認。"
       }
+    ],
+    "announcementDate": null,
+    "implementationDate": "2026-10-23",
+    "releaseStatus": "implemented",
+    "region": "台灣",
+    "announcedItems": [
+      {
+        "category": "喵將造型",
+        "name": null,
+        "acquisition": null,
+        "effect": null,
+        "implementationDate": null,
+        "gameVersion": "tw",
+        "releaseStatus": "announced"
+      },
+      {
+        "category": "古寶",
+        "name": null,
+        "acquisition": null,
+        "effect": null,
+        "implementationDate": null,
+        "gameVersion": "tw",
+        "releaseStatus": "announced"
+      },
+      {
+        "category": "御靈",
+        "name": null,
+        "acquisition": null,
+        "effect": null,
+        "implementationDate": null,
+        "gameVersion": "tw",
+        "releaseStatus": "announced"
+      }
     ]
   },
   {
@@ -479,7 +516,11 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-28",
-    "notes": "官方公告摘要確認功能預覽；具體產量與分解規則尚未公布。"
+    "notes": "官方公告摘要確認功能預覽；具體產量與分解規則尚未公布。",
+    "announcementDate": null,
+    "implementationDate": null,
+    "releaseStatus": "announced",
+    "region": "台灣"
   },
   {
     "id": "guide_ios_1020_tw",
@@ -511,6 +552,10 @@
     "verified": true,
     "gameVersion": "tw",
     "checkedAt": "2026-10-28",
-    "notes": "版本紀錄以台灣 App Store 頁面為準；頁面相對日期不等同公告日期。"
+    "notes": "版本紀錄以台灣 App Store 頁面為準；頁面相對日期不等同公告日期。",
+    "announcementDate": null,
+    "implementationDate": null,
+    "releaseStatus": "released",
+    "region": "台灣（iOS）"
   }
 ]
