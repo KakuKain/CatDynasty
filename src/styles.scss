@@ -837,6 +837,10 @@ tbody tr:nth-child(even) td {background:#f4efdfb8;}
 .team-effects .tags {display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;}
 .team-effects>p {margin-top:8px;font-size:.78rem;}
 @media(max-width:540px){.team-faction-summary{align-items:flex-start;flex-direction:column;gap:2px}.team-faction-summary>strong{line-height:1.5}.team-slot,.team-slot.filled{min-height:180px}.slot-art{height:100px}}
+.team-slot.filled {min-height:0;height:auto;overflow:visible;}
+.team-slot.filled .slot-art {width:100%;height:auto;aspect-ratio:1/1;overflow:visible;background:transparent;}
+.team-slot.filled .slot-art .hero-art {display:block;width:100%;height:100%;max-width:100%;max-height:none;object-fit:contain;object-position:center;}
+@media(max-width:540px){.team-slot.filled{min-height:0}.team-slot.filled .slot-art{height:auto}}
 .team-picker-drawer {position:fixed;inset:0 0 0 auto;width:min(700px,94vw);height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;border-left:1px solid #c6b996;background:#f8f3e6 url('../public/images/ui/drawer-ink-paper.webp') no-repeat right top;background-size:100% auto;color:#293c36;box-shadow:-16px 0 50px #1c2b2433;}
 .team-picker-drawer::backdrop {background:#1c2b2477;backdrop-filter:blur(2px);}
 .team-picker-header {position:sticky;top:0;z-index:2;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:22px 25px 15px;border-bottom:1px solid #d3c7ad;background:#f8f3e6f2;}
