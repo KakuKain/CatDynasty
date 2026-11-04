@@ -809,11 +809,15 @@ tbody tr:nth-child(even) td {background:#f4efdfb8;}
 .hero-drawer-nav .icon {width:18px;height:18px;}
 .hero-drawer-nav .next-icon {transform:rotate(180deg);}
 .team-builder-panel {background:#f8f3e6 url('../public/images/ui/drawer-ink-paper.webp') no-repeat right top;background-size:cover;border-color:#c9b994;}
+.team-builder-panel {background:#f8f3e6;border-color:#c9b994;}
+.team-faction-summary {display:flex;align-items:center;gap:12px;padding:10px 13px;margin:10px 0 12px;border:1px solid #d2c6aa;background:#eee9d8;color:#56634e;border-radius:4px;}
+.team-faction-summary>span {font-size:.78rem;color:#858064;white-space:nowrap;}
+.team-faction-summary>strong {font-size:.9rem;font-weight:650;}
 .team-slots {grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:15px 0;}
-.team-slot,.team-slot.filled {min-width:0;min-height:210px;border:1px solid #cfc3a8;border-radius:5px;background:#fffaf0c9;color:#34463b;}
+.team-slot,.team-slot.filled {min-width:0;min-height:190px;border:1px solid #cfc3a8;border-radius:5px;background:#fffaf0;color:#34463b;}
 .team-slot.filled {padding:8px 8px 12px;}
-.slot-art {height:112px;margin:0 0 7px;overflow:hidden;display:grid;place-items:center;background:radial-gradient(ellipse,#eee5cd 0%,#fffaf0 72%);}
-.slot-art .hero-art {width:100%;height:100%;object-fit:contain;object-position:center;padding:5px;}
+.slot-art {height:124px;margin:0 0 7px;overflow:hidden;display:grid;place-items:center;background:#f4efdf;border-radius:3px;}
+.slot-art .hero-art {width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;padding:4px;}
 .slot-art .hero-placeholder {font-size:0;background:transparent;}
 .slot-art .hero-placeholder span {font-size:.72rem;}
 .team-slot h3 {font-size:.91rem;overflow-wrap:anywhere;}
@@ -827,6 +831,12 @@ tbody tr:nth-child(even) td {background:#f4efdfb8;}
 .team-builder-actions {display:flex;align-items:center;gap:14px;padding:3px 0 12px;border-bottom:1px solid #d8cdb5;}
 .team-builder-actions .icon {width:17px;height:17px;}
 .team-builder-panel .team-effect-row {margin-bottom:10px;}
+.team-effects {margin-top:10px;border-top:1px solid #d8cdb5;padding-top:10px;}
+.team-effects summary {cursor:pointer;color:#52634f;font-weight:600;}
+.team-effects summary span {font-size:.8rem;font-weight:400;color:#858064;}
+.team-effects .tags {display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;}
+.team-effects>p {margin-top:8px;font-size:.78rem;}
+@media(max-width:540px){.team-faction-summary{align-items:flex-start;flex-direction:column;gap:2px}.team-faction-summary>strong{line-height:1.5}.team-slot,.team-slot.filled{min-height:180px}.slot-art{height:100px}}
 .team-picker-drawer {position:fixed;inset:0 0 0 auto;width:min(700px,94vw);height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;border-left:1px solid #c6b996;background:#f8f3e6 url('../public/images/ui/drawer-ink-paper.webp') no-repeat right top;background-size:100% auto;color:#293c36;box-shadow:-16px 0 50px #1c2b2433;}
 .team-picker-drawer::backdrop {background:#1c2b2477;backdrop-filter:blur(2px);}
 .team-picker-header {position:sticky;top:0;z-index:2;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:22px 25px 15px;border-bottom:1px solid #d3c7ad;background:#f8f3e6f2;}
