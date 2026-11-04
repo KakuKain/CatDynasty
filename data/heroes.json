@@ -1337,10 +1337,17 @@
     "verified": false,
     "gameVersion": "tw",
     "checkedAt": "2026-10-02",
-    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦保留既有已核對資料。",
+    "notes": "技能與天賦數值來自滿級預覽，其他等級數值待補；六藝推薦「碧實」由玩家提供，效果細節待補。",
     "profession": "輔助",
     "faction": "帝王",
-    "sixArtsRecommendations": [],
+    "sixArtsRecommendations": [
+      {
+        "name": "碧實",
+        "description": "使用者提供的六藝推薦；效果細節待補。",
+        "value": null,
+        "unit": ""
+      }
+    ],
     "researchTalents": [],
     "rarityType": null,
     "imageType": "cutout",
@@ -1405,6 +1412,14 @@
         "method": "player",
         "checkedAt": "2026-10-06",
         "description": "玩家要求六藝推薦先顯示「-」，推薦內容尚未提供。"
+      },
+      {
+        "fields": [
+          "sixArtsRecommendations"
+        ],
+        "method": "player",
+        "checkedAt": "2026-11-04",
+        "description": "玩家提供武則天六藝推薦為碧實。"
       }
     ],
     "sources": [
@@ -1425,7 +1440,7 @@
       "checkedAt": "2026-10-02",
       "display": "技能滿級預覽"
     },
-    "sixArtsRecommendationStatus": "pending"
+    "sixArtsRecommendationStatus": "provided"
   },
   {
     "id": "hero_yang",

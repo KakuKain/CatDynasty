@@ -268,5 +268,21 @@
     "checkedAt": "2026-10-28",
     "notes": "Ludens 清單更新於 2026/10/26。獎勵、適用伺服器及官方公告日期待確認；未於遊戲內實測，不代表目前有效。來源未列有效期限，不據此視為永久有效。",
     "sourceListedAt": "2026-10-26"
+  },
+  {
+    "id": "code_tw_18",
+    "code": "快樂過連假",
+    "rewards": [],
+    "startDate": null,
+    "endDate": null,
+    "status": "unverified",
+    "lastTestedAt": null,
+    "source": "",
+    "sourceType": "player",
+    "verified": false,
+    "gameVersion": "tw",
+    "checkedAt": "2026-11-04",
+    "notes": "使用者提供兌換碼；獎勵、適用伺服器與有效期限待確認，尚未於遊戲內驗證。",
+    "sourceDescription": "使用者提供"
   }
 ]

@@ -21,6 +21,19 @@ export const internalOrderScoring = [
   {action:'購買禮包',score:'每獲得 1 元寶 +1 分（額外贈送不計）'},
 ];
 
+export const buildingUpgradeScoring = [
+  {action:'建築升級',score:'每獲得 1 點繁榮度 +20 分'},
+  {action:'建築升級加速',score:'每分鐘 +1 分'},
+  {action:'購買禮包',score:'每獲得 1 元寶 +1 分（額外贈送不計）'},
+];
+
+export const heroAwakeningScoring = [
+  {action:'喵將覺醒',score:'每消耗 1 個覺醒道具 +1 分'},
+  {action:'生產加速',score:'每分鐘 +1 分'},
+  {action:'種植加速',score:'每分鐘 +1 分'},
+  {action:'購買禮包',score:'每獲得 1 元寶 +1 分（額外贈送不計）'},
+];
+
 const weekdayIds={Sun:'sun',Mon:'mon',Tue:'tue',Wed:'wed',Thu:'thu',Fri:'fri',Sat:'sat'};
 export function imperialWeeklyDayForDate(date=new Date()){
   const weekday=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Taipei',weekday:'short'}).format(date);

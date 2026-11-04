@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import './styles.scss';
 import {createCodeUsageStore} from './code-usage.js';
-import {imperialWeeklyDays,heroGrowthScoring,internalOrderScoring,imperialWeeklyDayForDate,unknownRankingReward} from './imperial-weekly.js';
+import {imperialWeeklyDays,heroGrowthScoring,internalOrderScoring,buildingUpgradeScoring,heroAwakeningScoring,imperialWeeklyDayForDate,unknownRankingReward} from './imperial-weekly.js';
 import {imageAsset} from './images.js';
 import {factionSummary,factionPanel,lineupRulesHTML} from './team-factions.js';
 import {teamExclusionOptions,teamPurposeOptions,teamStatusLabel,teamRecommendationDetails,teamEffectIds} from './team-recommendations.js';
@@ -185,7 +185,7 @@ function codesView(params,id){if(id){const record=get('redeem-codes',id);return 
 function imperialWeeklyView(params){
   const requested=params.get('day');
   const selected=imperialWeeklyDays.find(day=>day.id===requested)||imperialWeeklyDays.find(day=>day.id===imperialWeeklyDayForDate())||imperialWeeklyDays[0];
-  const scoringRows=selected.id==='mon'?heroGrowthScoring:selected.id==='tue'?internalOrderScoring:[{action:'積分方式',score:'－'}];
+  const scoringRows=({mon:heroGrowthScoring,tue:internalOrderScoring,wed:buildingUpgradeScoring,thu:heroAwakeningScoring})[selected.id]||[{action:'積分方式',score:'－'}];
   return `<div class="imperial-weekly-page" style="--weekly-paper:url('${imageURL('images/ui/drawer-ink-paper.webp')}');--weekly-landscape:url('${imageURL('images/ink-landscape.svg')}')">${title('皇城週記','規律參與皇城活動，積累資源，成就喵國盛世。','<span class="weekly-title-seal">活動</span>')}<div class="weekly-page-frame"><section class="weekly-event-heading"><span class="weekly-event-knot" aria-hidden="true">❖</span><h2>聚材競逐</h2><span class="weekly-event-rule" aria-hidden="true"></span></section><nav class="weekly-calendar" aria-label="聚材競逐每日主題">${imperialWeeklyDays.map(day=>`<a class="weekly-day${day.id===selected.id?' selected':''}" href="#/imperial-weekly?day=${encodeURIComponent(day.id)}"${day.id===selected.id?' aria-current="page"':''}><span>${e(day.weekday)}</span><strong>${e(day.theme)}</strong></a>`).join('')}</nav><div class="weekly-panels"><section class="panel weekly-panel"><h2><span aria-hidden="true">❖</span>${e(selected.theme)}積分</h2><div class="weekly-score-list">${scoringRows.map(row=>`<div class="weekly-score-row"><strong>${e(row.action)}</strong><span>${e(row.score)}</span></div>`).join('')}</div></section><section class="panel weekly-panel"><h2><span aria-hidden="true">❖</span>排名獎勵</h2><div class="table-scroll"><table class="weekly-reward-table"><thead><tr><th scope="col">排名區間</th><th scope="col">獎勵內容</th></tr></thead><tbody>${Array.from({length:3},()=>`<tr><td>${e(unknownRankingReward.rank)}</td><td>${e(unknownRankingReward.reward)}</td></tr>`).join('')}</tbody></table></div></section></div><p class="weekly-note"><span aria-hidden="true">❖</span>尚未提供的活動積分規則與排名獎勵，會在資料核對後補上。</p></div></div>`;
 }
 
